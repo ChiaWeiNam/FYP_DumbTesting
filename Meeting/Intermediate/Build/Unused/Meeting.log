@@ -1,0 +1,13 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for MeetingEditor
+    Running UnrealHeaderTool "C:\Users\User\Desktop\Unreal\Meeting\Meeting.uproject" "C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MeetingEditor in 3.1096324 seconds
+  Performing 4 actions (4 in parallel)
+  Meeting.generated.cpp
+  MainPlayer.cpp
+  [3/4] Link UE4Editor-Meeting-7706.dll
+  [4/4] Link UE4Editor-Meeting-7706.lib
+     Creating library C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7706.lib and object C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7706.exp
+     Creating library C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7706.suppressed.lib and object C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7706.suppressed.exp
+  Deploying MeetingEditor Win64 Development...
+  Total build time: 15.45 seconds (Local executor: 10.21 seconds)
