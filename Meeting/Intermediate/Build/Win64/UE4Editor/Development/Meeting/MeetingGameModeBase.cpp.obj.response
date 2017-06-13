@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I D:\UE_4.15\Engine\Source
-/I C:\Users\User\Desktop\Unreal\Meeting\Source
-/I C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Inc\Meeting
-/I C:\Users\User\Desktop\Unreal\Meeting\Source\Meeting
+/I C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Source
+/I C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Inc\Meeting
+/I C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Source\Meeting
 /I D:\UE_4.15\Engine\Source\Runtime\Core\Public
 /I D:\UE_4.15\Engine\Source\Runtime\Core\Public\Internationalization
 /I D:\UE_4.15\Engine\Source\Runtime\Core\Public\Async
@@ -303,11 +303,11 @@
 /I D:\UE_4.15\Engine\Source\Editor\Kismet
 /I D:\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
 /I D:\UE_4.15\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming
-/FI"C:\Users\User\Desktop\Unreal\Meeting\Source\Meeting\Meeting.h"
-/Yu"C:\Users\User\Desktop\Unreal\Meeting\Source\Meeting\Meeting.h"
-/Fp"C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Development\Meeting\PCH.Meeting.h.pch"
-"C:\Users\User\Desktop\Unreal\Meeting\Source\Meeting\MeetingGameModeBase.cpp"
-/Fo"C:\Users\User\Desktop\Unreal\Meeting\Intermediate\Build\Win64\UE4Editor\Development\Meeting\MeetingGameModeBase.cpp.obj"
+/FI"C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Source\Meeting\Meeting.h"
+/Yu"C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Source\Meeting\Meeting.h"
+/Fp"C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\Meeting\PCH.Meeting.h.pch"
+"C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Source\Meeting\MeetingGameModeBase.cpp"
+/Fo"C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\Meeting\MeetingGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

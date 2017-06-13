@@ -50,7 +50,7 @@ void AMainPlayer::MoveBack(float speed)
 {
 	if (Controller && speed)
 	{
-		speed = -(playerCurrentSpeed /4);
+		speed = -(playerSpeed /2);
 		AddMovementInput(GetActorForwardVector(), speed);
 	}
 }
@@ -59,7 +59,7 @@ void AMainPlayer::MoveRight(float speed)
 {
 	if (Controller && speed)
 	{
-		speed = playerCurrentSpeed;
+		speed = playerSpeed;
 		AddMovementInput(GetActorRightVector(), speed);
 	}
 }
@@ -68,7 +68,7 @@ void AMainPlayer::MoveLeft(float speed)
 {
 	if (Controller && speed)
 	{
-		speed = -playerCurrentSpeed;
+		speed = -playerSpeed;
 		AddMovementInput(GetActorRightVector(), speed);
 	}
 }
