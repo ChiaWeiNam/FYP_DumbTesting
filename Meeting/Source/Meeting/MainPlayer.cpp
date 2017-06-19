@@ -35,6 +35,7 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	InputComponent->BindAxis("MoveLeft", this, &AMainPlayer::MoveLeft);
 	InputComponent->BindAction("SprintFunction", IE_Pressed, this, &AMainPlayer::SprintFunction);
 	InputComponent->BindAction("SprintFunction", IE_Released, this, &AMainPlayer::NoSprintFunction);
+	InputComponent->BindAction("Aim", IE_Pressed, this, &AMainPlayer::AimFunction);
 }
 
 void AMainPlayer::MoveFront(float speed)
@@ -81,4 +82,9 @@ void AMainPlayer::SprintFunction()
 void AMainPlayer::NoSprintFunction()
 {
 	playerCurrentSpeed = playerSpeed;
+}
+
+void AMainPlayer::AimFunction()
+{
+	//UE_LOG(LogTemp, Warning, TEXT("Aim Activated!"));
 }

@@ -1,25 +1,12 @@
-﻿  Cleaning MeetingEditor Binaries...
-  Compiling game modules for hot reload
-  Compiling game modules for hot reload
-  Performing full C++ include scan (no include cache file)
+﻿  Compiling game modules for hot reload
   Parsing headers for MeetingEditor
-    Running UnrealHeaderTool "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MeetingEditor in 4.7792853 seconds
-  Performing 11 actions (3 in parallel)
-  [2/11] Resource ModuleVersionResource.rc.inl
-  [3/11] Resource PCLaunch.rc
-  PCH.Meeting.cpp
+    Running UnrealHeaderTool "C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Meeting.uproject" "C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MeetingEditor in 3.4887439 seconds
+  Performing 3 actions (4 in parallel)
   MainPlayer.cpp
-  Meeting.cpp
-  MeetingGameModeBase.cpp
-  OpenDoor.cpp
-  PlayerShoot.cpp
-D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(41): warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  D:\UnrealEngine\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179): note: see declaration of 'UStaticMeshComponent::StaticMesh'
-  Meeting.generated.cpp
-  [10/11] Link UE4Editor-Meeting-8497.dll
-  [11/11] Link UE4Editor-Meeting-8497.lib
-     Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-8497.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-8497.exp
-     Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-8497.suppressed.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-8497.suppressed.exp
+  [2/3] Link UE4Editor-Meeting-1891.dll
+  [3/3] Link UE4Editor-Meeting-1891.lib
+     Creating library C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-1891.lib and object C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-1891.exp
+     Creating library C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-1891.suppressed.lib and object C:\Users\User\Desktop\Unreal\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-1891.suppressed.exp
   Deploying MeetingEditor Win64 Development...
-  Total build time: 56.25 seconds (Local executor: 38.82 seconds)
+  Total build time: 12.64 seconds (Local executor: 6.80 seconds)

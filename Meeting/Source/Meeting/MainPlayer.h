@@ -43,4 +43,6 @@ private:
 	void SprintFunction();
 
 	void NoSprintFunction();
+
+	void AimFunction();
 };

@@ -2,7 +2,7 @@
 	"TargetName" : "MeetingEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "093dca5a-1f01-447b-82b3-8444c38f086b",
+	"BuildId" : "11ac6752-b43b-4eec-84b6-a4de7581ca48",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Meeting-8497.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Meeting-1891.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Meeting-8497.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Meeting-1891.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Meeting-8497.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Meeting-1891.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
