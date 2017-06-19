@@ -1,64 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Meeting.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{79A44AD1-27D9-476A-9E9F-18B433D83D43}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Meeting.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\MeetingEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{06F2BA62-316A-4C25-9E7A-5F98593D4998}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Meeting">
-      <UniqueIdentifier>{B2234560-AF46-4370-B7B5-2A061C132CEB}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\MainPlayer.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\Meeting\Meeting.Build.cs">
-      <Filter>Source\Meeting</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Meeting\Meeting.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\Meeting.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\MeetingGameModeBase.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\MeetingGameModeBase.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Meeting\OpenDoor.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Meeting\OpenDoor.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Meeting.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{F56E56D1-FA66-4BD5-ACBD-B88C3C7D669A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Meeting.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MeetingEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{F92BC538-AA2B-46F2-B268-010CF0E2D8B4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Meeting">
+			<UniqueIdentifier>{335DE25E-5ED1-44F9-ABCB-69B1949DF4BF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\MainPlayer.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Meeting\Meeting.Build.cs">
+			<Filter>Source\Meeting</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Meeting\Meeting.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\Meeting.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\MeetingGameModeBase.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\MeetingGameModeBase.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\OpenDoor.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\OpenDoor.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\PlayerShoot.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\PlayerShoot.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
