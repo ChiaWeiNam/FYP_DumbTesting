@@ -23,6 +23,10 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	{
 	}
 	IMPLEMENT_CLASS(UOpenDoor, 195758073);
+	void UPlayerShoot::StaticRegisterNativesUPlayerShoot()
+	{
+	}
+	IMPLEMENT_CLASS(UPlayerShoot, 2980358368);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
@@ -37,6 +41,8 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	MEETING_API class UClass* Z_Construct_UClass_AMeetingGameModeBase();
 	MEETING_API class UClass* Z_Construct_UClass_UOpenDoor_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UOpenDoor();
+	MEETING_API class UClass* Z_Construct_UClass_UPlayerShoot_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UPlayerShoot();
 	MEETING_API class UPackage* Z_Construct_UPackage__Script_Meeting();
 	UClass* Z_Construct_UClass_AMainPlayer_NoRegister()
 	{
@@ -147,6 +153,39 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UOpenDoor(Z_Construct_UClass_UOpenDoor, &UOpenDoor::StaticClass, TEXT("UOpenDoor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenDoor);
+	UClass* Z_Construct_UClass_UPlayerShoot_NoRegister()
+	{
+		return UPlayerShoot::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UPlayerShoot()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UPlayerShoot::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerShoot.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UPlayerShoot(Z_Construct_UClass_UPlayerShoot, &UPlayerShoot::StaticClass, TEXT("UPlayerShoot"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UPlayerShoot);
 	UPackage* Z_Construct_UPackage__Script_Meeting()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -155,8 +194,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xC48D4F64;
-			Guid.B = 0x9B8015B8;
+			Guid.A = 0xCFE66A69;
+			Guid.B = 0x47722912;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

@@ -15,3 +15,6 @@
 #ifndef MEETING_OpenDoor_generated_h
 	#include "OpenDoor.h"
 #endif
+#ifndef MEETING_PlayerShoot_generated_h
+	#include "PlayerShoot.h"
+#endif
