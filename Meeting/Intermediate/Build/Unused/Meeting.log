@@ -1,27 +1,12 @@
-﻿  Cleaning MeetingEditor Binaries...
-  Creating makefile for MeetingEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Parsing headers for MeetingEditor
-    Running UnrealHeaderTool "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MeetingEditor in 5.6352563 seconds
-  Performing 14 actions (3 in parallel)
-  [2/14] Resource ModuleVersionResource.rc.inl
-  [3/14] Resource PCLaunch.rc
-  PCH.Meeting.cpp
-  AI_Movement.cpp
-  MainPlayer.cpp
-  Meeting.cpp
-  MeetingGameModeBase.cpp
-  OpenDoor.cpp
-  PlayerShoot.cpp
-  Testing.cpp
-  TestingOnly.cpp
-D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(41): warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  D:\UnrealEngine\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179): note: see declaration of 'UStaticMeshComponent::StaticMesh'
-  Meeting.generated.cpp
-  [13/14] Link UE4Editor-Meeting.dll
-  [14/14] Link UE4Editor-Meeting.lib
-     Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.exp
-     Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.exp
+﻿  Creating makefile for MeetingEditor (no existing makefile)
+  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-1552.dll".
+  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-1552.pdb".
+  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-2636.dll".
+  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-2636.pdb".
+  Performing 2 actions (4 in parallel)
+  [1/2] Link UE4Editor-Meeting.dll
+  [2/2] Link UE4Editor-Meeting.lib
+     Creating library C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.lib and object C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.exp
+     Creating library C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.lib and object C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.exp
   Deploying MeetingEditor Win64 Development...
-  Total build time: 57.58 seconds (Local executor: 46.89 seconds)
+  Total build time: 4.20 seconds (Local executor: 1.82 seconds)

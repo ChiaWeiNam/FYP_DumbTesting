@@ -32,7 +32,7 @@ void UAI_Movement::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	if (FVector::Dist(target[targetIndex]->GetActorLocation(), GetOwner()->GetActorLocation()) > 200.0f)
 	{
 		MoveToward(target[targetIndex]->GetActorLocation());
-		UE_LOG(LogTemp, Warning, TEXT("AI moveable"));
+		//UE_LOG(LogTemp, Warning, TEXT("AI moveable"));
 	}
 	else
 	{

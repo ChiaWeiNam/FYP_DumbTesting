@@ -21,9 +21,3 @@
 #ifndef MEETING_PlayerShoot_generated_h
 	#include "PlayerShoot.h"
 #endif
-#ifndef MEETING_Testing_generated_h
-	#include "Testing.h"
-#endif
-#ifndef MEETING_Testing2_generated_h
-	#include "Testing2.h"
-#endif
