@@ -13,8 +13,8 @@ UPlayerShoot::UPlayerShoot()
 
 	// ...
 
-	Red = FLinearColor(1.0f, 0.0f, 0.0f, 1.0); 
-	Ultraviolet = FLinearColor(1.0f, 0.0f, 1.0f, 1.0f);
+	Red = FLinearColor(0.3f, 0.0f, 0.0f, 1.0); 
+	Ultraviolet = FLinearColor(0.3f, 0.0f, 0.3f, 1.0f);
 }
 
 
