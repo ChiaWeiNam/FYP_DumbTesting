@@ -32,13 +32,9 @@ private:
 
 	float playerCurrentSpeed = playerSpeed;
 
-	void MoveFront(float speed);
-
-	void MoveBack(float speed);
+	void MoveForward(float speed);
 
 	void MoveRight(float speed);
-
-	void MoveLeft(float speed);
 
 	void SprintFunction();
 

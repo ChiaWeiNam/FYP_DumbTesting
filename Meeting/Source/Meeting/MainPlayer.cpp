@@ -29,48 +29,38 @@ void AMainPlayer::Tick(float DeltaTime)
 void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	InputComponent->BindAxis("MoveFront", this, &AMainPlayer::MoveFront);
-	InputComponent->BindAxis("MoveBack", this, &AMainPlayer::MoveBack);
+	InputComponent->BindAxis("MoveForward", this, &AMainPlayer::MoveForward);
 	InputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
-	InputComponent->BindAxis("MoveLeft", this, &AMainPlayer::MoveLeft);
 	InputComponent->BindAction("SprintFunction", IE_Pressed, this, &AMainPlayer::SprintFunction);
 	InputComponent->BindAction("SprintFunction", IE_Released, this, &AMainPlayer::NoSprintFunction);
 }
 
-void AMainPlayer::MoveFront(float speed)
+void AMainPlayer::MoveForward(float speed)
 {
-	if (Controller && speed)
+	if ((Controller != NULL) && (speed != 0.0f))
 	{
-		speed = playerCurrentSpeed;
-		AddMovementInput(GetActorForwardVector(), speed);
-	}
-}
-
-void AMainPlayer::MoveBack(float speed)
-{
-	if (Controller && speed)
-	{
-		speed = -(playerSpeed /2);
-		AddMovementInput(GetActorForwardVector(), speed);
+		// find out which way is forward
+		FRotator Rotation = Controller->GetControlRotation();
+		if (GetCharacterMovement()->IsMovingOnGround() || GetCharacterMovement()->IsFalling())
+		{
+			Rotation.Pitch = 0.0f;
+		}
+		const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::X);
+		speed *= playerCurrentSpeed;
+		AddMovementInput(Direction, speed);
 	}
 }
 
 void AMainPlayer::MoveRight(float speed)
 {
-	if (Controller && speed)
+	if ((Controller != NULL) && (speed != 0.0f))
 	{
-		speed = playerSpeed;
-		AddMovementInput(GetActorRightVector(), speed);
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::Y);
+		speed *= playerSpeed;
+		AddMovementInput(Direction, speed);
 	}
-}
 
-void AMainPlayer::MoveLeft(float speed)
-{
-	if (Controller && speed)
-	{
-		speed = -playerSpeed;
-		AddMovementInput(GetActorRightVector(), speed);
-	}
 }
 
 void AMainPlayer::SprintFunction()
