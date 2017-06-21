@@ -6,6 +6,9 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
+#ifndef MEETING_AI_Movement_generated_h
+	#include "AI_Movement.h"
+#endif
 #ifndef MEETING_MainPlayer_generated_h
 	#include "MainPlayer.h"
 #endif

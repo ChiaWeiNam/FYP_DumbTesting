@@ -11,6 +11,10 @@
 PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCode1Meeting() {}
+	void UAI_Movement::StaticRegisterNativesUAI_Movement()
+	{
+	}
+	IMPLEMENT_CLASS(UAI_Movement, 734100686);
 	void AMainPlayer::StaticRegisterNativesAMainPlayer()
 	{
 	}
@@ -29,12 +33,15 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	IMPLEMENT_CLASS(UPlayerShoot, 2980358368);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
+	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
+	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
-	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
 	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
 
+	MEETING_API class UClass* Z_Construct_UClass_UAI_Movement_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UAI_Movement();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_AMeetingGameModeBase_NoRegister();
@@ -44,6 +51,51 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	MEETING_API class UClass* Z_Construct_UClass_UPlayerShoot_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UPlayerShoot();
 	MEETING_API class UPackage* Z_Construct_UPackage__Script_Meeting();
+	UClass* Z_Construct_UClass_UAI_Movement_NoRegister()
+	{
+		return UAI_Movement::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UAI_Movement()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UAI_Movement::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_target = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("target"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(target, UAI_Movement), 0x0040000000000001, Z_Construct_UClass_AActor_NoRegister());
+				NewProp_target->ArrayDim = CPP_ARRAY_DIM(target, UAI_Movement);
+				UProperty* NewProp_maxForce = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForce"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForce, UAI_Movement), 0x0040000000000001);
+				UProperty* NewProp_maxSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxSpeed, UAI_Movement), 0x0040000000000001);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("AI_Movement.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
+				MetaData->SetValue(NewProp_target, TEXT("Category"), TEXT("AI_Movement"));
+				MetaData->SetValue(NewProp_target, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
+				MetaData->SetValue(NewProp_maxForce, TEXT("Category"), TEXT("AI_Movement"));
+				MetaData->SetValue(NewProp_maxForce, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
+				MetaData->SetValue(NewProp_maxSpeed, TEXT("Category"), TEXT("AI_Movement"));
+				MetaData->SetValue(NewProp_maxSpeed, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UAI_Movement(Z_Construct_UClass_UAI_Movement, &UAI_Movement::StaticClass, TEXT("UAI_Movement"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UAI_Movement);
 	UClass* Z_Construct_UClass_AMainPlayer_NoRegister()
 	{
 		return AMainPlayer::StaticClass();
@@ -194,8 +246,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xCFE66A69;
-			Guid.B = 0x47722912;
+			Guid.A = 0x0CDCD4F7;
+			Guid.B = 0xB1109E6C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

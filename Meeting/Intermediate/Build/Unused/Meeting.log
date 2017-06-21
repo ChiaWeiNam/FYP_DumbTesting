@@ -1,12 +1,12 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for MeetingEditor
-    Running UnrealHeaderTool "C:\Users\User\Desktop\Unreal\SourceTree\FYP_DumbTesting\Meeting\Meeting.uproject" "C:\Users\User\Desktop\Unreal\SourceTree\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MeetingEditor in 3.7382492 seconds
+    Running UnrealHeaderTool "C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MeetingEditor in 3.3898853 seconds
   Performing 3 actions (4 in parallel)
-  MainPlayer.cpp
-  [2/3] Link UE4Editor-Meeting-404.dll
-  [3/3] Link UE4Editor-Meeting-404.lib
-     Creating library C:\Users\User\Desktop\Unreal\SourceTree\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-404.lib and object C:\Users\User\Desktop\Unreal\SourceTree\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-404.exp
-     Creating library C:\Users\User\Desktop\Unreal\SourceTree\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-404.suppressed.lib and object C:\Users\User\Desktop\Unreal\SourceTree\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-404.suppressed.exp
+  AI_Movement.cpp
+  [2/3] Link UE4Editor-Meeting-6785.dll
+  [3/3] Link UE4Editor-Meeting-6785.lib
+     Creating library C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-6785.lib and object C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-6785.exp
+     Creating library C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-6785.suppressed.lib and object C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-6785.suppressed.exp
   Deploying MeetingEditor Win64 Development...
-  Total build time: 128.73 seconds (Local executor: 118.14 seconds)
+  Total build time: 15.67 seconds (Local executor: 2.18 seconds)

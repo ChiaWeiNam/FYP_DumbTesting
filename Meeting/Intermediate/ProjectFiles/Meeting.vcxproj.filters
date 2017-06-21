@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Meeting.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{6E90E19A-8BF5-4380-9E7E-804B4B4D04B9}</UniqueIdentifier>
+			<UniqueIdentifier>{DCDFEB0C-57AD-4611-B814-A07FFEC406F0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Meeting.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0C18BCDD-DD8E-4564-8E6F-8162E079AAA5}</UniqueIdentifier>
+			<UniqueIdentifier>{0D41A468-DA46-4271-A2B9-E59A48039992}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +28,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Meeting">
-			<UniqueIdentifier>{7BFE7D5B-B2E5-4011-B111-DD3A88583040}</UniqueIdentifier>
+			<UniqueIdentifier>{CFF901D2-7ABF-4D6E-BAD1-0B22443E6369}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Meeting\AI_Movement.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\AI_Movement.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp">
 			<Filter>Source\Meeting</Filter>
 		</ClCompile >
