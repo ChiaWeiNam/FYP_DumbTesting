@@ -1,0 +1,1510 @@
+﻿Log file open, 06/22/17 01:32:47
+LogInit:Display: Running engine for game: Meeting
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(957745350) SRandInit(957745350).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077798
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.21-17.32.48:245][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.21-17.32.48:245][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.21-17.32.48:269][  0]LogInit: Computer: MSI
+[2017.06.21-17.32.48:269][  0]LogInit: User: chong
+[2017.06.21-17.32.48:269][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.21-17.32.48:269][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2017.06.21-17.32.48:269][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.06.21-17.32.48:269][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.21-17.32.48:269][  0]LogMemory: Process Physical Memory: 262.37 MB used, 262.37 MB peak
+[2017.06.21-17.32.48:269][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2017.06.21-17.32.48:269][  0]LogMemory: Physical Memory: 6484.80 MB used,  5713.79 MB free, 12198.60 MB total
+[2017.06.21-17.32.48:269][  0]LogMemory: Virtual Memory: 645.25 MB used,  5713.79 MB free, 134217728.00 MB total
+[2017.06.21-17.32.49:185][  0]LogTextLocalizationManager: No specific translations for ('en-MY') exist, so ('en') translations will be used.
+[2017.06.21-17.32.56:712][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.21-17.32.56:757][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.06.21-17.32.56:757][  0]LogD3D11RHI:       2019/0/6099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.21-17.32.56:763][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.06.21-17.32.56:763][  0]LogD3D11RHI:       128/0/6099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.21-17.32.56:765][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.21-17.32.56:765][  0]LogD3D11RHI:       0/0/6099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.21-17.32.56:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.21-17.32.56:770][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.21-17.32.56:770][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.06.21-17.32.56:770][  0]LogWindows: EnumDisplayDevices:
+[2017.06.21-17.32.56:770][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.06.21-17.32.56:770][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.21-17.32.56:770][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.06.21-17.32.56:770][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.21-17.32.56:771][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.06.21-17.32.56:771][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.21-17.32.56:771][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.21-17.32.56:771][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.21-17.32.56:793][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.21-17.32.56:805][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.21-17.32.56:806][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Intermediate/Shaders/WorkingDirectory/10808/).
+[2017.06.21-17.32.56:806][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chong/AppData/Local/Temp/UnrealShaderWorkingDir/8F3E4D76433A9A9D01165C9A5F213D76/'.
+[2017.06.21-17.32.56:806][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.21-17.32.58:740][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.21-17.32.58:794][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.21-17.32.58:847][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.21-17.32.58:903][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.21-17.32.58:982][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.21-17.32.59:037][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.21-17.32.59:090][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.21-17.32.59:149][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.21-17.32.59:226][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.21-17.32.59:368][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.21-17.32.59:425][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.21-17.32.59:478][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.21-17.32.59:531][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.21-17.32.59:585][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.21-17.32.59:641][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.21-17.32.59:759][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.21-17.32.59:759][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.21-17.32.59:799][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.21-17.32.59:907][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.21-17.32.59:944][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.21-17.32.59:997][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.21-17.33.00:051][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.21-17.33.00:106][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.21-17.33.00:174][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.21-17.33.00:174][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.21-17.33.00:629][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.21-17.33.01:168][  0]LogDerivedDataCache: Loaded boot cache 0.54s 51MB C:/Users/chong/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.21-17.33.01:168][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chong/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.21-17.33.01:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.21-17.33.01:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.21-17.33.01:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.21-17.33.01:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.21-17.33.01:191][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.21-17.33.01:204][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.21-17.33.01:219][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.21-17.33.01:268][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.21-17.33.01:268][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.21-17.33.03:320][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.21-17.33.03:323][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.21-17.33.03:527][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.21-17.33.03:572][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.21-17.33.03:623][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.21-17.33.03:623][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.21-17.33.03:623][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.21-17.33.04:292][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: meeting, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 116300604
+[2017.06.21-17.33.04:340][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.06.21-17.33.04:408][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030584 seconds
+[2017.06.21-17.33.04:412][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.21-17.33.04:412][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.21-17.33.04:412][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.21-17.33.04:479][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.21-17.33.26:538][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.21-17.33.26:582][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.21-17.33.27:463][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.21-17.33.27:918][  0]SourceControl: Info Source control is disabled
+[2017.06.21-17.33.27:919][  0]SourceControl: Info Source control is disabled
+[2017.06.21-17.33.27:972][  0]SourceControl: Info Source control is disabled
+[2017.06.21-17.33.28:027][  0]SourceControl: Info Source control is disabled
+[2017.06.21-17.33.29:791][  0]LogEngine: Initializing Engine...
+[2017.06.21-17.33.29:791][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.21-17.33.29:920][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.21-17.33.29:920][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.21-17.33.30:075][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.21-17.33.30:084][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.06.21-17.33.30:127][  0]LogInit: FAudioDevice initialized.
+[2017.06.21-17.33.30:155][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/chong/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.21-17.33.30:164][  0]LogInit: Texture streaming: Enabled
+[2017.06.21-17.33.30:270][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.21-17.33.30:366][  0]LogInit: Transaction tracking system initialized
+[2017.06.21-17.33.30:741][  0]BlueprintLog: New page: Editor Load
+[2017.06.21-17.33.31:714][  0]LocalizationService: Info Localization service is disabled
+[2017.06.21-17.33.32:706][  0]LogConsoleResponse:Display: 
+[2017.06.21-17.33.32:858][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.21-17.33.32:858][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.21-17.33.33:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/' took 0.01s
+[2017.06.21-17.33.34:318][  0]SourceControl: Info Source control is disabled
+[2017.06.21-17.33.34:318][  0]Cmd: MAP LOAD FILE="../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.21-17.33.34:318][  0]LightingResults: New page: Lighting Build
+[2017.06.21-17.33.34:361][  0]MapCheck: New page: Map Check
+[2017.06.21-17.33.34:361][  0]LightingResults: New page: Lighting Build
+[2017.06.21-17.33.34:492][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.06.21-17.33.34:492][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.06.21-17.33.34:492][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.06.21-17.33.34:492][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.06.21-17.33.34:493][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.06.21-17.33.34:493][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.06.21-17.33.34:496][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0048.65] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.06.21-17.33.34:497][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0048.65] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.06.21-17.33.34:497][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0048.66] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.06.21-17.33.34:502][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.06.21-17.33.34:502][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.06.21-17.33.34:502][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.06.21-17.33.34:502][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.06.21-17.33.34:502][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.06.21-17.33.34:502][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.06.21-17.33.34:507][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0048.66] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.06.21-17.33.34:507][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0048.67] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.06.21-17.33.34:507][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0048.67] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.06.21-17.33.36:621][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.21-17.33.36:687][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.21-17.33.36:688][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.21-17.33.36:748][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.976ms to complete.
+[2017.06.21-17.33.36:748][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.429
+[2017.06.21-17.33.36:996][  0]LogCollectionManager: Loaded 0 collections in 0.002679 seconds
+[2017.06.21-17.33.37:078][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' took 0.01s
+[2017.06.21-17.33.37:078][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Developers/chong/Collections/' took 0.01s
+[2017.06.21-17.33.37:078][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' took 0.01s
+[2017.06.21-17.33.37:078][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.21-17.33.37:088][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2250 classes and 455 folders.
+[2017.06.21-17.33.37:163][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.06.21-17.33.37:926][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2017.06.21-17.33.37:995][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2017.06.21-17.33.38:083][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.21-17.33.38:090][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.21-17.33.38:164][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.06.21-17.33.38:164][  0]LogLoad: (Engine Initialization) Total time: 52.32 seconds
+[2017.06.21-17.33.38:164][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.06.21-17.33.38:164][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.21-17.33.38:164][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.21-17.33.38:182][  0]LogOcInput: OculusInput pre-init called
+[2017.06.21-17.33.38:203][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.21-17.33.38:224][  0]LogSlate: Took 0.019720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.21-17.33.38:251][  0]LogSlate: Took 0.020693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.21-17.33.38:284][  0]LogSlate: Took 0.023371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.21-17.33.38:454][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.21-17.33.38:503][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2017.06.21-17.33.38:604][  1]LogAssetRegistry: Asset discovery search completed in 34.2863 seconds
+[2017.06.21-17.33.38:604][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.06.21-17.33.38:604][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2017.06.21-17.44.01:973][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AI_Move)
+[2017.06.21-17.44.04:519][842]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.21-17.44.29:807][249]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.21-17.45.05:532][293]LogSavePackage: Save=670.70ms
+[2017.06.21-17.45.05:532][293]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/ThirdPersonExampleMap615F532B42FF829AFAB6FF8D014E98C2.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.21-17.45.05:536][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.21-17.45.06:680][293]LogSlate: Took 0.069489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.21-17.45.06:845][293]LogSavePackage: Save=912.88ms
+[2017.06.21-17.45.06:845][293]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/ThirdPersonExampleMap_BuiltData08EF696840DA13BAC758DC91BE6C6D8C.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.21-17.45.06:848][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.06.21-17.45.07:837][338]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.21-17.45.07:853][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.21-17.45.07:853][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.21-17.45.07:854][338]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 22, 2017, 9:45:07 AM)
+[2017.06.21-17.45.07:854][338]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.21-17.45.08:212][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.358070s)
+[2017.06.21-17.45.08:214][338]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.21-17.45.08:214][338]LogPlayLevel: PIE: World Init took: (0.002069s)
+[2017.06.21-17.45.08:215][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.361216s)
+[2017.06.21-17.45.08:252][338]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.06.21-17.45.08:303][338]LogInit: FAudioDevice initialized.
+[2017.06.21-17.45.08:493][338]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.06.21-17.45.08:509][338]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.22-01.45.08
+[2017.06.21-17.45.08:512][338]LogWorld: Bringing up level for play took: 0.018226
+[2017.06.21-17.45.08:555][338]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2017.06.21-17.45.08:559][338]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.44
+[2017.06.21-17.45.08:560][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.21-17.45.08:561][338]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:606][339]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:772][340]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:844][341]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:861][342]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:878][343]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:894][344]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:911][345]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:928][346]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:944][347]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:961][348]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:977][349]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.08:995][350]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:011][351]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:028][352]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:044][353]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:061][354]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:078][355]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:094][356]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:111][357]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:128][358]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:144][359]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:161][360]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:178][361]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:194][362]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:211][363]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:228][364]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:244][365]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:261][366]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:278][367]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:298][368]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:328][369]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:346][370]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:365][371]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:381][372]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:398][373]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:415][374]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:432][375]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:449][376]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:467][377]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:482][378]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:498][379]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:515][380]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:531][381]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:548][382]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:565][383]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:581][384]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:599][385]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:615][386]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:633][387]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:649][388]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:665][389]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:682][390]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:715][392]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:732][393]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:748][394]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:765][395]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:781][396]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:799][397]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:815][398]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:832][399]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:848][400]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:865][401]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:881][402]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:898][403]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:915][404]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:932][405]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:949][406]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:965][407]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:981][408]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.09:998][409]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:015][410]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:032][411]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:049][412]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:065][413]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:083][414]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:098][415]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:115][416]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:131][417]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:148][418]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:165][419]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:181][420]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:198][421]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:215][422]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:231][423]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:248][424]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:264][425]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:282][426]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:298][427]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:314][428]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:331][429]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:348][430]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:365][431]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:381][432]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:398][433]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:415][434]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:432][435]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:448][436]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:465][437]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:482][438]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:498][439]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:515][440]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:531][441]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:548][442]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:565][443]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:581][444]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:598][445]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:615][446]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:631][447]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:648][448]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:665][449]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:682][450]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:698][451]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:715][452]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:732][453]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:748][454]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:765][455]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:781][456]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:798][457]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:815][458]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:831][459]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:848][460]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:865][461]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:882][462]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:899][463]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:916][464]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:932][465]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:949][466]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:966][467]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:982][468]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.10:999][469]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:015][470]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:031][471]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:048][472]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:065][473]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:082][474]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:098][475]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:115][476]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:132][477]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:149][478]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:166][479]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:182][480]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:198][481]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:215][482]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:231][483]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:248][484]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:265][485]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:282][486]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:298][487]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:315][488]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:332][489]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:349][490]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:366][491]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:382][492]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:399][493]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:415][494]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:432][495]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:448][496]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:465][497]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:482][498]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:499][499]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:515][500]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:533][501]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:549][502]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:566][503]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:582][504]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:599][505]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:616][506]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:632][507]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:649][508]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:666][509]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:682][510]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:699][511]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:715][512]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:732][513]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:748][514]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:766][515]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:782][516]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:799][517]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:815][518]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:832][519]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:848][520]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:865][521]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:881][522]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:898][523]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:915][524]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:932][525]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:948][526]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:965][527]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:981][528]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.11:998][529]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:015][530]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:032][531]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:048][532]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:065][533]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:081][534]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:099][535]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:115][536]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:132][537]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:149][538]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:165][539]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:182][540]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:198][541]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:215][542]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:232][543]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:248][544]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:265][545]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:282][546]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:299][547]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:315][548]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:332][549]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:349][550]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:365][551]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:382][552]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:399][553]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:416][554]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:432][555]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:451][556]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:466][557]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:483][558]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:499][559]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:516][560]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:532][561]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:549][562]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:566][563]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:582][564]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:599][565]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:615][566]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:632][567]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:648][568]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:665][569]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:681][570]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:698][571]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:715][572]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:732][573]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:748][574]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:765][575]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:782][576]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:798][577]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:815][578]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:832][579]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:849][580]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:865][581]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:882][582]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:898][583]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:915][584]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:931][585]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:949][586]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:965][587]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:982][588]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.12:999][589]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:015][590]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:032][591]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:049][592]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:066][593]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:082][594]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:099][595]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:115][596]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:132][597]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:149][598]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:165][599]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:182][600]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:199][601]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:215][602]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:231][603]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:248][604]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:265][605]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:282][606]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:298][607]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:316][608]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:332][609]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:349][610]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:365][611]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:382][612]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:399][613]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:415][614]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:432][615]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:448][616]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:465][617]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:482][618]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:498][619]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:516][620]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:532][621]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:549][622]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:565][623]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:582][624]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:598][625]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:615][626]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:632][627]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:648][628]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:665][629]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:681][630]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:699][631]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:715][632]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:732][633]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:748][634]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:765][635]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:782][636]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:798][637]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:815][638]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:831][639]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:849][640]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:865][641]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:882][642]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:898][643]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:916][644]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:932][645]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:949][646]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:965][647]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:982][648]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.13:998][649]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:015][650]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:031][651]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:048][652]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:065][653]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:082][654]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:099][655]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:115][656]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:132][657]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:149][658]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:165][659]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:182][660]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:199][661]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:215][662]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:232][663]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:248][664]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:265][665]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:282][666]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:298][667]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:315][668]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:332][669]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:349][670]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:366][671]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:382][672]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:399][673]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:415][674]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:432][675]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:449][676]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:465][677]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:481][678]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:498][679]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:515][680]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:532][681]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:549][682]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:565][683]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:582][684]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:598][685]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:615][686]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:632][687]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:648][688]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:665][689]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:681][690]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:699][691]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:715][692]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:732][693]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:749][694]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:765][695]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:782][696]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:799][697]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:815][698]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:832][699]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:848][700]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:865][701]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:882][702]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:899][703]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:915][704]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:932][705]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:949][706]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:965][707]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:982][708]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.14:999][709]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:015][710]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:032][711]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:048][712]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:065][713]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:082][714]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:098][715]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:115][716]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:132][717]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:149][718]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:165][719]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:182][720]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:199][721]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:215][722]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:232][723]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:249][724]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:265][725]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:282][726]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:298][727]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:315][728]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:332][729]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:348][730]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:365][731]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:381][732]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:398][733]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:415][734]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:432][735]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:449][736]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:465][737]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:482][738]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:499][739]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:515][740]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:532][741]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:548][742]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:565][743]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:582][744]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:598][745]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:615][746]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:632][747]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:648][748]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:665][749]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:682][750]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:699][751]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:715][752]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:732][753]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:749][754]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:765][755]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:782][756]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:798][757]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:815][758]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:832][759]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:848][760]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:865][761]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:882][762]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:898][763]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:915][764]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:932][765]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:948][766]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:965][767]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:982][768]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.15:998][769]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:015][770]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:032][771]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:065][773]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:082][774]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:098][775]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:115][776]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:132][777]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:149][778]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:165][779]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:182][780]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:198][781]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:215][782]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:232][783]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:248][784]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:265][785]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:282][786]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:299][787]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:315][788]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:332][789]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:349][790]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:365][791]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:382][792]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:399][793]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:415][794]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:432][795]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:449][796]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:465][797]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:482][798]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:498][799]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:516][800]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:532][801]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:549][802]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:565][803]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:582][804]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:599][805]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:615][806]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:632][807]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:649][808]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:665][809]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:682][810]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:698][811]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:715][812]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:732][813]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:749][814]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:765][815]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:782][816]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:799][817]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:815][818]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:832][819]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:849][820]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:865][821]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:881][822]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:899][823]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:915][824]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:932][825]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:948][826]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:965][827]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:982][828]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.16:999][829]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:015][830]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:032][831]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:048][832]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:065][833]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:082][834]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:099][835]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:115][836]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:132][837]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:148][838]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:165][839]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:182][840]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:198][841]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:215][842]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:232][843]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:248][844]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:265][845]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:282][846]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:299][847]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:315][848]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:332][849]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:348][850]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:365][851]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:382][852]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:399][853]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:415][854]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:432][855]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:449][856]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:465][857]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:482][858]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:498][859]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:515][860]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:532][861]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:549][862]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:565][863]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:582][864]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:599][865]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:615][866]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:632][867]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:649][868]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:665][869]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:682][870]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:699][871]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:715][872]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:732][873]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:749][874]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:765][875]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:782][876]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:799][877]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:815][878]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:832][879]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:849][880]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:865][881]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:882][882]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:898][883]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:915][884]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:932][885]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:948][886]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:965][887]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:982][888]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.17:998][889]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:015][890]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:032][891]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:049][892]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:065][893]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:082][894]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:099][895]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:115][896]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:132][897]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:149][898]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:165][899]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:182][900]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:199][901]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:215][902]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:232][903]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:249][904]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:265][905]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:282][906]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:299][907]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:315][908]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:332][909]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:349][910]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:365][911]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:382][912]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:399][913]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:415][914]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:432][915]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:449][916]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:465][917]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:482][918]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:498][919]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:515][920]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:532][921]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:549][922]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:565][923]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:582][924]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:599][925]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:615][926]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:632][927]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:649][928]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:666][929]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:683][930]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:698][931]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:716][932]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:732][933]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:749][934]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:765][935]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:782][936]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:799][937]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:815][938]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:832][939]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:849][940]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:865][941]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:882][942]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:899][943]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:915][944]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:932][945]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:949][946]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:965][947]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:982][948]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.18:999][949]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:015][950]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:032][951]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:049][952]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:065][953]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:082][954]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:099][955]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:115][956]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:132][957]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:148][958]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:165][959]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:182][960]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:199][961]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:215][962]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:232][963]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:249][964]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:266][965]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:282][966]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:299][967]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:316][968]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:332][969]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:348][970]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:366][971]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:382][972]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:399][973]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:415][974]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:432][975]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:448][976]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:466][977]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:482][978]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:499][979]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:515][980]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:532][981]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:549][982]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:565][983]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:582][984]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:599][985]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:615][986]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:632][987]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:649][988]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:665][989]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:682][990]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:698][991]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:715][992]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:732][993]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:749][994]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:765][995]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:782][996]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:798][997]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:815][998]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:832][999]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:849][  0]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:865][  1]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:882][  2]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:899][  3]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:915][  4]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:932][  5]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:948][  6]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:965][  7]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:982][  8]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.19:999][  9]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:015][ 10]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:032][ 11]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:048][ 12]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:065][ 13]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:082][ 14]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:098][ 15]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:116][ 16]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:132][ 17]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:149][ 18]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:165][ 19]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:182][ 20]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:199][ 21]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:215][ 22]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:232][ 23]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:249][ 24]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:265][ 25]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:282][ 26]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:298][ 27]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:315][ 28]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:332][ 29]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:349][ 30]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:365][ 31]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:382][ 32]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:399][ 33]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:415][ 34]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:432][ 35]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:448][ 36]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:465][ 37]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:482][ 38]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:499][ 39]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:515][ 40]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:532][ 41]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:549][ 42]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:566][ 43]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:582][ 44]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:599][ 45]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:616][ 46]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:632][ 47]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:649][ 48]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:665][ 49]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:682][ 50]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:699][ 51]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:715][ 52]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:732][ 53]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:748][ 54]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:765][ 55]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:782][ 56]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:798][ 57]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:815][ 58]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:832][ 59]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:849][ 60]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:865][ 61]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:882][ 62]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:899][ 63]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:915][ 64]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:932][ 65]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:948][ 66]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:965][ 67]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:982][ 68]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.20:999][ 69]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:015][ 70]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:032][ 71]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:049][ 72]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:065][ 73]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:083][ 74]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:099][ 75]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:115][ 76]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:132][ 77]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:149][ 78]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:165][ 79]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:182][ 80]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:199][ 81]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:215][ 82]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:232][ 83]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:249][ 84]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:265][ 85]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:282][ 86]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:299][ 87]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:315][ 88]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:332][ 89]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:349][ 90]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:365][ 91]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:382][ 92]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:399][ 93]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:415][ 94]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:432][ 95]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:448][ 96]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:466][ 97]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:482][ 98]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:499][ 99]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:516][100]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:532][101]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:549][102]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:582][104]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:599][105]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:623][106]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.21:955][107]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.22:288][108]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.22:620][109]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.22:962][110]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.22:976][111]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.22:993][112]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:055][113]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:123][114]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:193][115]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:211][116]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:229][117]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:244][118]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:260][119]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:277][120]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:293][121]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:310][122]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:327][123]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:343][124]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:360][125]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:377][126]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:394][127]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:410][128]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:427][129]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:444][130]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:460][131]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:477][132]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:494][133]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:510][134]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:527][135]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:544][136]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:560][137]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:577][138]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:593][139]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:610][140]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:627][141]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:644][142]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:677][144]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:694][145]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:710][146]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:727][147]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:743][148]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:761][149]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:777][150]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:793][151]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:810][152]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:827][153]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:844][154]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:861][155]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:878][156]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:894][157]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:910][158]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:927][159]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:944][160]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:960][161]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:977][162]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.23:993][163]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:010][164]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:027][165]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:043][166]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:060][167]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:077][168]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:094][169]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:110][170]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:127][171]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:143][172]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:160][173]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:177][174]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:193][175]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:211][176]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:227][177]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:244][178]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:260][179]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:277][180]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:294][181]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:311][182]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:327][183]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:344][184]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:360][185]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:377][186]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:394][187]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:411][188]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:427][189]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:443][190]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:460][191]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:477][192]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:493][193]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:510][194]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:527][195]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:544][196]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:560][197]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:577][198]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:594][199]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:610][200]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:627][201]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:644][202]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:660][203]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:678][204]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:693][205]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:710][206]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:728][207]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:743][208]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:760][209]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:777][210]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:794][211]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:811][212]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:827][213]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:844][214]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:861][215]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:877][216]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:894][217]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:911][218]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:927][219]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:943][220]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:960][221]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:977][222]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.24:994][223]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:010][224]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:027][225]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:044][226]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:061][227]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:077][228]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:094][229]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:112][230]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:128][231]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:144][232]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:161][233]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:178][234]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:194][235]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:211][236]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:228][237]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:244][238]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:260][239]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:278][240]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:294][241]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:311][242]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:328][243]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:344][244]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:361][245]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:378][246]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:394][247]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:411][248]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:427][249]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:444][250]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:460][251]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:478][252]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:494][253]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:511][254]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:527][255]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:544][256]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:561][257]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:578][258]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:594][259]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:611][260]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:627][261]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:643][262]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:660][263]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:678][264]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:694][265]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:711][266]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:728][267]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:744][268]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:761][269]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:777][270]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:794][271]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:811][272]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:827][273]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:844][274]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:861][275]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:877][276]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:894][277]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:911][278]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:928][279]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:944][280]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:962][281]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:977][282]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.25:994][283]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:011][284]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:027][285]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:044][286]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:061][287]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:078][288]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:094][289]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:111][290]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:128][291]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:144][292]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:161][293]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:177][294]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:194][295]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:210][296]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:227][297]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:243][298]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:261][299]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:277][300]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:294][301]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:310][302]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:327][303]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:343][304]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:360][305]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:377][306]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:393][307]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:410][308]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:427][309]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:443][310]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:460][311]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:477][312]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:494][313]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:510][314]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:528][315]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:544][316]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:560][317]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:577][318]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:593][319]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:611][320]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:627][321]LogTemp:Warning: AI moveable
+[2017.06.21-17.45.26:628][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.21-17.45.26:757][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.21-17.45.45:969][663]LogSavePackage: Save=688.08ms
+[2017.06.21-17.45.45:969][663]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/ThirdPersonExampleMap667DE1844A703CBBE68B80ACD0CF7B8A.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.21-17.45.45:972][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.21-17.45.46:571][663]LogSavePackage: Save=564.13ms
+[2017.06.21-17.45.46:571][663]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/ThirdPersonExampleMap_BuiltDataFA6EA6AB44F1941B5915419B726CEA8A.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.21-17.45.46:573][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.06.21-17.45.49:033][757]LogSavePackage: Save=693.78ms
+[2017.06.21-17.45.49:033][757]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/ThirdPersonExampleMap2A9AFF5F413EF6CB512E5DA390571409.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.21-17.45.49:036][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.21-17.45.49:629][757]LogSavePackage: Save=558.61ms
+[2017.06.21-17.45.49:629][757]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/ThirdPersonExampleMap_BuiltData860F63E4472E2E566F5DF6ADD56CC393.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.21-17.45.49:631][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.06.21-17.45.51:382][835]Cmd: QUIT_EDITOR
+[2017.06.21-17.45.52:173][835]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.21-17.45.52:221][835]LogExit: Preparing to exit.
+[2017.06.21-17.45.52:972][835]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.06.21-17.45.52:999][835]LogExit: Editor shut down
+[2017.06.21-17.45.53:000][835]LogExit: Transaction tracking system shut down
+[2017.06.21-17.45.53:055][835]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.21-17.45.53:055][835]LogExit: Object subsystem successfully closed.
+[2017.06.21-17.45.53:077][835]LogD3D11RHI: Shutdown
+[2017.06.21-17.45.53:077][835]LogD3D11RHI: CleanupD3DDevice
+[2017.06.21-17.45.53:199][835]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.21-17.45.53:213][835]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.06.21-17.45.53:213][835]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.06.21-17.45.53:213][835]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.06.21-17.45.53:213][835]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.06.21-17.45.53:213][835]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.06.21-17.45.53:213][835]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.06.21-17.45.53:215][835]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' was aborted.
+[2017.06.21-17.45.53:215][835]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Developers/chong/Collections/' was aborted.
+[2017.06.21-17.45.53:215][835]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' was aborted.
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.06.21-17.45.53:215][835]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.06.21-17.45.53:216][835]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.06.21-17.45.53:434][835]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.06.21-17.45.53:435][835]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.06.21-17.45.53:479][835]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.06.21-17.45.53:480][835]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.06.21-17.45.53:480][835]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.06.21-17.45.53:480][835]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.06.21-17.45.53:480][835]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.06.21-17.45.53:480][835]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.06.21-17.45.53:481][835]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.06.21-17.45.53:512][835]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.06.21-17.45.53:512][835]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.06.21-17.45.53:512][835]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.06.21-17.45.53:513][835]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.06.21-17.45.53:514][835]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.06.21-17.45.53:514][835]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.06.21-17.45.53:515][835]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.06.21-17.45.53:515][835]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.06.21-17.45.53:515][835]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.06.21-17.45.53:515][835]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Binaries/Win64' was aborted.
+[2017.06.21-17.45.53:516][835]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.06.21-17.45.53:518][835]LogModuleManager: Shutting down and abandoning module Meeting (224)
+[2017.06.21-17.45.53:518][835]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.21-17.45.53:518][835]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.21-17.45.53:518][835]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.21-17.45.53:518][835]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.21-17.45.53:619][835]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.21-17.45.53:808][835]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.21-17.45.53:809][835]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.21-17.45.53:810][835]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.21-17.45.53:818][835]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.21-17.45.53:818][835]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.21-17.45.53:818][835]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.21-17.45.53:818][835]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.21-17.45.53:818][835]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.21-17.45.53:818][835]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.21-17.45.54:005][835]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.21-17.45.54:006][835]LogDirectoryWatcher: A directory notification for '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.06.21-17.45.54:006][835]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.21-17.45.54:006][835]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.21-17.45.54:007][835]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.21-17.45.54:023][835]LogDerivedDataCache: Shutdown
+[2017.06.21-17.45.54:023][835]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.21-17.45.54:023][835]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.21-17.45.54:023][835]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.21-17.45.54:023][835]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.21-17.45.54:023][835]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.21-17.45.54:023][835]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.21-17.45.54:024][835]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.21-17.45.54:024][835]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.21-17.45.54:025][835]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.21-17.45.54:025][835]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5ABB4211-4F1B-974B-A30E-BF9C9696C02F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=b99de09e4fd31c4d8810b7b27378685f%7Cd854f23f85534a6a958aa5db07b32c86%7Cc8e0bc57-2edb-4c06-a7cf-4ae6b98e3978&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.21-17.45.54:057][835]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.21-17.45.54:060][835]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.21-17.45.54:061][835]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.21-17.45.54:061][835]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.21-17.45.54:061][835]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.21-17.45.54:061][835]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.21-17.45.54:063][835]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.21-17.45.54:067][835]LogExit: Exiting.
+[2017.06.21-17.45.54:105][835]Log file closed, 06/22/17 01:45:54
