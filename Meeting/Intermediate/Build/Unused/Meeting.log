@@ -1,12 +1,2 @@
-﻿  Creating makefile for MeetingEditor (no existing makefile)
-  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-1552.dll".
-  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-1552.pdb".
-  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-2636.dll".
-  Deleting old hot reload file: "C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-2636.pdb".
-  Performing 2 actions (4 in parallel)
-  [1/2] Link UE4Editor-Meeting.dll
-  [2/2] Link UE4Editor-Meeting.lib
-     Creating library C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.lib and object C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.exp
-     Creating library C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.lib and object C:\Users\User\Desktop\Unreal\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.exp
-  Deploying MeetingEditor Win64 Development...
-  Total build time: 4.20 seconds (Local executor: 1.82 seconds)
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "D:\UE_4.15\Engine\Build\BatchFiles\Rebuild.bat MeetingEditor Win64 Development "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" -waitmutex" exited with code 3.
