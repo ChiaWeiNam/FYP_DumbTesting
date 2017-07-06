@@ -14,7 +14,7 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	void UAI_Movement::StaticRegisterNativesUAI_Movement()
 	{
 	}
-	IMPLEMENT_CLASS(UAI_Movement, 734100686);
+	IMPLEMENT_CLASS(UAI_Movement, 2971231823);
 	void AMainPlayer::StaticRegisterNativesAMainPlayer()
 	{
 	}
@@ -74,6 +74,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 				NewProp_target->ArrayDim = CPP_ARRAY_DIM(target, UAI_Movement);
 				UProperty* NewProp_maxForce = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForce"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForce, UAI_Movement), 0x0040000000000001);
 				UProperty* NewProp_maxSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxSpeed, UAI_Movement), 0x0040000000000001);
+				UProperty* NewProp_GrowRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GrowRate"), RF_Public|RF_Transient|RF_MarkAsNative) UIntProperty(CPP_PROPERTY_BASE(GrowRate, UAI_Movement), 0x0040000000000001);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
@@ -88,6 +89,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(NewProp_maxForce, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
 				MetaData->SetValue(NewProp_maxSpeed, TEXT("Category"), TEXT("AI_Movement"));
 				MetaData->SetValue(NewProp_maxSpeed, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
+				MetaData->SetValue(NewProp_GrowRate, TEXT("Category"), TEXT("AI_Movement"));
+				MetaData->SetValue(NewProp_GrowRate, TEXT("ModuleRelativePath"), TEXT("AI_Movement.h"));
 #endif
 			}
 		}
@@ -246,7 +249,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x0CDCD4F7;
+			Guid.A = 0x19FEB8A4;
 			Guid.B = 0xB1109E6C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

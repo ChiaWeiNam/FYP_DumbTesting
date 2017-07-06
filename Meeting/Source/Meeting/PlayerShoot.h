@@ -6,12 +6,12 @@
 #include "PlayerShoot.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class MEETING_API UPlayerShoot : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UPlayerShoot();
 
@@ -19,26 +19,31 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private:
-	ACharacter* Owner; 
-	AActor* Player; 
+	ACharacter* Owner;
 
-	USpotLightComponent* SL_Light = nullptr; 
+	USpotLightComponent* SL_Light = nullptr;
 	UStaticMeshComponent* StaticMeshComponent;
 	UStaticMesh* StaticMesh;
-	UMaterialInstanceDynamic* Mat_LightBeam; 
+	UMaterialInstanceDynamic* Mat_LightBeam;
 
 	FLinearColor Red;
 	FLinearColor Ultraviolet;
 
+	FVector LineTraceEnd;
+	FVector SpotLightLocation;
+	FRotator SpotLightRotation;
+
+	float endPoint = 260.0f;
+	bool isShoot;
 	bool isRedLight;
 
 	void ShootLight();
-	void NotShootLight(); 
+	void NotShootLight();
 
 	void SwitchLight();
 };

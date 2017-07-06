@@ -10,7 +10,8 @@ UAI_Movement::UAI_Movement()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-	
+
+	UAI_Movement::ComponentTags.Add(FName("AI_Movement"));
 	// ...
 }
 
@@ -20,8 +21,13 @@ void UAI_Movement::BeginPlay()
 {
 	Super::BeginPlay();
 	targetIndex = 0;
+
+	IsGrow = false;
+
+	OriScale = GetOwner()->GetActorScale();
+	///curScale = ;
 	// ...
-	
+
 }
 
 
@@ -44,6 +50,19 @@ void UAI_Movement::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 			targetIndex = 0;
 		}
 		//UE_LOG(LogTemp, Warning, TEXT("AI Unmoveable"));
+	}
+
+	/// been hit by laser
+	if (IsGrow == true)
+	{
+		if (LightPara <= 5.f && LightPara >= -5.f)
+		{
+			GetOwner()->SetActorScale3D(FVector(OriScale.X * (1.f + (LightPara / 5.f)), OriScale.Y * (1.f + (LightPara / 5.f)), OriScale.Z * (1.f + (LightPara / 5.f))));
+			
+			UE_LOG(LogTemp, Warning, TEXT("AI scale x: %f"), GetOwner()->GetActorScale().X);
+		}
+
+		IsGrow = false;
 	}
 
 	//UE_LOG(LogTemp, Warning, TEXT("AI location X is %f"), target->GetActorLocation().X);

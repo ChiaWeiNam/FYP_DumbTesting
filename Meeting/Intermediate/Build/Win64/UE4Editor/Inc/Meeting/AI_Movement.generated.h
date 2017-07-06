@@ -60,6 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAI_Movement); \
 
 
 #define Meeting_Source_Meeting_AI_Movement_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__GrowRate() { return STRUCT_OFFSET(UAI_Movement, GrowRate); } \
 	FORCEINLINE static uint32 __PPO__maxSpeed() { return STRUCT_OFFSET(UAI_Movement, maxSpeed); } \
 	FORCEINLINE static uint32 __PPO__maxForce() { return STRUCT_OFFSET(UAI_Movement, maxForce); } \
 	FORCEINLINE static uint32 __PPO__target() { return STRUCT_OFFSET(UAI_Movement, target); }
