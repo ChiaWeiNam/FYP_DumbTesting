@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	void UPlayerShoot::StaticRegisterNativesUPlayerShoot()
 	{
 	}
-	IMPLEMENT_CLASS(UPlayerShoot, 2980358368);
+	IMPLEMENT_CLASS(UPlayerShoot, 1196838631);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
@@ -226,6 +226,12 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->ClassFlags |= 0x20B00080;
 
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(isShoot, UPlayerShoot, bool);
+				UProperty* NewProp_isShoot = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("isShoot"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(isShoot, UPlayerShoot), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(isShoot, UPlayerShoot), sizeof(bool), true);
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(isAiming, UPlayerShoot, bool);
+				UProperty* NewProp_isAiming = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("isAiming"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(isAiming, UPlayerShoot), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(isAiming, UPlayerShoot), sizeof(bool), true);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -233,6 +239,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerShoot.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
+				MetaData->SetValue(NewProp_isShoot, TEXT("Category"), TEXT("PlayerAim"));
+				MetaData->SetValue(NewProp_isShoot, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
+				MetaData->SetValue(NewProp_isAiming, TEXT("Category"), TEXT("PlayerAim"));
+				MetaData->SetValue(NewProp_isAiming, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
 #endif
 			}
 		}
@@ -249,7 +259,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x19FEB8A4;
+			Guid.A = 0xDBAA0D3C;
 			Guid.B = 0xB1109E6C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

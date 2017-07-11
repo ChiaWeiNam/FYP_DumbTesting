@@ -23,23 +23,35 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UPROPERTY(EditAnywhere, BluePrintReadWrite, Category = PlayerAim)
+		bool isAiming;
+
+	UPROPERTY(EditAnywhere, BluePrintReadWrite, Category = PlayerAim)
+		bool isShoot;
+
 private:
 	ACharacter* Owner;
 
-	USpotLightComponent* SL_Light = nullptr;
+	USkeletalMeshComponent* CharacterMesh;
+	USceneComponent* GunMesh;
+	USceneComponent* LaserSource;
+	UParticleSystemComponent* LaserSight;
+
+	USpotLightComponent* SL_Light;
 	UStaticMeshComponent* StaticMeshComponent;
 	UStaticMesh* StaticMesh;
 	UMaterialInstanceDynamic* Mat_LightBeam;
 
-	FLinearColor Red;
-	FLinearColor Ultraviolet;
+	FLinearColor RedBeam;
+	FLinearColor UltravioletBeam;
+	FLinearColor RedSpot;
+	FLinearColor UltravioletSpot;
 
 	FVector LineTraceEnd;
 	FVector SpotLightLocation;
 	FRotator SpotLightRotation;
 
-	float endPoint = 260.0f;
-	bool isShoot;
+	float endPoint = 270.0f;
 	bool isRedLight;
 
 	void ShootLight();

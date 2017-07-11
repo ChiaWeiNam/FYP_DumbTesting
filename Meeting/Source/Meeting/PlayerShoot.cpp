@@ -15,11 +15,15 @@ UPlayerShoot::UPlayerShoot()
 
 	// ...
 
+	isAiming = false;
 	isShoot = false;
 	isRedLight = true;
 
-	Red = FLinearColor(0.4f, 0.0f, 0.0f, 1.0);
-	Ultraviolet = FLinearColor(0.4f, 0.0f, 0.4f, 1.0f);
+	RedBeam = FLinearColor(0.1f, 0.0f, 0.0f, 1.0f);
+	UltravioletBeam = FLinearColor(0.1f, 0.0f, 0.2f, 1.0f);
+
+	RedSpot = FLinearColor(1.0f, 0.0f, 0.0f, 1.0f);
+	UltravioletSpot = FLinearColor(1.0f, 0.0f, 1.0f, 1.0f);
 }
 
 
@@ -29,11 +33,18 @@ void UPlayerShoot::BeginPlay()
 	Super::BeginPlay();
 
 	Owner = Cast<ACharacter>(GetOwner());
+
+	CharacterMesh = Owner->FindComponentByClass<USkeletalMeshComponent>();
+	GunMesh = CharacterMesh->GetChildComponent(0);
+	LaserSource = GunMesh->GetChildComponent(1);
+	LaserSight = Owner->FindComponentByClass<UParticleSystemComponent>();
+	LaserSight->SetActive(false, false);
+
 	Owner->InputComponent->BindAction("ShootLight", IE_Pressed, this, &UPlayerShoot::ShootLight);
 	Owner->InputComponent->BindAction("ShootLight", IE_Released, this, &UPlayerShoot::NotShootLight);
 	Owner->InputComponent->BindAction("SwitchLight", IE_Pressed, this, &UPlayerShoot::SwitchLight);
 
-	SL_Light = GetOwner()->FindComponentByClass<USpotLightComponent>();
+	SL_Light = Owner->FindComponentByClass<USpotLightComponent>();
 
 	TArray<UStaticMeshComponent*> Components;
 	Owner->GetComponents<UStaticMeshComponent>(Components);
@@ -56,70 +67,102 @@ void UPlayerShoot::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (isShoot)
+	if (isAiming == true)
 	{
-		SpotLightLocation = SL_Light->GetComponentLocation();
-		SpotLightRotation = SL_Light->GetComponentRotation();
+		FRotator rotation = LaserSource->GetComponentRotation();
+		FVector start = LaserSource->GetComponentLocation();
+		FVector end = start + (LaserSource->GetForwardVector() * 150.0f);
 
-		LineTraceEnd = SpotLightLocation + SpotLightRotation.Vector() * endPoint;
-		//DrawDebugLine(GetWorld(), SpotLightLocation, LineTraceEnd, FColansor::Cyan, false, 0.0f, 0.0f, 5.0f);
+		LaserSight->SetBeamSourcePoint(0, start, 0);
+		LaserSight->SetBeamTargetPoint(0, end, 0);
+		LaserSight->SetActive(true, false);
 
-		FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
-
-		FHitResult Hit;
-		GetWorld()->LineTraceSingleByObjectType(OUT Hit, SpotLightLocation, LineTraceEnd, FCollisionObjectQueryParams(ECollisionChannel::ECC_Pawn), TraceParameters);
-
-		AActor* ActorHit = Hit.GetActor();
-		if (ActorHit && isRedLight)
+		if (isShoot == true)
 		{
-			UE_LOG(LogTemp, Error, TEXT("red: %s"), *ActorHit->GetName());
+			LaserSight->SetActive(false, false);
+			SpotLightLocation = SL_Light->GetComponentLocation();
+			SpotLightRotation = SL_Light->GetComponentRotation();
 
-			if (ActorHit->FindComponentByClass<UAI_Movement>())
+			LineTraceEnd = SpotLightLocation + SpotLightRotation.Vector() * endPoint;
+			//DrawDebugLine(GetWorld(), SpotLightLocation, LineTraceEnd, FColor::Cyan, false, 0.0f, 0.0f, 5.0f);
+
+			FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
+
+			FHitResult Hit;
+			GetWorld()->LineTraceSingleByObjectType(OUT Hit, SpotLightLocation, LineTraceEnd, FCollisionObjectQueryParams(ECollisionChannel::ECC_Pawn), TraceParameters);
+
+			AActor* ActorHit = Hit.GetActor();
+			if (ActorHit && isRedLight)
 			{
-				ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
-				if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara <= 5.f )
+				UE_LOG(LogTemp, Error, TEXT("red: %s"), *ActorHit->GetName());
+
+				if (ActorHit->FindComponentByClass<UAI_Movement>())
 				{
-					ActorHit->FindComponentByClass<UAI_Movement>()->LightPara += 0.01f;
+					ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
+					if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara <= 5.f)
+					{
+						ActorHit->FindComponentByClass<UAI_Movement>()->LightPara += 0.01f;
+					}
+				}
+			}
+
+			else if (ActorHit && !isRedLight)
+			{
+				UE_LOG(LogTemp, Error, TEXT("purple"));
+				if (ActorHit->FindComponentByClass<UAI_Movement>())
+				{
+					ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
+					if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara >= -5.f)
+					{
+						ActorHit->FindComponentByClass<UAI_Movement>()->LightPara -= 0.01f;
+					}
+
 				}
 			}
 		}
+	}
 
-		else if (ActorHit && !isRedLight)
+	else
+	{
+		LaserSight->SetActive(false, true);
+
+		SL_Light->SetVisibility(false, false);
+		if (StaticMeshComponent->GetName().Equals("LightBeam"))
 		{
-			UE_LOG(LogTemp, Error, TEXT("purple"));
-			if (ActorHit->FindComponentByClass<UAI_Movement>())
-			{
-				ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
-				if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara >= -5.f)
-				{
-					ActorHit->FindComponentByClass<UAI_Movement>()->LightPara -= 0.01f;
-				}
-				
-			}
+			StaticMeshComponent->SetVisibility(false, false);
 		}
+		isShoot = false;
 	}
 }
 
 void UPlayerShoot::ShootLight()
 {
-	SL_Light->ToggleVisibility(true);
-
-	if (StaticMeshComponent->GetName().Equals("LightBeam"))
+	if (isAiming == true)
 	{
-		StaticMeshComponent->ToggleVisibility(true);
+		isShoot = true;
+
+		SL_Light->SetVisibility(true, false);
+
+		if (StaticMeshComponent->GetName().Equals("LightBeam"))
+		{
+			StaticMeshComponent->SetVisibility(true, false);
+		}
 	}
-	isShoot = true;
 }
 
 void UPlayerShoot::NotShootLight()
 {
-	SL_Light->ToggleVisibility(false);
-
-	if (StaticMeshComponent->GetName().Equals("LightBeam"))
+	if (isAiming == true)
 	{
-		StaticMeshComponent->ToggleVisibility(false);
+		isShoot = false;
+
+		SL_Light->SetVisibility(false, false);
+
+		if (StaticMeshComponent->GetName().Equals("LightBeam"))
+		{
+			StaticMeshComponent->SetVisibility(false, false);
+		}
 	}
-	isShoot = false;
 }
 
 void UPlayerShoot::SwitchLight()
@@ -128,10 +171,10 @@ void UPlayerShoot::SwitchLight()
 	{
 		if (StaticMeshComponent->GetName().Equals("LightBeam"))
 		{
-			Mat_LightBeam->SetVectorParameterValue("Color", Ultraviolet);
+			Mat_LightBeam->SetVectorParameterValue("Color", UltravioletBeam);
 			StaticMeshComponent->SetMaterial(0, Mat_LightBeam);
 		}
-		SL_Light->SetLightColor(FLinearColor(Ultraviolet), true);
+		SL_Light->SetLightColor(FLinearColor(UltravioletSpot), true);
 		isRedLight = false;
 	}
 
@@ -139,10 +182,10 @@ void UPlayerShoot::SwitchLight()
 	{
 		if (StaticMeshComponent->GetName().Equals("LightBeam"))
 		{
-			Mat_LightBeam->SetVectorParameterValue("Color", Red);
+			Mat_LightBeam->SetVectorParameterValue("Color", RedBeam);
 			StaticMeshComponent->SetMaterial(0, Mat_LightBeam);
 		}
-		SL_Light->SetLightColor(FLinearColor(Red), true);
+		SL_Light->SetLightColor(FLinearColor(RedSpot), true);
 		isRedLight = true;
 	}
 }
