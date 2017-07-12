@@ -51,7 +51,7 @@ private:
 	FVector SpotLightLocation;
 	FRotator SpotLightRotation;
 
-	float endPoint = 270.0f;
+	float endPoint = 370.0f;
 	bool isRedLight;
 
 	void ShootLight();
