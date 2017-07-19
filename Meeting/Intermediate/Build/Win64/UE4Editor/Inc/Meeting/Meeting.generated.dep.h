@@ -9,6 +9,18 @@
 #ifndef MEETING_AI_Movement_generated_h
 	#include "AI_Movement.h"
 #endif
+#ifndef MEETING_BTService_CheckForPlayer_generated_h
+	#include "BTService_CheckForPlayer.h"
+#endif
+#ifndef MEETING_BTTask_MoveToPlayer_generated_h
+	#include "BTTask_MoveToPlayer.h"
+#endif
+#ifndef MEETING_EnemyAI_generated_h
+	#include "EnemyAI.h"
+#endif
+#ifndef MEETING_EnemyCharacter_generated_h
+	#include "EnemyCharacter.h"
+#endif
 #ifndef MEETING_MainPlayer_generated_h
 	#include "MainPlayer.h"
 #endif

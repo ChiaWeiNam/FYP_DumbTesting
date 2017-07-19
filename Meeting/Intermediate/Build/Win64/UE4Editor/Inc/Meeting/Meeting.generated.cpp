@@ -15,6 +15,22 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	{
 	}
 	IMPLEMENT_CLASS(UAI_Movement, 2971231823);
+	void UBTService_CheckForPlayer::StaticRegisterNativesUBTService_CheckForPlayer()
+	{
+	}
+	IMPLEMENT_CLASS(UBTService_CheckForPlayer, 1231696843);
+	void UBTTask_MoveToPlayer::StaticRegisterNativesUBTTask_MoveToPlayer()
+	{
+	}
+	IMPLEMENT_CLASS(UBTTask_MoveToPlayer, 1260637810);
+	void AEnemyAI::StaticRegisterNativesAEnemyAI()
+	{
+	}
+	IMPLEMENT_CLASS(AEnemyAI, 2739169579);
+	void AEnemyCharacter::StaticRegisterNativesAEnemyCharacter()
+	{
+	}
+	IMPLEMENT_CLASS(AEnemyCharacter, 109738496);
 	void AMainPlayer::StaticRegisterNativesAMainPlayer()
 	{
 	}
@@ -35,13 +51,27 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
 	ENGINE_API class UClass* Z_Construct_UClass_AActor_NoRegister();
+	AIMODULE_API class UClass* Z_Construct_UClass_UBTService();
+	AIMODULE_API class UClass* Z_Construct_UClass_UBTTask_BlackboardBase();
+	AIMODULE_API class UClass* Z_Construct_UClass_AAIController();
+	AIMODULE_API class UClass* Z_Construct_UClass_UBehaviorTreeComponent_NoRegister();
+	AIMODULE_API class UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
+	AIMODULE_API class UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
 
 	MEETING_API class UClass* Z_Construct_UClass_UAI_Movement_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UAI_Movement();
+	MEETING_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer();
+	MEETING_API class UClass* Z_Construct_UClass_AEnemyAI_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_AEnemyAI();
+	MEETING_API class UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_AEnemyCharacter();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_AMeetingGameModeBase_NoRegister();
@@ -99,6 +129,145 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UAI_Movement(Z_Construct_UClass_UAI_Movement, &UAI_Movement::StaticClass, TEXT("UAI_Movement"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UAI_Movement);
+	UClass* Z_Construct_UClass_UBTService_CheckForPlayer_NoRegister()
+	{
+		return UBTService_CheckForPlayer::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UBTService_CheckForPlayer()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBTService();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UBTService_CheckForPlayer::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BTService_CheckForPlayer.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BTService_CheckForPlayer.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTService_CheckForPlayer(Z_Construct_UClass_UBTService_CheckForPlayer, &UBTService_CheckForPlayer::StaticClass, TEXT("UBTService_CheckForPlayer"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTService_CheckForPlayer);
+	UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister()
+	{
+		return UBTTask_MoveToPlayer::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UBTTask_MoveToPlayer()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBTTask_BlackboardBase();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UBTTask_MoveToPlayer::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BTTask_MoveToPlayer.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BTTask_MoveToPlayer.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_MoveToPlayer(Z_Construct_UClass_UBTTask_MoveToPlayer, &UBTTask_MoveToPlayer::StaticClass, TEXT("UBTTask_MoveToPlayer"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_MoveToPlayer);
+	UClass* Z_Construct_UClass_AEnemyAI_NoRegister()
+	{
+		return AEnemyAI::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AEnemyAI()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AAIController();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = AEnemyAI::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900280;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_BehaviorComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BehaviorComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BehaviorComp, AEnemyAI), 0x0040000000082008, Z_Construct_UClass_UBehaviorTreeComponent_NoRegister());
+				UProperty* NewProp_BlackboardComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BlackboardComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BlackboardComp, AEnemyAI), 0x0040000000082008, Z_Construct_UClass_UBlackboardComponent_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Collision Rendering Utilities|Transformation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("EnemyAI.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("EnemyAI.h"));
+				MetaData->SetValue(NewProp_BehaviorComp, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BehaviorComp, TEXT("ModuleRelativePath"), TEXT("EnemyAI.h"));
+				MetaData->SetValue(NewProp_BlackboardComp, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_BlackboardComp, TEXT("ModuleRelativePath"), TEXT("EnemyAI.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemyAI(Z_Construct_UClass_AEnemyAI, &AEnemyAI::StaticClass, TEXT("AEnemyAI"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyAI);
+	UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister()
+	{
+		return AEnemyCharacter::StaticClass();
+	}
+	UClass* Z_Construct_UClass_AEnemyCharacter()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_ACharacter();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = AEnemyCharacter::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_BotBehavior = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BotBehavior"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BotBehavior, AEnemyCharacter), 0x0010000000000001, Z_Construct_UClass_UBehaviorTree_NoRegister());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("EnemyCharacter.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("EnemyCharacter.h"));
+				MetaData->SetValue(NewProp_BotBehavior, TEXT("Category"), TEXT("Behavior"));
+				MetaData->SetValue(NewProp_BotBehavior, TEXT("ModuleRelativePath"), TEXT("EnemyCharacter.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemyCharacter(Z_Construct_UClass_AEnemyCharacter, &AEnemyCharacter::StaticClass, TEXT("AEnemyCharacter"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyCharacter);
 	UClass* Z_Construct_UClass_AMainPlayer_NoRegister()
 	{
 		return AMainPlayer::StaticClass();
@@ -259,8 +428,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xDBAA0D3C;
-			Guid.B = 0xB1109E6C;
+			Guid.A = 0x79F315B4;
+			Guid.B = 0x66A926F5;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
