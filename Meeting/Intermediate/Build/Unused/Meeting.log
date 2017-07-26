@@ -1,26 +1,4 @@
-﻿  Cleaning MeetingEditor Binaries...
-  Creating makefile for MeetingEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Parsing headers for MeetingEditor
-    Running UnrealHeaderTool "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MeetingEditor in 3.8037384 seconds
-  Deleting old hot reload file: "D:\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-6011.dll".
-  Performing 12 actions (3 in parallel)
-  [2/12] Resource ModuleVersionResource.rc.inl
-  [3/12] Resource PCLaunch.rc
-  PCH.Meeting.cpp
-  AI_Movement.cpp
-  MainPlayer.cpp
-  Meeting.cpp
-  MeetingGameModeBase.cpp
-  OpenDoor.cpp
-  PlayerShoot.cpp
-D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(55): warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  D:\UnrealEngine\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179): note: see declaration of 'UStaticMeshComponent::StaticMesh'
-  Meeting.generated.cpp
-  [11/12] Link UE4Editor-Meeting.dll
-  [12/12] Link UE4Editor-Meeting.lib
-     Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.exp
-     Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting.suppressed.exp
+﻿  Performing full C++ include scan (no include cache file)
+  Target is up to date
   Deploying MeetingEditor Win64 Development...
-  Total build time: 45.49 seconds (Local executor: 38.42 seconds)
+  Total build time: 1.98 seconds (NoActionsToExecute executor: 0.00 seconds)

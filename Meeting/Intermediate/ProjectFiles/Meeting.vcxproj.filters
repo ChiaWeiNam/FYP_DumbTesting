@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Meeting.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{389615A9-755B-48DC-9028-38C9DA64C7D8}</UniqueIdentifier>
+			<UniqueIdentifier>{18401467-1307-4BE7-82F8-35CCFB9F0099}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Meeting.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{1D74DE81-F31F-45ED-81B5-51491733B329}</UniqueIdentifier>
+			<UniqueIdentifier>{051275EB-B871-4943-BB1B-2550AA1A7099}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Meeting">
-			<UniqueIdentifier>{24BE9B4C-489E-4FC0-9108-E80C4994A999}</UniqueIdentifier>
+			<UniqueIdentifier>{1E48CDB3-4F68-4DEE-B055-AE477DB29DA4}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Meeting\AI_Movement.cpp">
 			<Filter>Source\Meeting</Filter>

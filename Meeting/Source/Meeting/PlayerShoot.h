@@ -23,11 +23,14 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UPROPERTY(EditAnywhere, BluePrintReadWrite, Category = PlayerAim)
+	UPROPERTY(EditAnywhere, BluePrintReadWrite)
 		bool isAiming;
 
-	UPROPERTY(EditAnywhere, BluePrintReadWrite, Category = PlayerAim)
+	UPROPERTY(EditAnywhere, BluePrintReadWrite)
 		bool isShoot;
+
+	UPROPERTY(EditAnywhere, BluePrintReadWrite)
+		float ammoLimit;
 
 private:
 	ACharacter* Owner;
@@ -51,7 +54,7 @@ private:
 	FVector SpotLightLocation;
 	FRotator SpotLightRotation;
 
-	float endPoint = 370.0f;
+	float endPoint;
 	bool isRedLight;
 
 	void ShootLight();

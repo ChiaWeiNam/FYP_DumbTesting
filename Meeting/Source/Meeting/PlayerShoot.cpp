@@ -24,6 +24,9 @@ UPlayerShoot::UPlayerShoot()
 
 	RedSpot = FLinearColor(1.0f, 0.0f, 0.0f, 1.0f);
 	UltravioletSpot = FLinearColor(1.0f, 0.0f, 1.0f, 1.0f);
+
+	ammoLimit = 0.5f;
+	endPoint = 370.0f;
 }
 
 
@@ -80,6 +83,18 @@ void UPlayerShoot::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 		if (isShoot == true)
 		{
 			LaserSight->SetActive(false, false);
+
+			if (StaticMeshComponent->GetName().Equals("LightBeam"))
+			{
+				if (ammoLimit <= 0.5f && ammoLimit >= 0.01f)
+				{
+					ammoLimit -= 0.01f;
+
+					Mat_LightBeam->SetScalarParameterValue("Opacity", ammoLimit);
+					StaticMeshComponent->SetMaterial(0, Mat_LightBeam);
+				}
+			}
+
 			SpotLightLocation = SL_Light->GetComponentLocation();
 			SpotLightRotation = SL_Light->GetComponentRotation();
 
