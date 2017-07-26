@@ -1,0 +1,1210 @@
+﻿Log file open, 07/26/17 22:06:26
+LogInit:Display: Running engine for game: Meeting
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-509019330) SRandInit(-509019330).
+LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.354311
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.26-14.06.29:327][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.26-14.06.29:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.26-14.06.29:448][  0]LogInit: Computer: WINCTRL-E5MM7PO
+[2017.07.26-14.06.29:448][  0]LogInit: User: HELLOBYE
+[2017.07.26-14.06.29:448][  0]LogInit: CPU Page size=65536, Cores=3
+[2017.07.26-14.06.29:448][  0]LogInit: High frequency timer resolution =3.825771 MHz
+[2017.07.26-14.06.29:466][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.26-14.06.29:466][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.26-14.06.29:466][  0]LogMemory: Process Physical Memory: 264.54 MB used, 264.54 MB peak
+[2017.07.26-14.06.29:466][  0]LogMemory: Process Virtual Memory: 262.34 MB used, 262.34 MB peak
+[2017.07.26-14.06.29:466][  0]LogMemory: Physical Memory: 2795.98 MB used,  5378.14 MB free, 8174.11 MB total
+[2017.07.26-14.06.29:466][  0]LogMemory: Virtual Memory: 644.48 MB used,  5378.14 MB free, 134217728.00 MB total
+[2017.07.26-14.06.31:186][  0]LogTextLocalizationManager: No specific translations for ('en-MY') exist, so ('en') translations will be used.
+[2017.07.26-14.06.35:927][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.26-14.06.36:349][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2017.07.26-14.06.36:349][  0]LogD3D11RHI:       995/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.26-14.06.36:361][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.26-14.06.36:361][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.26-14.06.36:361][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.26-14.06.36:390][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.26-14.06.36:390][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.26-14.06.36:390][  0]LogWindows: EnumDisplayDevices:
+[2017.07.26-14.06.36:390][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2017.07.26-14.06.36:390][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.07.26-14.06.36:390][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.07.26-14.06.36:391][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.07.26-14.06.36:391][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.26-14.06.36:391][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2017.07.26-14.06.36:391][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.26-14.06.36:391][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.26-14.06.36:391][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.07.26-14.06.36:664][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.07.26-14.06.36:722][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.26-14.06.38:369][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.26-14.06.38:553][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../GitHub/FYP_DumbTesting/Meeting/Intermediate/Shaders/WorkingDirectory/10156/).
+[2017.07.26-14.06.38:553][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/HELLO_BYE`/AppData/Local/Temp/UnrealShaderWorkingDir/FB29599549AA6FF81B0037AD9801B519/'.
+[2017.07.26-14.06.38:553][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.26-14.06.42:616][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.26-14.06.42:685][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.26-14.06.42:753][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.26-14.06.42:822][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.26-14.06.42:925][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.26-14.06.42:997][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.26-14.06.43:066][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.26-14.06.43:137][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.26-14.06.43:192][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.26-14.06.43:292][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.26-14.06.43:374][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.26-14.06.43:442][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.26-14.06.43:510][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.26-14.06.43:587][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.26-14.06.43:658][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.26-14.06.43:799][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.26-14.06.43:800][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.26-14.06.43:858][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.26-14.06.44:194][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.26-14.06.44:262][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.26-14.06.44:327][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.26-14.06.44:394][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.26-14.06.44:459][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.26-14.06.44:529][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.26-14.06.44:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.26-14.06.45:995][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.26-14.06.46:565][  0]LogDerivedDataCache: Loaded boot cache 0.55s 50MB C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.26-14.06.46:565][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.26-14.06.46:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.26-14.06.46:565][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.26-14.06.46:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.26-14.06.46:565][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.26-14.06.46:631][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.26-14.06.46:661][  0]LogDerivedDataCache: Using Local data cache path C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.26-14.06.47:086][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.26-14.06.47:207][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.26-14.06.47:208][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.26-14.06.58:875][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.26-14.06.58:961][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.26-14.06.59:731][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.26-14.06.59:813][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.26-14.06.59:878][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.26-14.06.59:878][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.26-14.06.59:878][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.26-14.07.04:920][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: meeting, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 116300604
+[2017.07.26-14.07.05:068][  0]LogAssetRegistry: FAssetRegistry took 0.0230 seconds to start up
+[2017.07.26-14.07.05:297][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.157771 seconds
+[2017.07.26-14.07.05:345][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.26-14.07.05:345][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.07.26-14.07.05:345][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.26-14.07.05:453][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.26-14.07.13:189][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.26-14.07.13:262][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.26-14.07.14:807][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.26-14.07.15:711][  0]SourceControl: Info Source control is disabled
+[2017.07.26-14.07.15:756][  0]SourceControl: Info Source control is disabled
+[2017.07.26-14.07.15:878][  0]SourceControl: Info Source control is disabled
+[2017.07.26-14.07.16:016][  0]SourceControl: Info Source control is disabled
+[2017.07.26-14.07.18:991][  0]LogEngine: Initializing Engine...
+[2017.07.26-14.07.19:066][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.07.26-14.07.19:650][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.26-14.07.19:652][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.26-14.07.20:314][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.26-14.07.20:515][  0]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.07.20:585][  0]LogInit: FAudioDevice initialized.
+[2017.07.26-14.07.20:636][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.26-14.07.20:653][  0]LogInit: Texture streaming: Enabled
+[2017.07.26-14.07.20:893][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.26-14.07.21:177][  0]LogInit: Transaction tracking system initialized
+[2017.07.26-14.07.22:186][  0]BlueprintLog: New page: Editor Load
+[2017.07.26-14.07.24:323][  0]LocalizationService: Info Localization service is disabled
+[2017.07.26-14.07.25:834][  0]LogConsoleResponse:Display: 
+[2017.07.26-14.07.26:992][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/' took 0.04s
+[2017.07.26-14.07.26:992][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.26-14.07.26:992][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.26-14.07.29:635][  0]SourceControl: Info Source control is disabled
+[2017.07.26-14.07.29:666][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.26-14.07.29:671][  0]LightingResults: New page: Lighting Build
+[2017.07.26-14.07.29:952][  0]MapCheck: New page: Map Check
+[2017.07.26-14.07.29:953][  0]LightingResults: New page: Lighting Build
+[2017.07.26-14.07.33:355][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.07.26-14.07.33:355][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.07.26-14.07.33:355][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.07.26-14.07.33:355][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.07.26-14.07.33:356][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.07.26-14.07.33:356][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.07.26-14.07.33:360][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0072.96] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 11 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-14.07.33:360][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0072.96] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-14.07.33:360][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0072.96] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-14.07.33:367][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.07.26-14.07.33:367][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.07.26-14.07.33:367][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.07.26-14.07.33:368][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.07.26-14.07.33:368][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.07.26-14.07.33:368][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.07.26-14.07.33:372][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0072.97] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 9 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-14.07.33:372][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0072.97] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-14.07.33:372][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0072.97] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-14.07.36:733][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/zzzzzz'
+[2017.07.26-14.07.36:755][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/zzzzzz' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Frame.uasset.
+[2017.07.26-14.07.36:755][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Frame : Can't find file for asset. /Game/Art/Environment/newdev/zzzzzz
+[2017.07.26-14.07.36:756][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/zzzzzz'
+[2017.07.26-14.07.36:756][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/zzzzzz' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Frame.uasset.
+[2017.07.26-14.07.36:756][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Frame : Can't find file for asset. /Game/Art/Environment/newdev/zzzzzz
+[2017.07.26-14.07.36:982][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/2'
+[2017.07.26-14.07.36:982][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/2' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Wall.uasset.
+[2017.07.26-14.07.36:982][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Wall : Can't find file for asset. /Game/Art/Environment/newdev/2
+[2017.07.26-14.07.36:982][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/2'
+[2017.07.26-14.07.36:982][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/2' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Wall.uasset.
+[2017.07.26-14.07.36:982][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Wall : Can't find file for asset. /Game/Art/Environment/newdev/2
+[2017.07.26-14.07.41:941][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/2'
+[2017.07.26-14.07.41:941][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/2.2 Referenced by SM_Corridor_Wall
+[2017.07.26-14.07.41:941][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/2' while loading NULL.
+[2017.07.26-14.07.41:941][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/2.2 Referenced by SM_Corridor_Wall
+[2017.07.26-14.07.42:016][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/zzzzzz'
+[2017.07.26-14.07.42:016][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/zzzzzz.zzzzzz Referenced by SM_Corridor_Frame
+[2017.07.26-14.07.42:016][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/zzzzzz' while loading NULL.
+[2017.07.26-14.07.42:016][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/zzzzzz.zzzzzz Referenced by SM_Corridor_Frame
+[2017.07.26-14.08.05:134][  0]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.08.07:131][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.26-14.08.07:439][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.26-14.08.07:579][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.562ms to complete.
+[2017.07.26-14.08.07:609][  0]LogFileHelpers: Loading map 'MockUp_Map' took 37.956
+[2017.07.26-14.08.10:156][  0]LogCollectionManager: Loaded 0 collections in 0.001697 seconds
+[2017.07.26-14.08.10:399][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' took 0.01s
+[2017.07.26-14.08.10:399][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Developers/HELLOBYE/Collections/' took 0.01s
+[2017.07.26-14.08.10:399][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' took 0.01s
+[2017.07.26-14.08.10:399][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.07.26-14.08.10:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0380 seconds. Added 2254 classes and 455 folders.
+[2017.07.26-14.08.10:687][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.07.26-14.08.11:446][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2017.07.26-14.08.11:562][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.07.26-14.08.12:071][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.26-14.08.12:316][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.26-14.08.12:530][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.07.26-14.08.12:530][  0]LogLoad: (Engine Initialization) Total time: 112.13 seconds
+[2017.07.26-14.08.12:530][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.32 seconds
+[2017.07.26-14.08.12:530][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.26-14.08.12:530][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.26-14.08.12:957][  0]LogOcInput: OculusInput pre-init called
+[2017.07.26-14.08.13:462][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.26-14.08.13:660][  0]LogSlate: Took 0.015622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.26-14.08.14:373][  2]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.07.26-14.08.14:834][  2]LogSlate: Took 0.014872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.26-14.08.15:135][  3]LogSlate: Took 0.015667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.26-14.08.15:858][  3]LogRenderer: Reallocating scene render targets to support 1208x616 NumSamples 1 (Frame:2).
+[2017.07.26-14.08.15:858][  3]LogSlate: Took 0.032048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-14.08.16:367][  4]LogAssetRegistry: Asset discovery search completed in 71.3220 seconds
+[2017.07.26-14.08.16:367][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2017.07.26-14.08.16:368][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2017.07.26-14.08.42:490][210]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-14.08.42:524][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.08.42:530][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-14.08.42:600][210]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 6:08:42 AM)
+[2017.07.26-14.08.42:615][210]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-14.08.43:000][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.384546s)
+[2017.07.26-14.08.43:001][210]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.08.43:016][210]LogPlayLevel: PIE: World Init took: (0.015456s)
+[2017.07.26-14.08.43:021][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.409017s)
+[2017.07.26-14.08.43:230][210]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.08.43:244][210]LogInit: FAudioDevice initialized.
+[2017.07.26-14.08.43:470][210]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-14.08.43:579][210]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.07.26-22.08.43
+[2017.07.26-14.08.43:628][210]LogWorld: Bringing up level for play took: 0.093019
+[2017.07.26-14.08.43:824][210]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0030 seconds. Added 11 classes and 0 folders.
+[2017.07.26-14.08.44:053][210]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.787
+[2017.07.26-14.08.44:054][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.08.49:036][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.08.49:279][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.00:666][488]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-14.11.00:692][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.00:692][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-14.11.00:692][488]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 6:11:00 AM)
+[2017.07.26-14.11.00:692][488]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-14.11.00:797][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104792s)
+[2017.07.26-14.11.00:798][488]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.11.00:798][488]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.07.26-14.11.00:799][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.106430s)
+[2017.07.26-14.11.00:856][488]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.11.00:863][488]LogInit: FAudioDevice initialized.
+[2017.07.26-14.11.00:906][488]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-14.11.00:935][488]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.07.26-22.11.00
+[2017.07.26-14.11.01:004][488]LogWorld: Bringing up level for play took: 0.097063
+[2017.07.26-14.11.01:016][488]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.25
+[2017.07.26-14.11.01:017][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.04:049][607]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:056][608]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:077][609]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:103][610]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:129][611]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:154][612]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:179][613]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:203][614]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:229][615]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:254][616]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:279][617]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:304][618]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:330][619]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:354][620]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:380][621]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:406][622]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:432][623]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:456][624]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:481][625]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:507][626]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:531][627]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:556][628]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:581][629]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.04:606][630]LogTemp:Error: red: EnemyChracter_BP_17
+[2017.07.26-14.11.07:176][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.07:370][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.23:937][188]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-14.11.23:967][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.23:967][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-14.11.23:967][188]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 6:11:23 AM)
+[2017.07.26-14.11.23:967][188]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-14.11.24:069][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102509s)
+[2017.07.26-14.11.24:070][188]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.11.24:070][188]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2017.07.26-14.11.24:071][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.104169s)
+[2017.07.26-14.11.24:106][188]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.11.24:114][188]LogInit: FAudioDevice initialized.
+[2017.07.26-14.11.24:145][188]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-14.11.24:177][188]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.07.26-22.11.24
+[2017.07.26-14.11.24:182][188]LogWorld: Bringing up level for play took: 0.036499
+[2017.07.26-14.11.24:187][188]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.921
+[2017.07.26-14.11.24:187][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.31:843][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.31:994][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.11.38:260][666]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-14.11.40:217][666]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.26-14.11.40:228][666]LogSavePackage: Save=1731.83ms
+[2017.07.26-14.11.40:228][666]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map414D678B44810D44DE50B4890ADC46B3.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-14.11.40:276][666]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-14.11.40:346][666]LogFileHelpers: Saving map 'MockUp_Map' took 2.055
+[2017.07.26-14.12.04:584][826]LogSavePackage: Save=1526.04ms
+[2017.07.26-14.12.04:584][826]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map2A53755F4B9F6C006338B8B53BA12181.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-14.12.04:586][826]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-14.12.04:635][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset" SILENT=true
+[2017.07.26-14.12.08:417][826]LogSavePackage: Save=3230.56ms
+[2017.07.26-14.12.08:417][826]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map_BuiltDataA4A9D03B487215161C64F5B64FAE1346.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset'
+[2017.07.26-14.12.08:427][826]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset
+[2017.07.26-14.13.07:804][290]LogEditorViewport: Clicking on Actor (LMB): EnemyChracter_BP_C (EnemyChracter_BP)
+[2017.07.26-14.13.08:432][315]Cmd: DELETE
+[2017.07.26-14.13.08:432][315]Cmd: ACTOR DELETE
+[2017.07.26-14.13.08:561][315]LogEditorActor: Deleted Actor: EnemyChracter_BP_C
+[2017.07.26-14.13.08:621][315]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2017.07.26-14.13.12:519][368]LogSavePackage: Save=1468.18ms
+[2017.07.26-14.13.12:519][368]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map3CF9FDB547782D734C3EE58E46C2C864.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-14.13.12:523][368]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-14.13.12:575][368]LogFileHelpers: Saving map 'MockUp_Map' took 1.669
+[2017.07.26-14.13.16:241][462]LogSavePackage: Save=1363.49ms
+[2017.07.26-14.13.16:248][462]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_MapF3140BC64E0DA57F0E6E5CA7BDA591F0.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-14.13.16:250][462]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-14.13.16:301][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset" SILENT=true
+[2017.07.26-14.13.18:634][462]LogSavePackage: Save=2331.13ms
+[2017.07.26-14.13.18:634][462]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map_BuiltData78868970409578D1E04A9C83E3B894A0.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset'
+[2017.07.26-14.13.18:643][462]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset
+[2017.07.26-14.15.41:992][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/231'
+[2017.07.26-14.15.41:992][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/231' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Tech/AmmoUI/hologram.uasset.
+[2017.07.26-14.15.41:992][303]LoadErrors:Error: Error /Game/Tech/Tech/AmmoUI/hologram : Can't find file for asset. /Game/Tech/AmmoUI/231
+[2017.07.26-14.15.41:992][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/Scanlines_T'
+[2017.07.26-14.15.41:992][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/Scanlines_T' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Tech/AmmoUI/hologram.uasset.
+[2017.07.26-14.15.41:992][303]LoadErrors:Error: Error /Game/Tech/Tech/AmmoUI/hologram : Can't find file for asset. /Game/Tech/AmmoUI/Scanlines_T
+[2017.07.26-14.15.41:992][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/seamless-wood-texture-5'
+[2017.07.26-14.15.41:992][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/seamless-wood-texture-5' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Tech/AmmoUI/hologram.uasset.
+[2017.07.26-14.15.41:993][303]LoadErrors:Error: Error /Game/Tech/Tech/AmmoUI/hologram : Can't find file for asset. /Game/Tech/AmmoUI/seamless-wood-texture-5
+[2017.07.26-14.15.41:993][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/231'
+[2017.07.26-14.15.41:993][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/231' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Tech/AmmoUI/hologram.uasset.
+[2017.07.26-14.15.41:993][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/Scanlines_T'
+[2017.07.26-14.15.41:993][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/Scanlines_T' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Tech/AmmoUI/hologram.uasset.
+[2017.07.26-14.15.41:993][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/seamless-wood-texture-5'
+[2017.07.26-14.15.41:994][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/seamless-wood-texture-5' while loading ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Tech/AmmoUI/hologram.uasset.
+[2017.07.26-14.15.42:006][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/231'
+[2017.07.26-14.15.42:006][303]LoadErrors: Info Failed to load /Game/Tech/AmmoUI/231.231 Referenced by MaterialExpressionTextureSample_1
+[2017.07.26-14.15.42:006][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/231' while loading NULL.
+[2017.07.26-14.15.42:006][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/Scanlines_T'
+[2017.07.26-14.15.42:006][303]LoadErrors: Info Failed to load /Game/Tech/AmmoUI/Scanlines_T.Scanlines_T Referenced by MaterialExpressionTextureSample_12
+[2017.07.26-14.15.42:006][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/Scanlines_T' while loading NULL.
+[2017.07.26-14.15.42:006][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/Scanlines_T'
+[2017.07.26-14.15.42:006][303]LoadErrors: Info Failed to load /Game/Tech/AmmoUI/Scanlines_T.Scanlines_T Referenced by MaterialExpressionTextureSample_13
+[2017.07.26-14.15.42:006][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/Scanlines_T' while loading NULL.
+[2017.07.26-14.15.42:007][303]LogLinker:Warning: Can't find file '/Game/Tech/AmmoUI/seamless-wood-texture-5'
+[2017.07.26-14.15.42:007][303]LoadErrors: Info Failed to load /Game/Tech/AmmoUI/seamless-wood-texture-5.seamless-wood-texture-5 Referenced by MaterialExpressionTextureSample_9
+[2017.07.26-14.15.42:007][303]LogLinker:Warning: Can't find file for asset '/Game/Tech/AmmoUI/seamless-wood-texture-5' while loading NULL.
+[2017.07.26-14.15.42:035][303]LogMaterial: Missing cached shader map for material hologram, compiling. 
+[2017.07.26-14.15.42:054][303]LogMaterial:Warning: Failed to compile Material /Game/Tech/Tech/AmmoUI/hologram.hologram for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.15.42:054][303]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.15.42:054][303]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.15.42:278][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.NewWidgetBlueprint_C' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:278][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.NewWidgetBlueprint_C:Name' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:279][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.NewWidgetBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:279][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.NewWidgetBlueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:279][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.NewWidgetBlueprint:GetText_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:279][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.SKEL_NewWidgetBlueprint_C:Name' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:279][303]LogMetaData: Removing '/Game/Tech/AmmoUI/NewWidgetBlueprint.SKEL_NewWidgetBlueprint_C' ref from Metadata '/Game/Tech/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.42:321][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/231" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/231.uasset" SILENT=true
+[2017.07.26-14.15.42:366][303]LogSavePackage: Save=43.94ms
+[2017.07.26-14.15.42:366][303]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/2316126D20A4536647E5E0619B4BF1F83E4.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/231.uasset'
+[2017.07.26-14.15.42:368][303]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/231.uasset
+[2017.07.26-14.15.42:384][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Scanlines_T" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Scanlines_T.uasset" SILENT=true
+[2017.07.26-14.15.42:393][303]LogSavePackage: Save=8.07ms
+[2017.07.26-14.15.42:393][303]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Scanlines_T181202D64E359CFC83A418B25E73AC4F.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Scanlines_T.uasset'
+[2017.07.26-14.15.42:395][303]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Scanlines_T.uasset
+[2017.07.26-14.15.42:415][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/seamless-wood-texture-5" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/seamless-wood-texture-5.uasset" SILENT=true
+[2017.07.26-14.15.42:508][303]LogSavePackage: Save=91.05ms
+[2017.07.26-14.15.42:508][303]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/seamless-wood-texture-588C23FC54BFEBB3A8FF7D7AA58EB57D2.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/seamless-wood-texture-5.uasset'
+[2017.07.26-14.15.42:510][303]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/seamless-wood-texture-5.uasset
+[2017.07.26-14.15.42:621][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/hologram" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/hologram.uasset" SILENT=true
+[2017.07.26-14.15.42:731][303]LogSavePackage: Save=108.29ms
+[2017.07.26-14.15.42:732][303]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/hologram61C1C7CE453F8E944E5D23B81C474369.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/hologram.uasset'
+[2017.07.26-14.15.42:734][303]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/hologram.uasset
+[2017.07.26-14.15.42:737][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/NewWidgetBlueprint" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/NewWidgetBlueprint.uasset" SILENT=true
+[2017.07.26-14.15.42:760][303]LogSavePackage: Save=12.28ms
+[2017.07.26-14.15.42:760][303]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/NewWidgetBlueprint025D02B74590AFA04202BAAB45C08DC7.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/NewWidgetBlueprint.uasset'
+[2017.07.26-14.15.42:762][303]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/NewWidgetBlueprint.uasset
+[2017.07.26-14.15.58:529][921]LogMetaData: Removing '/Game/Tech/AmmoUI/UI_Ammo.UI_Ammo_C' ref from Metadata '/Game/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.58:529][921]LogMetaData: Removing '/Game/Tech/AmmoUI/UI_Ammo.SKEL_UI_Ammo_C' ref from Metadata '/Game/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.58:529][921]LogMetaData: Removing '/Game/Tech/AmmoUI/UI_Ammo.UI_Ammo:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.58:529][921]LogMetaData: Removing '/Game/Tech/AmmoUI/UI_Ammo.UI_Ammo:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.58:529][921]LogMetaData: Removing '/Game/Tech/AmmoUI/UI_Ammo.UI_Ammo:GetText_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/Tech/AmmoUI/NewWidgetBlueprint.PackageMetaData'
+[2017.07.26-14.15.58:542][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/UI_Ammo" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/UI_Ammo.uasset" SILENT=true
+[2017.07.26-14.15.58:567][921]LogSavePackage: Save=22.83ms
+[2017.07.26-14.15.58:567][921]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UI_Ammo634B191446937911BC6679AA5C0C21F0.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/UI_Ammo.uasset'
+[2017.07.26-14.15.58:569][921]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/UI_Ammo.uasset
+[2017.07.26-14.16.06:934][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Mat_UI" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_UI.uasset" SILENT=true
+[2017.07.26-14.16.06:963][231]LogSavePackage: Save=26.51ms
+[2017.07.26-14.16.06:963][231]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Mat_UIDAF3F5B040B90953730DACB5E243D113.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_UI.uasset'
+[2017.07.26-14.16.06:965][231]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_UI.uasset
+[2017.07.26-14.16.13:996][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Mat_AmmoUI" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset" SILENT=true
+[2017.07.26-14.16.14:025][512]LogSavePackage: Save=26.55ms
+[2017.07.26-14.16.14:025][512]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Mat_AmmoUI8BFBED4C43562DC808223596433D2ABF.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset'
+[2017.07.26-14.16.14:027][512]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset
+[2017.07.26-14.16.19:792][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/TilingNoise" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/TilingNoise.uasset" SILENT=true
+[2017.07.26-14.16.19:814][742]LogSavePackage: Save=19.99ms
+[2017.07.26-14.16.19:814][742]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/TilingNoise901A65674280AEC0F9DF3C8BFDFE54E0.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/TilingNoise.uasset'
+[2017.07.26-14.16.19:816][742]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/TilingNoise.uasset
+[2017.07.26-14.16.25:022][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/WoodTexture" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/WoodTexture.uasset" SILENT=true
+[2017.07.26-14.16.25:118][952]LogSavePackage: Save=94.36ms
+[2017.07.26-14.16.25:118][952]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/WoodTexture43029DEC420410905F7DEFA624A27897.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/WoodTexture.uasset'
+[2017.07.26-14.16.25:120][952]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/WoodTexture.uasset
+[2017.07.26-14.16.30:504][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Scanlines" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Scanlines.uasset" SILENT=true
+[2017.07.26-14.16.30:515][156]LogSavePackage: Save=8.69ms
+[2017.07.26-14.16.30:515][156]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Scanlines4447127B4F5D0BB1FEFFE99C3FB04898.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Scanlines.uasset'
+[2017.07.26-14.16.30:517][156]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Scanlines.uasset
+[2017.07.26-14.16.37:605][352]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.16.37:607][352]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.16.37:607][352]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.37:607][352]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.38:311][352]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.16.38:311][352]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.16.38:311][352]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.38:311][352]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.38:311][352]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.16.38:344][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.07.26-14.16.38:374][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2017.07.26-14.16.38:392][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2017.07.26-14.16.38:405][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.26-14.16.38:407][352]LogTemp:Display: Added material ShaderMap 0x000001F053C8E080 with Material 0x000001F052CC8700 to ShaderMapsBeingCompiled
+[2017.07.26-14.16.38:442][352]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_1, GameThreadShaderMap 0x000001F053C8E080
+[2017.07.26-14.16.38:444][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.26-14.16.38:453][352]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.38:454][352]MaterialEditorStats:Error: Error [SM5] Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.38:538][352]LogSlate: Took 0.070118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.26-14.16.41:584][353]LogSlate: Took 0.031843 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.26-14.16.43:500][390]LogTemp:Display: Finished compile of shader map 0x000001F053C8E080
+[2017.07.26-14.16.43:500][390]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_1 complete, GameThreadShaderMap 0x000001F053C8E080, marking material FMatExpressionPreview MaterialExpressionVectorParameter_1 as finished
+[2017.07.26-14.16.43:500][390]LogTemp:Display: Marking material as finished 0x000001F052CC8700
+[2017.07.26-14.16.49:696][586]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.16.49:697][586]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.16.49:697][586]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.49:697][586]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.49:697][586]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.16.53:741][747]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.16.53:742][747]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.16.53:742][747]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.53:742][747]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.53:742][747]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.16.53:745][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.26-14.16.53:746][747]LogTemp:Display: Added material ShaderMap 0x000001F0E97BA780 with Material 0x000001F0367E1F00 to ShaderMapsBeingCompiled
+[2017.07.26-14.16.53:748][747]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001F0E97BA780
+[2017.07.26-14.16.53:755][747]LogTemp:Display: Removed shader map 0x000001F0E97BA780 from material 0x000001F0367E1F00
+[2017.07.26-14.16.53:783][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.07.26-14.16.53:785][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2017.07.26-14.16.53:797][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2017.07.26-14.16.53:810][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.26-14.16.53:811][747]LogTemp:Display: Added material ShaderMap 0x000001F0D86FBC80 with Material 0x000001F0367E1900 to ShaderMapsBeingCompiled
+[2017.07.26-14.16.53:814][747]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_1, GameThreadShaderMap 0x000001F0D86FBC80
+[2017.07.26-14.16.53:824][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.26-14.16.53:825][747]LogTemp:Display: Added material ShaderMap 0x000001F0D86FB580 with Material 0x000001F0367E1300 to ShaderMapsBeingCompiled
+[2017.07.26-14.16.53:827][747]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001F0D86FB580
+[2017.07.26-14.16.54:019][750]LogTemp:Display: Finished compile of shader map 0x000001F0E97BA780
+[2017.07.26-14.16.54:240][759]LogTemp:Display: Finished compile of shader map 0x000001F0D86FBC80
+[2017.07.26-14.16.54:240][759]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_1 complete, GameThreadShaderMap 0x000001F0D86FBC80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_1 as finished
+[2017.07.26-14.16.54:240][759]LogTemp:Display: Marking material as finished 0x000001F0367E1900
+[2017.07.26-14.16.54:459][767]LogTemp:Display: Finished compile of shader map 0x000001F0D86FB580
+[2017.07.26-14.16.54:459][767]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001F0D86FB580, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.07.26-14.16.54:459][767]LogTemp:Display: Marking material as finished 0x000001F0367E1300
+[2017.07.26-14.16.58:089][149]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.16.58:090][149]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.16.58:090][149]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.58:090][149]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.58:090][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.16.58:126][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.26-14.16.58:126][149]LogTemp:Display: Added material ShaderMap 0x000001F0EC365D00 with Material 0x000001F103D82B00 to ShaderMapsBeingCompiled
+[2017.07.26-14.16.58:129][149]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001F0EC365D00
+[2017.07.26-14.16.58:415][177]LogTemp:Display: Finished compile of shader map 0x000001F0EC365D00
+[2017.07.26-14.16.58:415][177]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001F0EC365D00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.07.26-14.16.58:415][177]LogTemp:Display: Marking material as finished 0x000001F103D82B00
+[2017.07.26-14.16.59:323][284]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.16.59:324][284]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.16.59:324][284]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.16.59:324][284]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.16.59:324][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.16.59:356][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.26-14.16.59:357][284]LogTemp:Display: Added material ShaderMap 0x000001F0EC364B80 with Material 0x000001F0C953E500 to ShaderMapsBeingCompiled
+[2017.07.26-14.16.59:359][284]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001F0EC364B80
+[2017.07.26-14.16.59:651][315]LogTemp:Display: Finished compile of shader map 0x000001F0EC364B80
+[2017.07.26-14.16.59:651][315]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001F0EC364B80, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.07.26-14.16.59:651][315]LogTemp:Display: Marking material as finished 0x000001F0C953E500
+[2017.07.26-14.17.02:395][594]LogMaterialEditor: Saving and Compiling material Mat_AmmoUI
+[2017.07.26-14.17.07:239][594]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.07:239][594]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.07:239][594]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.07:239][594]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.17.07:240][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.07:296][594]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.07:297][594]LogMaterial:Warning: Failed to compile Material /Game/Tech/AmmoUI/Mat_AmmoUI.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.07:297][594]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.07:297][594]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.17.07:310][594]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.07:311][594]LogMaterial:Warning: Failed to compile Material /Game/Tech/AmmoUI/Mat_AmmoUI.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.07:311][594]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.07:311][594]LogMaterial:Warning: 	Function Blend_Overlay: (Node If) If input A must be of type float.
+[2017.07.26-14.17.07:323][594]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.07:374][594]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.07:375][594]TextureStreamingBuild:Display: Compiling optional shaders took 0.018 seconds.
+[2017.07.26-14.17.07:494][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Mat_AmmoUI" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset" SILENT=true
+[2017.07.26-14.17.07:585][594]LogSavePackage: Save=26.54ms
+[2017.07.26-14.17.07:585][594]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Mat_AmmoUI2EE4CE8243096A8A7314D6B458CB17EF.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset'
+[2017.07.26-14.17.07:587][594]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset
+[2017.07.26-14.17.16:363][506]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.16:364][506]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.16:364][506]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.16:364][506]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.16:365][506]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.19:378][612]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.19:379][612]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.19:379][612]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.19:379][612]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.19:380][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.26-14.17.19:381][612]LogTemp:Display: Added material ShaderMap 0x000001F053A4FC80 with Material 0x000001F0F9A22200 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.19:386][612]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000001F053A4FC80
+[2017.07.26-14.17.19:391][612]LogTemp:Display: Removed shader map 0x000001F053A4FC80 from material 0x000001F0F9A22200
+[2017.07.26-14.17.19:414][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2017.07.26-14.17.19:434][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2017.07.26-14.17.19:441][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.26-14.17.19:442][612]LogTemp:Display: Added material ShaderMap 0x000001F016A95D00 with Material 0x000001F0F9A23D00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.19:445][612]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_1, GameThreadShaderMap 0x000001F016A95D00
+[2017.07.26-14.17.19:455][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.26-14.17.19:456][612]LogTemp:Display: Added material ShaderMap 0x000001F0E97BAB00 with Material 0x000001F0F9A22800 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.19:459][612]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001F0E97BAB00
+[2017.07.26-14.17.19:461][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.26-14.17.19:462][612]LogTemp:Display: Added material ShaderMap 0x000001F0E97B9600 with Material 0x000001F0367E0D00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.19:465][612]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000001F0E97B9600
+[2017.07.26-14.17.19:646][615]LogTemp:Display: Finished compile of shader map 0x000001F053A4FC80
+[2017.07.26-14.17.19:878][624]LogTemp:Display: Finished compile of shader map 0x000001F016A95D00
+[2017.07.26-14.17.19:878][624]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_1 complete, GameThreadShaderMap 0x000001F016A95D00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_1 as finished
+[2017.07.26-14.17.19:878][624]LogTemp:Display: Marking material as finished 0x000001F0F9A23D00
+[2017.07.26-14.17.20:158][630]LogTemp:Display: Finished compile of shader map 0x000001F0E97BAB00
+[2017.07.26-14.17.20:158][630]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001F0E97BAB00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.07.26-14.17.20:158][630]LogTemp:Display: Marking material as finished 0x000001F0F9A22800
+[2017.07.26-14.17.20:335][638]LogTemp:Display: Finished compile of shader map 0x000001F0E97B9600
+[2017.07.26-14.17.20:335][638]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x000001F0E97B9600, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.07.26-14.17.20:335][638]LogTemp:Display: Marking material as finished 0x000001F0367E0D00
+[2017.07.26-14.17.22:350][874]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.22:352][874]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.22:352][874]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.22:352][874]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.22:394][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.26-14.17.22:395][874]LogTemp:Display: Added material ShaderMap 0x000001F0D7ED5D00 with Material 0x000001F101BEC400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.22:398][874]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000001F0D7ED5D00
+[2017.07.26-14.17.22:680][902]LogTemp:Display: Finished compile of shader map 0x000001F0D7ED5D00
+[2017.07.26-14.17.22:680][902]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x000001F0D7ED5D00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.07.26-14.17.22:680][902]LogTemp:Display: Marking material as finished 0x000001F101BEC400
+[2017.07.26-14.17.27:486][426]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.27:487][426]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_AmmoUI for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.26-14.17.27:487][426]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.07.26-14.17.27:487][426]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.27:921][451]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.27:922][451]LogTemp:Display: Added material ShaderMap 0x000001F0F9A56080 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.28:023][451]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F0F9A56080
+[2017.07.26-14.17.28:024][451]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.29:460][502]LogTemp:Display: Finished compile of shader map 0x000001F0F9A56080
+[2017.07.26-14.17.29:460][502]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F0F9A56080, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.29:461][502]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.29:486][503]MaterialEditorStats: Info Base pass shader without light map: 78 instructions
+[2017.07.26-14.17.29:486][503]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.29:486][503]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.29:962][519]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.29:964][519]LogTemp:Display: Added material ShaderMap 0x000001F0C9ABCF00 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.29:970][519]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F0C9ABCF00
+[2017.07.26-14.17.29:971][519]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.29:983][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.26-14.17.29:984][519]LogTemp:Display: Added material ShaderMap 0x000001F016AC6400 with Material 0x000001F103D83A00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.29:986][519]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000001F016AC6400
+[2017.07.26-14.17.29:993][519]LogTemp:Display: Removed shader map 0x000001F016AC6400 from material 0x000001F103D83A00
+[2017.07.26-14.17.30:031][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.26-14.17.30:031][519]LogTemp:Display: Added material ShaderMap 0x000001F016AC4100 with Material 0x000001F052CC8400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.30:034][519]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_1, GameThreadShaderMap 0x000001F016AC4100
+[2017.07.26-14.17.30:039][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.26-14.17.30:040][519]LogTemp:Display: Added material ShaderMap 0x000001F0539B4480 with Material 0x000001F052CC9000 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.30:043][519]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000001F0539B4480
+[2017.07.26-14.17.30:044][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.26-14.17.30:045][519]LogTemp:Display: Added material ShaderMap 0x000001F0E97BB200 with Material 0x000001F0EBD67400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.30:047][519]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x000001F0E97BB200
+[2017.07.26-14.17.30:064][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.26-14.17.30:065][519]LogTemp:Display: Added material ShaderMap 0x000001F0E97BB580 with Material 0x000001F0EBD67700 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.30:067][519]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000001F0E97BB580
+[2017.07.26-14.17.31:022][550]LogTemp:Display: Finished compile of shader map 0x000001F0C9ABCF00
+[2017.07.26-14.17.31:022][550]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F0C9ABCF00, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.31:022][550]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.31:037][551]MaterialEditorStats: Info Base pass shader without light map: 78 instructions
+[2017.07.26-14.17.31:037][551]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.31:037][551]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.31:251][566]LogTemp:Display: Finished compile of shader map 0x000001F016AC4100
+[2017.07.26-14.17.31:251][566]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_1 complete, GameThreadShaderMap 0x000001F016AC4100, marking material FMatExpressionPreview MaterialExpressionVectorParameter_1 as finished
+[2017.07.26-14.17.31:251][566]LogTemp:Display: Marking material as finished 0x000001F052CC8400
+[2017.07.26-14.17.31:498][583]LogTemp:Display: Finished compile of shader map 0x000001F0539B4480
+[2017.07.26-14.17.31:498][583]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000001F0539B4480, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.07.26-14.17.31:498][583]LogTemp:Display: Marking material as finished 0x000001F052CC9000
+[2017.07.26-14.17.31:784][604]LogTemp:Display: Finished compile of shader map 0x000001F0E97BB200
+[2017.07.26-14.17.31:784][604]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x000001F0E97BB200, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.07.26-14.17.31:784][604]LogTemp:Display: Marking material as finished 0x000001F0EBD67400
+[2017.07.26-14.17.32:036][623]LogTemp:Display: Finished compile of shader map 0x000001F0E97BB580
+[2017.07.26-14.17.32:036][623]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x000001F0E97BB580, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2017.07.26-14.17.32:036][623]LogTemp:Display: Marking material as finished 0x000001F0EBD67700
+[2017.07.26-14.17.34:050][842]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.34:052][842]LogTemp:Display: Added material ShaderMap 0x000001F04EB55980 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.34:058][842]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F04EB55980
+[2017.07.26-14.17.34:058][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.34:113][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.26-14.17.34:114][842]LogTemp:Display: Added material ShaderMap 0x000001F0E97B8480 with Material 0x000001F0EBBA3D00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.34:118][842]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000001F0E97B8480
+[2017.07.26-14.17.35:077][924]LogTemp:Display: Finished compile of shader map 0x000001F04EB55980
+[2017.07.26-14.17.35:077][924]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F04EB55980, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.35:077][924]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.35:089][925]MaterialEditorStats: Info Base pass shader without light map: 78 instructions
+[2017.07.26-14.17.35:089][925]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.35:089][925]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.35:301][936]LogTemp:Display: Finished compile of shader map 0x000001F0E97B8480
+[2017.07.26-14.17.35:301][936]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_3 complete, GameThreadShaderMap 0x000001F0E97B8480, marking material FMatExpressionPreview MaterialExpressionTextureSample_3 as finished
+[2017.07.26-14.17.35:301][936]LogTemp:Display: Marking material as finished 0x000001F0EBBA3D00
+[2017.07.26-14.17.37:791][195]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.37:792][195]LogTemp:Display: Added material ShaderMap 0x000001F053BD3580 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.37:798][195]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F053BD3580
+[2017.07.26-14.17.37:798][195]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.37:843][195]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.26-14.17.37:844][195]LogTemp:Display: Added material ShaderMap 0x000001F057423C80 with Material 0x000001F033624A00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.37:847][195]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_3, GameThreadShaderMap 0x000001F057423C80
+[2017.07.26-14.17.38:798][265]LogTemp:Display: Finished compile of shader map 0x000001F053BD3580
+[2017.07.26-14.17.38:798][265]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F053BD3580, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.38:798][265]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.38:810][266]MaterialEditorStats: Info Base pass shader without light map: 90 instructions
+[2017.07.26-14.17.38:810][266]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.38:810][266]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.38:958][273]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.38:960][273]LogTemp:Display: Added material ShaderMap 0x000001F0EBBA8480 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.38:968][273]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F0EBBA8480
+[2017.07.26-14.17.38:968][273]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.38:970][273]LogTemp:Display: Removed shader map 0x000001F057423C80 from material 0x000001F033624A00
+[2017.07.26-14.17.38:994][273]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.07.26-14.17.38:995][273]LogTemp:Display: Added material ShaderMap 0x000001F106B0B580 with Material 0x000001F036ED7100 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.38:998][273]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_5, GameThreadShaderMap 0x000001F106B0B580
+[2017.07.26-14.17.39:013][273]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.07.26-14.17.39:014][273]LogTemp:Display: Added material ShaderMap 0x000001F088B50100 with Material 0x000001F036ED4D00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.39:018][273]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_6, GameThreadShaderMap 0x000001F088B50100
+[2017.07.26-14.17.39:020][273]LogTemp:Display: Finished compile of shader map 0x000001F057423C80
+[2017.07.26-14.17.39:981][339]LogTemp:Display: Finished compile of shader map 0x000001F0EBBA8480
+[2017.07.26-14.17.39:981][339]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F0EBBA8480, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.39:981][339]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.39:994][340]MaterialEditorStats: Info Base pass shader without light map: 90 instructions
+[2017.07.26-14.17.39:994][340]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.39:994][340]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.40:204][357]LogTemp:Display: Finished compile of shader map 0x000001F106B0B580
+[2017.07.26-14.17.40:204][357]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_5 complete, GameThreadShaderMap 0x000001F106B0B580, marking material FMatExpressionPreview MaterialExpressionTextureSample_5 as finished
+[2017.07.26-14.17.40:204][357]LogTemp:Display: Marking material as finished 0x000001F036ED7100
+[2017.07.26-14.17.40:454][377]LogTemp:Display: Finished compile of shader map 0x000001F088B50100
+[2017.07.26-14.17.40:454][377]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_6 complete, GameThreadShaderMap 0x000001F088B50100, marking material FMatExpressionPreview MaterialExpressionTextureSample_6 as finished
+[2017.07.26-14.17.40:454][377]LogTemp:Display: Marking material as finished 0x000001F036ED4D00
+[2017.07.26-14.17.41:087][443]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.41:089][443]LogTemp:Display: Added material ShaderMap 0x000001F088B51D00 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.41:095][443]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F088B51D00
+[2017.07.26-14.17.41:095][443]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.41:130][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.07.26-14.17.41:130][443]LogTemp:Display: Added material ShaderMap 0x000001F106B09D00 with Material 0x000001F036EC4700 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.41:134][443]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_6, GameThreadShaderMap 0x000001F106B09D00
+[2017.07.26-14.17.42:163][529]LogTemp:Display: Finished compile of shader map 0x000001F088B51D00
+[2017.07.26-14.17.42:163][529]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F088B51D00, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.42:163][529]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.42:175][530]MaterialEditorStats: Info Base pass shader without light map: 90 instructions
+[2017.07.26-14.17.42:175][530]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.42:175][530]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.42:224][534]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.42:227][534]LogTemp:Display: Added material ShaderMap 0x000001F106B08F00 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.42:235][534]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F106B08F00
+[2017.07.26-14.17.42:235][534]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.42:239][534]LogTemp:Display: Removed shader map 0x000001F106B09D00 from material 0x000001F036EC4700
+[2017.07.26-14.17.42:273][534]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.07.26-14.17.42:274][534]LogTemp:Display: Added material ShaderMap 0x000001F0EBBA8480 with Material 0x000001F0C953E800 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.42:278][534]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_6, GameThreadShaderMap 0x000001F0EBBA8480
+[2017.07.26-14.17.42:353][540]LogTemp:Display: Finished compile of shader map 0x000001F106B09D00
+[2017.07.26-14.17.42:970][590]LogMaterialEditor: Saving and Compiling material Mat_AmmoUI
+[2017.07.26-14.17.43:950][590]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.43:952][590]LogTemp:Display: Added material ShaderMap 0x000001F106B0A080 with Material 0x000001F003FB0400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.43:964][590]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F106B0A080
+[2017.07.26-14.17.43:964][590]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.43:998][590]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.44:000][590]LogTemp:Display: Added material ShaderMap 0x000001F101C43580 with Material 0x000001F001960580 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.44:014][590]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F101C43580
+[2017.07.26-14.17.44:026][590]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.44:028][590]LogTemp:Display: Added material ShaderMap 0x000001F04A7AF900 with Material 0x000001F001960580 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.44:038][590]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001F04A7AF900
+[2017.07.26-14.17.44:050][590]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.07.26-14.17.44:091][590]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mat_AmmoUI, compiling. 
+[2017.07.26-14.17.44:094][590]LogTemp:Display: Added material ShaderMap 0x000001F1085F8B80 with Material 0x000001F036ED6B00 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.45:021][590]LogTemp:Display: Finished compile of shader map 0x000001F1085F8B80
+[2017.07.26-14.17.45:021][590]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Mat_AmmoUI complete, GameThreadShaderMap 0x000001F1085F8B80, marking material FDebugViewModeMaterialProxy Mat_AmmoUI as finished
+[2017.07.26-14.17.45:021][590]LogTemp:Display: Marking material as finished 0x000001F036ED6B00
+[2017.07.26-14.17.45:025][590]TextureStreamingBuild:Display: Compiling optional shaders took 0.950 seconds.
+[2017.07.26-14.17.46:568][590]LogTemp:Display: Finished compile of shader map 0x000001F04A7AF900
+[2017.07.26-14.17.46:568][590]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F04A7AF900, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.46:568][590]LogTemp:Display: Marking material as finished 0x000001F001960580
+[2017.07.26-14.17.46:586][590]LogTemp:Display: Finished compile of shader map 0x000001F106B08F00
+[2017.07.26-14.17.46:586][590]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F106B08F00, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.46:586][590]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.46:588][590]LogTemp:Display: Finished compile of shader map 0x000001F106B0A080
+[2017.07.26-14.17.46:588][590]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001F106B0A080, marking material Mat_AmmoUI as finished
+[2017.07.26-14.17.46:588][590]LogTemp:Display: Marking material as finished 0x000001F003FB0400
+[2017.07.26-14.17.46:590][590]LogTemp:Display: Finished compile of shader map 0x000001F0EBBA8480
+[2017.07.26-14.17.46:590][590]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_6 complete, GameThreadShaderMap 0x000001F0EBBA8480, marking material FMatExpressionPreview MaterialExpressionTextureSample_6 as finished
+[2017.07.26-14.17.46:591][590]LogTemp:Display: Marking material as finished 0x000001F0C953E800
+[2017.07.26-14.17.46:663][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Mat_AmmoUI" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset" SILENT=true
+[2017.07.26-14.17.46:750][590]LogSavePackage: Save=82.64ms
+[2017.07.26-14.17.46:750][590]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Mat_AmmoUID79EB36A4B50096FA21F32A56708DDF4.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset'
+[2017.07.26-14.17.46:756][590]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset
+[2017.07.26-14.17.46:768][590]MaterialEditorStats: Info Base pass shader without light map: 93 instructions
+[2017.07.26-14.17.46:768][590]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.07.26-14.17.46:768][590]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.26-14.17.49:466][813]LogMaterialEditor: Saving and Compiling material Mat_AmmoUI
+[2017.07.26-14.17.49:480][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AmmoUI/Mat_AmmoUI" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset" SILENT=true
+[2017.07.26-14.17.49:512][813]LogSavePackage: Save=28.37ms
+[2017.07.26-14.17.49:512][813]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Mat_AmmoUID3AB53CE4717F2BA2FA1C0BEC2D5B6CC.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset'
+[2017.07.26-14.17.49:513][813]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/AmmoUI/Mat_AmmoUI.uasset
+[2017.07.26-14.17.57:734][160]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.07.26-14.17.57:736][160]LogTemp:Display: Added material ShaderMap 0x000001F031AEAB00 with Material 0x000001F004BDB400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.57:891][160]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x000001F031AEAB00
+[2017.07.26-14.17.57:941][161]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.26-14.17.57:943][161]LogTemp:Display: Added material ShaderMap 0x000001F04EB57580 with Material 0x000001F001983400 to ShaderMapsBeingCompiled
+[2017.07.26-14.17.57:987][161]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x000001F04EB57580
+[2017.07.26-14.17.59:935][162]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0315 seconds. Added 112 classes and 0 folders.
+[2017.07.26-14.18.02:623][162]LogTemp:Display: Finished compile of shader map 0x000001F031AEAB00
+[2017.07.26-14.18.02:623][162]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x000001F031AEAB00, marking material Material_0 as finished
+[2017.07.26-14.18.02:623][162]LogTemp:Display: Marking material as finished 0x000001F004BDB400
+[2017.07.26-14.18.02:631][162]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.07.26-14.18.02:632][162]LogTemp:Display: Added material ShaderMap 0x000001F0C9A1BC80 with Material 0x000001F11B5EEE00 to ShaderMapsBeingCompiled
+[2017.07.26-14.18.02:676][162]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x000001F0C9A1BC80
+[2017.07.26-14.18.03:643][163]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.07.26-14.18.03:645][163]LogTemp:Display: Added material ShaderMap 0x000001F11CDBF200 with Material 0x000001F11CDE5480 to ShaderMapsBeingCompiled
+[2017.07.26-14.18.03:695][163]LogTemp:Display: Kicking off shader compilation for Material_3, GameThreadShaderMap 0x000001F11CDBF200
+[2017.07.26-14.18.07:303][241]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:11441).
+[2017.07.26-14.18.07:446][241]LogTemp:Display: Finished compile of shader map 0x000001F04EB57580
+[2017.07.26-14.18.07:448][241]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x000001F04EB57580, marking material Material_1 as finished
+[2017.07.26-14.18.07:448][241]LogTemp:Display: Marking material as finished 0x000001F001983400
+[2017.07.26-14.18.09:317][247]LogTemp:Display: Finished compile of shader map 0x000001F0C9A1BC80
+[2017.07.26-14.18.09:317][247]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x000001F0C9A1BC80, marking material Material_2 as finished
+[2017.07.26-14.18.09:317][247]LogTemp:Display: Marking material as finished 0x000001F11B5EEE00
+[2017.07.26-14.18.12:651][257]LogTemp:Display: Finished compile of shader map 0x000001F11CDBF200
+[2017.07.26-14.18.12:651][257]LogTemp:Display: Shader map Material_3 complete, GameThreadShaderMap 0x000001F11CDBF200, marking material Material_3 as finished
+[2017.07.26-14.18.12:651][257]LogTemp:Display: Marking material as finished 0x000001F11CDE5480
+[2017.07.26-14.20.26:365][427]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-14.20.28:695][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-14.20.28:875][515]LogSavePackage: Save=158.04ms
+[2017.07.26-14.20.28:875][515]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP696E7E5C47EB7E14C1EF0285825B79EC.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-14.20.28:893][515]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-14.21.36:947][473]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-14.21.38:574][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-14.21.38:743][508]LogSavePackage: Save=164.91ms
+[2017.07.26-14.21.38:743][508]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP4672FD51484BB775C18694BA15F32E08.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-14.21.38:746][508]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-14.23.30:383][895]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/GitHub/FYP_DumbTesting/Meeting/Source/Meeting/PlayerShoot.h'
+[2017.07.26-14.23.30:976][895]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/GitHub/FYP_DumbTesting/Meeting/Source/Meeting/PlayerShoot.cpp'
+[2017.07.26-14.25.05:819][235]Recompiling Meeting...
+[2017.07.26-14.25.05:841][235]Launching UnrealBuildTool... [D:/UnrealEngine/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe Meeting -ModuleWithSuffix Meeting 375 Win64 Development -editorrecompile -canskiplink "D:/GitHub/FYP_DumbTesting/Meeting/Meeting.uproject" ]
+[2017.07.26-14.25.06:032][235]Warning: Starting HotReload took  0.2s.
+[2017.07.26-14.27.52:714][798]CompilerResultsLog: New page: Compilation - Jul 27, 2017, 6:27:52 AM
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info Parsing headers for MeetingEditor
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info Reflection code generated for MeetingEditor in 9.6743443 seconds
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info Performing 4 actions (3 in parallel)
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info PlayerShoot.cpp
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info Meeting.generated.cpp
+[2017.07.26-14.27.52:715][798]CompilerResultsLog:Error: Error D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(30) : error C2143: syntax error: missing ';' before '}'
+[2017.07.26-14.27.52:715][798]CompilerResultsLog:Error: Error D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(58) : warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.26-14.27.52:715][798]CompilerResultsLog:Error: Error D:\UnrealEngine\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179) : note: see declaration of 'UStaticMeshComponent::StaticMesh'
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: D:\GitHub\FYP_DumbTesting\Meeting\Binaries\Win64\UE4Editor-Meeting-375.dll
+[2017.07.26-14.27.52:715][798]CompilerResultsLog: Info Total build time: 164.35 seconds (Local executor: 0.00 seconds)
+[2017.07.26-14.27.52:715][798]LogMainFrame: MainFrame: Module compiling took 166.911 seconds
+[2017.07.26-14.27.52:732][798]Warning: HotReload failed, recompile failed
+[2017.07.26-14.28.19:754][242]Recompiling Meeting...
+[2017.07.26-14.28.19:754][242]Launching UnrealBuildTool... [D:/UnrealEngine/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe Meeting -ModuleWithSuffix Meeting 4630 Win64 Development -editorrecompile -canskiplink "D:/GitHub/FYP_DumbTesting/Meeting/Meeting.uproject" ]
+[2017.07.26-14.28.19:756][242]Warning: Starting HotReload took  0.0s.
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: New page: Compilation - Jul 27, 2017, 6:28:38 AM
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: Info Parsing headers for MeetingEditor
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: Info Reflection code generated for MeetingEditor in 8.4419977 seconds
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: Info Performing 3 actions (3 in parallel)
+[2017.07.26-14.28.38:763][ 82]CompilerResultsLog: Info PlayerShoot.cpp
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog:Error: Error D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(58) : warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog:Error: Error D:\UnrealEngine\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179) : note: see declaration of 'UStaticMeshComponent::StaticMesh'
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog: Info [2/3] Link UE4Editor-Meeting-4630.dll
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog: Info [3/3] Link UE4Editor-Meeting-4630.lib
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog: Info    Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4630.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4630.exp
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog: Info    Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4630.suppressed.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4630.suppressed.exp
+[2017.07.26-14.28.38:764][ 82]CompilerResultsLog: Info Total build time: 18.58 seconds (Local executor: 5.89 seconds)
+[2017.07.26-14.28.38:764][ 82]LogMainFrame: MainFrame: Module compiling took 19.015 seconds
+[2017.07.26-14.28.39:055][ 82]LogClass: Could not find existing class PlayerShoot in package /Script/Meeting for HotReload, assuming new class
+[2017.07.26-14.28.39:087][ 82]LogHotReload: Re-instancing PlayerShoot after hot-reload.
+[2017.07.26-14.28.39:222][ 82]LogContentBrowser: Native class hierarchy updated for 'Meeting' in 0.0022 seconds. Added 9 classes and 2 folders.
+[2017.07.26-14.28.39:226][ 82]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.26-14.28.39:795][ 82]LogContentBrowser: Native class hierarchy populated in 0.0277 seconds. Added 2256 classes and 459 folders.
+[2017.07.26-14.28.39:811][ 82]Display: HotReload took 20.1s.
+[2017.07.26-14.28.46:926][388]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-14.28.47:003][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.28.47:003][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-14.28.47:003][388]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 6:28:47 AM)
+[2017.07.26-14.28.47:003][388]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-14.28.47:553][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.549250s)
+[2017.07.26-14.28.47:554][388]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.28.47:554][388]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2017.07.26-14.28.47:568][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.564471s)
+[2017.07.26-14.28.47:691][388]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.28.47:754][388]LogInit: FAudioDevice initialized.
+[2017.07.26-14.28.47:791][388]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-14.28.47:893][388]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.07.26-22.28.47
+[2017.07.26-14.28.47:898][388]LogWorld: Bringing up level for play took: 0.105454
+[2017.07.26-14.28.47:902][388]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.637
+[2017.07.26-14.28.47:903][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.28.49:444][436]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Charater_BP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map:PersistentLevel.Charater_BP_C_0
+	Function /Game/Blueprint/Charater_BP.Charater_BP_C:ExecuteUbergraph_Charater_BP:0B6D
+[2017.07.26-14.28.49:461][436]PIE:Error: Error Blueprint Runtime Error: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property? from function: 'ExecuteUbergraph_Charater_BP' from node: Set isAiming in graph: EventGraph in object: Charater_BP with description: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+[2017.07.26-14.28.51:919][540]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Charater_BP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map:PersistentLevel.Charater_BP_C_0
+	Function /Game/Blueprint/Charater_BP.Charater_BP_C:ExecuteUbergraph_Charater_BP:0BD8
+[2017.07.26-14.28.51:919][540]PIE:Error: Error Blueprint Runtime Error: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property? from function: 'ExecuteUbergraph_Charater_BP' from node: Set isAiming in graph: EventGraph in object: Charater_BP with description: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+[2017.07.26-14.28.52:754][577]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Charater_BP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map:PersistentLevel.Charater_BP_C_0
+	Function /Game/Blueprint/Charater_BP.Charater_BP_C:ExecuteUbergraph_Charater_BP:0B6D
+[2017.07.26-14.28.52:754][577]PIE:Error: Error Blueprint Runtime Error: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property? from function: 'ExecuteUbergraph_Charater_BP' from node: Set isAiming in graph: EventGraph in object: Charater_BP with description: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+[2017.07.26-14.28.53:653][615]LogScript:Warning: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Charater_BP_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map:PersistentLevel.Charater_BP_C_0
+	Function /Game/Blueprint/Charater_BP.Charater_BP_C:ExecuteUbergraph_Charater_BP:0BD8
+[2017.07.26-14.28.53:653][615]PIE:Error: Error Blueprint Runtime Error: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property? from function: 'ExecuteUbergraph_Charater_BP' from node: Set isAiming in graph: EventGraph in object: Charater_BP with description: Attempted to access missing property. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+[2017.07.26-14.28.53:678][616]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.28.53:758][616]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.28.57:408][886]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-14.28.58:514][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-14.28.58:681][903]LogSavePackage: Save=155.12ms
+[2017.07.26-14.28.58:681][903]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP52C29716469EDFE9D7B2819FF28F3B19.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-14.28.58:682][903]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-14.29.01:343][111]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-14.29.01:374][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.29.01:374][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-14.29.01:374][111]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 6:29:01 AM)
+[2017.07.26-14.29.01:374][111]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-14.29.01:474][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100275s)
+[2017.07.26-14.29.01:475][111]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.29.01:475][111]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2017.07.26-14.29.01:476][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.102344s)
+[2017.07.26-14.29.01:520][111]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.29.01:528][111]LogInit: FAudioDevice initialized.
+[2017.07.26-14.29.01:570][111]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-14.29.01:607][111]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.07.26-22.29.01
+[2017.07.26-14.29.01:612][111]LogWorld: Bringing up level for play took: 0.039818
+[2017.07.26-14.29.01:617][111]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.351
+[2017.07.26-14.29.01:617][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.29.06:471][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.29.06:533][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.29.19:214][154]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.26-14.29.26:205][468]LogSlate: Took 0.019347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-14.29.31:693][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-14.29.31:867][725]LogSavePackage: Save=170.37ms
+[2017.07.26-14.29.31:867][725]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP2C56545944EC56C35A3F2E991C7CEB2B.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-14.29.31:870][725]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-14.29.32:615][779]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-14.30.54:775][484]LogBlueprint:Warning: [Charater_BP] 'InteractionWidget' variable not found. Base class was probably changed.
+[2017.07.26-14.30.54:797][484]LogBlueprint:Warning: [Charater_BP] 'Name' variable not found. Base class was probably changed.
+[2017.07.26-14.32.51:011][444]LogEditorTransaction: Undo Move Node
+[2017.07.26-14.32.51:408][445]LogEditorTransaction: Undo Create Reroute Node
+[2017.07.26-14.33.47:299][319]LogEditorTransaction: Undo Move Node
+[2017.07.26-14.33.47:995][337]LogEditorTransaction: Undo Create Reroute Node
+[2017.07.26-14.33.54:803][828]LogEditorTransaction: Undo Move Node
+[2017.07.26-14.33.57:534][  5]LogEditorTransaction: Undo Move Node
+[2017.07.26-14.33.57:904][  6]LogEditorTransaction: Undo Move Node
+[2017.07.26-14.34.08:733][907]LogEditorTransaction: Undo Resize Node
+[2017.07.26-14.34.23:079][152]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-14.34.24:747][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-14.34.24:915][206]LogSavePackage: Save=159.06ms
+[2017.07.26-14.34.24:915][206]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP4FA260B84ACF101CA14FCB907D359D4A.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-14.34.24:918][206]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-14.34.25:951][257]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-14.34.25:990][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.34.25:990][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-14.34.25:990][257]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 6:34:25 AM)
+[2017.07.26-14.34.25:990][257]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-14.34.26:084][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093428s)
+[2017.07.26-14.34.26:085][257]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-14.34.26:085][257]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2017.07.26-14.34.26:086][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.095302s)
+[2017.07.26-14.34.26:130][257]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.26-14.34.26:138][257]LogInit: FAudioDevice initialized.
+[2017.07.26-14.34.26:193][257]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-14.34.26:222][257]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.07.26-22.34.26
+[2017.07.26-14.34.26:226][257]LogWorld: Bringing up level for play took: 0.031752
+[2017.07.26-14.34.26:230][257]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.964
+[2017.07.26-14.34.26:231][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.34.32:623][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.34.32:689][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-14.34.34:935][545]LogSavePackage: Save=1412.11ms
+[2017.07.26-14.34.34:935][545]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map2CE070044007E42B84ACE3A58F42F3B6.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-14.34.34:937][545]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-14.34.34:991][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset" SILENT=true
+[2017.07.26-14.34.38:389][545]LogSavePackage: Save=2524.70ms
+[2017.07.26-14.34.38:389][545]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map_BuiltDataA29D16CC4A5B06EFEBA07EAB150781C3.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset'
+[2017.07.26-14.34.38:400][545]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map_BuiltData.uasset
+[2017.07.26-14.34.39:681][608]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-14.34.41:021][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-14.34.41:182][642]LogSavePackage: Save=157.69ms
+[2017.07.26-14.34.41:182][642]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP980B581A455ADF1354E2CFA4C7DC7E36.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-14.34.41:183][642]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-14.34.43:228][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.26-14.34.48:405][ 19]Cmd: QUIT_EDITOR
+[2017.07.26-14.34.48:675][ 19]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-14.34.48:785][ 19]LogExit: Preparing to exit.
+[2017.07.26-14.34.51:147][ 19]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.07.26-14.34.54:044][ 19]LogExit: Editor shut down
+[2017.07.26-14.34.54:107][ 19]LogExit: Transaction tracking system shut down
+[2017.07.26-14.34.58:586][ 19]LogTemp:Display: Removed shader map 0x000001F101C43580 from material 0x000001F001960580
+[2017.07.26-14.35.02:993][ 19]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.26-14.35.02:994][ 19]LogExit: Object subsystem successfully closed.
+[2017.07.26-14.35.03:202][ 19]LogD3D11RHI: Shutdown
+[2017.07.26-14.35.03:202][ 19]LogD3D11RHI: CleanupD3DDevice
+[2017.07.26-14.35.03:694][ 19]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module SequencerWidgets (513)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module Meeting (511)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (510)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module BlueprintGraph (508)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (506)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module MaterialEditor (504)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.07.26-14.35.03:768][ 19]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.07.26-14.35.03:802][ 19]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.15/FeaturePacks/' was aborted.
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.07.26-14.35.03:941][ 19]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' was aborted.
+[2017.07.26-14.35.03:941][ 19]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Developers/HELLOBYE/Collections/' was aborted.
+[2017.07.26-14.35.03:941][ 19]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' was aborted.
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.07.26-14.35.03:941][ 19]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.07.26-14.35.03:942][ 19]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.07.26-14.35.03:949][ 19]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.07.26-14.35.03:956][ 19]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.07.26-14.35.04:782][ 19]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.07.26-14.35.04:783][ 19]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.07.26-14.35.04:783][ 19]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.07.26-14.35.04:783][ 19]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.07.26-14.35.04:783][ 19]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.07.26-14.35.04:783][ 19]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.07.26-14.35.04:783][ 19]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.07.26-14.35.04:793][ 19]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.07.26-14.35.04:915][ 19]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.07.26-14.35.04:928][ 19]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.07.26-14.35.04:928][ 19]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.07.26-14.35.04:929][ 19]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.07.26-14.35.04:930][ 19]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.07.26-14.35.04:983][ 19]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.07.26-14.35.04:984][ 19]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.07.26-14.35.04:985][ 19]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.07.26-14.35.04:986][ 19]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.07.26-14.35.04:986][ 19]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.07.26-14.35.04:987][ 19]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.07.26-14.35.04:987][ 19]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Binaries/Win64' was aborted.
+[2017.07.26-14.35.04:987][ 19]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.07.26-14.35.04:988][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.07.26-14.35.04:988][ 19]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.07.26-14.35.04:988][ 19]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.07.26-14.35.04:988][ 19]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.07.26-14.35.05:089][ 19]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.07.26-14.35.05:190][ 19]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.07.26-14.35.05:190][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.07.26-14.35.05:190][ 19]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.07.26-14.35.05:190][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.07.26-14.35.05:190][ 19]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.07.26-14.35.05:191][ 19]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.07.26-14.35.05:192][ 19]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.07.26-14.35.05:237][ 19]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.07.26-14.35.05:238][ 19]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.07.26-14.35.05:238][ 19]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.07.26-14.35.05:238][ 19]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.07.26-14.35.05:238][ 19]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.07.26-14.35.05:238][ 19]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.07.26-14.35.05:759][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.26-14.35.05:759][ 19]LogDirectoryWatcher: A directory notification for '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.07.26-14.35.05:759][ 19]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.26-14.35.05:759][ 19]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.07.26-14.35.05:766][ 19]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.07.26-14.35.05:766][ 19]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.07.26-14.35.05:766][ 19]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.07.26-14.35.05:766][ 19]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.07.26-14.35.05:767][ 19]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.07.26-14.35.05:767][ 19]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.07.26-14.35.05:767][ 19]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.07.26-14.35.05:784][ 19]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.07.26-14.35.05:854][ 19]LogDerivedDataCache: Shutdown
+[2017.07.26-14.35.05:854][ 19]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.07.26-14.35.05:926][ 19]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.07.26-14.35.05:926][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.07.26-14.35.05:926][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.07.26-14.35.05:926][ 19]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.07.26-14.35.05:927][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.07.26-14.35.05:927][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.07.26-14.35.05:927][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.07.26-14.35.05:927][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.07.26-14.35.05:927][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.07.26-14.35.05:928][ 19]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.07.26-14.35.05:928][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.07.26-14.35.05:928][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.07.26-14.35.05:940][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.07.26-14.35.05:940][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.07.26-14.35.05:941][ 19]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.07.26-14.35.05:942][ 19]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.07.26-14.35.05:943][ 19]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.07.26-14.35.05:943][ 19]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.07.26-14.35.05:976][ 19]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.07.26-14.35.05:976][ 19]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.07.26-14.35.05:976][ 19]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.07.26-14.35.05:976][ 19]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.07.26-14.35.05:977][ 19]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.07.26-14.35.05:977][ 19]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.07.26-14.35.06:016][ 19]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.07.26-14.35.06:016][ 19]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.07.26-14.35.06:017][ 19]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.07.26-14.35.06:017][ 19]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.07.26-14.35.06:017][ 19]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.26-14.35.06:017][ 19]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3036BDC8-4F47-BBB0-0E98-B0818EBFC24F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=dd7208074aeeffd34e3340b0d5d8b2c0%7C50c3a4537b7f4de4a3d0dadca77c683d%7C7560d674-451b-4b79-847e-ce1bd6db5235&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.26-14.35.06:191][ 19]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.07.26-14.35.06:197][ 19]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.26-14.35.06:197][ 19]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.26-14.35.06:197][ 19]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.26-14.35.06:197][ 19]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.26-14.35.06:197][ 19]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.26-14.35.06:258][ 19]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.26-14.35.06:265][ 19]LogExit: Exiting.
+[2017.07.26-14.35.06:300][ 19]Log file closed, 07/26/17 22:35:06
