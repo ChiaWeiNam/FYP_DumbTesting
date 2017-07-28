@@ -1,0 +1,1639 @@
+﻿Log file open, 07/26/17 23:54:32
+LogInit:Display: Running engine for game: Meeting
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1142475593) SRandInit(1142475594).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.833743
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.26-15.54.33:988][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.26-15.54.33:988][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.26-15.54.34:182][  0]LogInit: Computer: MSI
+[2017.07.26-15.54.34:182][  0]LogInit: User: chong
+[2017.07.26-15.54.34:182][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.07.26-15.54.34:182][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.07.26-15.54.34:182][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.07.26-15.54.34:182][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.26-15.54.34:182][  0]LogMemory: Process Physical Memory: 266.65 MB used, 266.65 MB peak
+[2017.07.26-15.54.34:182][  0]LogMemory: Process Virtual Memory: 262.82 MB used, 262.82 MB peak
+[2017.07.26-15.54.34:182][  0]LogMemory: Physical Memory: 6023.29 MB used,  6175.31 MB free, 12198.60 MB total
+[2017.07.26-15.54.34:182][  0]LogMemory: Virtual Memory: 645.73 MB used,  6175.31 MB free, 134217728.00 MB total
+[2017.07.26-15.54.36:805][  0]LogTextLocalizationManager: No specific translations for ('en-MY') exist, so ('en') translations will be used.
+[2017.07.26-15.54.48:164][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.26-15.54.48:638][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.07.26-15.54.48:638][  0]LogD3D11RHI:       2019/0/6099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.26-15.54.48:644][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.07.26-15.54.48:644][  0]LogD3D11RHI:       128/0/6099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.26-15.54.48:646][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.26-15.54.48:646][  0]LogD3D11RHI:       0/0/6099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.26-15.54.48:646][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.26-15.54.48:652][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.26-15.54.48:652][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.07.26-15.54.48:652][  0]LogWindows: EnumDisplayDevices:
+[2017.07.26-15.54.48:652][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.07.26-15.54.48:652][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.07.26-15.54.48:653][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.07.26-15.54.48:653][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.26-15.54.48:653][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.07.26-15.54.48:653][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.26-15.54.48:653][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.26-15.54.48:653][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.26-15.54.48:731][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.26-15.54.48:853][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.26-15.54.48:873][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Intermediate/Shaders/WorkingDirectory/10124/).
+[2017.07.26-15.54.48:873][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chong/AppData/Local/Temp/UnrealShaderWorkingDir/107EB0344F397D0B48E27A910CF90F50/'.
+[2017.07.26-15.54.48:873][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.26-15.54.53:412][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.26-15.54.53:485][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.26-15.54.53:570][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.26-15.54.53:644][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.26-15.54.53:714][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.26-15.54.53:778][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.26-15.54.53:849][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.26-15.54.53:912][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.26-15.54.53:964][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.26-15.54.54:046][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.26-15.54.54:121][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.26-15.54.54:185][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.26-15.54.54:247][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.26-15.54.54:317][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.26-15.54.54:382][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.26-15.54.54:516][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.26-15.54.54:516][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.26-15.54.54:572][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.26-15.54.54:736][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.26-15.54.54:787][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.26-15.54.54:890][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.26-15.54.54:960][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.26-15.54.55:053][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.26-15.54.55:126][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.26-15.54.55:126][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.26-15.54.56:219][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.26-15.54.56:803][  0]LogDerivedDataCache: Loaded boot cache 0.57s 50MB C:/Users/chong/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.26-15.54.56:803][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chong/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.26-15.54.56:803][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.26-15.54.56:803][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.26-15.54.56:803][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.26-15.54.56:803][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.26-15.54.56:893][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.26-15.54.56:922][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chong/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.26-15.54.57:008][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.26-15.54.57:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.26-15.54.57:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.26-15.55.07:729][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.26-15.55.07:747][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.26-15.55.08:265][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.26-15.55.08:350][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.26-15.55.08:433][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.26-15.55.08:433][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.26-15.55.08:433][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.26-15.55.14:874][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: meeting, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 116300604
+[2017.07.26-15.55.15:103][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.07.26-15.55.15:320][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.115127 seconds
+[2017.07.26-15.55.15:339][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.26-15.55.15:339][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.07.26-15.55.15:339][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.26-15.55.15:462][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.26-15.56.02:190][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.26-15.56.02:263][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.26-15.56.05:241][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.26-15.56.06:919][  0]SourceControl: Info Source control is disabled
+[2017.07.26-15.56.06:944][  0]SourceControl: Info Source control is disabled
+[2017.07.26-15.56.07:179][  0]SourceControl: Info Source control is disabled
+[2017.07.26-15.56.07:300][  0]SourceControl: Info Source control is disabled
+[2017.07.26-15.56.12:249][  0]LogEngine: Initializing Engine...
+[2017.07.26-15.56.12:277][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.26-15.56.12:539][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.26-15.56.12:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.26-15.56.13:816][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.26-15.56.14:262][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.07.26-15.56.14:418][  0]LogInit: FAudioDevice initialized.
+[2017.07.26-15.56.14:449][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/chong/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.26-15.56.14:456][  0]LogInit: Texture streaming: Enabled
+[2017.07.26-15.56.15:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.26-15.56.16:963][  0]LogInit: Transaction tracking system initialized
+[2017.07.26-15.56.18:850][  0]BlueprintLog: New page: Editor Load
+[2017.07.26-15.56.23:910][  0]LocalizationService: Info Localization service is disabled
+[2017.07.26-15.56.27:113][  0]LogConsoleResponse:Display: 
+[2017.07.26-15.56.31:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/' took 0.09s
+[2017.07.26-15.56.31:195][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.26-15.56.31:195][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.26-15.56.36:488][  0]SourceControl: Info Source control is disabled
+[2017.07.26-15.56.36:724][  0]Cmd: MAP LOAD FILE="../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.26-15.56.36:759][  0]LightingResults: New page: Lighting Build
+[2017.07.26-15.56.37:176][  0]MapCheck: New page: Map Check
+[2017.07.26-15.56.37:176][  0]LightingResults: New page: Lighting Build
+[2017.07.26-15.56.43:668][  0]LogBlueprint:Warning: [Charater_BP] 'ammoLimit' variable not found. Base class was probably changed.
+[2017.07.26-15.56.43:914][  0]LogBlueprint:Warning: [Compiler Charater_BP] Warning Could not find a variable named "ammoLimit" in 'PlayerShoot'.
+Make sure 'PlayerShoot' has been compiled for  Get ammoLimit
+[2017.07.26-15.56.43:917][  0]LogBlueprint:Error: [Compiler Charater_BP] Error The property associated with  Ammo Limit  could not be found
+[2017.07.26-15.56.43:937][  0]LogBlueprint:Warning: [Compiler Charater_BP] Warning [0137.30] Compile of Charater_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 197 ms] (/Game/Blueprint/Charater_BP.Charater_BP)
+[2017.07.26-15.56.43:938][  0]LogBlueprint:Warning: [Compiler Charater_BP] Warning [0137.30] Compile of Charater_BP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprint/Charater_BP.Charater_BP)
+[2017.07.26-15.56.43:938][  0]LogBlueprint:Warning: [Compiler Charater_BP] Warning [0137.30] Compile of Charater_BP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprint/Charater_BP.Charater_BP)
+[2017.07.26-15.56.43:974][  0]LogBlueprint:Warning: [Charater_BP] 'ammoLimit' variable not found. Base class was probably changed.
+[2017.07.26-15.56.45:902][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.07.26-15.56.45:902][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.07.26-15.56.45:903][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.07.26-15.56.45:903][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.07.26-15.56.45:903][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.07.26-15.56.45:903][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.07.26-15.56.45:907][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0139.27] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 42 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-15.56.45:908][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0139.27] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-15.56.45:908][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0139.27] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-15.56.45:915][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.07.26-15.56.45:915][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.07.26-15.56.45:915][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.07.26-15.56.45:915][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.07.26-15.56.45:915][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.07.26-15.56.45:915][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.07.26-15.56.45:920][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0139.28] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 9 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-15.56.45:920][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0139.28] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-15.56.45:920][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0139.28] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.07.26-15.56.45:924][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData'
+[2017.07.26-15.56.45:941][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData' while loading ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap.
+[2017.07.26-15.56.45:941][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/MockUp_Map : Can't find file for asset. /Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData
+[2017.07.26-15.56.55:116][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/zzzzzz'
+[2017.07.26-15.56.55:116][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/zzzzzz' while loading ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Frame.uasset.
+[2017.07.26-15.56.55:116][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Frame : Can't find file for asset. /Game/Art/Environment/newdev/zzzzzz
+[2017.07.26-15.56.55:117][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/zzzzzz'
+[2017.07.26-15.56.55:117][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/zzzzzz' while loading ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Frame.uasset.
+[2017.07.26-15.56.55:117][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Frame : Can't find file for asset. /Game/Art/Environment/newdev/zzzzzz
+[2017.07.26-15.56.55:217][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/2'
+[2017.07.26-15.56.55:217][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/2' while loading ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Wall.uasset.
+[2017.07.26-15.56.55:217][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Wall : Can't find file for asset. /Game/Art/Environment/newdev/2
+[2017.07.26-15.56.55:217][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/2'
+[2017.07.26-15.56.55:218][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/2' while loading ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Art/Environment/Mesh/SM_Corridor_Wall.uasset.
+[2017.07.26-15.56.55:218][  0]LoadErrors:Error: Error /Game/Art/Environment/Mesh/SM_Corridor_Wall : Can't find file for asset. /Game/Art/Environment/newdev/2
+[2017.07.26-15.56.55:696][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData'
+[2017.07.26-15.56.55:696][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData' while loading ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap.
+[2017.07.26-15.56.55:696][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/MockUp_Map : Can't find file for asset. /Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData
+[2017.07.26-15.56.55:702][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData'
+[2017.07.26-15.56.55:702][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData' while loading NULL.
+[2017.07.26-15.56.55:703][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData'
+[2017.07.26-15.56.55:703][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData' while loading NULL.
+[2017.07.26-15.56.56:054][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData'
+[2017.07.26-15.56.56:054][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData.MockUp_Map_BuiltData Referenced by PersistentLevel
+[2017.07.26-15.56.56:054][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData' while loading NULL.
+[2017.07.26-15.56.56:054][  0]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/MockUp_Map_BuiltData.MockUp_Map_BuiltData Referenced by PersistentLevel
+[2017.07.26-15.56.58:575][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/2'
+[2017.07.26-15.56.58:575][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/2.2 Referenced by SM_Corridor_Wall
+[2017.07.26-15.56.58:575][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/2' while loading NULL.
+[2017.07.26-15.56.58:575][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/2.2 Referenced by SM_Corridor_Wall
+[2017.07.26-15.56.58:576][  0]LogLinker:Warning: Can't find file '/Game/Art/Environment/newdev/zzzzzz'
+[2017.07.26-15.56.58:576][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/zzzzzz.zzzzzz Referenced by SM_Corridor_Frame
+[2017.07.26-15.56.58:576][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Environment/newdev/zzzzzz' while loading NULL.
+[2017.07.26-15.56.58:576][  0]LoadErrors: Info Failed to load /Game/Art/Environment/newdev/zzzzzz.zzzzzz Referenced by SM_Corridor_Frame
+[2017.07.26-15.57.49:109][  0]LogTexture:Display: Building textures: WoodTexture (AutoDXT, 2000X2000) - 47 MB total VRAM
+[2017.07.26-15.57.52:323][  0]LogTexture:Display: Building textures: TilingNoise (AutoDXT, 512X512) - 49 MB total VRAM
+[2017.07.26-15.57.52:404][  0]LogTexture:Display: Building textures: Scanlines (AutoDXT, 512X512) - 49 MB total VRAM
+[2017.07.26-15.57.58:664][  0]LogTexture:Display: Building textures: floorlp_1001_OcclusionRoughnessMetallic (AutoDXT, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.01:010][  0]LogTexture:Display: Building textures: floorlp_1001_Normal (BC5, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.01:459][  0]LogTexture:Display: Building textures: floorlp_1001_Emissive (AutoDXT, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.02:996][  0]LogTexture:Display: Building textures: floorlp_1001_BaseColor (AutoDXT, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.04:906][  0]LogTexture:Display: Building textures: TCEILINGLP_1001_OcclusionRoughnessMetallic (AutoDXT, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.05:819][  0]LogTexture:Display: Building textures: TCEILINGLP_1001_Normal (BC5, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.06:357][  0]LogTexture:Display: Building textures: TCEILINGLP_1001_Emissive (AutoDXT, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.07:249][  0]LogTexture:Display: Building textures: TCEILINGLP_1001_BaseColor (AutoDXT, 2048X2048) - 49 MB total VRAM
+[2017.07.26-15.58.09:627][  0]LogTexture:Display: Building textures: T_Moss_Leak_03_Opacity (AutoDXT, 1024X656) - 49 MB total VRAM
+[2017.07.26-15.58.10:290][  0]LogTexture:Display: Building textures: T_Moss_Leak_03_N (BC5, 1024X656) - 50 MB total VRAM
+[2017.07.26-15.58.10:670][  0]LogTexture:Display: Building textures: T_Moss_Leak_03_Albedo (AutoDXT, 1024X656) - 50 MB total VRAM
+[2017.07.26-15.58.11:641][  0]LogMaterial: Missing cached shader map for material M_Decal_Leak_03, compiling. 
+[2017.07.26-15.58.11:762][  0]LogTemp:Display: Added material ShaderMap 0x000001977B066400 with Material 0x000001970317AC80 to ShaderMapsBeingCompiled
+[2017.07.26-15.58.12:012][  0]LogTemp:Display: Kicking off shader compilation for M_Decal_Leak_03, GameThreadShaderMap 0x000001977B066400
+[2017.07.26-15.58.12:058][  0]LogTexture:Display: Building textures: T_Moss_Leak_02_Opacity (BGRA8, 1024X466) - 51 MB total VRAM
+[2017.07.26-15.58.12:455][  0]LogTexture:Display: Building textures: T_Moss_Leak_02_N (BGRA8, 1024X466) - 53 MB total VRAM
+[2017.07.26-15.58.12:785][  0]LogTexture:Display: Building textures: T_Moss_Leak_02_Albedo (BGRA8, 1024X466) - 55 MB total VRAM
+[2017.07.26-15.58.12:831][  0]LogMaterial: Missing cached shader map for material M_Decal_Leak_02, compiling. 
+[2017.07.26-15.58.12:832][  0]LogTemp:Display: Added material ShaderMap 0x0000019769F85980 with Material 0x0000019703188880 to ShaderMapsBeingCompiled
+[2017.07.26-15.58.12:851][  0]LogTemp:Display: Kicking off shader compilation for M_Decal_Leak_02, GameThreadShaderMap 0x0000019769F85980
+[2017.07.26-15.58.12:891][  0]LogTexture:Display: Building textures: T_Moss_Leak_01_Opacity (AutoDXT, 1024X156) - 57 MB total VRAM
+[2017.07.26-15.58.13:064][  0]LogTexture:Display: Building textures: T_Moss_Leak_01_N (BC5, 1024X156) - 57 MB total VRAM
+[2017.07.26-15.58.13:169][  0]LogTexture:Display: Building textures: T_Moss_Leak_01_Albedo (AutoDXT, 1024X156) - 57 MB total VRAM
+[2017.07.26-15.58.13:480][  0]LogMaterial: Missing cached shader map for material M_Decal_Leak_01, compiling. 
+[2017.07.26-15.58.13:482][  0]LogTemp:Display: Added material ShaderMap 0x0000019769AB7580 with Material 0x000001970318AC80 to ShaderMapsBeingCompiled
+[2017.07.26-15.58.13:516][  0]LogTemp:Display: Kicking off shader compilation for M_Decal_Leak_01, GameThreadShaderMap 0x0000019769AB7580
+[2017.07.26-15.58.18:415][  0]LogMaterial: Missing cached shader map for material Mat_AmmoUI, compiling. 
+[2017.07.26-15.58.18:435][  0]LogTemp:Display: Added material ShaderMap 0x000001973BCF6080 with Material 0x0000019701542980 to ShaderMapsBeingCompiled
+[2017.07.26-15.58.18:443][  0]LogTemp:Display: Kicking off shader compilation for Mat_AmmoUI, GameThreadShaderMap 0x000001973BCF6080
+[2017.07.26-15.58.18:603][  0]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-15.58.18:727][  0]LogTemp:Display: Finished compile of shader map 0x000001977B066400
+[2017.07.26-15.58.18:727][  0]LogTemp:Display: Shader map M_Decal_Leak_03 complete, GameThreadShaderMap 0x000001977B066400, marking material M_Decal_Leak_03 as finished
+[2017.07.26-15.58.18:727][  0]LogTemp:Display: Marking material as finished 0x000001970317AC80
+[2017.07.26-15.58.18:741][  0]LogTemp:Display: Finished compile of shader map 0x0000019769F85980
+[2017.07.26-15.58.18:741][  0]LogTemp:Display: Shader map M_Decal_Leak_02 complete, GameThreadShaderMap 0x0000019769F85980, marking material M_Decal_Leak_02 as finished
+[2017.07.26-15.58.18:741][  0]LogTemp:Display: Marking material as finished 0x0000019703188880
+[2017.07.26-15.58.20:325][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.26-15.58.20:486][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.26-15.58.20:602][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.156ms to complete.
+[2017.07.26-15.58.20:606][  0]LogFileHelpers: Loading map 'MockUp_Map' took 103.957
+[2017.07.26-15.58.20:648][  0]LogTemp:Display: Finished compile of shader map 0x000001973BCF6080
+[2017.07.26-15.58.20:648][  0]LogTemp:Display: Shader map Mat_AmmoUI complete, GameThreadShaderMap 0x000001973BCF6080, marking material Mat_AmmoUI as finished
+[2017.07.26-15.58.20:648][  0]LogTemp:Display: Marking material as finished 0x0000019701542980
+[2017.07.26-15.58.20:654][  0]LogTemp:Display: Finished compile of shader map 0x0000019769AB7580
+[2017.07.26-15.58.20:654][  0]LogTemp:Display: Shader map M_Decal_Leak_01 complete, GameThreadShaderMap 0x0000019769AB7580, marking material M_Decal_Leak_01 as finished
+[2017.07.26-15.58.20:654][  0]LogTemp:Display: Marking material as finished 0x000001970318AC80
+[2017.07.26-15.58.22:644][  0]LogCollectionManager: Loaded 0 collections in 0.002839 seconds
+[2017.07.26-15.58.22:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' took 0.01s
+[2017.07.26-15.58.22:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Developers/chong/Collections/' took 0.01s
+[2017.07.26-15.58.22:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' took 0.01s
+[2017.07.26-15.58.22:825][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.26-15.58.22:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0827 seconds. Added 2254 classes and 455 folders.
+[2017.07.26-15.58.23:137][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.07.26-15.58.25:153][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.07.26-15.58.25:353][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.07.26-15.58.25:985][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.26-15.58.26:231][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.26-15.58.26:439][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2017.07.26-15.58.26:439][  0]LogLoad: (Engine Initialization) Total time: 239.80 seconds
+[2017.07.26-15.58.26:439][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.59 seconds
+[2017.07.26-15.58.26:439][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.26-15.58.26:439][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.26-15.58.26:864][  0]LogOcInput: OculusInput pre-init called
+[2017.07.26-15.58.27:451][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.26-15.58.27:736][  0]LogSlate: Took 0.017991 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.26-15.58.27:760][  0]LogSlate: Took 0.014875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.26-15.58.27:822][  0]LogSlate: Took 0.017493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.26-15.58.28:994][  0]LogRenderer: Reallocating scene render targets to support 972x344 NumSamples 1 (Frame:2).
+[2017.07.26-15.58.28:994][  0]LogSlate: Took 0.052086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-15.58.30:941][  3]LogAssetRegistry: Asset discovery search completed in 195.8602 seconds
+[2017.07.26-15.58.30:941][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.07.26-15.58.30:961][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2017.07.26-15.59.42:797][617]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.26-15.59.43:697][617]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.26-15.59.44:054][617]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0040 seconds. Added 112 classes and 0 folders.
+[2017.07.26-15.59.45:716][617]LogSlate: Took 0.017398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.26-15.59.46:916][618]LogSlate: Took 0.018423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.26-15.59.48:904][703]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-15.59.49:052][703]LogBlueprint:Warning: [Compiler Charater_BP] Warning Could not find a variable named "ammoLimit" in 'PlayerShoot'.
+Make sure 'PlayerShoot' has been compiled for  Get ammoLimit
+[2017.07.26-15.59.49:059][703]LogBlueprint:Error: [Compiler Charater_BP] Error The property associated with  Ammo Limit  could not be found
+[2017.07.26-15.59.50:499][703]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ammoLimit" in 'PlayerShoot'.
+Make sure 'PlayerShoot' has been compiled for  Get ammoLimit
+[2017.07.26-15.59.50:499][703]BlueprintEditorCompileResults:Error: Error The property associated with  Ammo Limit  could not be found
+[2017.07.26-15.59.50:500][703]LogBlueprint:Warning: [Compiler Charater_BP] Warning [0323.86] Compile of Charater_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,596 ms] (/Game/Blueprint/Charater_BP.Charater_BP)
+[2017.07.26-16.01.01:724][306]LogRenderer: Reallocating scene render targets to support 972x684 NumSamples 1 (Frame:2215).
+[2017.07.26-16.01.20:358][837]LogSavePackage: Save=160.88ms
+[2017.07.26-16.01.20:358][837]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP625A99AB456DA730EB897BB426ECA216.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.07.26-16.01.20:372][837]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.07.26-16.01.21:264][881]LogSavePackage: Save=18.51ms
+[2017.07.26-16.01.21:264][881]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP71C21A7C4B88188A03F7248FE75DC3BC.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.07.26-16.01.21:266][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.07.26-16.02.00:642][338]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.07.26-16.02.00:661][338]Recompiling Meeting...
+[2017.07.26-16.02.00:662][338]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe Meeting -ModuleWithSuffix Meeting 9771 Win64 Development -editorrecompile -canskiplink "C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Meeting.uproject" ]
+[2017.07.26-16.02.00:668][338]Warning: Starting HotReload took  0.1s.
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: New page: Compilation - Jul 27, 2017, 8:04:37 AM
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info Parsing headers for MeetingEditor
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info Reflection code generated for MeetingEditor in 9.8892207 seconds
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info Performing 14 actions (4 in parallel)
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info PCH.Meeting.cpp
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info BTService_CheckForPlayer.cpp
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info BTTask_MoveToPlayer.cpp
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info EnemyAI.cpp
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info AI_Movement.cpp
+[2017.07.26-16.04.37:085][432]CompilerResultsLog: Info EnemyCharacter.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info MainPlayer.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info Meeting.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info MeetingGameModeBase.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info OpenDoor.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info PlayerShoot.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info Meeting.generated.cpp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog:Error: Error C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(58) : warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.07.26-16.04.37:086][432]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179) : note: see declaration of 'UStaticMeshComponent::StaticMesh'
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info [13/14] Link UE4Editor-Meeting-9771.dll
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info [14/14] Link UE4Editor-Meeting-9771.lib
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info    Creating library C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-9771.lib and object C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-9771.exp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info    Creating library C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-9771.suppressed.lib and object C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-9771.suppressed.exp
+[2017.07.26-16.04.37:086][432]CompilerResultsLog: Info Total build time: 155.56 seconds (Local executor: 61.21 seconds)
+[2017.07.26-16.04.37:100][432]LogMainFrame: MainFrame: Module compiling took 156.458 seconds
+[2017.07.26-16.04.37:470][432]LogClass: Could not find existing class PlayerShoot in package /Script/Meeting for HotReload, assuming new class
+[2017.07.26-16.04.37:485][432]LogHotReload: Re-instancing PlayerShoot after hot-reload.
+[2017.07.26-16.04.37:577][432]LogContentBrowser: Native class hierarchy updated for 'Meeting' in 0.0016 seconds. Added 9 classes and 2 folders.
+[2017.07.26-16.04.37:580][432]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.07.26-16.04.37:934][432]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2256 classes and 459 folders.
+[2017.07.26-16.04.37:943][432]Display: HotReload took 157.3s.
+[2017.07.26-16.04.47:694][627]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-16.04.50:148][669]BlueprintLog: New page: Compile Charater_BP
+[2017.07.26-16.04.53:338][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-16.04.53:486][765]LogSavePackage: Save=136.37ms
+[2017.07.26-16.04.53:486][765]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BPFEF32A1B4CB98803C268A29EEFF4E002.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-16.04.53:487][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-16.04.54:285][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-16.04.54:399][791]LogSavePackage: Save=109.50ms
+[2017.07.26-16.04.54:399][791]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP6D26EEEA4E1B452F7829EEAA78B57941.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-16.04.54:401][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-16.04.54:831][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-16.04.54:935][813]LogSavePackage: Save=99.41ms
+[2017.07.26-16.04.54:935][813]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP85ABBFE8401426D09707E78C162153F9.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-16.04.54:937][813]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-16.04.55:190][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Charater_BP" FILE="../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset" SILENT=true
+[2017.07.26-16.04.55:297][826]LogSavePackage: Save=101.45ms
+[2017.07.26-16.04.55:297][826]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Charater_BP951CA7004CFC867E7AE768ABB9A14902.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset'
+[2017.07.26-16.04.55:298][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/Charater_BP.uasset
+[2017.07.26-16.05.21:454][695]LogSavePackage: Save=1155.94ms
+[2017.07.26-16.05.21:454][695]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_MapC286FDF346F8B3B5D2FD9B9547345FE4.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-16.05.21:459][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-16.05.45:019][998]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.26-16.05.45:074][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-16.05.45:082][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.26-16.05.45:109][998]PIE: New page: PIE session: MockUp_Map (Jul 27, 2017, 8:05:45 AM)
+[2017.07.26-16.05.45:122][998]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.07.26-16.05.45:304][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182037s)
+[2017.07.26-16.05.45:305][998]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.07.26-16.05.45:305][998]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.07.26-16.05.45:311][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.191981s)
+[2017.07.26-16.05.45:355][998]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.07.26-16.05.45:395][998]LogInit: FAudioDevice initialized.
+[2017.07.26-16.05.45:601][998]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.07.26-16.05.45:678][998]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 60) at 2017.07.27-00.05.45
+[2017.07.26-16.05.45:811][998]LogWorld: Bringing up level for play took: 0.169910
+[2017.07.26-16.05.46:011][998]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2017.07.26-16.05.46:066][998]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.002
+[2017.07.26-16.05.46:067][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-16.06.13:316][670]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.13:353][671]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.13:392][672]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.13:741][681]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.13:779][682]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.13:818][683]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:013][688]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:051][689]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:090][690]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:128][691]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:168][692]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:206][693]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:244][694]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:282][695]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:321][696]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:359][697]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:397][698]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:435][699]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:473][700]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:511][701]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:550][702]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.14:589][703]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:167][718]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:206][719]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:244][720]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:282][721]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:320][722]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:359][723]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:397][724]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:436][725]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.15:475][726]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.24:388][971]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:397][971]LogTemp:Warning: AI scale x: 1.002000
+[2017.07.26-16.06.24:423][972]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:423][972]LogTemp:Warning: AI scale x: 1.004000
+[2017.07.26-16.06.24:824][983]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:824][983]LogTemp:Warning: AI scale x: 1.006000
+[2017.07.26-16.06.24:859][984]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:860][984]LogTemp:Warning: AI scale x: 1.008000
+[2017.07.26-16.06.24:895][985]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:896][985]LogTemp:Warning: AI scale x: 1.010000
+[2017.07.26-16.06.24:933][986]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:933][986]LogTemp:Warning: AI scale x: 1.012000
+[2017.07.26-16.06.24:970][987]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.24:970][987]LogTemp:Warning: AI scale x: 1.014000
+[2017.07.26-16.06.25:007][988]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.25:007][988]LogTemp:Warning: AI scale x: 1.016000
+[2017.07.26-16.06.25:044][989]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.25:044][989]LogTemp:Warning: AI scale x: 1.018000
+[2017.07.26-16.06.25:080][990]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:117][991]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:154][992]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:190][993]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:227][994]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:265][995]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:300][996]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:337][997]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:377][998]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:610][  4]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:648][  5]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:685][  6]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:871][ 11]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:905][ 12]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.25:941][ 13]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.26:090][ 17]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.26:124][ 18]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.26:161][ 19]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.26:198][ 20]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:114][ 45]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:114][ 45]LogTemp:Warning: AI scale x: 1.020000
+[2017.07.26-16.06.27:149][ 46]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:149][ 46]LogTemp:Warning: AI scale x: 1.022000
+[2017.07.26-16.06.27:187][ 47]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:187][ 47]LogTemp:Warning: AI scale x: 1.024000
+[2017.07.26-16.06.27:224][ 48]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:224][ 48]LogTemp:Warning: AI scale x: 1.026000
+[2017.07.26-16.06.27:262][ 49]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:262][ 49]LogTemp:Warning: AI scale x: 1.028000
+[2017.07.26-16.06.27:299][ 50]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:299][ 50]LogTemp:Warning: AI scale x: 1.030000
+[2017.07.26-16.06.27:337][ 51]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:337][ 51]LogTemp:Warning: AI scale x: 1.032000
+[2017.07.26-16.06.27:373][ 52]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:373][ 52]LogTemp:Warning: AI scale x: 1.034000
+[2017.07.26-16.06.27:409][ 53]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:409][ 53]LogTemp:Warning: AI scale x: 1.036000
+[2017.07.26-16.06.27:446][ 54]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:446][ 54]LogTemp:Warning: AI scale x: 1.038000
+[2017.07.26-16.06.27:482][ 55]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:483][ 55]LogTemp:Warning: AI scale x: 1.040000
+[2017.07.26-16.06.27:520][ 56]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:520][ 56]LogTemp:Warning: AI scale x: 1.042000
+[2017.07.26-16.06.27:557][ 57]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.27:557][ 57]LogTemp:Warning: AI scale x: 1.044000
+[2017.07.26-16.06.27:594][ 58]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:632][ 59]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:667][ 60]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:704][ 61]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:740][ 62]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:777][ 63]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:815][ 64]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:852][ 65]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.27:888][ 66]LogTemp:Error: red: EnemyChracter_BP_77
+[2017.07.26-16.06.28:105][ 72]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:105][ 72]LogTemp:Warning: AI scale x: 1.046000
+[2017.07.26-16.06.28:142][ 73]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:143][ 73]LogTemp:Warning: AI scale x: 1.048000
+[2017.07.26-16.06.28:178][ 74]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:178][ 74]LogTemp:Warning: AI scale x: 1.050000
+[2017.07.26-16.06.28:215][ 75]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:215][ 75]LogTemp:Warning: AI scale x: 1.052000
+[2017.07.26-16.06.28:253][ 76]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:253][ 76]LogTemp:Warning: AI scale x: 1.054000
+[2017.07.26-16.06.28:288][ 77]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:288][ 77]LogTemp:Warning: AI scale x: 1.056000
+[2017.07.26-16.06.28:325][ 78]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:325][ 78]LogTemp:Warning: AI scale x: 1.058000
+[2017.07.26-16.06.28:361][ 79]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:361][ 79]LogTemp:Warning: AI scale x: 1.060000
+[2017.07.26-16.06.28:398][ 80]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:398][ 80]LogTemp:Warning: AI scale x: 1.062000
+[2017.07.26-16.06.28:435][ 81]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:435][ 81]LogTemp:Warning: AI scale x: 1.064000
+[2017.07.26-16.06.28:471][ 82]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:471][ 82]LogTemp:Warning: AI scale x: 1.066000
+[2017.07.26-16.06.28:507][ 83]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:507][ 83]LogTemp:Warning: AI scale x: 1.068000
+[2017.07.26-16.06.28:544][ 84]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:544][ 84]LogTemp:Warning: AI scale x: 1.070000
+[2017.07.26-16.06.28:581][ 85]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:581][ 85]LogTemp:Warning: AI scale x: 1.072000
+[2017.07.26-16.06.28:618][ 86]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:618][ 86]LogTemp:Warning: AI scale x: 1.074000
+[2017.07.26-16.06.28:655][ 87]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:655][ 87]LogTemp:Warning: AI scale x: 1.076000
+[2017.07.26-16.06.28:981][ 96]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.28:981][ 96]LogTemp:Warning: AI scale x: 1.078000
+[2017.07.26-16.06.29:017][ 97]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:017][ 97]LogTemp:Warning: AI scale x: 1.080000
+[2017.07.26-16.06.29:055][ 98]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:055][ 98]LogTemp:Warning: AI scale x: 1.082000
+[2017.07.26-16.06.29:090][ 99]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:090][ 99]LogTemp:Warning: AI scale x: 1.084000
+[2017.07.26-16.06.29:126][100]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:126][100]LogTemp:Warning: AI scale x: 1.086000
+[2017.07.26-16.06.29:163][101]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:163][101]LogTemp:Warning: AI scale x: 1.088000
+[2017.07.26-16.06.29:199][102]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:199][102]LogTemp:Warning: AI scale x: 1.090000
+[2017.07.26-16.06.29:236][103]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:236][103]LogTemp:Warning: AI scale x: 1.092000
+[2017.07.26-16.06.29:273][104]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:273][104]LogTemp:Warning: AI scale x: 1.094000
+[2017.07.26-16.06.29:309][105]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:309][105]LogTemp:Warning: AI scale x: 1.096000
+[2017.07.26-16.06.29:347][106]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:347][106]LogTemp:Warning: AI scale x: 1.098000
+[2017.07.26-16.06.29:384][107]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:384][107]LogTemp:Warning: AI scale x: 1.100000
+[2017.07.26-16.06.29:421][108]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:421][108]LogTemp:Warning: AI scale x: 1.102000
+[2017.07.26-16.06.29:458][109]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:458][109]LogTemp:Warning: AI scale x: 1.104000
+[2017.07.26-16.06.29:495][110]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:495][110]LogTemp:Warning: AI scale x: 1.106000
+[2017.07.26-16.06.29:533][111]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:533][111]LogTemp:Warning: AI scale x: 1.108000
+[2017.07.26-16.06.29:569][112]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:569][112]LogTemp:Warning: AI scale x: 1.110000
+[2017.07.26-16.06.29:606][113]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:606][113]LogTemp:Warning: AI scale x: 1.112000
+[2017.07.26-16.06.29:642][114]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:642][114]LogTemp:Warning: AI scale x: 1.114000
+[2017.07.26-16.06.29:679][115]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:679][115]LogTemp:Warning: AI scale x: 1.116000
+[2017.07.26-16.06.29:715][116]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:715][116]LogTemp:Warning: AI scale x: 1.118000
+[2017.07.26-16.06.29:753][117]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:753][117]LogTemp:Warning: AI scale x: 1.120000
+[2017.07.26-16.06.29:790][118]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.29:790][118]LogTemp:Warning: AI scale x: 1.122000
+[2017.07.26-16.06.30:231][130]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:231][130]LogTemp:Warning: AI scale x: 1.124000
+[2017.07.26-16.06.30:267][131]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:268][131]LogTemp:Warning: AI scale x: 1.126000
+[2017.07.26-16.06.30:305][132]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:305][132]LogTemp:Warning: AI scale x: 1.128000
+[2017.07.26-16.06.30:341][133]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:341][133]LogTemp:Warning: AI scale x: 1.130000
+[2017.07.26-16.06.30:377][134]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:377][134]LogTemp:Warning: AI scale x: 1.132000
+[2017.07.26-16.06.30:413][135]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:413][135]LogTemp:Warning: AI scale x: 1.134000
+[2017.07.26-16.06.30:449][136]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:449][136]LogTemp:Warning: AI scale x: 1.136000
+[2017.07.26-16.06.30:485][137]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:485][137]LogTemp:Warning: AI scale x: 1.138000
+[2017.07.26-16.06.30:523][138]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:523][138]LogTemp:Warning: AI scale x: 1.140000
+[2017.07.26-16.06.30:559][139]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:559][139]LogTemp:Warning: AI scale x: 1.142000
+[2017.07.26-16.06.30:597][140]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:597][140]LogTemp:Warning: AI scale x: 1.144000
+[2017.07.26-16.06.30:634][141]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:634][141]LogTemp:Warning: AI scale x: 1.146000
+[2017.07.26-16.06.30:673][142]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:673][142]LogTemp:Warning: AI scale x: 1.148000
+[2017.07.26-16.06.30:707][143]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:707][143]LogTemp:Warning: AI scale x: 1.150000
+[2017.07.26-16.06.30:744][144]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:744][144]LogTemp:Warning: AI scale x: 1.152000
+[2017.07.26-16.06.30:780][145]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:780][145]LogTemp:Warning: AI scale x: 1.154000
+[2017.07.26-16.06.30:817][146]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:817][146]LogTemp:Warning: AI scale x: 1.156000
+[2017.07.26-16.06.30:854][147]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:854][147]LogTemp:Warning: AI scale x: 1.158000
+[2017.07.26-16.06.30:891][148]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:891][148]LogTemp:Warning: AI scale x: 1.160000
+[2017.07.26-16.06.30:929][149]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:929][149]LogTemp:Warning: AI scale x: 1.162000
+[2017.07.26-16.06.30:966][150]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.30:966][150]LogTemp:Warning: AI scale x: 1.164000
+[2017.07.26-16.06.31:002][151]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:002][151]LogTemp:Warning: AI scale x: 1.166000
+[2017.07.26-16.06.31:039][152]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:039][152]LogTemp:Warning: AI scale x: 1.168000
+[2017.07.26-16.06.31:075][153]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:076][153]LogTemp:Warning: AI scale x: 1.170000
+[2017.07.26-16.06.31:112][154]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:112][154]LogTemp:Warning: AI scale x: 1.172000
+[2017.07.26-16.06.31:149][155]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:149][155]LogTemp:Warning: AI scale x: 1.174000
+[2017.07.26-16.06.31:185][156]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:185][156]LogTemp:Warning: AI scale x: 1.176000
+[2017.07.26-16.06.31:221][157]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:221][157]LogTemp:Warning: AI scale x: 1.178000
+[2017.07.26-16.06.31:258][158]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:258][158]LogTemp:Warning: AI scale x: 1.180000
+[2017.07.26-16.06.31:295][159]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:295][159]LogTemp:Warning: AI scale x: 1.182000
+[2017.07.26-16.06.31:332][160]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:332][160]LogTemp:Warning: AI scale x: 1.184000
+[2017.07.26-16.06.31:368][161]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:368][161]LogTemp:Warning: AI scale x: 1.186000
+[2017.07.26-16.06.31:404][162]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:404][162]LogTemp:Warning: AI scale x: 1.188000
+[2017.07.26-16.06.31:440][163]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:440][163]LogTemp:Warning: AI scale x: 1.190000
+[2017.07.26-16.06.31:476][164]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:477][164]LogTemp:Warning: AI scale x: 1.192000
+[2017.07.26-16.06.31:514][165]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:514][165]LogTemp:Warning: AI scale x: 1.194000
+[2017.07.26-16.06.31:549][166]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:549][166]LogTemp:Warning: AI scale x: 1.196000
+[2017.07.26-16.06.31:584][167]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:584][167]LogTemp:Warning: AI scale x: 1.198000
+[2017.07.26-16.06.31:622][168]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:622][168]LogTemp:Warning: AI scale x: 1.200000
+[2017.07.26-16.06.31:658][169]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:658][169]LogTemp:Warning: AI scale x: 1.202000
+[2017.07.26-16.06.31:695][170]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:695][170]LogTemp:Warning: AI scale x: 1.204000
+[2017.07.26-16.06.31:733][171]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:733][171]LogTemp:Warning: AI scale x: 1.206000
+[2017.07.26-16.06.31:770][172]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:770][172]LogTemp:Warning: AI scale x: 1.208000
+[2017.07.26-16.06.31:807][173]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:807][173]LogTemp:Warning: AI scale x: 1.210000
+[2017.07.26-16.06.31:844][174]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:844][174]LogTemp:Warning: AI scale x: 1.212000
+[2017.07.26-16.06.31:880][175]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:880][175]LogTemp:Warning: AI scale x: 1.214000
+[2017.07.26-16.06.31:919][176]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:919][176]LogTemp:Warning: AI scale x: 1.216000
+[2017.07.26-16.06.31:955][177]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:955][177]LogTemp:Warning: AI scale x: 1.218000
+[2017.07.26-16.06.31:992][178]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.31:992][178]LogTemp:Warning: AI scale x: 1.220000
+[2017.07.26-16.06.32:028][179]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:028][179]LogTemp:Warning: AI scale x: 1.222000
+[2017.07.26-16.06.32:065][180]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:065][180]LogTemp:Warning: AI scale x: 1.224000
+[2017.07.26-16.06.32:104][181]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:104][181]LogTemp:Warning: AI scale x: 1.226000
+[2017.07.26-16.06.32:140][182]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:140][182]LogTemp:Warning: AI scale x: 1.228000
+[2017.07.26-16.06.32:324][187]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:324][187]LogTemp:Warning: AI scale x: 1.230000
+[2017.07.26-16.06.32:360][188]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:360][188]LogTemp:Warning: AI scale x: 1.232000
+[2017.07.26-16.06.32:396][189]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:396][189]LogTemp:Warning: AI scale x: 1.234000
+[2017.07.26-16.06.32:434][190]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:434][190]LogTemp:Warning: AI scale x: 1.236000
+[2017.07.26-16.06.32:470][191]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:470][191]LogTemp:Warning: AI scale x: 1.238000
+[2017.07.26-16.06.32:507][192]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:507][192]LogTemp:Warning: AI scale x: 1.240000
+[2017.07.26-16.06.32:544][193]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:544][193]LogTemp:Warning: AI scale x: 1.242000
+[2017.07.26-16.06.32:583][194]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:583][194]LogTemp:Warning: AI scale x: 1.244000
+[2017.07.26-16.06.32:620][195]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:620][195]LogTemp:Warning: AI scale x: 1.246000
+[2017.07.26-16.06.32:657][196]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:657][196]LogTemp:Warning: AI scale x: 1.248000
+[2017.07.26-16.06.32:693][197]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:693][197]LogTemp:Warning: AI scale x: 1.250000
+[2017.07.26-16.06.32:729][198]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:729][198]LogTemp:Warning: AI scale x: 1.252000
+[2017.07.26-16.06.32:766][199]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:766][199]LogTemp:Warning: AI scale x: 1.254000
+[2017.07.26-16.06.32:804][200]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:804][200]LogTemp:Warning: AI scale x: 1.256000
+[2017.07.26-16.06.32:840][201]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:840][201]LogTemp:Warning: AI scale x: 1.258000
+[2017.07.26-16.06.32:876][202]LogTemp:Error: red: Sphere_2
+[2017.07.26-16.06.32:876][202]LogTemp:Warning: AI scale x: 1.260000
+[2017.07.26-16.06.35:079][262]LogTemp:Error: purple
+[2017.07.26-16.06.35:079][262]LogTemp:Warning: AI scale x: 1.258000
+[2017.07.26-16.06.35:114][263]LogTemp:Error: purple
+[2017.07.26-16.06.35:114][263]LogTemp:Warning: AI scale x: 1.256000
+[2017.07.26-16.06.35:151][264]LogTemp:Error: purple
+[2017.07.26-16.06.35:151][264]LogTemp:Warning: AI scale x: 1.254000
+[2017.07.26-16.06.35:187][265]LogTemp:Error: purple
+[2017.07.26-16.06.35:187][265]LogTemp:Warning: AI scale x: 1.252000
+[2017.07.26-16.06.35:225][266]LogTemp:Error: purple
+[2017.07.26-16.06.35:225][266]LogTemp:Warning: AI scale x: 1.250000
+[2017.07.26-16.06.35:268][267]LogTemp:Error: purple
+[2017.07.26-16.06.35:268][267]LogTemp:Warning: AI scale x: 1.248000
+[2017.07.26-16.06.35:305][268]LogTemp:Error: purple
+[2017.07.26-16.06.35:305][268]LogTemp:Warning: AI scale x: 1.246000
+[2017.07.26-16.06.35:341][269]LogTemp:Error: purple
+[2017.07.26-16.06.35:341][269]LogTemp:Warning: AI scale x: 1.244000
+[2017.07.26-16.06.35:378][270]LogTemp:Error: purple
+[2017.07.26-16.06.35:379][270]LogTemp:Warning: AI scale x: 1.242000
+[2017.07.26-16.06.35:415][271]LogTemp:Error: purple
+[2017.07.26-16.06.35:415][271]LogTemp:Warning: AI scale x: 1.240000
+[2017.07.26-16.06.35:454][272]LogTemp:Error: purple
+[2017.07.26-16.06.35:454][272]LogTemp:Warning: AI scale x: 1.238000
+[2017.07.26-16.06.35:493][273]LogTemp:Error: purple
+[2017.07.26-16.06.35:494][273]LogTemp:Warning: AI scale x: 1.236000
+[2017.07.26-16.06.35:530][274]LogTemp:Error: purple
+[2017.07.26-16.06.35:530][274]LogTemp:Warning: AI scale x: 1.234000
+[2017.07.26-16.06.35:568][275]LogTemp:Error: purple
+[2017.07.26-16.06.35:568][275]LogTemp:Warning: AI scale x: 1.232000
+[2017.07.26-16.06.35:604][276]LogTemp:Error: purple
+[2017.07.26-16.06.35:604][276]LogTemp:Warning: AI scale x: 1.230000
+[2017.07.26-16.06.35:640][277]LogTemp:Error: purple
+[2017.07.26-16.06.35:640][277]LogTemp:Warning: AI scale x: 1.228000
+[2017.07.26-16.06.35:676][278]LogTemp:Error: purple
+[2017.07.26-16.06.35:676][278]LogTemp:Warning: AI scale x: 1.226000
+[2017.07.26-16.06.35:714][279]LogTemp:Error: purple
+[2017.07.26-16.06.35:714][279]LogTemp:Warning: AI scale x: 1.224000
+[2017.07.26-16.06.35:753][280]LogTemp:Error: purple
+[2017.07.26-16.06.35:753][280]LogTemp:Warning: AI scale x: 1.222000
+[2017.07.26-16.06.35:788][281]LogTemp:Error: purple
+[2017.07.26-16.06.35:788][281]LogTemp:Warning: AI scale x: 1.220000
+[2017.07.26-16.06.35:825][282]LogTemp:Error: purple
+[2017.07.26-16.06.35:825][282]LogTemp:Warning: AI scale x: 1.218000
+[2017.07.26-16.06.35:861][283]LogTemp:Error: purple
+[2017.07.26-16.06.35:861][283]LogTemp:Warning: AI scale x: 1.216000
+[2017.07.26-16.06.35:896][284]LogTemp:Error: purple
+[2017.07.26-16.06.35:896][284]LogTemp:Warning: AI scale x: 1.214000
+[2017.07.26-16.06.35:933][285]LogTemp:Error: purple
+[2017.07.26-16.06.35:933][285]LogTemp:Warning: AI scale x: 1.212000
+[2017.07.26-16.06.35:971][286]LogTemp:Error: purple
+[2017.07.26-16.06.35:971][286]LogTemp:Warning: AI scale x: 1.210000
+[2017.07.26-16.06.36:008][287]LogTemp:Error: purple
+[2017.07.26-16.06.36:008][287]LogTemp:Warning: AI scale x: 1.208000
+[2017.07.26-16.06.36:045][288]LogTemp:Error: purple
+[2017.07.26-16.06.36:045][288]LogTemp:Warning: AI scale x: 1.206000
+[2017.07.26-16.06.36:084][289]LogTemp:Error: purple
+[2017.07.26-16.06.36:084][289]LogTemp:Warning: AI scale x: 1.204000
+[2017.07.26-16.06.36:118][290]LogTemp:Error: purple
+[2017.07.26-16.06.36:118][290]LogTemp:Warning: AI scale x: 1.202000
+[2017.07.26-16.06.36:155][291]LogTemp:Error: purple
+[2017.07.26-16.06.36:155][291]LogTemp:Warning: AI scale x: 1.200000
+[2017.07.26-16.06.36:192][292]LogTemp:Error: purple
+[2017.07.26-16.06.36:192][292]LogTemp:Warning: AI scale x: 1.198000
+[2017.07.26-16.06.36:229][293]LogTemp:Error: purple
+[2017.07.26-16.06.36:229][293]LogTemp:Warning: AI scale x: 1.196000
+[2017.07.26-16.06.36:265][294]LogTemp:Error: purple
+[2017.07.26-16.06.36:265][294]LogTemp:Warning: AI scale x: 1.194000
+[2017.07.26-16.06.36:301][295]LogTemp:Error: purple
+[2017.07.26-16.06.36:301][295]LogTemp:Warning: AI scale x: 1.192000
+[2017.07.26-16.06.36:337][296]LogTemp:Error: purple
+[2017.07.26-16.06.36:337][296]LogTemp:Warning: AI scale x: 1.190000
+[2017.07.26-16.06.36:374][297]LogTemp:Error: purple
+[2017.07.26-16.06.36:374][297]LogTemp:Warning: AI scale x: 1.188000
+[2017.07.26-16.06.36:410][298]LogTemp:Error: purple
+[2017.07.26-16.06.36:410][298]LogTemp:Warning: AI scale x: 1.186000
+[2017.07.26-16.06.36:447][299]LogTemp:Error: purple
+[2017.07.26-16.06.36:447][299]LogTemp:Warning: AI scale x: 1.184000
+[2017.07.26-16.06.36:485][300]LogTemp:Error: purple
+[2017.07.26-16.06.36:485][300]LogTemp:Warning: AI scale x: 1.182000
+[2017.07.26-16.06.36:520][301]LogTemp:Error: purple
+[2017.07.26-16.06.36:520][301]LogTemp:Warning: AI scale x: 1.180000
+[2017.07.26-16.06.36:556][302]LogTemp:Error: purple
+[2017.07.26-16.06.36:556][302]LogTemp:Warning: AI scale x: 1.178000
+[2017.07.26-16.06.36:594][303]LogTemp:Error: purple
+[2017.07.26-16.06.36:594][303]LogTemp:Warning: AI scale x: 1.176000
+[2017.07.26-16.06.36:631][304]LogTemp:Error: purple
+[2017.07.26-16.06.36:631][304]LogTemp:Warning: AI scale x: 1.174000
+[2017.07.26-16.06.36:669][305]LogTemp:Error: purple
+[2017.07.26-16.06.36:669][305]LogTemp:Warning: AI scale x: 1.172000
+[2017.07.26-16.06.36:705][306]LogTemp:Error: purple
+[2017.07.26-16.06.36:705][306]LogTemp:Warning: AI scale x: 1.170000
+[2017.07.26-16.06.36:741][307]LogTemp:Error: purple
+[2017.07.26-16.06.36:742][307]LogTemp:Warning: AI scale x: 1.168000
+[2017.07.26-16.06.36:778][308]LogTemp:Error: purple
+[2017.07.26-16.06.36:778][308]LogTemp:Warning: AI scale x: 1.166000
+[2017.07.26-16.06.36:815][309]LogTemp:Error: purple
+[2017.07.26-16.06.36:815][309]LogTemp:Warning: AI scale x: 1.164000
+[2017.07.26-16.06.36:852][310]LogTemp:Error: purple
+[2017.07.26-16.06.36:852][310]LogTemp:Warning: AI scale x: 1.162000
+[2017.07.26-16.06.36:889][311]LogTemp:Error: purple
+[2017.07.26-16.06.36:889][311]LogTemp:Warning: AI scale x: 1.160000
+[2017.07.26-16.06.36:924][312]LogTemp:Error: purple
+[2017.07.26-16.06.36:924][312]LogTemp:Warning: AI scale x: 1.158000
+[2017.07.26-16.06.36:960][313]LogTemp:Error: purple
+[2017.07.26-16.06.36:960][313]LogTemp:Warning: AI scale x: 1.156000
+[2017.07.26-16.06.36:995][314]LogTemp:Error: purple
+[2017.07.26-16.06.36:996][314]LogTemp:Warning: AI scale x: 1.154000
+[2017.07.26-16.06.37:033][315]LogTemp:Error: purple
+[2017.07.26-16.06.37:033][315]LogTemp:Warning: AI scale x: 1.152000
+[2017.07.26-16.06.37:069][316]LogTemp:Error: purple
+[2017.07.26-16.06.37:069][316]LogTemp:Warning: AI scale x: 1.150000
+[2017.07.26-16.06.37:288][322]LogTemp:Error: purple
+[2017.07.26-16.06.37:288][322]LogTemp:Warning: AI scale x: 1.148000
+[2017.07.26-16.06.37:325][323]LogTemp:Error: purple
+[2017.07.26-16.06.37:325][323]LogTemp:Warning: AI scale x: 1.146000
+[2017.07.26-16.06.37:361][324]LogTemp:Error: purple
+[2017.07.26-16.06.37:361][324]LogTemp:Warning: AI scale x: 1.144000
+[2017.07.26-16.06.37:396][325]LogTemp:Error: purple
+[2017.07.26-16.06.37:396][325]LogTemp:Warning: AI scale x: 1.142000
+[2017.07.26-16.06.37:434][326]LogTemp:Error: purple
+[2017.07.26-16.06.37:434][326]LogTemp:Warning: AI scale x: 1.140000
+[2017.07.26-16.06.37:469][327]LogTemp:Error: purple
+[2017.07.26-16.06.37:469][327]LogTemp:Warning: AI scale x: 1.138000
+[2017.07.26-16.06.37:506][328]LogTemp:Error: purple
+[2017.07.26-16.06.37:506][328]LogTemp:Warning: AI scale x: 1.136000
+[2017.07.26-16.06.37:542][329]LogTemp:Error: purple
+[2017.07.26-16.06.37:542][329]LogTemp:Warning: AI scale x: 1.134000
+[2017.07.26-16.06.37:580][330]LogTemp:Error: purple
+[2017.07.26-16.06.37:580][330]LogTemp:Warning: AI scale x: 1.132000
+[2017.07.26-16.06.37:617][331]LogTemp:Error: purple
+[2017.07.26-16.06.37:617][331]LogTemp:Warning: AI scale x: 1.130000
+[2017.07.26-16.06.37:654][332]LogTemp:Error: purple
+[2017.07.26-16.06.37:654][332]LogTemp:Warning: AI scale x: 1.128000
+[2017.07.26-16.06.37:688][333]LogTemp:Error: purple
+[2017.07.26-16.06.37:688][333]LogTemp:Warning: AI scale x: 1.126000
+[2017.07.26-16.06.37:725][334]LogTemp:Error: purple
+[2017.07.26-16.06.37:725][334]LogTemp:Warning: AI scale x: 1.124000
+[2017.07.26-16.06.37:762][335]LogTemp:Error: purple
+[2017.07.26-16.06.37:762][335]LogTemp:Warning: AI scale x: 1.122000
+[2017.07.26-16.06.37:797][336]LogTemp:Error: purple
+[2017.07.26-16.06.37:797][336]LogTemp:Warning: AI scale x: 1.120000
+[2017.07.26-16.06.37:834][337]LogTemp:Error: purple
+[2017.07.26-16.06.37:834][337]LogTemp:Warning: AI scale x: 1.118000
+[2017.07.26-16.06.37:870][338]LogTemp:Error: purple
+[2017.07.26-16.06.37:870][338]LogTemp:Warning: AI scale x: 1.116000
+[2017.07.26-16.06.37:906][339]LogTemp:Error: purple
+[2017.07.26-16.06.37:907][339]LogTemp:Warning: AI scale x: 1.114000
+[2017.07.26-16.06.37:944][340]LogTemp:Error: purple
+[2017.07.26-16.06.37:944][340]LogTemp:Warning: AI scale x: 1.112000
+[2017.07.26-16.06.37:980][341]LogTemp:Error: purple
+[2017.07.26-16.06.37:980][341]LogTemp:Warning: AI scale x: 1.110000
+[2017.07.26-16.06.38:018][342]LogTemp:Error: purple
+[2017.07.26-16.06.38:018][342]LogTemp:Warning: AI scale x: 1.108000
+[2017.07.26-16.06.38:052][343]LogTemp:Error: purple
+[2017.07.26-16.06.38:052][343]LogTemp:Warning: AI scale x: 1.106000
+[2017.07.26-16.06.38:089][344]LogTemp:Error: purple
+[2017.07.26-16.06.38:089][344]LogTemp:Warning: AI scale x: 1.104000
+[2017.07.26-16.06.38:127][345]LogTemp:Error: purple
+[2017.07.26-16.06.38:127][345]LogTemp:Warning: AI scale x: 1.102000
+[2017.07.26-16.06.38:164][346]LogTemp:Error: purple
+[2017.07.26-16.06.38:164][346]LogTemp:Warning: AI scale x: 1.100000
+[2017.07.26-16.06.38:200][347]LogTemp:Error: purple
+[2017.07.26-16.06.38:200][347]LogTemp:Warning: AI scale x: 1.098000
+[2017.07.26-16.06.38:237][348]LogTemp:Error: purple
+[2017.07.26-16.06.38:237][348]LogTemp:Warning: AI scale x: 1.096000
+[2017.07.26-16.06.38:275][349]LogTemp:Error: purple
+[2017.07.26-16.06.38:275][349]LogTemp:Warning: AI scale x: 1.094000
+[2017.07.26-16.06.38:312][350]LogTemp:Error: purple
+[2017.07.26-16.06.38:312][350]LogTemp:Warning: AI scale x: 1.092000
+[2017.07.26-16.06.38:348][351]LogTemp:Error: purple
+[2017.07.26-16.06.38:348][351]LogTemp:Warning: AI scale x: 1.090000
+[2017.07.26-16.06.38:385][352]LogTemp:Error: purple
+[2017.07.26-16.06.38:385][352]LogTemp:Warning: AI scale x: 1.088000
+[2017.07.26-16.06.38:421][353]LogTemp:Error: purple
+[2017.07.26-16.06.38:421][353]LogTemp:Warning: AI scale x: 1.086000
+[2017.07.26-16.06.38:458][354]LogTemp:Error: purple
+[2017.07.26-16.06.38:458][354]LogTemp:Warning: AI scale x: 1.084000
+[2017.07.26-16.06.38:495][355]LogTemp:Error: purple
+[2017.07.26-16.06.38:495][355]LogTemp:Warning: AI scale x: 1.082000
+[2017.07.26-16.06.38:533][356]LogTemp:Error: purple
+[2017.07.26-16.06.38:533][356]LogTemp:Warning: AI scale x: 1.080000
+[2017.07.26-16.06.38:568][357]LogTemp:Error: purple
+[2017.07.26-16.06.38:568][357]LogTemp:Warning: AI scale x: 1.078000
+[2017.07.26-16.06.38:604][358]LogTemp:Error: purple
+[2017.07.26-16.06.38:604][358]LogTemp:Warning: AI scale x: 1.076000
+[2017.07.26-16.06.38:641][359]LogTemp:Error: purple
+[2017.07.26-16.06.38:641][359]LogTemp:Warning: AI scale x: 1.074000
+[2017.07.26-16.06.38:679][360]LogTemp:Error: purple
+[2017.07.26-16.06.38:679][360]LogTemp:Warning: AI scale x: 1.072000
+[2017.07.26-16.06.38:716][361]LogTemp:Error: purple
+[2017.07.26-16.06.38:716][361]LogTemp:Warning: AI scale x: 1.070000
+[2017.07.26-16.06.38:753][362]LogTemp:Error: purple
+[2017.07.26-16.06.38:754][362]LogTemp:Warning: AI scale x: 1.068000
+[2017.07.26-16.06.38:788][363]LogTemp:Error: purple
+[2017.07.26-16.06.38:788][363]LogTemp:Warning: AI scale x: 1.066000
+[2017.07.26-16.06.38:824][364]LogTemp:Error: purple
+[2017.07.26-16.06.38:824][364]LogTemp:Warning: AI scale x: 1.064000
+[2017.07.26-16.06.38:860][365]LogTemp:Error: purple
+[2017.07.26-16.06.38:860][365]LogTemp:Warning: AI scale x: 1.062000
+[2017.07.26-16.06.38:898][366]LogTemp:Error: purple
+[2017.07.26-16.06.38:898][366]LogTemp:Warning: AI scale x: 1.060000
+[2017.07.26-16.06.38:934][367]LogTemp:Error: purple
+[2017.07.26-16.06.38:934][367]LogTemp:Warning: AI scale x: 1.058000
+[2017.07.26-16.06.38:971][368]LogTemp:Error: purple
+[2017.07.26-16.06.38:971][368]LogTemp:Warning: AI scale x: 1.056000
+[2017.07.26-16.06.39:008][369]LogTemp:Error: purple
+[2017.07.26-16.06.39:008][369]LogTemp:Warning: AI scale x: 1.054000
+[2017.07.26-16.06.39:044][370]LogTemp:Error: purple
+[2017.07.26-16.06.39:044][370]LogTemp:Warning: AI scale x: 1.052000
+[2017.07.26-16.06.39:080][371]LogTemp:Error: purple
+[2017.07.26-16.06.39:080][371]LogTemp:Warning: AI scale x: 1.050000
+[2017.07.26-16.06.39:117][372]LogTemp:Error: purple
+[2017.07.26-16.06.39:117][372]LogTemp:Warning: AI scale x: 1.048000
+[2017.07.26-16.06.39:154][373]LogTemp:Error: purple
+[2017.07.26-16.06.39:154][373]LogTemp:Warning: AI scale x: 1.046000
+[2017.07.26-16.06.39:190][374]LogTemp:Error: purple
+[2017.07.26-16.06.39:190][374]LogTemp:Warning: AI scale x: 1.044000
+[2017.07.26-16.06.39:227][375]LogTemp:Error: purple
+[2017.07.26-16.06.39:227][375]LogTemp:Warning: AI scale x: 1.042000
+[2017.07.26-16.06.39:263][376]LogTemp:Error: purple
+[2017.07.26-16.06.39:263][376]LogTemp:Warning: AI scale x: 1.040000
+[2017.07.26-16.06.39:300][377]LogTemp:Error: purple
+[2017.07.26-16.06.39:300][377]LogTemp:Warning: AI scale x: 1.038000
+[2017.07.26-16.06.39:337][378]LogTemp:Error: purple
+[2017.07.26-16.06.39:337][378]LogTemp:Warning: AI scale x: 1.036000
+[2017.07.26-16.06.39:373][379]LogTemp:Error: purple
+[2017.07.26-16.06.39:373][379]LogTemp:Warning: AI scale x: 1.034000
+[2017.07.26-16.06.39:409][380]LogTemp:Error: purple
+[2017.07.26-16.06.39:409][380]LogTemp:Warning: AI scale x: 1.032000
+[2017.07.26-16.06.39:445][381]LogTemp:Error: purple
+[2017.07.26-16.06.39:445][381]LogTemp:Warning: AI scale x: 1.030000
+[2017.07.26-16.06.39:482][382]LogTemp:Error: purple
+[2017.07.26-16.06.39:483][382]LogTemp:Warning: AI scale x: 1.028000
+[2017.07.26-16.06.39:518][383]LogTemp:Error: purple
+[2017.07.26-16.06.39:518][383]LogTemp:Warning: AI scale x: 1.026000
+[2017.07.26-16.06.39:554][384]LogTemp:Error: purple
+[2017.07.26-16.06.39:554][384]LogTemp:Warning: AI scale x: 1.024000
+[2017.07.26-16.06.39:590][385]LogTemp:Error: purple
+[2017.07.26-16.06.39:590][385]LogTemp:Warning: AI scale x: 1.022000
+[2017.07.26-16.06.39:626][386]LogTemp:Error: purple
+[2017.07.26-16.06.39:626][386]LogTemp:Warning: AI scale x: 1.020000
+[2017.07.26-16.06.39:663][387]LogTemp:Error: purple
+[2017.07.26-16.06.39:663][387]LogTemp:Warning: AI scale x: 1.018000
+[2017.07.26-16.06.39:698][388]LogTemp:Error: purple
+[2017.07.26-16.06.39:698][388]LogTemp:Warning: AI scale x: 1.016000
+[2017.07.26-16.06.39:735][389]LogTemp:Error: purple
+[2017.07.26-16.06.39:735][389]LogTemp:Warning: AI scale x: 1.014000
+[2017.07.26-16.06.39:807][391]LogTemp:Error: purple
+[2017.07.26-16.06.39:807][391]LogTemp:Warning: AI scale x: 1.012000
+[2017.07.26-16.06.39:843][392]LogTemp:Error: purple
+[2017.07.26-16.06.39:843][392]LogTemp:Warning: AI scale x: 1.010000
+[2017.07.26-16.06.39:879][393]LogTemp:Error: purple
+[2017.07.26-16.06.39:879][393]LogTemp:Warning: AI scale x: 1.008000
+[2017.07.26-16.06.39:917][394]LogTemp:Error: purple
+[2017.07.26-16.06.39:917][394]LogTemp:Warning: AI scale x: 1.006000
+[2017.07.26-16.06.39:952][395]LogTemp:Error: purple
+[2017.07.26-16.06.39:952][395]LogTemp:Warning: AI scale x: 1.004000
+[2017.07.26-16.06.39:988][396]LogTemp:Error: purple
+[2017.07.26-16.06.39:988][396]LogTemp:Warning: AI scale x: 1.002000
+[2017.07.26-16.06.40:024][397]LogTemp:Error: purple
+[2017.07.26-16.06.40:024][397]LogTemp:Warning: AI scale x: 1.000000
+[2017.07.26-16.06.40:063][398]LogTemp:Error: purple
+[2017.07.26-16.06.40:063][398]LogTemp:Warning: AI scale x: 0.998000
+[2017.07.26-16.06.40:097][399]LogTemp:Error: purple
+[2017.07.26-16.06.40:097][399]LogTemp:Warning: AI scale x: 0.996000
+[2017.07.26-16.06.40:134][400]LogTemp:Error: purple
+[2017.07.26-16.06.40:134][400]LogTemp:Warning: AI scale x: 0.994000
+[2017.07.26-16.06.40:169][401]LogTemp:Error: purple
+[2017.07.26-16.06.40:169][401]LogTemp:Warning: AI scale x: 0.992000
+[2017.07.26-16.06.40:205][402]LogTemp:Error: purple
+[2017.07.26-16.06.40:205][402]LogTemp:Warning: AI scale x: 0.990000
+[2017.07.26-16.06.40:240][403]LogTemp:Error: purple
+[2017.07.26-16.06.40:240][403]LogTemp:Warning: AI scale x: 0.988000
+[2017.07.26-16.06.40:276][404]LogTemp:Error: purple
+[2017.07.26-16.06.40:276][404]LogTemp:Warning: AI scale x: 0.986000
+[2017.07.26-16.06.40:459][409]LogTemp:Error: purple
+[2017.07.26-16.06.40:459][409]LogTemp:Warning: AI scale x: 0.984000
+[2017.07.26-16.06.40:496][410]LogTemp:Error: purple
+[2017.07.26-16.06.40:496][410]LogTemp:Warning: AI scale x: 0.982000
+[2017.07.26-16.06.40:534][411]LogTemp:Error: purple
+[2017.07.26-16.06.40:534][411]LogTemp:Warning: AI scale x: 0.980000
+[2017.07.26-16.06.40:571][412]LogTemp:Error: purple
+[2017.07.26-16.06.40:571][412]LogTemp:Warning: AI scale x: 0.978000
+[2017.07.26-16.06.40:610][413]LogTemp:Error: purple
+[2017.07.26-16.06.40:610][413]LogTemp:Warning: AI scale x: 0.976000
+[2017.07.26-16.06.40:646][414]LogTemp:Error: purple
+[2017.07.26-16.06.40:646][414]LogTemp:Warning: AI scale x: 0.974000
+[2017.07.26-16.06.40:684][415]LogTemp:Error: purple
+[2017.07.26-16.06.40:684][415]LogTemp:Warning: AI scale x: 0.972000
+[2017.07.26-16.06.40:720][416]LogTemp:Error: purple
+[2017.07.26-16.06.40:720][416]LogTemp:Warning: AI scale x: 0.970000
+[2017.07.26-16.06.40:756][417]LogTemp:Error: purple
+[2017.07.26-16.06.40:756][417]LogTemp:Warning: AI scale x: 0.968000
+[2017.07.26-16.06.40:793][418]LogTemp:Error: purple
+[2017.07.26-16.06.40:793][418]LogTemp:Warning: AI scale x: 0.966000
+[2017.07.26-16.06.40:831][419]LogTemp:Error: purple
+[2017.07.26-16.06.40:831][419]LogTemp:Warning: AI scale x: 0.964000
+[2017.07.26-16.06.40:867][420]LogTemp:Error: purple
+[2017.07.26-16.06.40:867][420]LogTemp:Warning: AI scale x: 0.962000
+[2017.07.26-16.06.40:904][421]LogTemp:Error: purple
+[2017.07.26-16.06.40:904][421]LogTemp:Warning: AI scale x: 0.960000
+[2017.07.26-16.06.40:938][422]LogTemp:Error: purple
+[2017.07.26-16.06.40:938][422]LogTemp:Warning: AI scale x: 0.958000
+[2017.07.26-16.06.40:975][423]LogTemp:Error: purple
+[2017.07.26-16.06.40:975][423]LogTemp:Warning: AI scale x: 0.956000
+[2017.07.26-16.06.41:012][424]LogTemp:Error: purple
+[2017.07.26-16.06.41:012][424]LogTemp:Warning: AI scale x: 0.954000
+[2017.07.26-16.06.41:049][425]LogTemp:Error: purple
+[2017.07.26-16.06.41:049][425]LogTemp:Warning: AI scale x: 0.952000
+[2017.07.26-16.06.41:086][426]LogTemp:Error: purple
+[2017.07.26-16.06.41:086][426]LogTemp:Warning: AI scale x: 0.950000
+[2017.07.26-16.06.41:123][427]LogTemp:Error: purple
+[2017.07.26-16.06.41:123][427]LogTemp:Warning: AI scale x: 0.948000
+[2017.07.26-16.06.41:159][428]LogTemp:Error: purple
+[2017.07.26-16.06.41:159][428]LogTemp:Warning: AI scale x: 0.946000
+[2017.07.26-16.06.41:196][429]LogTemp:Error: purple
+[2017.07.26-16.06.41:196][429]LogTemp:Warning: AI scale x: 0.944000
+[2017.07.26-16.06.41:235][430]LogTemp:Error: purple
+[2017.07.26-16.06.41:235][430]LogTemp:Warning: AI scale x: 0.942000
+[2017.07.26-16.06.41:268][431]LogTemp:Error: purple
+[2017.07.26-16.06.41:269][431]LogTemp:Warning: AI scale x: 0.940000
+[2017.07.26-16.06.41:305][432]LogTemp:Error: purple
+[2017.07.26-16.06.41:305][432]LogTemp:Warning: AI scale x: 0.938000
+[2017.07.26-16.06.41:340][433]LogTemp:Error: purple
+[2017.07.26-16.06.41:340][433]LogTemp:Warning: AI scale x: 0.936000
+[2017.07.26-16.06.41:377][434]LogTemp:Error: purple
+[2017.07.26-16.06.41:377][434]LogTemp:Warning: AI scale x: 0.934000
+[2017.07.26-16.06.41:414][435]LogTemp:Error: purple
+[2017.07.26-16.06.41:415][435]LogTemp:Warning: AI scale x: 0.932000
+[2017.07.26-16.06.41:452][436]LogTemp:Error: purple
+[2017.07.26-16.06.41:452][436]LogTemp:Warning: AI scale x: 0.930000
+[2017.07.26-16.06.41:487][437]LogTemp:Error: purple
+[2017.07.26-16.06.41:487][437]LogTemp:Warning: AI scale x: 0.928000
+[2017.07.26-16.06.41:523][438]LogTemp:Error: purple
+[2017.07.26-16.06.41:523][438]LogTemp:Warning: AI scale x: 0.926000
+[2017.07.26-16.06.41:560][439]LogTemp:Error: purple
+[2017.07.26-16.06.41:560][439]LogTemp:Warning: AI scale x: 0.924000
+[2017.07.26-16.06.41:596][440]LogTemp:Error: purple
+[2017.07.26-16.06.41:596][440]LogTemp:Warning: AI scale x: 0.922000
+[2017.07.26-16.06.41:634][441]LogTemp:Error: purple
+[2017.07.26-16.06.41:634][441]LogTemp:Warning: AI scale x: 0.920000
+[2017.07.26-16.06.41:670][442]LogTemp:Error: purple
+[2017.07.26-16.06.41:670][442]LogTemp:Warning: AI scale x: 0.918000
+[2017.07.26-16.06.41:706][443]LogTemp:Error: purple
+[2017.07.26-16.06.41:707][443]LogTemp:Warning: AI scale x: 0.916000
+[2017.07.26-16.06.41:743][444]LogTemp:Error: purple
+[2017.07.26-16.06.41:743][444]LogTemp:Warning: AI scale x: 0.914000
+[2017.07.26-16.06.41:780][445]LogTemp:Error: purple
+[2017.07.26-16.06.41:781][445]LogTemp:Warning: AI scale x: 0.912000
+[2017.07.26-16.06.41:818][446]LogTemp:Error: purple
+[2017.07.26-16.06.41:818][446]LogTemp:Warning: AI scale x: 0.910000
+[2017.07.26-16.06.41:853][447]LogTemp:Error: purple
+[2017.07.26-16.06.41:853][447]LogTemp:Warning: AI scale x: 0.908000
+[2017.07.26-16.06.41:889][448]LogTemp:Error: purple
+[2017.07.26-16.06.41:889][448]LogTemp:Warning: AI scale x: 0.906000
+[2017.07.26-16.06.41:926][449]LogTemp:Error: purple
+[2017.07.26-16.06.41:926][449]LogTemp:Warning: AI scale x: 0.904000
+[2017.07.26-16.06.42:034][452]LogTemp:Error: purple
+[2017.07.26-16.06.42:034][452]LogTemp:Warning: AI scale x: 0.902000
+[2017.07.26-16.06.42:070][453]LogTemp:Error: purple
+[2017.07.26-16.06.42:070][453]LogTemp:Warning: AI scale x: 0.900000
+[2017.07.26-16.06.42:106][454]LogTemp:Error: purple
+[2017.07.26-16.06.42:106][454]LogTemp:Warning: AI scale x: 0.898000
+[2017.07.26-16.06.42:143][455]LogTemp:Error: purple
+[2017.07.26-16.06.42:143][455]LogTemp:Warning: AI scale x: 0.896000
+[2017.07.26-16.06.42:179][456]LogTemp:Error: purple
+[2017.07.26-16.06.42:179][456]LogTemp:Warning: AI scale x: 0.894000
+[2017.07.26-16.06.42:215][457]LogTemp:Error: purple
+[2017.07.26-16.06.42:216][457]LogTemp:Warning: AI scale x: 0.892000
+[2017.07.26-16.06.42:252][458]LogTemp:Error: purple
+[2017.07.26-16.06.42:252][458]LogTemp:Warning: AI scale x: 0.890000
+[2017.07.26-16.06.42:289][459]LogTemp:Error: purple
+[2017.07.26-16.06.42:289][459]LogTemp:Warning: AI scale x: 0.888000
+[2017.07.26-16.06.42:325][460]LogTemp:Error: purple
+[2017.07.26-16.06.42:325][460]LogTemp:Warning: AI scale x: 0.886000
+[2017.07.26-16.06.42:660][469]LogTemp:Error: purple
+[2017.07.26-16.06.42:660][469]LogTemp:Warning: AI scale x: 0.884000
+[2017.07.26-16.06.42:699][470]LogTemp:Error: purple
+[2017.07.26-16.06.42:699][470]LogTemp:Warning: AI scale x: 0.882000
+[2017.07.26-16.06.42:736][471]LogTemp:Error: purple
+[2017.07.26-16.06.42:736][471]LogTemp:Warning: AI scale x: 0.880000
+[2017.07.26-16.06.42:774][472]LogTemp:Error: purple
+[2017.07.26-16.06.42:774][472]LogTemp:Warning: AI scale x: 0.878000
+[2017.07.26-16.06.42:812][473]LogTemp:Error: purple
+[2017.07.26-16.06.42:812][473]LogTemp:Warning: AI scale x: 0.876000
+[2017.07.26-16.06.43:035][479]LogTemp:Error: purple
+[2017.07.26-16.06.43:035][479]LogTemp:Warning: AI scale x: 0.874000
+[2017.07.26-16.06.43:072][480]LogTemp:Error: purple
+[2017.07.26-16.06.43:073][480]LogTemp:Warning: AI scale x: 0.872000
+[2017.07.26-16.06.43:109][481]LogTemp:Error: purple
+[2017.07.26-16.06.43:109][481]LogTemp:Warning: AI scale x: 0.870000
+[2017.07.26-16.06.43:145][482]LogTemp:Error: purple
+[2017.07.26-16.06.43:145][482]LogTemp:Warning: AI scale x: 0.868000
+[2017.07.26-16.06.43:183][483]LogTemp:Error: purple
+[2017.07.26-16.06.43:183][483]LogTemp:Warning: AI scale x: 0.866000
+[2017.07.26-16.06.43:217][484]LogTemp:Error: purple
+[2017.07.26-16.06.43:217][484]LogTemp:Warning: AI scale x: 0.864000
+[2017.07.26-16.06.43:255][485]LogTemp:Error: purple
+[2017.07.26-16.06.43:255][485]LogTemp:Warning: AI scale x: 0.862000
+[2017.07.26-16.06.43:291][486]LogTemp:Error: purple
+[2017.07.26-16.06.43:291][486]LogTemp:Warning: AI scale x: 0.860000
+[2017.07.26-16.06.43:327][487]LogTemp:Error: purple
+[2017.07.26-16.06.43:327][487]LogTemp:Warning: AI scale x: 0.858000
+[2017.07.26-16.06.43:799][500]LogTemp:Error: purple
+[2017.07.26-16.06.43:800][500]LogTemp:Warning: AI scale x: 0.856000
+[2017.07.26-16.06.43:835][501]LogTemp:Error: purple
+[2017.07.26-16.06.43:835][501]LogTemp:Warning: AI scale x: 0.854000
+[2017.07.26-16.06.43:871][502]LogTemp:Error: purple
+[2017.07.26-16.06.43:871][502]LogTemp:Warning: AI scale x: 0.852000
+[2017.07.26-16.06.43:907][503]LogTemp:Error: purple
+[2017.07.26-16.06.43:907][503]LogTemp:Warning: AI scale x: 0.850000
+[2017.07.26-16.06.43:943][504]LogTemp:Error: purple
+[2017.07.26-16.06.43:943][504]LogTemp:Warning: AI scale x: 0.848000
+[2017.07.26-16.06.43:978][505]LogTemp:Error: purple
+[2017.07.26-16.06.43:978][505]LogTemp:Warning: AI scale x: 0.846000
+[2017.07.26-16.06.44:161][510]LogTemp:Error: purple
+[2017.07.26-16.06.44:161][510]LogTemp:Warning: AI scale x: 0.844000
+[2017.07.26-16.06.44:199][511]LogTemp:Error: purple
+[2017.07.26-16.06.44:199][511]LogTemp:Warning: AI scale x: 0.842000
+[2017.07.26-16.06.44:234][512]LogTemp:Error: purple
+[2017.07.26-16.06.44:234][512]LogTemp:Warning: AI scale x: 0.840000
+[2017.07.26-16.06.44:270][513]LogTemp:Error: purple
+[2017.07.26-16.06.44:270][513]LogTemp:Warning: AI scale x: 0.838000
+[2017.07.26-16.06.44:306][514]LogTemp:Error: purple
+[2017.07.26-16.06.44:306][514]LogTemp:Warning: AI scale x: 0.836000
+[2017.07.26-16.06.44:342][515]LogTemp:Error: purple
+[2017.07.26-16.06.44:343][515]LogTemp:Warning: AI scale x: 0.834000
+[2017.07.26-16.06.44:379][516]LogTemp:Error: purple
+[2017.07.26-16.06.44:379][516]LogTemp:Warning: AI scale x: 0.832000
+[2017.07.26-16.06.44:415][517]LogTemp:Error: purple
+[2017.07.26-16.06.44:415][517]LogTemp:Warning: AI scale x: 0.830000
+[2017.07.26-16.06.44:454][518]LogTemp:Error: purple
+[2017.07.26-16.06.44:454][518]LogTemp:Warning: AI scale x: 0.828000
+[2017.07.26-16.06.44:489][519]LogTemp:Error: purple
+[2017.07.26-16.06.44:489][519]LogTemp:Warning: AI scale x: 0.826000
+[2017.07.26-16.06.44:525][520]LogTemp:Error: purple
+[2017.07.26-16.06.44:525][520]LogTemp:Warning: AI scale x: 0.824000
+[2017.07.26-16.06.44:560][521]LogTemp:Error: purple
+[2017.07.26-16.06.44:561][521]LogTemp:Warning: AI scale x: 0.822000
+[2017.07.26-16.06.44:597][522]LogTemp:Error: purple
+[2017.07.26-16.06.44:597][522]LogTemp:Warning: AI scale x: 0.820000
+[2017.07.26-16.06.44:634][523]LogTemp:Error: purple
+[2017.07.26-16.06.44:634][523]LogTemp:Warning: AI scale x: 0.818000
+[2017.07.26-16.06.44:672][524]LogTemp:Error: purple
+[2017.07.26-16.06.44:672][524]LogTemp:Warning: AI scale x: 0.816000
+[2017.07.26-16.06.44:709][525]LogTemp:Error: purple
+[2017.07.26-16.06.44:709][525]LogTemp:Warning: AI scale x: 0.814000
+[2017.07.26-16.06.44:745][526]LogTemp:Error: purple
+[2017.07.26-16.06.44:745][526]LogTemp:Warning: AI scale x: 0.812000
+[2017.07.26-16.06.44:782][527]LogTemp:Error: purple
+[2017.07.26-16.06.44:782][527]LogTemp:Warning: AI scale x: 0.810000
+[2017.07.26-16.06.44:817][528]LogTemp:Error: purple
+[2017.07.26-16.06.44:817][528]LogTemp:Warning: AI scale x: 0.808000
+[2017.07.26-16.06.44:854][529]LogTemp:Error: purple
+[2017.07.26-16.06.44:854][529]LogTemp:Warning: AI scale x: 0.806000
+[2017.07.26-16.06.44:892][530]LogTemp:Error: purple
+[2017.07.26-16.06.44:892][530]LogTemp:Warning: AI scale x: 0.804000
+[2017.07.26-16.06.44:928][531]LogTemp:Error: purple
+[2017.07.26-16.06.44:928][531]LogTemp:Warning: AI scale x: 0.802000
+[2017.07.26-16.06.45:128][536]LogTemp:Error: purple
+[2017.07.26-16.06.45:129][536]LogTemp:Warning: AI scale x: 0.800000
+[2017.07.26-16.06.45:166][537]LogTemp:Error: purple
+[2017.07.26-16.06.45:166][537]LogTemp:Warning: AI scale x: 0.798000
+[2017.07.26-16.06.45:201][538]LogTemp:Error: purple
+[2017.07.26-16.06.45:201][538]LogTemp:Warning: AI scale x: 0.796000
+[2017.07.26-16.06.45:237][539]LogTemp:Error: purple
+[2017.07.26-16.06.45:237][539]LogTemp:Warning: AI scale x: 0.794000
+[2017.07.26-16.06.45:274][540]LogTemp:Error: purple
+[2017.07.26-16.06.45:274][540]LogTemp:Warning: AI scale x: 0.792000
+[2017.07.26-16.06.45:313][541]LogTemp:Error: purple
+[2017.07.26-16.06.45:313][541]LogTemp:Warning: AI scale x: 0.790000
+[2017.07.26-16.06.45:351][542]LogTemp:Error: purple
+[2017.07.26-16.06.45:352][542]LogTemp:Warning: AI scale x: 0.788000
+[2017.07.26-16.06.45:391][543]LogTemp:Error: purple
+[2017.07.26-16.06.45:391][543]LogTemp:Warning: AI scale x: 0.786000
+[2017.07.26-16.06.45:427][544]LogTemp:Error: purple
+[2017.07.26-16.06.45:427][544]LogTemp:Warning: AI scale x: 0.784000
+[2017.07.26-16.06.45:463][545]LogTemp:Error: purple
+[2017.07.26-16.06.45:463][545]LogTemp:Warning: AI scale x: 0.782000
+[2017.07.26-16.06.45:498][546]LogTemp:Error: purple
+[2017.07.26-16.06.45:498][546]LogTemp:Warning: AI scale x: 0.780000
+[2017.07.26-16.06.45:535][547]LogTemp:Error: purple
+[2017.07.26-16.06.45:535][547]LogTemp:Warning: AI scale x: 0.778000
+[2017.07.26-16.06.45:573][548]LogTemp:Error: purple
+[2017.07.26-16.06.45:573][548]LogTemp:Warning: AI scale x: 0.776000
+[2017.07.26-16.06.45:609][549]LogTemp:Error: purple
+[2017.07.26-16.06.45:609][549]LogTemp:Warning: AI scale x: 0.774000
+[2017.07.26-16.06.45:647][550]LogTemp:Error: purple
+[2017.07.26-16.06.45:647][550]LogTemp:Warning: AI scale x: 0.772000
+[2017.07.26-16.06.45:683][551]LogTemp:Error: purple
+[2017.07.26-16.06.45:683][551]LogTemp:Warning: AI scale x: 0.770000
+[2017.07.26-16.06.45:719][552]LogTemp:Error: purple
+[2017.07.26-16.06.45:719][552]LogTemp:Warning: AI scale x: 0.768000
+[2017.07.26-16.06.45:755][553]LogTemp:Error: purple
+[2017.07.26-16.06.45:755][553]LogTemp:Warning: AI scale x: 0.766000
+[2017.07.26-16.06.45:792][554]LogTemp:Error: purple
+[2017.07.26-16.06.45:792][554]LogTemp:Warning: AI scale x: 0.764000
+[2017.07.26-16.06.45:829][555]LogTemp:Error: purple
+[2017.07.26-16.06.45:829][555]LogTemp:Warning: AI scale x: 0.762000
+[2017.07.26-16.06.45:866][556]LogTemp:Error: purple
+[2017.07.26-16.06.45:866][556]LogTemp:Warning: AI scale x: 0.760000
+[2017.07.26-16.06.45:903][557]LogTemp:Error: purple
+[2017.07.26-16.06.45:903][557]LogTemp:Warning: AI scale x: 0.758000
+[2017.07.26-16.06.45:939][558]LogTemp:Error: purple
+[2017.07.26-16.06.45:939][558]LogTemp:Warning: AI scale x: 0.756000
+[2017.07.26-16.06.45:982][559]LogTemp:Error: purple
+[2017.07.26-16.06.45:982][559]LogTemp:Warning: AI scale x: 0.754000
+[2017.07.26-16.06.46:011][560]LogTemp:Error: purple
+[2017.07.26-16.06.46:011][560]LogTemp:Warning: AI scale x: 0.752000
+[2017.07.26-16.06.46:046][561]LogTemp:Error: purple
+[2017.07.26-16.06.46:046][561]LogTemp:Warning: AI scale x: 0.750000
+[2017.07.26-16.06.46:083][562]LogTemp:Error: purple
+[2017.07.26-16.06.46:083][562]LogTemp:Warning: AI scale x: 0.748000
+[2017.07.26-16.06.46:119][563]LogTemp:Error: purple
+[2017.07.26-16.06.46:119][563]LogTemp:Warning: AI scale x: 0.746000
+[2017.07.26-16.06.46:155][564]LogTemp:Error: purple
+[2017.07.26-16.06.46:155][564]LogTemp:Warning: AI scale x: 0.744000
+[2017.07.26-16.06.46:191][565]LogTemp:Error: purple
+[2017.07.26-16.06.46:191][565]LogTemp:Warning: AI scale x: 0.742000
+[2017.07.26-16.06.46:265][567]LogTemp:Error: purple
+[2017.07.26-16.06.46:265][567]LogTemp:Warning: AI scale x: 0.740000
+[2017.07.26-16.06.46:300][568]LogTemp:Error: purple
+[2017.07.26-16.06.46:300][568]LogTemp:Warning: AI scale x: 0.738000
+[2017.07.26-16.06.46:336][569]LogTemp:Error: purple
+[2017.07.26-16.06.46:336][569]LogTemp:Warning: AI scale x: 0.736000
+[2017.07.26-16.06.46:373][570]LogTemp:Error: purple
+[2017.07.26-16.06.46:374][570]LogTemp:Warning: AI scale x: 0.734000
+[2017.07.26-16.06.46:409][571]LogTemp:Error: purple
+[2017.07.26-16.06.46:409][571]LogTemp:Warning: AI scale x: 0.732000
+[2017.07.26-16.06.46:444][572]LogTemp:Error: purple
+[2017.07.26-16.06.46:444][572]LogTemp:Warning: AI scale x: 0.730000
+[2017.07.26-16.06.46:480][573]LogTemp:Error: purple
+[2017.07.26-16.06.46:480][573]LogTemp:Warning: AI scale x: 0.728000
+[2017.07.26-16.06.46:517][574]LogTemp:Error: purple
+[2017.07.26-16.06.46:517][574]LogTemp:Warning: AI scale x: 0.726000
+[2017.07.26-16.06.46:553][575]LogTemp:Error: purple
+[2017.07.26-16.06.46:553][575]LogTemp:Warning: AI scale x: 0.724000
+[2017.07.26-16.06.46:590][576]LogTemp:Error: purple
+[2017.07.26-16.06.46:590][576]LogTemp:Warning: AI scale x: 0.722000
+[2017.07.26-16.06.46:626][577]LogTemp:Error: purple
+[2017.07.26-16.06.46:626][577]LogTemp:Warning: AI scale x: 0.720000
+[2017.07.26-16.06.46:663][578]LogTemp:Error: purple
+[2017.07.26-16.06.46:663][578]LogTemp:Warning: AI scale x: 0.718000
+[2017.07.26-16.06.46:699][579]LogTemp:Error: purple
+[2017.07.26-16.06.46:699][579]LogTemp:Warning: AI scale x: 0.716000
+[2017.07.26-16.06.46:957][586]LogTemp:Error: purple
+[2017.07.26-16.06.46:957][586]LogTemp:Warning: AI scale x: 0.714000
+[2017.07.26-16.06.46:994][587]LogTemp:Error: purple
+[2017.07.26-16.06.46:994][587]LogTemp:Warning: AI scale x: 0.712000
+[2017.07.26-16.06.47:030][588]LogTemp:Error: purple
+[2017.07.26-16.06.47:031][588]LogTemp:Warning: AI scale x: 0.710000
+[2017.07.26-16.06.47:068][589]LogTemp:Error: purple
+[2017.07.26-16.06.47:068][589]LogTemp:Warning: AI scale x: 0.708000
+[2017.07.26-16.06.47:399][598]LogTemp:Error: purple
+[2017.07.26-16.06.47:399][598]LogTemp:Warning: AI scale x: 0.706000
+[2017.07.26-16.06.47:435][599]LogTemp:Error: purple
+[2017.07.26-16.06.47:435][599]LogTemp:Warning: AI scale x: 0.704000
+[2017.07.26-16.06.47:473][600]LogTemp:Error: purple
+[2017.07.26-16.06.47:473][600]LogTemp:Warning: AI scale x: 0.702000
+[2017.07.26-16.06.47:508][601]LogTemp:Error: purple
+[2017.07.26-16.06.47:508][601]LogTemp:Warning: AI scale x: 0.700000
+[2017.07.26-16.06.47:546][602]LogTemp:Error: purple
+[2017.07.26-16.06.47:546][602]LogTemp:Warning: AI scale x: 0.698000
+[2017.07.26-16.06.47:584][603]LogTemp:Error: purple
+[2017.07.26-16.06.47:584][603]LogTemp:Warning: AI scale x: 0.696000
+[2017.07.26-16.06.47:619][604]LogTemp:Error: purple
+[2017.07.26-16.06.47:619][604]LogTemp:Warning: AI scale x: 0.694000
+[2017.07.26-16.06.47:655][605]LogTemp:Error: purple
+[2017.07.26-16.06.47:655][605]LogTemp:Warning: AI scale x: 0.692000
+[2017.07.26-16.06.47:691][606]LogTemp:Error: purple
+[2017.07.26-16.06.47:691][606]LogTemp:Warning: AI scale x: 0.690000
+[2017.07.26-16.06.47:728][607]LogTemp:Error: purple
+[2017.07.26-16.06.47:728][607]LogTemp:Warning: AI scale x: 0.688000
+[2017.07.26-16.06.47:765][608]LogTemp:Error: purple
+[2017.07.26-16.06.47:765][608]LogTemp:Warning: AI scale x: 0.686000
+[2017.07.26-16.06.47:801][609]LogTemp:Error: purple
+[2017.07.26-16.06.47:801][609]LogTemp:Warning: AI scale x: 0.684000
+[2017.07.26-16.06.47:837][610]LogTemp:Error: purple
+[2017.07.26-16.06.47:837][610]LogTemp:Warning: AI scale x: 0.682000
+[2017.07.26-16.06.47:872][611]LogTemp:Error: purple
+[2017.07.26-16.06.47:872][611]LogTemp:Warning: AI scale x: 0.680000
+[2017.07.26-16.06.47:908][612]LogTemp:Error: purple
+[2017.07.26-16.06.47:909][612]LogTemp:Warning: AI scale x: 0.678000
+[2017.07.26-16.06.47:944][613]LogTemp:Error: purple
+[2017.07.26-16.06.47:944][613]LogTemp:Warning: AI scale x: 0.676000
+[2017.07.26-16.06.47:982][614]LogTemp:Error: purple
+[2017.07.26-16.06.47:983][614]LogTemp:Warning: AI scale x: 0.674000
+[2017.07.26-16.06.48:017][615]LogTemp:Error: purple
+[2017.07.26-16.06.48:017][615]LogTemp:Warning: AI scale x: 0.672000
+[2017.07.26-16.06.48:053][616]LogTemp:Error: purple
+[2017.07.26-16.06.48:053][616]LogTemp:Warning: AI scale x: 0.670000
+[2017.07.26-16.06.48:090][617]LogTemp:Error: purple
+[2017.07.26-16.06.48:090][617]LogTemp:Warning: AI scale x: 0.668000
+[2017.07.26-16.06.48:127][618]LogTemp:Error: purple
+[2017.07.26-16.06.48:127][618]LogTemp:Warning: AI scale x: 0.666000
+[2017.07.26-16.06.48:164][619]LogTemp:Error: purple
+[2017.07.26-16.06.48:165][619]LogTemp:Warning: AI scale x: 0.664000
+[2017.07.26-16.06.48:199][620]LogTemp:Error: purple
+[2017.07.26-16.06.48:199][620]LogTemp:Warning: AI scale x: 0.662000
+[2017.07.26-16.06.50:320][678]LogTemp:Error: purple
+[2017.07.26-16.06.50:321][678]LogTemp:Warning: AI scale x: 0.660000
+[2017.07.26-16.06.50:356][679]LogTemp:Error: purple
+[2017.07.26-16.06.50:356][679]LogTemp:Warning: AI scale x: 0.658000
+[2017.07.26-16.07.05:794][ 74]LogTemp:Error: purple
+[2017.07.26-16.07.05:838][ 75]LogTemp:Error: purple
+[2017.07.26-16.07.05:883][ 76]LogTemp:Error: purple
+[2017.07.26-16.07.05:930][ 77]LogTemp:Error: purple
+[2017.07.26-16.07.05:977][ 78]LogTemp:Error: purple
+[2017.07.26-16.07.06:025][ 79]LogTemp:Error: purple
+[2017.07.26-16.07.06:072][ 80]LogTemp:Error: purple
+[2017.07.26-16.07.06:118][ 81]LogTemp:Error: purple
+[2017.07.26-16.07.06:163][ 82]LogTemp:Error: purple
+[2017.07.26-16.07.06:209][ 83]LogTemp:Error: purple
+[2017.07.26-16.07.06:255][ 84]LogTemp:Error: purple
+[2017.07.26-16.07.06:301][ 85]LogTemp:Error: purple
+[2017.07.26-16.07.06:985][100]LogTemp:Error: purple
+[2017.07.26-16.07.07:030][101]LogTemp:Error: purple
+[2017.07.26-16.07.07:075][102]LogTemp:Error: purple
+[2017.07.26-16.07.07:121][103]LogTemp:Error: purple
+[2017.07.26-16.07.07:168][104]LogTemp:Error: purple
+[2017.07.26-16.07.07:214][105]LogTemp:Error: purple
+[2017.07.26-16.07.07:259][106]LogTemp:Error: purple
+[2017.07.26-16.07.07:305][107]LogTemp:Error: purple
+[2017.07.26-16.07.07:351][108]LogTemp:Error: purple
+[2017.07.26-16.07.07:397][109]LogTemp:Error: purple
+[2017.07.26-16.07.07:443][110]LogTemp:Error: purple
+[2017.07.26-16.07.07:488][111]LogTemp:Error: purple
+[2017.07.26-16.07.07:535][112]LogTemp:Error: purple
+[2017.07.26-16.07.07:583][113]LogTemp:Error: purple
+[2017.07.26-16.07.07:628][114]LogTemp:Error: purple
+[2017.07.26-16.07.07:675][115]LogTemp:Error: purple
+[2017.07.26-16.07.07:720][116]LogTemp:Error: purple
+[2017.07.26-16.07.07:766][117]LogTemp:Error: purple
+[2017.07.26-16.07.07:813][118]LogTemp:Error: purple
+[2017.07.26-16.07.07:860][119]LogTemp:Error: purple
+[2017.07.26-16.07.07:907][120]LogTemp:Error: purple
+[2017.07.26-16.07.07:953][121]LogTemp:Error: purple
+[2017.07.26-16.07.08:000][122]LogTemp:Error: purple
+[2017.07.26-16.07.08:045][123]LogTemp:Error: purple
+[2017.07.26-16.07.08:092][124]LogTemp:Error: purple
+[2017.07.26-16.07.08:139][125]LogTemp:Error: purple
+[2017.07.26-16.07.08:186][126]LogTemp:Error: purple
+[2017.07.26-16.07.08:233][127]LogTemp:Error: purple
+[2017.07.26-16.07.08:278][128]LogTemp:Error: purple
+[2017.07.26-16.07.14:183][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-16.07.14:563][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.07.26-16.07.20:129][333]LogSavePackage: Save=1099.57ms
+[2017.07.26-16.07.20:130][333]LogSavePackage: Moving '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/MockUp_Map2450221B4DDB8A5C690E8E89395ED786.tmp' to '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap'
+[2017.07.26-16.07.20:133][333]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap
+[2017.07.26-16.08.28:850][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.26-16.08.29:312][876]Cmd: QUIT_EDITOR
+[2017.07.26-16.08.30:115][876]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.26-16.08.30:180][876]LogExit: Preparing to exit.
+[2017.07.26-16.08.30:860][876]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.07.26-16.08.31:060][876]LogExit: Editor shut down
+[2017.07.26-16.08.31:060][876]LogExit: Transaction tracking system shut down
+[2017.07.26-16.08.32:553][876]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.26-16.08.32:553][876]LogExit: Object subsystem successfully closed.
+[2017.07.26-16.08.32:760][876]LogD3D11RHI: Shutdown
+[2017.07.26-16.08.32:760][876]LogD3D11RHI: CleanupD3DDevice
+[2017.07.26-16.08.33:185][876]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.26-16.08.35:341][876]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (507)
+[2017.07.26-16.08.35:341][876]LogModuleManager: Shutting down and abandoning module Meeting (505)
+[2017.07.26-16.08.35:341][876]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.07.26-16.08.35:341][876]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.07.26-16.08.35:465][876]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.07.26-16.08.35:506][876]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.07.26-16.08.35:506][876]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.07.26-16.08.35:506][876]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.07.26-16.08.35:543][876]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.07.26-16.08.35:546][876]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.07.26-16.08.35:546][876]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.07.26-16.08.35:547][876]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.07.26-16.08.35:581][876]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' was aborted.
+[2017.07.26-16.08.35:581][876]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/Developers/chong/Collections/' was aborted.
+[2017.07.26-16.08.35:581][876]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' was aborted.
+[2017.07.26-16.08.35:581][876]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.07.26-16.08.35:627][876]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.07.26-16.08.35:627][876]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.07.26-16.08.35:646][876]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.07.26-16.08.35:646][876]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.07.26-16.08.35:646][876]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.07.26-16.08.35:646][876]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.07.26-16.08.35:646][876]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.07.26-16.08.35:667][876]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.07.26-16.08.35:691][876]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.07.26-16.08.35:709][876]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.07.26-16.08.35:738][876]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.07.26-16.08.35:738][876]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.07.26-16.08.35:848][876]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.07.26-16.08.35:848][876]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.07.26-16.08.35:848][876]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.07.26-16.08.35:849][876]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.07.26-16.08.35:907][876]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.07.26-16.08.35:907][876]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.07.26-16.08.35:907][876]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.07.26-16.08.35:907][876]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.07.26-16.08.35:907][876]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.07.26-16.08.35:943][876]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.07.26-16.08.35:964][876]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.07.26-16.08.36:004][876]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.07.26-16.08.36:004][876]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.07.26-16.08.36:004][876]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.07.26-16.08.36:004][876]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.07.26-16.08.36:046][876]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.07.26-16.08.36:829][876]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.07.26-16.08.36:829][876]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.07.26-16.08.36:829][876]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.07.26-16.08.36:849][876]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.07.26-16.08.37:119][876]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.07.26-16.08.37:205][876]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.07.26-16.08.37:259][876]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.07.26-16.08.37:285][876]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.07.26-16.08.37:285][876]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.07.26-16.08.37:390][876]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.07.26-16.08.37:460][876]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.07.26-16.08.37:510][876]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.07.26-16.08.38:192][876]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.07.26-16.08.38:317][876]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.07.26-16.08.38:317][876]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.07.26-16.08.38:398][876]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.07.26-16.08.38:486][876]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.07.26-16.08.38:486][876]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.07.26-16.08.38:487][876]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.07.26-16.08.38:487][876]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.07.26-16.08.38:510][876]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.07.26-16.08.38:610][876]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.07.26-16.08.39:160][876]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.07.26-16.08.39:220][876]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.07.26-16.08.39:273][876]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.07.26-16.08.39:349][876]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.07.26-16.08.39:366][876]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.07.26-16.08.39:388][876]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.07.26-16.08.39:449][876]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.07.26-16.08.39:449][876]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.07.26-16.08.39:476][876]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.07.26-16.08.39:476][876]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.07.26-16.08.39:501][876]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.07.26-16.08.39:501][876]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.07.26-16.08.39:542][876]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.07.26-16.08.39:542][876]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.07.26-16.08.39:542][876]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.07.26-16.08.39:558][876]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.07.26-16.08.39:567][876]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.07.26-16.08.39:582][876]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.07.26-16.08.39:582][876]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.07.26-16.08.39:610][876]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.07.26-16.08.39:611][876]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.07.26-16.08.39:611][876]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.07.26-16.08.39:611][876]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.07.26-16.08.39:640][876]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.07.26-16.08.39:655][876]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.07.26-16.08.39:655][876]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.07.26-16.08.39:655][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.07.26-16.08.39:655][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.07.26-16.08.39:662][876]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.07.26-16.08.39:662][876]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.07.26-16.08.39:662][876]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.07.26-16.08.39:663][876]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.07.26-16.08.39:663][876]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.07.26-16.08.39:663][876]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.07.26-16.08.39:663][876]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.07.26-16.08.39:688][876]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.07.26-16.08.39:688][876]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.07.26-16.08.39:693][876]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.07.26-16.08.39:693][876]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.07.26-16.08.39:700][876]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.07.26-16.08.39:700][876]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.07.26-16.08.39:700][876]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.07.26-16.08.39:701][876]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.07.26-16.08.39:701][876]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.07.26-16.08.39:718][876]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.07.26-16.08.39:726][876]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.07.26-16.08.39:726][876]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.07.26-16.08.39:726][876]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.07.26-16.08.39:741][876]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.07.26-16.08.39:742][876]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.07.26-16.08.39:748][876]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.07.26-16.08.39:760][876]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.07.26-16.08.39:768][876]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.07.26-16.08.39:800][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.07.26-16.08.39:800][876]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.07.26-16.08.39:800][876]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.07.26-16.08.39:800][876]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.07.26-16.08.39:857][876]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.07.26-16.08.39:886][876]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.07.26-16.08.39:931][876]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.07.26-16.08.39:974][876]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.07.26-16.08.39:974][876]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.07.26-16.08.39:974][876]LogDirectoryWatcher: A directory notification for 'C:/Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Binaries/Win64' was aborted.
+[2017.07.26-16.08.39:975][876]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.07.26-16.08.39:978][876]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.07.26-16.08.39:991][876]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.07.26-16.08.39:991][876]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.07.26-16.08.39:991][876]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.07.26-16.08.40:092][876]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.07.26-16.08.40:196][876]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.07.26-16.08.40:250][876]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.07.26-16.08.40:267][876]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.07.26-16.08.40:267][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.07.26-16.08.40:267][876]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.07.26-16.08.40:283][876]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.07.26-16.08.40:283][876]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.07.26-16.08.40:284][876]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.07.26-16.08.40:284][876]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.07.26-16.08.40:284][876]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.07.26-16.08.40:302][876]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.07.26-16.08.40:302][876]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.07.26-16.08.40:302][876]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.07.26-16.08.40:350][876]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.07.26-16.08.40:350][876]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.07.26-16.08.40:367][876]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.07.26-16.08.40:383][876]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.07.26-16.08.40:472][876]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.07.26-16.08.40:574][876]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.07.26-16.08.40:703][876]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.07.26-16.08.40:703][876]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.07.26-16.08.40:703][876]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.07.26-16.08.40:825][876]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.07.26-16.08.40:825][876]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.07.26-16.08.40:829][876]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.07.26-16.08.40:863][876]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.07.26-16.08.40:863][876]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.07.26-16.08.40:863][876]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.07.26-16.08.40:863][876]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.07.26-16.08.40:863][876]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.07.26-16.08.40:966][876]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.26-16.08.40:966][876]LogDirectoryWatcher: A directory notification for '../../../../../../Users/chong/OneDrive/Documents/GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.07.26-16.08.40:966][876]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.26-16.08.40:984][876]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.07.26-16.08.40:984][876]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.07.26-16.08.40:984][876]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.07.26-16.08.40:984][876]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.07.26-16.08.40:984][876]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.07.26-16.08.41:049][876]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.07.26-16.08.41:049][876]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.07.26-16.08.41:049][876]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.07.26-16.08.41:049][876]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.07.26-16.08.41:062][876]LogDerivedDataCache: Shutdown
+[2017.07.26-16.08.41:062][876]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.07.26-16.08.41:062][876]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.07.26-16.08.41:076][876]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.07.26-16.08.41:089][876]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.07.26-16.08.41:089][876]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.07.26-16.08.41:109][876]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.07.26-16.08.41:109][876]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.07.26-16.08.41:109][876]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.07.26-16.08.41:109][876]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.07.26-16.08.41:122][876]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.07.26-16.08.41:122][876]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.07.26-16.08.41:122][876]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.07.26-16.08.41:122][876]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.07.26-16.08.41:136][876]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.07.26-16.08.41:136][876]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.07.26-16.08.41:136][876]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.07.26-16.08.41:136][876]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.07.26-16.08.41:136][876]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.07.26-16.08.41:136][876]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.07.26-16.08.41:137][876]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.07.26-16.08.41:152][876]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.07.26-16.08.41:152][876]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.07.26-16.08.41:152][876]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.07.26-16.08.41:152][876]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.07.26-16.08.41:152][876]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.26-16.08.41:169][876]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.07.26-16.08.41:222][876]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.07.26-16.08.41:229][876]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.26-16.08.41:229][876]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B29A138E3-4F76-C37A-F036-3D9D43FB8631%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=b99de09e4fd31c4d8810b7b27378685f%7Cd854f23f85534a6a958aa5db07b32c86%7Cc8e0bc57-2edb-4c06-a7cf-4ae6b98e3978&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.26-16.08.41:236][876]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.07.26-16.08.41:249][876]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.26-16.08.41:262][876]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.26-16.08.41:262][876]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.26-16.08.41:262][876]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.26-16.08.41:262][876]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.26-16.08.41:285][876]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.26-16.08.41:303][876]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.26-16.08.41:303][876]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.26-16.08.41:310][876]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.26-16.08.41:328][876]LogExit: Exiting.
+[2017.07.26-16.08.41:347][876]Log file closed, 07/27/17 00:08:41
