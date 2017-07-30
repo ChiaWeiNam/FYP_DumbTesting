@@ -26,6 +26,7 @@ UPlayerShoot::UPlayerShoot()
 	UltravioletSpot = FLinearColor(1.0f, 0.0f, 1.0f, 1.0f);
 
 	ammoLimit = 0.5f;
+	ammoText = ammoLimit * 100;
 	endPoint = 370.0f;
 }
 
@@ -62,6 +63,8 @@ void UPlayerShoot::BeginPlay()
 	{
 		Mat_LightBeam = UMaterialInstanceDynamic::Create(StaticMeshComponent->GetMaterial(0), this);
 	}
+
+	lightIntensity = SL_Light->Intensity; 
 }
 
 
@@ -86,12 +89,23 @@ void UPlayerShoot::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 
 			if (StaticMeshComponent->GetName().Equals("LightBeam"))
 			{
-				if (ammoLimit <= 0.5f && ammoLimit >= 0.01f)
+				if (ammoLimit <= 0.5f && ammoLimit >= 0.05f)
 				{
-					ammoLimit -= 0.01f;
+					ammoLimit -= 0.005f;
+					ammoText = ammoLimit * 100;
+					if (lightIntensity >= 200.0f)
+					{
+						lightIntensity -= ammoLimit * 200.0f;
+					}
 
 					Mat_LightBeam->SetScalarParameterValue("Opacity", ammoLimit);
 					StaticMeshComponent->SetMaterial(0, Mat_LightBeam);
+					SL_Light->SetIntensity(lightIntensity);
+				}
+
+				if (ammoText == 4)
+				{
+					ammoText = 0;
 				}
 			}
 

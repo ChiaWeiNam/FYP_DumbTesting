@@ -46,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	void UPlayerShoot::StaticRegisterNativesUPlayerShoot()
 	{
 	}
-	IMPLEMENT_CLASS(UPlayerShoot, 2104322694);
+	IMPLEMENT_CLASS(UPlayerShoot, 3053359174);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
@@ -396,6 +396,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_lightIntensity = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("lightIntensity"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(lightIntensity, UPlayerShoot), 0x0010000000000005);
+				UProperty* NewProp_ammoText = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ammoText"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(ammoText, UPlayerShoot), 0x0010000000000005);
 				UProperty* NewProp_ammoLimit = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ammoLimit"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(ammoLimit, UPlayerShoot), 0x0010000000000005);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(isShoot, UPlayerShoot, bool);
 				UProperty* NewProp_isShoot = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("isShoot"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(isShoot, UPlayerShoot), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(isShoot, UPlayerShoot), sizeof(bool), true);
@@ -409,6 +411,10 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PlayerShoot.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
+				MetaData->SetValue(NewProp_lightIntensity, TEXT("Category"), TEXT("PlayerShoot"));
+				MetaData->SetValue(NewProp_lightIntensity, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
+				MetaData->SetValue(NewProp_ammoText, TEXT("Category"), TEXT("PlayerShoot"));
+				MetaData->SetValue(NewProp_ammoText, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
 				MetaData->SetValue(NewProp_ammoLimit, TEXT("Category"), TEXT("PlayerShoot"));
 				MetaData->SetValue(NewProp_ammoLimit, TEXT("ModuleRelativePath"), TEXT("PlayerShoot.h"));
 				MetaData->SetValue(NewProp_isShoot, TEXT("Category"), TEXT("PlayerShoot"));
@@ -431,7 +437,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xD90112CF;
+			Guid.A = 0xE5BC9750;
 			Guid.B = 0x66A926F5;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

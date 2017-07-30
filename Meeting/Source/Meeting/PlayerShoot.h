@@ -32,6 +32,12 @@ public:
 	UPROPERTY(EditAnywhere, BluePrintReadWrite)
 		float ammoLimit;
 
+	UPROPERTY(EditAnywhere, BluePrintReadWrite)
+		int ammoText;
+
+	UPROPERTY(EditAnywhere, BluePrintReadWrite)
+		float lightIntensity;
+
 private:
 	ACharacter* Owner;
 
