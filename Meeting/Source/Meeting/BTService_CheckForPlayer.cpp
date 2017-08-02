@@ -22,13 +22,13 @@ void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint
 
 	if (EnemyPC)
 	{
-		AMainPlayer *Enemy = Cast<AMainPlayer>(GetWorld()->GetFirstPlayerController()->GetPawn());
+		//AMainPlayer *Enemy = Cast<AMainPlayer>(GetWorld()->GetFirstPlayerController()->GetPawn());
 
 		AActor *Player = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 
 		if (Player)
 		{
-			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(EnemyPC->EnemyKeyID, Enemy);
+			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(EnemyPC->EnemyKeyID, Player);
 			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Enemy Is Here");
 		}
 		else

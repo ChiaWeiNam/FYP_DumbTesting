@@ -17,13 +17,13 @@ EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& Ow
 {
 	AEnemyAI *CharPC = Cast<AEnemyAI>(OwnerComp.GetAIOwner());
 
-	AMainPlayer *Enemy = Cast<AMainPlayer>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(CharPC->EnemyKeyID));
+	AActor *Enemy = Cast<AActor>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(CharPC->EnemyKeyID));
 
-	AActor *Player = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	//AActor *Player = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 
-	if (Player)
+	if (Enemy)
 	{
-		CharPC->MoveToActor(Player, 200.0f, true, true, true, 0, true);
+		CharPC->MoveToActor(Enemy, 100.0f, true, true, true, 0, true);
 
 		return EBTNodeResult::Succeeded;
 	}
