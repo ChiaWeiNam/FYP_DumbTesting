@@ -57,11 +57,13 @@ void UPlayerShoot::BeginPlay()
 	{
 		StaticMeshComponent = Components[i];
 		StaticMesh = StaticMeshComponent->StaticMesh;
-	}
 
-	if (StaticMeshComponent->GetName().Equals("LightBeam"))
-	{
-		Mat_LightBeam = UMaterialInstanceDynamic::Create(StaticMeshComponent->GetMaterial(0), this);
+
+		if (StaticMeshComponent->GetName().Equals("LightBeam"))
+		{
+			Mat_LightBeam = UMaterialInstanceDynamic::Create(StaticMeshComponent->GetMaterial(0), this);
+			break;
+		}
 	}
 
 	lightIntensity = SL_Light->Intensity; 
