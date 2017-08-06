@@ -23,6 +23,14 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	{
 	}
 	IMPLEMENT_CLASS(UBTTask_MoveToPlayer, 1260637810);
+	void UBTTask_Patroling::StaticRegisterNativesUBTTask_Patroling()
+	{
+	}
+	IMPLEMENT_CLASS(UBTTask_Patroling, 2392704275);
+	void UBTTask_UpdatePatrolPoint::StaticRegisterNativesUBTTask_UpdatePatrolPoint()
+	{
+	}
+	IMPLEMENT_CLASS(UBTTask_UpdatePatrolPoint, 87329133);
 	void AEnemyAI::StaticRegisterNativesAEnemyAI()
 	{
 	}
@@ -68,6 +76,10 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	MEETING_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_Patroling_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_Patroling();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_UpdatePatrolPoint_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_UpdatePatrolPoint();
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyAI_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyAI();
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
@@ -191,6 +203,68 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_MoveToPlayer(Z_Construct_UClass_UBTTask_MoveToPlayer, &UBTTask_MoveToPlayer::StaticClass, TEXT("UBTTask_MoveToPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_MoveToPlayer);
+	UClass* Z_Construct_UClass_UBTTask_Patroling_NoRegister()
+	{
+		return UBTTask_Patroling::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UBTTask_Patroling()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBTTask_BlackboardBase();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UBTTask_Patroling::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BTTask_Patroling.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BTTask_Patroling.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_Patroling(Z_Construct_UClass_UBTTask_Patroling, &UBTTask_Patroling::StaticClass, TEXT("UBTTask_Patroling"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_Patroling);
+	UClass* Z_Construct_UClass_UBTTask_UpdatePatrolPoint_NoRegister()
+	{
+		return UBTTask_UpdatePatrolPoint::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UBTTask_UpdatePatrolPoint()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBTTask_BlackboardBase();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UBTTask_UpdatePatrolPoint::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BTTask_UpdatePatrolPoint.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BTTask_UpdatePatrolPoint.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_UpdatePatrolPoint(Z_Construct_UClass_UBTTask_UpdatePatrolPoint, &UBTTask_UpdatePatrolPoint::StaticClass, TEXT("UBTTask_UpdatePatrolPoint"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_UpdatePatrolPoint);
 	UClass* Z_Construct_UClass_AEnemyAI_NoRegister()
 	{
 		return AEnemyAI::StaticClass();
@@ -437,8 +511,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xE5BC9750;
-			Guid.B = 0x66A926F5;
+			Guid.A = 0x4A066F68;
+			Guid.B = 0x6F3773EB;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

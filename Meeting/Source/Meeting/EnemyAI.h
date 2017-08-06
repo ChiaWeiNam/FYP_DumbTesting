@@ -22,6 +22,8 @@ public:
 	virtual void Possess(APawn *InPawn) override;
 
 	uint8 EnemyKeyID;
+	uint8 Patrol1KeyID;
+	uint8 Patrol2KeyID;
 
 
 };
