@@ -60,6 +60,7 @@ private:
 	FVector SpotLightLocation;
 	FRotator SpotLightRotation;
 
+	float damagedHit;
 	float endPoint;
 	bool isRedLight;
 

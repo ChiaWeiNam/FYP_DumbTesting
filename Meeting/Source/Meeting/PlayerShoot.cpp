@@ -3,6 +3,7 @@
 #include "Meeting.h"
 #include "PlayerShoot.h"
 #include "AI_Movement.h"
+#include "EnemyWeakspot.h"
 
 #define OUT
 
@@ -28,6 +29,8 @@ UPlayerShoot::UPlayerShoot()
 	ammoLimit = 0.5f;
 	ammoText = ammoLimit * 100;
 	endPoint = 370.0f;
+
+	damagedHit = 0.1f;
 }
 
 
@@ -66,7 +69,7 @@ void UPlayerShoot::BeginPlay()
 		}
 	}
 
-	lightIntensity = SL_Light->Intensity; 
+	lightIntensity = SL_Light->Intensity;
 }
 
 
@@ -125,29 +128,51 @@ void UPlayerShoot::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 			AActor* ActorHit = Hit.GetActor();
 			if (ActorHit && isRedLight)
 			{
-				UE_LOG(LogTemp, Error, TEXT("red: %s"), *ActorHit->GetName());
-
-				if (ActorHit->FindComponentByClass<UAI_Movement>())
+				/*if (ActorHit->FindComponentByClass<UAI_Movement>())
 				{
-					ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
-					if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara <= 5.f)
+				ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
+				if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara <= 5.f)
+				{
+				ActorHit->FindComponentByClass<UAI_Movement>()->LightPara += 0.01f;
+				}
+				}*/
+
+				if (ActorHit->FindComponentByClass<UEnemyWeakspot>())
+				{
+					if (ActorHit->FindComponentByClass<UEnemyWeakspot>()->bIsDead == false)
 					{
-						ActorHit->FindComponentByClass<UAI_Movement>()->LightPara += 0.01f;
+						ActorHit->FindComponentByClass<UEnemyWeakspot>()->bIsRedDamaged = true;
+
+						if (ActorHit->FindComponentByClass<UEnemyWeakspot>()->enemyCurrentHealth && ActorHit->FindComponentByClass<UEnemyWeakspot>()->enemyCurrentHealth >= 0.0f)
+						{
+							ActorHit->FindComponentByClass<UEnemyWeakspot>()->enemyCurrentHealth -= damagedHit;
+						}
 					}
 				}
 			}
 
 			else if (ActorHit && !isRedLight)
 			{
-				UE_LOG(LogTemp, Error, TEXT("purple"));
-				if (ActorHit->FindComponentByClass<UAI_Movement>())
+				/*if (ActorHit->FindComponentByClass<UAI_Movement>())
 				{
-					ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
-					if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara >= -5.f)
-					{
-						ActorHit->FindComponentByClass<UAI_Movement>()->LightPara -= 0.01f;
-					}
+				ActorHit->FindComponentByClass<UAI_Movement>()->IsGrow = true;
+				if (ActorHit->FindComponentByClass<UAI_Movement>()->LightPara >= -5.f)
+				{
+				ActorHit->FindComponentByClass<UAI_Movement>()->LightPara -= 0.01f;
+				}
+				}*/
 
+				if (ActorHit->FindComponentByClass<UEnemyWeakspot>())
+				{
+					if (ActorHit->FindComponentByClass<UEnemyWeakspot>()->bIsDead == false)
+					{
+						ActorHit->FindComponentByClass<UEnemyWeakspot>()->bIsUVDamaged = true;
+
+						if (ActorHit->FindComponentByClass<UEnemyWeakspot>()->enemyCurrentHealth && ActorHit->FindComponentByClass<UEnemyWeakspot>()->enemyCurrentHealth <= 40.0f)
+						{
+							ActorHit->FindComponentByClass<UEnemyWeakspot>()->enemyCurrentHealth += damagedHit;
+						}
+					}
 				}
 			}
 		}

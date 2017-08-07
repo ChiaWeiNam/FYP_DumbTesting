@@ -39,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	{
 	}
 	IMPLEMENT_CLASS(AEnemyCharacter, 109738496);
+	void UEnemyWeakspot::StaticRegisterNativesUEnemyWeakspot()
+	{
+	}
+	IMPLEMENT_CLASS(UEnemyWeakspot, 2646132858);
 	void AMainPlayer::StaticRegisterNativesAMainPlayer()
 	{
 	}
@@ -84,6 +88,8 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyAI();
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyCharacter();
+	MEETING_API class UClass* Z_Construct_UClass_UEnemyWeakspot_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UEnemyWeakspot();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_AMeetingGameModeBase_NoRegister();
@@ -342,6 +348,59 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemyCharacter(Z_Construct_UClass_AEnemyCharacter, &AEnemyCharacter::StaticClass, TEXT("AEnemyCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyCharacter);
+	UClass* Z_Construct_UClass_UEnemyWeakspot_NoRegister()
+	{
+		return UEnemyWeakspot::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UEnemyWeakspot()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UEnemyWeakspot::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(bIsDead, UEnemyWeakspot, bool);
+				UProperty* NewProp_bIsDead = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("bIsDead"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bIsDead, UEnemyWeakspot), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(bIsDead, UEnemyWeakspot), sizeof(bool), true);
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(bIsUVDamaged, UEnemyWeakspot, bool);
+				UProperty* NewProp_bIsUVDamaged = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("bIsUVDamaged"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bIsUVDamaged, UEnemyWeakspot), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(bIsUVDamaged, UEnemyWeakspot), sizeof(bool), true);
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(bIsRedDamaged, UEnemyWeakspot, bool);
+				UProperty* NewProp_bIsRedDamaged = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("bIsRedDamaged"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bIsRedDamaged, UEnemyWeakspot), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(bIsRedDamaged, UEnemyWeakspot), sizeof(bool), true);
+				UProperty* NewProp_enemyCurrentHealth = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("enemyCurrentHealth"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(enemyCurrentHealth, UEnemyWeakspot), 0x0010000000000005);
+				UProperty* NewProp_enemyMaxHealth = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("enemyMaxHealth"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(enemyMaxHealth, UEnemyWeakspot), 0x0010000000000005);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("EnemyWeakspot.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("EnemyWeakspot.h"));
+				MetaData->SetValue(NewProp_bIsDead, TEXT("Category"), TEXT("EnemyWeakspot"));
+				MetaData->SetValue(NewProp_bIsDead, TEXT("ModuleRelativePath"), TEXT("EnemyWeakspot.h"));
+				MetaData->SetValue(NewProp_bIsUVDamaged, TEXT("Category"), TEXT("EnemyWeakspot"));
+				MetaData->SetValue(NewProp_bIsUVDamaged, TEXT("ModuleRelativePath"), TEXT("EnemyWeakspot.h"));
+				MetaData->SetValue(NewProp_bIsRedDamaged, TEXT("Category"), TEXT("EnemyWeakspot"));
+				MetaData->SetValue(NewProp_bIsRedDamaged, TEXT("ModuleRelativePath"), TEXT("EnemyWeakspot.h"));
+				MetaData->SetValue(NewProp_enemyCurrentHealth, TEXT("Category"), TEXT("EnemyWeakspot"));
+				MetaData->SetValue(NewProp_enemyCurrentHealth, TEXT("ModuleRelativePath"), TEXT("EnemyWeakspot.h"));
+				MetaData->SetValue(NewProp_enemyMaxHealth, TEXT("Category"), TEXT("EnemyWeakspot"));
+				MetaData->SetValue(NewProp_enemyMaxHealth, TEXT("ModuleRelativePath"), TEXT("EnemyWeakspot.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UEnemyWeakspot(Z_Construct_UClass_UEnemyWeakspot, &UEnemyWeakspot::StaticClass, TEXT("UEnemyWeakspot"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UEnemyWeakspot);
 	UClass* Z_Construct_UClass_AMainPlayer_NoRegister()
 	{
 		return AMainPlayer::StaticClass();
@@ -511,8 +570,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x4A066F68;
-			Guid.B = 0x6F3773EB;
+			Guid.A = 0x87557DAB;
+			Guid.B = 0xAE582084;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

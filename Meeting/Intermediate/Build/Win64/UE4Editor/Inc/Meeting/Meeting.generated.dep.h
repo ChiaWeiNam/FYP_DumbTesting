@@ -27,6 +27,9 @@
 #ifndef MEETING_EnemyCharacter_generated_h
 	#include "EnemyCharacter.h"
 #endif
+#ifndef MEETING_EnemyWeakspot_generated_h
+	#include "EnemyWeakspot.h"
+#endif
 #ifndef MEETING_MainPlayer_generated_h
 	#include "MainPlayer.h"
 #endif
