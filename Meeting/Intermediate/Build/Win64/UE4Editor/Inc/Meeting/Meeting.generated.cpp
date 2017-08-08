@@ -19,6 +19,10 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	{
 	}
 	IMPLEMENT_CLASS(UBTService_CheckForPlayer, 1231696843);
+	void UBTTask_AttackPlayer::StaticRegisterNativesUBTTask_AttackPlayer()
+	{
+	}
+	IMPLEMENT_CLASS(UBTTask_AttackPlayer, 3903910057);
 	void UBTTask_MoveToPlayer::StaticRegisterNativesUBTTask_MoveToPlayer()
 	{
 	}
@@ -78,6 +82,8 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	MEETING_API class UClass* Z_Construct_UClass_UAI_Movement();
 	MEETING_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UBTService_CheckForPlayer();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_AttackPlayer_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UBTTask_AttackPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UBTTask_MoveToPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_UBTTask_Patroling_NoRegister();
@@ -178,6 +184,37 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTService_CheckForPlayer(Z_Construct_UClass_UBTService_CheckForPlayer, &UBTService_CheckForPlayer::StaticClass, TEXT("UBTService_CheckForPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTService_CheckForPlayer);
+	UClass* Z_Construct_UClass_UBTTask_AttackPlayer_NoRegister()
+	{
+		return UBTTask_AttackPlayer::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UBTTask_AttackPlayer()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBTTask_BlackboardBase();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UBTTask_AttackPlayer::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BTTask_AttackPlayer.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BTTask_AttackPlayer.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_AttackPlayer(Z_Construct_UClass_UBTTask_AttackPlayer, &UBTTask_AttackPlayer::StaticClass, TEXT("UBTTask_AttackPlayer"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_AttackPlayer);
 	UClass* Z_Construct_UClass_UBTTask_MoveToPlayer_NoRegister()
 	{
 		return UBTTask_MoveToPlayer::StaticClass();
@@ -570,8 +607,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x87557DAB;
-			Guid.B = 0xAE582084;
+			Guid.A = 0xD01F3EB9;
+			Guid.B = 0x81F9F6A0;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

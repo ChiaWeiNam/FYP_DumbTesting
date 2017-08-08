@@ -12,6 +12,9 @@
 #ifndef MEETING_BTService_CheckForPlayer_generated_h
 	#include "BTService_CheckForPlayer.h"
 #endif
+#ifndef MEETING_BTTask_AttackPlayer_generated_h
+	#include "BTTask_AttackPlayer.h"
+#endif
 #ifndef MEETING_BTTask_MoveToPlayer_generated_h
 	#include "BTTask_MoveToPlayer.h"
 #endif
