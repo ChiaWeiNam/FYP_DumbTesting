@@ -38,12 +38,12 @@ EBTNodeResult::Type UBTTask_Patroling::ExecuteTask(UBehaviorTreeComponent& Owner
 		if (Point == 1)
 		{
 			CharPC->MoveToActor(PPoint1, 10.0f, true, true, true, 0, true);
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Point1");
+			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "Point1");
 		}
 		else if (Point == 2)
 		{
 			CharPC->MoveToActor(PPoint2, 10.0f, true, true, true, 0, true);
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "point2");
+			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "point2");
 
 		}
 		else

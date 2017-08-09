@@ -1,124 +1,121 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Meeting.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{BAFE4BDE-791D-4DA2-8663-5A267684FC5E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Meeting.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\MeetingEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{CC1ED69F-2F3D-4B92-90EE-51D6F48BA48B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Meeting">
-      <UniqueIdentifier>{0468CDB9-B9A7-4BCD-A039-75112226420E}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Meeting\AI_Movement.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\AI_Movement.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\BTService_CheckForPlayer.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\BTService_CheckForPlayer.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\BTTask_MoveToPlayer.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\BTTask_MoveToPlayer.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\BTTask_Patroling.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\BTTask_Patroling.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\BTTask_UpdatePatrolPoint.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\BTTask_UpdatePatrolPoint.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\EnemyAI.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\EnemyAI.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\EnemyCharacter.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\EnemyCharacter.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\EnemyWeakspot.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\EnemyWeakspot.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\MainPlayer.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\Meeting\Meeting.Build.cs">
-      <Filter>Source\Meeting</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Meeting\Meeting.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\Meeting.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\MeetingGameModeBase.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\MeetingGameModeBase.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\OpenDoor.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\OpenDoor.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Meeting\PlayerShoot.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Meeting\PlayerShoot.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Meeting\BTTask_AttackPlayer.h">
-      <Filter>Source\Meeting</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Meeting\BTTask_AttackPlayer.cpp">
-      <Filter>Source\Meeting</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Meeting.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{300195BA-51F0-41E7-AEF6-DE3EE59E397D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Meeting.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MeetingEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{5E391561-6639-4726-900A-6B28B0823E03}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Meeting">
+			<UniqueIdentifier>{BB22AECB-CC99-49C3-99BA-FE8B2DAF66EC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Meeting\AI_Movement.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\AI_Movement.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\BTService_CheckForPlayer.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\BTService_CheckForPlayer.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\BTTask_AttackPlayer.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\BTTask_AttackPlayer.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\BTTask_MoveToPlayer.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\BTTask_MoveToPlayer.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\BTTask_Patroling.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\BTTask_Patroling.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\BTTask_UpdatePatrolPoint.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\BTTask_UpdatePatrolPoint.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\EnemyAI.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\EnemyAI.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\EnemyCharacter.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\EnemyCharacter.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\EnemyWeakspot.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\EnemyWeakspot.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\MainPlayer.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Meeting\Meeting.Build.cs">
+			<Filter>Source\Meeting</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Meeting\Meeting.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\Meeting.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\MeetingGameModeBase.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\MeetingGameModeBase.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\OpenDoor.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\OpenDoor.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\PlayerShoot.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\PlayerShoot.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
