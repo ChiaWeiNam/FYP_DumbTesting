@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	void AEnemyAI::StaticRegisterNativesAEnemyAI()
 	{
 	}
-	IMPLEMENT_CLASS(AEnemyAI, 2739169579);
+	IMPLEMENT_CLASS(AEnemyAI, 1884217348);
 	void AEnemyCharacter::StaticRegisterNativesAEnemyCharacter()
 	{
 	}
@@ -327,6 +327,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(ReachDest, AEnemyAI, bool);
+				UProperty* NewProp_ReachDest = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ReachDest"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(ReachDest, AEnemyAI), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(ReachDest, AEnemyAI), sizeof(bool), true);
 				UProperty* NewProp_BehaviorComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BehaviorComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BehaviorComp, AEnemyAI), 0x0040000000082008, Z_Construct_UClass_UBehaviorTreeComponent_NoRegister());
 				UProperty* NewProp_BlackboardComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BlackboardComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(BlackboardComp, AEnemyAI), 0x0040000000082008, Z_Construct_UClass_UBlackboardComponent_NoRegister());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
@@ -336,6 +338,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Collision Rendering Utilities|Transformation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("EnemyAI.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("EnemyAI.h"));
+				MetaData->SetValue(NewProp_ReachDest, TEXT("Category"), TEXT("EnemyAI"));
+				MetaData->SetValue(NewProp_ReachDest, TEXT("ModuleRelativePath"), TEXT("EnemyAI.h"));
 				MetaData->SetValue(NewProp_BehaviorComp, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_BehaviorComp, TEXT("ModuleRelativePath"), TEXT("EnemyAI.h"));
 				MetaData->SetValue(NewProp_BlackboardComp, TEXT("EditInline"), TEXT("true"));
@@ -607,7 +611,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xD01F3EB9;
+			Guid.A = 0x7301380D;
 			Guid.B = 0x81F9F6A0;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

@@ -21,9 +21,12 @@ public:
 
 	virtual void Possess(APawn *InPawn) override;
 
+	virtual void OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult& Result) override;
+
 	uint8 EnemyKeyID;
 	uint8 Patrol1KeyID;
 	uint8 Patrol2KeyID;
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool ReachDest;
 };

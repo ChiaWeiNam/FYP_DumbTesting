@@ -12,6 +12,10 @@ AEnemyAI::AEnemyAI()
 {
 	BlackboardComp = CreateDefaultSubobject<UBlackboardComponent>(TEXT("BlackboardComp"));
 	BehaviorComp = CreateDefaultSubobject<UBehaviorTreeComponent>(TEXT("BehaviorComp"));
+
+	ReachDest = true;
+
+
 }
 
 void AEnemyAI::Possess(APawn * InPawn)
@@ -30,6 +34,21 @@ void AEnemyAI::Possess(APawn * InPawn)
 		Patrol2KeyID = BlackboardComp->GetKeyID("PatrolPoint2");
 
 		BehaviorComp->StartTree(*Char->BotBehavior);
+
+		BlackboardComp->SetValueAsBool("ReachDestination", ReachDest);
+
+	}
+}
+
+void AEnemyAI::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResult & Result)
+{
+	if (Result.Code == EPathFollowingResult::Success) {
+		ReachDest = true;
+		BlackboardComp->SetValueAsBool("ReachDestination", ReachDest);
+	}
+	else if (Result.Code == EPathFollowingResult::Blocked) {
+		ReachDest = false;
+		BlackboardComp->SetValueAsBool("ReachDestination", ReachDest);
 
 	}
 }
