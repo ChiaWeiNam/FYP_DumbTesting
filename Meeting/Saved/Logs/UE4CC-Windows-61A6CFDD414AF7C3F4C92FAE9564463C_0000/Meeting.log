@@ -1,0 +1,488 @@
+﻿Log file open, 09/11/17 22:05:35
+LogInit:Display: Running engine for game: Meeting
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1087073580) SRandInit(-1087073580).
+LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 2.459203
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.11-14.05.37:458][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.11-14.05.37:458][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.11-14.05.37:640][  0]LogInit: Computer: WINCTRL-E5MM7PO
+[2017.09.11-14.05.37:640][  0]LogInit: User: HELLOBYE
+[2017.09.11-14.05.37:640][  0]LogInit: CPU Page size=65536, Cores=3
+[2017.09.11-14.05.37:640][  0]LogInit: High frequency timer resolution =3.825774 MHz
+[2017.09.11-14.05.37:640][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.11-14.05.37:640][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.11-14.05.37:640][  0]LogMemory: Process Physical Memory: 268.53 MB used, 268.53 MB peak
+[2017.09.11-14.05.37:640][  0]LogMemory: Process Virtual Memory: 275.13 MB used, 275.13 MB peak
+[2017.09.11-14.05.37:640][  0]LogMemory: Physical Memory: 2266.65 MB used,  5907.46 MB free, 8174.11 MB total
+[2017.09.11-14.05.37:640][  0]LogMemory: Virtual Memory: 657.49 MB used,  5907.46 MB free, 134217728.00 MB total
+[2017.09.11-14.05.39:080][  0]LogTextLocalizationManager: No specific translations for ('en-MY') exist, so ('en') translations will be used.
+[2017.09.11-14.05.43:466][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.11-14.05.43:909][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2017.09.11-14.05.43:909][  0]LogD3D11RHI:       995/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.11-14.05.43:925][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.11-14.05.43:925][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.11-14.05.43:925][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.11-14.05.43:933][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.11-14.05.43:933][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.11-14.05.43:933][  0]LogWindows: EnumDisplayDevices:
+[2017.09.11-14.05.43:934][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2017.09.11-14.05.43:934][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.09.11-14.05.43:934][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.09.11-14.05.43:934][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.09.11-14.05.43:935][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.11-14.05.43:935][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2017.09.11-14.05.43:935][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.11-14.05.43:935][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.11-14.05.43:935][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.09.11-14.05.44:190][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.09.11-14.05.44:221][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.11-14.05.46:103][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 4)
+[2017.09.11-14.05.46:267][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../GitHub/FYP_DumbTesting/Meeting/Intermediate/Shaders/WorkingDirectory/3488/).
+[2017.09.11-14.05.46:267][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/HELLO_BYE`/AppData/Local/Temp/UnrealShaderWorkingDir/CA12A8494159476F23267E9E511D372F/'.
+[2017.09.11-14.05.46:267][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.11-14.05.53:409][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.11-14.05.53:475][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.11-14.05.53:543][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.11-14.05.53:609][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.11-14.05.53:770][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.11-14.05.53:843][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.11-14.05.53:913][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.11-14.05.53:987][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.11-14.05.54:061][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.11-14.05.54:159][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.11-14.05.54:241][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.11-14.05.54:318][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.11-14.05.54:380][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.11-14.05.54:444][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.11-14.05.54:508][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.11-14.05.54:654][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.11-14.05.54:654][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.11-14.05.54:697][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.11-14.05.54:975][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.11-14.05.55:020][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.11-14.05.55:083][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.11-14.05.55:149][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.11-14.05.55:212][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.11-14.05.55:326][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.11-14.05.55:326][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.11-14.05.57:085][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.11-14.05.57:823][  0]LogDerivedDataCache: Loaded boot cache 0.74s 50MB C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.11-14.05.57:823][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.09.11-14.05.57:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.11-14.05.57:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.11-14.05.57:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.11-14.05.57:823][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.11-14.05.57:922][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.11-14.05.57:934][  0]LogDerivedDataCache: Using Local data cache path C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.11-14.05.58:143][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.11-14.05.58:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.11-14.05.58:334][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.11-14.06.10:625][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.11-14.06.10:673][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.11-14.06.11:503][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.11-14.06.11:611][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.11-14.06.11:711][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.11-14.06.11:711][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.11-14.06.11:711][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.11-14.06.18:854][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: meeting, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 116300604
+[2017.09.11-14.06.18:993][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2017.09.11-14.06.19:176][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.099766 seconds
+[2017.09.11-14.06.19:198][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.09.11-14.06.19:199][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.09.11-14.06.19:199][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.11-14.06.19:313][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.11-14.06.32:012][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.11-14.06.32:142][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.11-14.06.34:239][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.11-14.06.35:099][  0]SourceControl: Info Source control is disabled
+[2017.09.11-14.06.35:111][  0]SourceControl: Info Source control is disabled
+[2017.09.11-14.06.35:204][  0]SourceControl: Info Source control is disabled
+[2017.09.11-14.06.35:284][  0]SourceControl: Info Source control is disabled
+[2017.09.11-14.06.38:116][  0]LogEngine: Initializing Engine...
+[2017.09.11-14.06.38:170][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.09.11-14.06.38:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.11-14.06.38:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.11-14.06.38:830][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.11-14.06.38:992][  0]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.11-14.06.39:011][  0]LogInit: FAudioDevice initialized.
+[2017.09.11-14.06.39:062][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.11-14.06.39:081][  0]LogInit: Texture streaming: Enabled
+[2017.09.11-14.06.39:467][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.11-14.06.41:126][  0]LogInit: Transaction tracking system initialized
+[2017.09.11-14.06.43:345][  0]BlueprintLog: New page: Editor Load
+[2017.09.11-14.06.46:078][  0]LocalizationService: Info Localization service is disabled
+[2017.09.11-14.06.48:380][  0]LogConsoleResponse:Display: 
+[2017.09.11-14.06.50:033][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/' took 0.04s
+[2017.09.11-14.06.50:033][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.11-14.06.50:033][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.11-14.06.54:561][  0]SourceControl: Info Source control is disabled
+[2017.09.11-14.06.54:689][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.11-14.06.54:727][  0]LightingResults: New page: Lighting Build
+[2017.09.11-14.06.55:068][  0]MapCheck: New page: Map Check
+[2017.09.11-14.06.55:068][  0]LightingResults: New page: Lighting Build
+[2017.09.11-14.07.06:082][  0]LogBlueprint:Warning: [Anim_BP_Enemy] 'ReachDest' variable not found. Base class was probably changed.
+[2017.09.11-14.07.06:082][  0]LogBlueprint:Warning: [Anim_BP_Enemy] 'ReachDest' variable not found. Base class was probably changed.
+[2017.09.11-14.07.06:093][  0]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning Could not find a variable named "ReachDest" in 'EnemyAI'.
+Make sure 'EnemyAI' has been compiled for  Set ReachDest
+[2017.09.11-14.07.06:108][  0]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning Could not find a variable named "ReachDest" in 'EnemyAI'.
+Make sure 'EnemyAI' has been compiled for  Set ReachDest
+[2017.09.11-14.07.06:111][  0]LogBlueprint:Error: [Compiler Anim_BP_Enemy] Error The property associated with  Reach Dest  could not be found
+[2017.09.11-14.07.06:136][  0]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning [0104.63] Compile of Anim_BP_Enemy failed. 1 Fatal Issue(s) 2 Warning(s) [in 51 ms] (/Game/Blueprint/AI/Animation/Anim_BP_Enemy.Anim_BP_Enemy)
+[2017.09.11-14.07.06:136][  0]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning [0104.63] Compile of Anim_BP_Enemy failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprint/AI/Animation/Anim_BP_Enemy.Anim_BP_Enemy)
+[2017.09.11-14.07.06:136][  0]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning [0104.63] Compile of Anim_BP_Enemy failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Blueprint/AI/Animation/Anim_BP_Enemy.Anim_BP_Enemy)
+[2017.09.11-14.07.06:552][  0]LogBlueprint:Warning: [Anim_BP_Enemy] 'ReachDest' variable not found. Base class was probably changed.
+[2017.09.11-14.07.06:552][  0]LogBlueprint:Warning: [Anim_BP_Enemy] 'ReachDest' variable not found. Base class was probably changed.
+[2017.09.11-14.07.12:152][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.11-14.07.12:152][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.09.11-14.07.12:152][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.09.11-14.07.12:153][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.11-14.07.12:153][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.11-14.07.12:153][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.09.11-14.07.12:159][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0110.66] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 24 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.11-14.07.12:159][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0110.66] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.11-14.07.12:159][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0110.66] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.11-14.07.12:170][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.11-14.07.12:170][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.09.11-14.07.12:170][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.09.11-14.07.12:170][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.11-14.07.12:170][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.11-14.07.12:171][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.09.11-14.07.12:177][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0110.67] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 13 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.11-14.07.12:177][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0110.67] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.11-14.07.12:177][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0110.67] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.11-14.07.39:372][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/DoorUI/Start_Pose/Object005_Pose.Object005_Pose
+[2017.09.11-14.07.39:762][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/DoorUI/Start_Pose/Object004_Pose.Object004_Pose
+[2017.09.11-14.07.39:845][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/DoorUI/Start_Pose/Object003_Pose.Object003_Pose
+[2017.09.11-14.08.12:396][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.13:045][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.14:010][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.14:960][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.16:082][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.17:102][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.17:996][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.19:466][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.20:480][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.21:416][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.22:544][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.23:479][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.24:312][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.25:367][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.26:102][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.26:808][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.28:002][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.28:767][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.29:545][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.30:533][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 421 MB total VRAM
+[2017.09.11-14.08.31:164][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.31:456][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.31:629][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.31:770][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.31:989][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.32:243][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.32:522][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.32:723][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.32:934][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.33:159][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 1024X512) - 421 MB total VRAM
+[2017.09.11-14.08.33:463][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/DoorUI/Start_Pose/Plane001_Pose.Plane001_Pose
+[2017.09.11-14.08.33:464][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/DoorUI/Start_Pose/Object006_Pose.Object006_Pose
+[2017.09.11-14.08.33:470][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/DoorUI/Start_Pose/Object007_Pose.Object007_Pose
+[2017.09.11-14.08.39:531][  0]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.11-14.08.40:578][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.09.11-14.08.40:651][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.11-14.08.47:329][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 6,677.529ms to complete.
+[2017.09.11-14.08.47:329][  0]LogFileHelpers: Loading map 'MockUp_Map' took 112.686
+[2017.09.11-14.08.48:901][  0]LogCollectionManager: Loaded 0 collections in 0.002118 seconds
+[2017.09.11-14.08.53:439][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' took 0.01s
+[2017.09.11-14.08.53:439][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Developers/HELLOBYE/Collections/' took 0.01s
+[2017.09.11-14.08.53:439][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' took 0.01s
+[2017.09.11-14.08.53:439][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000015 seconds
+[2017.09.11-14.08.53:487][  0]LogContentBrowser: Native class hierarchy populated in 0.0444 seconds. Added 2258 classes and 455 folders.
+[2017.09.11-14.08.53:826][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2017.09.11-14.08.55:094][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2017.09.11-14.08.55:229][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.09.11-14.08.55:643][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.11-14.08.55:742][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.11-14.08.55:901][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.09.11-14.08.55:902][  0]LogLoad: (Engine Initialization) Total time: 214.40 seconds
+[2017.09.11-14.08.55:902][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.30 seconds
+[2017.09.11-14.08.55:902][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.11-14.08.55:902][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.11-14.08.56:276][  0]LogOcInput: OculusInput pre-init called
+[2017.09.11-14.08.56:379][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.11-14.08.56:438][  0]LogSlate: Took 0.013482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.11-14.08.56:458][  0]LogSlate: Took 0.014675 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.11-14.08.56:484][  0]LogSlate: Took 0.011110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.11-14.08.57:291][  0]LogRenderer: Reallocating scene render targets to support 1208x616 NumSamples 1 (Frame:2).
+[2017.09.11-14.08.57:291][  0]LogSlate: Took 0.138870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.11-14.08.59:052][  5]LogAssetRegistry: Asset discovery search completed in 160.0813 seconds
+[2017.09.11-14.08.59:052][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000260 seconds (found 0 objects)
+[2017.09.11-14.08.59:052][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000444 seconds (updated 0 objects)
+[2017.09.11-14.09.05:194][ 67]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.11-14.09.05:400][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.09.05:428][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-14.09.16:181][101]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.11-14.09.16:232][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.09.16:233][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-14.09.29:581][140]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.11-14.09.29:621][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.09.29:621][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-14.09.58:212][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door_Left_11)
+[2017.09.11-14.10.37:317][909]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.11-14.10.37:356][909]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.10.37:356][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-14.10.43:250][990]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.11-14.10.43:865][990]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.09.11-14.10.43:901][990]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.11-14.10.44:377][990]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.11-14.10.45:602][990]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 112 classes and 0 folders.
+[2017.09.11-14.10.47:084][990]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.11-14.10.47:747][990]LogSlate: Took 0.009641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.11-14.10.48:751][991]LogSlate: Took 0.020306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.11-14.11.33:718][468]BlueprintLog: New page: Compile Anim_BP_Enemy
+[2017.09.11-14.11.33:779][468]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning Could not find a variable named "ReachDest" in 'EnemyAI'.
+Make sure 'EnemyAI' has been compiled for  Set ReachDest
+[2017.09.11-14.11.33:790][468]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning Could not find a variable named "ReachDest" in 'EnemyAI'.
+Make sure 'EnemyAI' has been compiled for  Set ReachDest
+[2017.09.11-14.11.33:794][468]LogBlueprint:Error: [Compiler Anim_BP_Enemy] Error The property associated with  Reach Dest  could not be found
+[2017.09.11-14.11.34:538][468]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ReachDest" in 'EnemyAI'.
+Make sure 'EnemyAI' has been compiled for  Set ReachDest
+[2017.09.11-14.11.34:538][468]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ReachDest" in 'EnemyAI'.
+Make sure 'EnemyAI' has been compiled for  Set ReachDest
+[2017.09.11-14.11.34:538][468]BlueprintEditorCompileResults:Error: Error The property associated with  Reach Dest  could not be found
+[2017.09.11-14.11.34:538][468]LogBlueprint:Warning: [Compiler Anim_BP_Enemy] Warning [0373.04] Compile of Anim_BP_Enemy failed. 1 Fatal Issue(s) 2 Warning(s) [in 820 ms] (/Game/Blueprint/AI/Animation/Anim_BP_Enemy.Anim_BP_Enemy)
+[2017.09.11-14.13.14:793][722]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.09.11-14.13.14:856][722]Recompiling Meeting...
+[2017.09.11-14.13.14:886][722]Launching UnrealBuildTool... [D:/UnrealEngine/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe Meeting -ModuleWithSuffix Meeting 4112 Win64 Development -editorrecompile -canskiplink "D:/GitHub/FYP_DumbTesting/Meeting/Meeting.uproject" ]
+[2017.09.11-14.13.16:380][722]Warning: Starting HotReload took  1.7s.
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: New page: Compilation - Sep 12, 2017, 6:15:24 AM
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info Parsing headers for MeetingEditor
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info   Running UnrealHeaderTool "D:\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info Reflection code generated for MeetingEditor in 10.602971 seconds
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info Performing 18 actions (3 in parallel)
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info PCH.Meeting.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info OpenDoor.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info MeetingGameModeBase.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info EnemyCharacter.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info Meeting.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info MainPlayer.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info EnemyWeakspot.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog: Info PlayerShoot.cpp
+[2017.09.11-14.15.24:714][369]CompilerResultsLog:Error: Error D:\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(62) : warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.09.11-14.15.24:714][369]CompilerResultsLog:Error: Error D:\UnrealEngine\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179) : note: see declaration of 'UStaticMeshComponent::StaticMesh'
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info EnemyAI.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info BTTask_Patroling.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info BTTask_MoveToPlayer.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info BTTask_AttackPlayer.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info BTService_CheckForPlayer.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info AI_Movement.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info BTTask_UpdatePatrolPoint.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info Meeting.generated.cpp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info [17/18] Link UE4Editor-Meeting-4112.dll
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info [18/18] Link UE4Editor-Meeting-4112.lib
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info    Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4112.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4112.exp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info    Creating library D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4112.suppressed.lib and object D:\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-4112.suppressed.exp
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info Failed to write dependency cache: Access to the path 'C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor' is denied.
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor' is denied.
+[2017.09.11-14.15.24:731][369]CompilerResultsLog: Info Total build time: 125.37 seconds (Local executor: 66.04 seconds)
+[2017.09.11-14.15.24:744][369]LogMainFrame: MainFrame: Module compiling took 129.950 seconds
+[2017.09.11-14.15.26:567][369]LogClass: Could not find existing class EnemyAI in package /Script/Meeting for HotReload, assuming new class
+[2017.09.11-14.15.26:702][369]LogHotReload: Re-instancing EnemyAI after hot-reload.
+[2017.09.11-14.15.27:264][369]LogContentBrowser: Native class hierarchy updated for 'Meeting' in 0.0018 seconds. Added 13 classes and 2 folders.
+[2017.09.11-14.15.27:268][369]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.09.11-14.15.27:791][369]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2261 classes and 461 folders.
+[2017.09.11-14.15.27:799][369]Display: HotReload took 133.1s.
+[2017.09.11-14.16.02:607][891]BlueprintLog: New page: Compile Anim_BP_Enemy
+[2017.09.11-14.16.05:123][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/Animation/Anim_BP_Enemy" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/Animation/Anim_BP_Enemy.uasset" SILENT=true
+[2017.09.11-14.16.05:707][950]LogSavePackage: Save=371.52ms
+[2017.09.11-14.16.05:707][950]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Anim_BP_EnemyEFF5692A4AAF6A4D7D1C7189215B6CD8.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/Animation/Anim_BP_Enemy.uasset'
+[2017.09.11-14.16.05:719][950]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/Animation/Anim_BP_Enemy.uasset
+[2017.09.11-14.16.12:925][156]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.11-14.16.13:027][156]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.16.13:027][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.11-14.16.13:081][156]PIE: New page: PIE session: MockUp_Map (Sep 12, 2017, 6:16:13 AM)
+[2017.09.11-14.16.13:100][156]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.11-14.16.14:328][156]LogPlayLevel: PIE: StaticDuplicateObject took: (1.227349s)
+[2017.09.11-14.16.14:350][156]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.11-14.16.14:351][156]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2017.09.11-14.16.14:384][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (1.291183s)
+[2017.09.11-14.16.14:715][156]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.11-14.16.14:773][156]LogInit: FAudioDevice initialized.
+[2017.09.11-14.16.15:111][156]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.11-14.16.15:285][156]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.11-22.16.15
+[2017.09.11-14.16.15:597][156]LogWorld: Bringing up level for play took: 0.483450
+[2017.09.11-14.16.16:141][156]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0050 seconds. Added 11 classes and 0 folders.
+[2017.09.11-14.16.16:472][156]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 2.562
+[2017.09.11-14.16.16:502][156]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.19.10:181][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.19.10:609][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.11-14.21.12:968][ 40]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.09.11-14.21.13:471][ 40]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.09.11-14.21.13:970][ 40]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.09.11-14.22.55:589][682]LogSlate: Took 0.019512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.11-14.23.31:811][269]LogSavePackage: Save=6.19ms
+[2017.09.11-14.23.31:812][269]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/FinteractableVariableAC00FC39423E196771CD15AA8F0DFB53.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/FinteractableVariable.uasset'
+[2017.09.11-14.23.31:879][269]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/FinteractableVariable.uasset
+[2017.09.11-14.23.45:106][622]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:16251).
+[2017.09.11-14.24.09:041][998]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.11-14.24.18:053][636]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MockUp_Map' took 0.064
+[2017.09.11-14.24.18:132][636]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tech/InteractionSystem/Pickup/Base_Pickup] ([1] browsable assets)...
+[2017.09.11-14.24.18:132][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tech/InteractionSystem/Pickup/Base_Pickup]
+[2017.09.11-14.24.18:212][636]LogSavePackage: Save=74.00ms
+[2017.09.11-14.24.18:212][636]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Base_Pickup_Auto1CA71C5FF4E7F06BD8E33D8B4DBE51680.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Autosaves/Game/Tech/InteractionSystem/Pickup/Base_Pickup_Auto1.uasset'
+[2017.09.11-14.24.18:214][636]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Autosaves/Game/Tech/InteractionSystem/Pickup/Base_Pickup_Auto1.uasset
+[2017.09.11-14.24.18:214][636]LogFileHelpers: Auto-saving content packages took 0.160
+[2017.09.11-14.24.20:268][859]LogLinker: Can't find file '/Game/Tech/InteractionSystem/Pickup/NewBlueprint'
+[2017.09.11-14.24.20:269][859]LogLinker: Can't find file '/Game/Tech/InteractionSystem/Pickup/NewBlueprint'
+[2017.09.11-14.24.20:273][859]LogBlueprint:Warning: [Base_Pickup] 'InteractableMesh' variable not found. Base class was probably changed.
+[2017.09.11-14.24.20:274][859]LogBlueprint:Warning: [Base_Pickup] 'Widget' variable not found. Base class was probably changed.
+[2017.09.11-14.24.47:247][381]LogBlueprint:Warning: [Base_Pickup] 'InteractableMesh' variable not found. Base class was probably changed.
+[2017.09.11-14.24.47:247][381]LogBlueprint:Warning: [Base_Pickup] 'Widget' variable not found. Base class was probably changed.
+[2017.09.11-14.25.08:333][888]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.25.08:352][888]LogBlueprint:Warning: [Compiler Base_Pickup] Warning Could not find a variable named "InteractableMesh" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get InteractableMesh
+[2017.09.11-14.25.08:352][888]LogBlueprint:Warning: [Compiler Base_Pickup] Warning Could not find a variable named "Widget" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Widget
+[2017.09.11-14.25.08:352][888]LogBlueprint:Error: [Compiler Base_Pickup] Error The property associated with  Widget  could not be found
+[2017.09.11-14.25.08:352][888]LogBlueprint:Error: [Compiler Base_Pickup] Error The property associated with  Interactable Mesh  could not be found
+[2017.09.11-14.25.09:017][888]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "InteractableMesh" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get InteractableMesh
+[2017.09.11-14.25.09:017][888]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Widget" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Widget
+[2017.09.11-14.25.09:017][888]BlueprintEditorCompileResults:Error: Error The property associated with  Widget  could not be found
+[2017.09.11-14.25.09:017][888]BlueprintEditorCompileResults:Error: Error The property associated with  Interactable Mesh  could not be found
+[2017.09.11-14.25.09:017][888]LogBlueprint:Warning: [Compiler Base_Pickup] Warning [1187.52] Compile of Base_Pickup failed. 2 Fatal Issue(s) 2 Warning(s) [in 683 ms] (/Game/Tech/InteractionSystem/Pickup/Base_Pickup.Base_Pickup)
+[2017.09.11-14.26.07:973][779]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.26.08:007][779]LogBlueprint:Warning: [Compiler Base_Pickup] Warning Could not find a variable named "Widget" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Widget
+[2017.09.11-14.26.08:007][779]LogBlueprint:Error: [Compiler Base_Pickup] Error The property associated with  Widget  could not be found
+[2017.09.11-14.26.08:398][779]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Widget" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Widget
+[2017.09.11-14.26.08:399][779]BlueprintEditorCompileResults:Error: Error The property associated with  Widget  could not be found
+[2017.09.11-14.26.08:399][779]LogBlueprint:Warning: [Compiler Base_Pickup] Warning [1246.90] Compile of Base_Pickup failed. 1 Fatal Issue(s) 1 Warning(s) [in 425 ms] (/Game/Tech/InteractionSystem/Pickup/Base_Pickup.Base_Pickup)
+[2017.09.11-14.26.41:809][509]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.26.41:817][509]LogBlueprint:Warning: [Compiler Base_Pickup] Warning Could not find a variable named "Widget" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Widget
+[2017.09.11-14.26.41:817][509]LogBlueprint:Error: [Compiler Base_Pickup] Error The property associated with  Widget  could not be found
+[2017.09.11-14.26.42:324][509]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Widget" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Widget
+[2017.09.11-14.26.42:325][509]BlueprintEditorCompileResults:Error: Error The property associated with  Widget  could not be found
+[2017.09.11-14.26.42:325][509]LogBlueprint:Warning: [Compiler Base_Pickup] Warning [1280.82] Compile of Base_Pickup failed. 1 Fatal Issue(s) 1 Warning(s) [in 515 ms] (/Game/Tech/InteractionSystem/Pickup/Base_Pickup.Base_Pickup)
+[2017.09.11-14.26.53:917][ 40]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.11-14.27.11:488][ 71]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.27.21:120][988]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.27.25:094][121]LogBlueprint:Warning: [Base_Pickup] 'CharacterBP' variable not found. Base class was probably changed.
+[2017.09.11-14.27.25:094][121]LogBlueprint:Warning: [Base_Pickup] 'CharacterBP' variable not found. Base class was probably changed.
+[2017.09.11-14.27.25:111][121]LogBlueprint:Warning: [Base_Pickup] 'Name' variable not found. Base class was probably changed.
+[2017.09.11-14.27.30:052][683]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.27.30:070][683]LogBlueprint:Warning: [Compiler Base_Pickup] Warning Could not find a variable named "Name" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Name
+[2017.09.11-14.27.30:070][683]LogBlueprint:Warning: [Compiler Base_Pickup] Warning Could not find a variable named "CharacterBP" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Set CharacterBP
+[2017.09.11-14.27.30:071][683]LogBlueprint:Error: [Compiler Base_Pickup] Error The property associated with  Character BP  could not be found
+[2017.09.11-14.27.30:071][683]LogBlueprint:Error: [Compiler Base_Pickup] Error The property associated with  Name  could not be found
+[2017.09.11-14.27.30:587][683]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Name" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Get Name
+[2017.09.11-14.27.30:587][683]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CharacterBP" in 'Base_Pickup_C'.
+Make sure 'Base_Pickup_C' has been compiled for  Set CharacterBP
+[2017.09.11-14.27.30:587][683]BlueprintEditorCompileResults:Error: Error The property associated with  Character BP  could not be found
+[2017.09.11-14.27.30:587][683]BlueprintEditorCompileResults:Error: Error The property associated with  Name  could not be found
+[2017.09.11-14.27.30:587][683]LogBlueprint:Warning: [Compiler Base_Pickup] Warning [1329.08] Compile of Base_Pickup failed. 2 Fatal Issue(s) 2 Warning(s) [in 534 ms] (/Game/Tech/InteractionSystem/Pickup/Base_Pickup.Base_Pickup)
+[2017.09.11-14.27.38:412][549]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.27.39:408][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/InteractionSystem/Pickup/Base_Pickup" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/Base_Pickup.uasset" SILENT=true
+[2017.09.11-14.27.39:478][595]LogSavePackage: Save=44.68ms
+[2017.09.11-14.27.39:478][595]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Base_Pickup8F184697422444B4BA6EB0B7E386A383.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/Base_Pickup.uasset'
+[2017.09.11-14.27.39:481][595]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/Base_Pickup.uasset
+[2017.09.11-14.28.17:556][ 98]BlueprintLog: New page: Compile BPI_Interactable
+[2017.09.11-14.28.26:012][825]BlueprintLog: New page: Compile Base_Pickup
+[2017.09.11-14.28.26:628][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/InteractionSystem/Pickup/Base_Pickup" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/Base_Pickup.uasset" SILENT=true
+[2017.09.11-14.28.26:729][846]LogSavePackage: Save=36.45ms
+[2017.09.11-14.28.26:729][846]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/Base_Pickup68E21B6C483B07E6D92497AD7EDC2D1A.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/Base_Pickup.uasset'
+[2017.09.11-14.28.26:731][846]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/InteractionSystem/Pickup/Base_Pickup.uasset
+[2017.09.11-14.29.10:296][518]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Tech/InteractionSystem/Pickup/NewBlueprint.NewBlueprint_C',MemberName="UserConstructionScript",MemberGuid=E9FFF73447673D6A7EA81AB0483E42D0)'
+[2017.09.11-14.30.12:996][518]LogStats: FPlatformStackWalk::StackWalkAndDump - 62.686 s
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: 
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: Ensure condition failed: FunctionReference.IsSelfContext() || (MemberClass != nullptr) || bIsLocalMacro [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\K2Node_CallFunction.cpp] [Line: 1678]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: Unknown member class in /Game/Tech/InteractionSystem/Pickup/Battery.Battery:UserConstructionScript.K2Node_CallParentFunction_0
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: Stack: 
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node_CallFunction::FixupSelfMemberContext() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\blueprintgraph\private\k2node_callfunction.cpp:1678]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!UK2Node_CallFunction::PostPasteNode() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\blueprintgraph\private\k2node_callfunction.cpp:1719]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FEdGraphUtilities::PostProcessPastedNodes() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:179]
+[2017.09.11-14.30.12:997][518]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!FEdGraphUtilities::ImportNodesFromText() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\unrealed\private\edgraphutilities.cpp:416]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodesHere() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5850]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-Kismet.dll!FBlueprintEditor::PasteNodes() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\kismet\private\blueprinteditor.cpp:5623]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:327]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:433]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:216]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:160]
+[2017.09.11-14.30.13:010][518]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!SGraphEditorImpl::OnKeyDown() [d:\build\++ue4+release-4.15+compile\sync\engine\source\editor\grapheditor\private\sgrapheditorimpl.cpp:78]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_2afcd964c763e269e2d1a63f3a72f846>::operator()() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4681]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_2afcd964c763e269e2d1a63f3a72f846> >() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:238]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_2afcd964c763e269e2d1a63f3a72f846>,FKeyEvent>() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:220]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4679]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4592]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1533]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:2120]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:867]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:714]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: USER32.dll!0x00000000E80CBC50
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: USER32.dll!0x00000000E80CB5CF
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:980]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2977]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.15+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EA712774
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: ntdll.dll!0x00000000EA820D51
+[2017.09.11-14.30.13:011][518]LogOutputDevice:Error: 
+[2017.09.11-14.30.13:021][518]LogStats:                SubmitErrorReport -  0.000 s
