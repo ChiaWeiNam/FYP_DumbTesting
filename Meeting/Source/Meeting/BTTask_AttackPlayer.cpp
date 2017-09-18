@@ -26,6 +26,7 @@ EBTNodeResult::Type UBTTask_AttackPlayer::ExecuteTask(UBehaviorTreeComponent& Ow
 		if (attack == false)
 		{
 			OwnerComp.GetBlackboardComponent()->SetValueAsBool("Attacking", true);
+			OwnerComp.GetBlackboardComponent()->SetValueAsBool("InAttackRange", true);
 		}
 
 		return EBTNodeResult::Succeeded;
