@@ -1,0 +1,1145 @@
+﻿Log file open, 09/24/17 15:58:11
+LogInit:Display: Running engine for game: Meeting
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-650247961) SRandInit(-650247961).
+LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.267956
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.24-07.58.13:236][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-07.58.13:236][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.24-07.58.13:306][  0]LogInit: Computer: WINCTRL-E5MM7PO
+[2017.09.24-07.58.13:306][  0]LogInit: User: HELLOBYE
+[2017.09.24-07.58.13:306][  0]LogInit: CPU Page size=65536, Cores=3
+[2017.09.24-07.58.13:306][  0]LogInit: High frequency timer resolution =3.825770 MHz
+[2017.09.24-07.58.13:307][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.09.24-07.58.13:307][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.24-07.58.13:307][  0]LogMemory: Process Physical Memory: 269.98 MB used, 269.98 MB peak
+[2017.09.24-07.58.13:307][  0]LogMemory: Process Virtual Memory: 275.12 MB used, 275.12 MB peak
+[2017.09.24-07.58.13:307][  0]LogMemory: Physical Memory: 2682.67 MB used,  5491.45 MB free, 8174.11 MB total
+[2017.09.24-07.58.13:307][  0]LogMemory: Virtual Memory: 657.48 MB used,  5491.45 MB free, 134217728.00 MB total
+[2017.09.24-07.58.14:617][  0]LogTextLocalizationManager: No specific translations for ('en-MY') exist, so ('en') translations will be used.
+[2017.09.24-07.58.22:085][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.24-07.58.22:364][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2017.09.24-07.58.22:364][  0]LogD3D11RHI:       995/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.24-07.58.22:367][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.24-07.58.22:367][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.24-07.58.22:367][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.24-07.58.22:374][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.24-07.58.22:375][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.24-07.58.22:375][  0]LogWindows: EnumDisplayDevices:
+[2017.09.24-07.58.22:375][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2017.09.24-07.58.22:375][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.09.24-07.58.22:375][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.09.24-07.58.22:376][  0]LogWindows:    3. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.09.24-07.58.22:376][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.24-07.58.22:376][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2017.09.24-07.58.22:376][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.24-07.58.22:376][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.24-07.58.22:376][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.09.24-07.58.22:654][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.09.24-07.58.22:655][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.24-07.58.24:004][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.24-07.58.24:054][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../GitHub/FYP_DumbTesting/Meeting/Intermediate/Shaders/WorkingDirectory/4952/).
+[2017.09.24-07.58.24:054][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/HELLO_BYE`/AppData/Local/Temp/UnrealShaderWorkingDir/35DD452941E6B321AB363793FADFE59B/'.
+[2017.09.24-07.58.24:054][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.24-07.58.29:034][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.24-07.58.29:108][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.24-07.58.29:181][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.24-07.58.29:306][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.24-07.58.29:402][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.24-07.58.29:479][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.24-07.58.29:551][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.24-07.58.29:625][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.24-07.58.29:687][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.24-07.58.29:797][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.24-07.58.29:879][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.24-07.58.30:008][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.24-07.58.30:095][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.24-07.58.30:191][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.24-07.58.30:288][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.24-07.58.30:432][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.24-07.58.30:432][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.24-07.58.30:479][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.24-07.58.30:758][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.24-07.58.30:806][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.24-07.58.30:879][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.24-07.58.30:946][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.24-07.58.31:017][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.24-07.58.31:163][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.24-07.58.31:163][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.24-07.58.33:317][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.24-07.58.34:750][  0]LogDerivedDataCache: Loaded boot cache 1.43s 50MB C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.24-07.58.34:750][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.09.24-07.58.34:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.24-07.58.34:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.24-07.58.34:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/FYP_DumbTesting/Meeting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.24-07.58.34:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.24-07.58.34:859][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.24-07.58.34:870][  0]LogDerivedDataCache: Using Local data cache path C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.24-07.58.34:885][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.24-07.58.34:929][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-07.58.34:929][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-07.58.43:445][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-07.58.43:449][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.24-07.58.43:730][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.24-07.58.43:788][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.24-07.58.43:857][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.24-07.58.43:857][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.24-07.58.43:857][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.24-07.58.45:588][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: meeting, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 116300604
+[2017.09.24-07.58.45:641][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2017.09.24-07.58.45:721][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.049226 seconds
+[2017.09.24-07.58.45:728][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.09.24-07.58.45:728][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.09.24-07.58.45:728][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.24-07.58.45:814][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.24-07.58.52:589][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.24-07.58.52:639][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.24-07.58.53:520][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.24-07.58.54:111][  0]SourceControl: Info Source control is disabled
+[2017.09.24-07.58.54:112][  0]SourceControl: Info Source control is disabled
+[2017.09.24-07.58.54:173][  0]SourceControl: Info Source control is disabled
+[2017.09.24-07.58.54:234][  0]SourceControl: Info Source control is disabled
+[2017.09.24-07.58.56:073][  0]LogEngine: Initializing Engine...
+[2017.09.24-07.58.56:078][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.09.24-07.58.56:416][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.24-07.58.56:416][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.24-07.58.56:588][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.24-07.58.56:605][  0]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-07.58.56:619][  0]LogInit: FAudioDevice initialized.
+[2017.09.24-07.58.56:730][  0]LogDerivedDataCache: Saved boot cache 0.11s 50MB C:/Users/HELLO_BYE`/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.09.24-07.58.56:747][  0]LogInit: Texture streaming: Enabled
+[2017.09.24-07.58.56:872][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.24-07.58.57:026][  0]LogInit: Transaction tracking system initialized
+[2017.09.24-07.58.57:459][  0]BlueprintLog: New page: Editor Load
+[2017.09.24-07.58.58:818][  0]LocalizationService: Info Localization service is disabled
+[2017.09.24-07.58.59:766][  0]LogConsoleResponse:Display: 
+[2017.09.24-07.59.00:826][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.24-07.59.00:826][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.24-07.59.01:702][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/' took 0.03s
+[2017.09.24-07.59.02:524][  0]SourceControl: Info Source control is disabled
+[2017.09.24-07.59.02:524][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.24-07.59.02:525][  0]LightingResults: New page: Lighting Build
+[2017.09.24-07.59.02:576][  0]MapCheck: New page: Map Check
+[2017.09.24-07.59.02:576][  0]LightingResults: New page: Lighting Build
+[2017.09.24-07.59.12:187][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.24-07.59.12:187][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.09.24-07.59.12:187][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.09.24-07.59.12:187][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.24-07.59.12:188][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.24-07.59.12:188][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.09.24-07.59.12:194][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0070.17] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 13 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.24-07.59.12:194][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0070.18] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.24-07.59.12:194][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0070.18] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.24-07.59.12:202][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.09.24-07.59.12:202][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.09.24-07.59.12:202][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.09.24-07.59.12:202][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.24-07.59.12:202][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.24-07.59.12:203][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.09.24-07.59.12:208][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0070.19] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 11 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.24-07.59.12:208][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0070.19] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.24-07.59.12:208][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0070.19] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.09.24-07.59.33:829][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2017.09.24-07.59.43:507][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Rt_Rifle_Ironsights.Walk_Rt_Rifle_Ironsights
+[2017.09.24-07.59.43:511][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Lt_Rifle_Ironsights.Walk_Lt_Rifle_Ironsights
+[2017.09.24-07.59.43:514][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.Walk_Fwd_Rifle_Ironsights
+[2017.09.24-07.59.43:518][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.Walk_Bwd_Rifle_Ironsights
+[2017.09.24-07.59.43:523][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2017.09.24-07.59.43:526][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2017.09.24-07.59.43:537][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Right_Up.Aim_Right_Up
+[2017.09.24-07.59.43:564][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Right_Down.Aim_Right_Down
+[2017.09.24-07.59.43:565][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Right_Center.Aim_Right_Center
+[2017.09.24-07.59.43:566][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Left_Up.Aim_Left_Up
+[2017.09.24-07.59.43:566][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Left_Down.Aim_Left_Down
+[2017.09.24-07.59.43:567][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Left_Center.Aim_Left_Center
+[2017.09.24-07.59.43:568][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Center_Up.Aim_Center_Up
+[2017.09.24-07.59.43:568][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Center_Down.Aim_Center_Down
+[2017.09.24-07.59.43:569][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Aim_Pose/Aim_Center.Aim_Center
+[2017.09.24-07.59.48:919][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2017.09.24-07.59.48:923][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2017.09.24-07.59.48:927][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2017.09.24-07.59.48:931][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2017.09.24-07.59.48:936][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Ai_Animation_Placeholder/placeholder_enemy_attack.placeholder_enemy_attack
+[2017.09.24-07.59.48:948][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Ai_Animation_Placeholder/placeholder_enemy_death.placeholder_enemy_death
+[2017.09.24-07.59.48:963][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2017.09.24-07.59.48:976][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2017.09.24-07.59.48:987][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.Crouch_Walk_Bwd_Rifle_Ironsights
+[2017.09.24-07.59.48:992][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2017.09.24-07.59.49:072][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2017.09.24-07.59.49:111][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2017.09.24-08.00.07:206][  0]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.00.07:862][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.09.24-08.00.08:002][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.24-08.00.08:201][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 199.173ms to complete.
+[2017.09.24-08.00.08:202][  0]LogFileHelpers: Loading map 'MockUp_Map' took 65.677
+[2017.09.24-08.00.08:882][  0]LogCollectionManager: Loaded 0 collections in 0.002377 seconds
+[2017.09.24-08.00.09:039][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' took 0.01s
+[2017.09.24-08.00.09:039][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Developers/HELLOBYE/Collections/' took 0.01s
+[2017.09.24-08.00.09:039][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' took 0.01s
+[2017.09.24-08.00.09:039][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2017.09.24-08.00.09:183][  0]LogContentBrowser: Native class hierarchy populated in 0.0716 seconds. Added 2258 classes and 455 folders.
+[2017.09.24-08.00.09:315][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.09.24-08.00.11:957][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.09.24-08.00.12:162][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.09.24-08.00.12:458][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.24-08.00.12:508][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.24-08.00.12:788][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.09.24-08.00.12:788][  0]LogLoad: (Engine Initialization) Total time: 130.77 seconds
+[2017.09.24-08.00.12:789][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.36 seconds
+[2017.09.24-08.00.12:789][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.24-08.00.12:789][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.24-08.00.13:135][  0]LogOcInput: OculusInput pre-init called
+[2017.09.24-08.00.13:388][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.24-08.00.13:507][  0]LogSlate: Took 0.095717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-08.00.13:789][  0]LogSlate: Took 0.269287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.24-08.00.13:838][  0]LogSlate: Took 0.030265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.24-08.00.14:416][  0]LogSlate: Took 0.023083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-08.00.14:522][  0]LogRenderer: Reallocating scene render targets to support 1208x616 NumSamples 1 (Frame:2).
+[2017.09.24-08.00.16:273][  4]LogAssetRegistry: Asset discovery search completed in 90.6539 seconds
+[2017.09.24-08.00.16:273][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.09.24-08.00.16:303][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.09.24-08.00.36:784][108]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.00.36:832][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.00.36:833][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.00.36:863][108]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:00:36 AM)
+[2017.09.24-08.00.36:863][108]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.00.37:182][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.318433s)
+[2017.09.24-08.00.37:183][108]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.00.37:183][108]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2017.09.24-08.00.37:186][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.323357s)
+[2017.09.24-08.00.37:268][108]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.00.37:279][108]LogInit: FAudioDevice initialized.
+[2017.09.24-08.00.37:398][108]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.00.37:508][108]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.00.37
+[2017.09.24-08.00.37:546][108]LogWorld: Bringing up level for play took: 0.137992
+[2017.09.24-08.00.37:651][108]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0030 seconds. Added 11 classes and 0 folders.
+[2017.09.24-08.00.37:667][108]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.475
+[2017.09.24-08.00.37:669][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.01.19:139][316]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.01.19:299][316]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.01.31:931][462]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-08.01.32:725][462]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-08.01.32:982][462]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.09.24-08.01.34:238][462]LogSlate: Took 0.022196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.24-08.01.34:887][463]LogSlate: Took 0.015983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.24-08.01.59:583][209]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:1578).
+[2017.09.24-08.02.12:971][273]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.09.24-08.02.13:615][273]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.24-08.02.13:823][273]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.24-08.02.14:161][274]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:2302).
+[2017.09.24-08.02.19:971][455]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.02.20:015][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.02.20:015][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.02.20:016][455]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:02:20 AM)
+[2017.09.24-08.02.20:016][455]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.02.20:316][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.300077s)
+[2017.09.24-08.02.20:317][455]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.02.20:317][455]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2017.09.24-08.02.20:319][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.303117s)
+[2017.09.24-08.02.20:384][455]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.02.20:393][455]LogInit: FAudioDevice initialized.
+[2017.09.24-08.02.20:429][455]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.02.20:529][455]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.02.20
+[2017.09.24-08.02.20:566][455]LogWorld: Bringing up level for play took: 0.134834
+[2017.09.24-08.02.20:579][455]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.387
+[2017.09.24-08.02.20:581][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.02.28:481][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.02.28:612][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.02.43:801][187]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.09.24-08.02.43:883][187]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.09.24-08.04.01:994][521]LogSavePackage: Save=52.44ms
+[2017.09.24-08.04.01:994][521]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_Skeleton8CC7D22E4E61A0C9C32F9D9CD6B315A4.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.04.02:034][521]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.07.08:197][128]LogSavePackage: Save=9.40ms
+[2017.09.24-08.07.08:197][128]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_Skeleton1E63245E421315740E88C5BABB6AD3D4.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.07.08:199][128]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.08.33:475][649]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.08.33:539][649]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP5.CollisionCylinder) Component already registered.
+[2017.09.24-08.08.33:599][649]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-08.08.34:133][684]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.08.34:168][684]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP5.CollisionCylinder) Component already registered.
+[2017.09.24-08.09.19:610][  4]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.09.20:559][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.09.20:706][ 25]LogSavePackage: Save=136.03ms
+[2017.09.24-08.09.20:707][ 25]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP79343C4A4D680E09AF276CA0F2175CD2.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.09.20:709][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.10.56:169][424]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.10.56:992][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.10.57:117][458]LogSavePackage: Save=120.66ms
+[2017.09.24-08.10.57:117][458]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPFCF085D841EA9ED7F71609961B1518E1.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.10.57:119][458]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.11.01:165][637]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.11.01:220][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.11.01:221][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.11.01:221][637]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:11:01 AM)
+[2017.09.24-08.11.01:221][637]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.11.01:499][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.278006s)
+[2017.09.24-08.11.01:500][637]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.11.01:500][637]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2017.09.24-08.11.01:502][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.281332s)
+[2017.09.24-08.11.01:554][637]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.11.01:562][637]LogInit: FAudioDevice initialized.
+[2017.09.24-08.11.01:603][637]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.11.01:705][637]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.11.01
+[2017.09.24-08.11.01:741][637]LogWorld: Bringing up level for play took: 0.135880
+[2017.09.24-08.11.01:765][637]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.428
+[2017.09.24-08.11.01:766][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.11.07:616][793]LogBlueprintUserMessages: [EnemyChracter_BP_218] Right hit
+[2017.09.24-08.11.09:293][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.11.09:527][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.11.21:324][542]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.09.24-08.11.21:388][542]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.09.24-08.11.24:217][637]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.09.24-08.11.24:274][637]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.09.24-08.11.28:209][809]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.24-08.11.28:270][809]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.09.24-08.11.30:075][863]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.24-08.11.30:133][863]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.09.24-08.11.47:066][537]LogSavePackage: Save=6.25ms
+[2017.09.24-08.11.47:066][537]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_Skeleton63CB8D8B4DB03260E4C24C82491FEF2A.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.11.47:068][537]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.13.17:588][395]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.13.17:602][395]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP2.CollisionCylinder) Component already registered.
+[2017.09.24-08.13.17:606][395]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP3.CollisionCylinder) Component already registered.
+[2017.09.24-08.13.17:686][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.24-08.13.17:712][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.24-08.13.58:681][576]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.13.58:707][576]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP3.CollisionCylinder) Component already registered.
+[2017.09.24-08.13.58:711][576]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP1.CollisionCylinder) Component already registered.
+[2017.09.24-08.13.58:749][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.24-08.13.58:752][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.24-08.15.25:151][268]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.15.25:177][268]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP2.CollisionCylinder) Component already registered.
+[2017.09.24-08.15.25:181][268]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP3.CollisionCylinder) Component already registered.
+[2017.09.24-08.15.25:219][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.24-08.15.25:222][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.24-08.16.16:455][447]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.16.17:307][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.16.17:435][463]LogSavePackage: Save=116.95ms
+[2017.09.24-08.16.17:435][463]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPC54D9C6A4C151D63DC58CF9CCAA2BE9E.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.16.17:438][463]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.16.18:210][478]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.16.18:255][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.16.18:255][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.16.18:255][478]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:16:18 AM)
+[2017.09.24-08.16.18:255][478]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.16.18:535][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279921s)
+[2017.09.24-08.16.18:536][478]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.16.18:536][478]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2017.09.24-08.16.18:538][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.282967s)
+[2017.09.24-08.16.18:590][478]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.16.18:599][478]LogInit: FAudioDevice initialized.
+[2017.09.24-08.16.18:653][478]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.16.18:746][478]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.16.18
+[2017.09.24-08.16.18:779][478]LogWorld: Bringing up level for play took: 0.124824
+[2017.09.24-08.16.18:791][478]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.599
+[2017.09.24-08.16.18:793][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.16.20:832][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.16.21:042][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.17.30:120][304]LogSavePackage: Save=6.17ms
+[2017.09.24-08.17.30:120][304]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_Skeleton2A98812F424A94167BD6029D3767EB90.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.17.30:122][304]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.17.39:230][ 10]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.17.39:265][ 10]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP6.CollisionCylinder) Component already registered.
+[2017.09.24-08.17.39:311][ 10]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.24-08.17.39:314][ 10]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.24-08.21.27:305][ 35]LogEditorTransaction: Undo Modify Component(s)
+[2017.09.24-08.21.27:329][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP7.CollisionCylinder) Component already registered.
+[2017.09.24-08.21.27:334][ 35]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP6.CollisionCylinder) Component already registered.
+[2017.09.24-08.21.27:371][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_5.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.09.24-08.21.27:374][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.09.24-08.21.54:875][191]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.21.55:597][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.21.55:733][196]LogSavePackage: Save=124.02ms
+[2017.09.24-08.21.55:733][196]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP01B3DDE64030BA275A1A73B3073A411D.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.21.55:736][196]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.22.24:840][779]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.22.25:458][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.22.25:584][787]LogSavePackage: Save=121.72ms
+[2017.09.24-08.22.25:584][787]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPC099E9A3436A1DE770A7DAA23D21E3AF.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.22.25:587][787]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.22.42:457][884]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.22.42:503][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.22.42:503][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.22.42:503][884]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:22:42 AM)
+[2017.09.24-08.22.42:503][884]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.22.42:780][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.276276s)
+[2017.09.24-08.22.42:781][884]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.22.42:781][884]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2017.09.24-08.22.42:783][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.279589s)
+[2017.09.24-08.22.42:833][884]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.22.42:841][884]LogInit: FAudioDevice initialized.
+[2017.09.24-08.22.42:876][884]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.22.42:969][884]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.22.42
+[2017.09.24-08.22.43:003][884]LogWorld: Bringing up level for play took: 0.126026
+[2017.09.24-08.22.43:015][884]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.823
+[2017.09.24-08.22.43:016][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.22.48:452][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.22.48:648][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.23.14:571][790]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.23.16:799][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.23.16:919][948]LogSavePackage: Save=115.03ms
+[2017.09.24-08.23.16:919][948]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP2C539EC44EB4567DA0EEBCB7C1AA537A.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.23.16:922][948]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.23.18:248][  9]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.23.18:296][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.23.18:296][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.23.18:296][  9]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:23:18 AM)
+[2017.09.24-08.23.18:296][  9]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.23.18:567][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.270905s)
+[2017.09.24-08.23.18:568][  9]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.23.18:568][  9]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2017.09.24-08.23.18:570][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.274157s)
+[2017.09.24-08.23.18:620][  9]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.23.18:628][  9]LogInit: FAudioDevice initialized.
+[2017.09.24-08.23.18:686][  9]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.23.18:777][  9]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.23.18
+[2017.09.24-08.23.18:811][  9]LogWorld: Bringing up level for play took: 0.124226
+[2017.09.24-08.23.18:833][  9]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.641
+[2017.09.24-08.23.18:834][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.23.20:510][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.23.20:706][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.23.24:744][345]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.23.25:290][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.23.25:411][347]LogSavePackage: Save=116.32ms
+[2017.09.24-08.23.25:411][347]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPE600E9BD42EFBFA8314F0880015324EC.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.23.25:413][347]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.24.10:908][802]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.24.11:945][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.24.12:068][844]LogSavePackage: Save=118.61ms
+[2017.09.24-08.24.12:068][844]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP51C863A6424D9239329CD6AAA7253003.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.24.12:070][844]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.24.12:841][871]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.24.12:884][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.24.12:884][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.24.12:884][871]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:24:12 AM)
+[2017.09.24-08.24.12:884][871]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.24.13:154][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.269588s)
+[2017.09.24-08.24.13:155][871]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.24.13:155][871]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2017.09.24-08.24.13:157][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.273228s)
+[2017.09.24-08.24.13:209][871]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.24.13:217][871]LogInit: FAudioDevice initialized.
+[2017.09.24-08.24.13:278][871]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.24.13:407][871]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.24.13
+[2017.09.24-08.24.13:442][871]LogWorld: Bringing up level for play took: 0.159512
+[2017.09.24-08.24.13:454][871]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.262
+[2017.09.24-08.24.13:456][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.24.17:394][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.24.17:603][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.25.10:160][233]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.25.11:521][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.25.11:648][305]LogSavePackage: Save=122.58ms
+[2017.09.24-08.25.11:648][305]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP007BD3AB40DB3DF95A80A2A265F07BC0.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.25.11:651][305]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.25.13:437][413]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.25.13:481][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.25.13:481][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.25.13:482][413]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:25:13 AM)
+[2017.09.24-08.25.13:482][413]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.25.13:756][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.273401s)
+[2017.09.24-08.25.13:757][413]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.25.13:757][413]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2017.09.24-08.25.13:759][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.276890s)
+[2017.09.24-08.25.13:812][413]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.25.13:820][413]LogInit: FAudioDevice initialized.
+[2017.09.24-08.25.13:862][413]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.25.13:955][413]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.25.13
+[2017.09.24-08.25.13:990][413]LogWorld: Bringing up level for play took: 0.126183
+[2017.09.24-08.25.14:002][413]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.19
+[2017.09.24-08.25.14:003][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.25.20:936][604]LogBlueprintUserMessages: [EnemyChracter_BP_218] Right hit
+[2017.09.24-08.25.21:543][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.25.21:728][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.26.32:095][454]LogSavePackage: Save=16.03ms
+[2017.09.24-08.26.32:095][454]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_SkeletonCE02F2CD40387997988AC2AC5E39CECD.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.26.32:098][454]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.28.40:651][191]LogSavePackage: Save=8.65ms
+[2017.09.24-08.28.40:651][191]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_SkeletonC9B52AD74023A0A850A8668D2D5A002A.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.28.40:653][191]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.30.45:348][144]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.31.09:024][619]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.31.09:812][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.31.09:963][641]LogSavePackage: Save=138.83ms
+[2017.09.24-08.31.09:963][641]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP042D36BF4127C7B200A3CA898767118C.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.31.09:966][641]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.31.38:399][978]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.31.39:154][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.31.39:280][997]LogSavePackage: Save=120.40ms
+[2017.09.24-08.31.39:280][997]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPABF081B24C134B709BCEB2825E98417B.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.31.39:283][997]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.31.43:172][234]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.31.43:215][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.31.43:215][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.31.43:215][234]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:31:43 AM)
+[2017.09.24-08.31.43:216][234]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.31.43:490][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274636s)
+[2017.09.24-08.31.43:491][234]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.31.43:491][234]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2017.09.24-08.31.43:493][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.277857s)
+[2017.09.24-08.31.43:549][234]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.31.43:558][234]LogInit: FAudioDevice initialized.
+[2017.09.24-08.31.43:603][234]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.31.43:697][234]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.31.43
+[2017.09.24-08.31.43:732][234]LogWorld: Bringing up level for play took: 0.127547
+[2017.09.24-08.31.43:744][234]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.449
+[2017.09.24-08.31.43:745][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.31.52:679][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.31.52:866][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.32.18:540][227]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.32.19:133][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.32.19:260][233]LogSavePackage: Save=121.60ms
+[2017.09.24-08.32.19:260][233]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPC0B5EECD4C8DD19EF67915A0D6DEFE02.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.32.19:262][233]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.32.38:359][853]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.32.39:029][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.32.39:152][857]LogSavePackage: Save=118.17ms
+[2017.09.24-08.32.39:152][857]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP6422C6ED4C6394344106BF83A4E35D04.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.32.39:155][857]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.32.39:967][878]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.32.40:012][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.32.40:012][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.32.40:012][878]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:32:40 AM)
+[2017.09.24-08.32.40:012][878]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.32.40:280][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.267974s)
+[2017.09.24-08.32.40:281][878]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.32.40:281][878]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2017.09.24-08.32.40:284][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.271895s)
+[2017.09.24-08.32.40:333][878]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.32.40:341][878]LogInit: FAudioDevice initialized.
+[2017.09.24-08.32.40:398][878]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.32.40:489][878]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.32.40
+[2017.09.24-08.32.40:522][878]LogWorld: Bringing up level for play took: 0.123016
+[2017.09.24-08.32.40:534][878]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.342
+[2017.09.24-08.32.40:535][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.32.44:415][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.32.44:609][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.33.38:514][ 66]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.33.39:346][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.33.39:469][ 91]LogSavePackage: Save=118.95ms
+[2017.09.24-08.33.39:469][ 91]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP1F6B4C4C4BD7DD3AE903C6B171789A5D.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.33.39:471][ 91]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.33.44:043][476]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.33.44:721][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.33.44:848][488]LogSavePackage: Save=121.50ms
+[2017.09.24-08.33.44:848][488]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPCF35F16F44F38D27769AC795B217715F.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.33.44:850][488]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.33.51:388][887]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.33.52:337][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.33.52:481][916]LogSavePackage: Save=117.66ms
+[2017.09.24-08.33.52:481][916]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPDA340121423E5A62FE87F18F3F3F4E4D.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.33.52:483][916]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.33.54:725][ 11]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.33.54:766][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.33.54:766][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.33.54:766][ 11]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:33:54 AM)
+[2017.09.24-08.33.54:767][ 11]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.33.55:035][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.268359s)
+[2017.09.24-08.33.55:036][ 11]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.33.55:036][ 11]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2017.09.24-08.33.55:039][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.272219s)
+[2017.09.24-08.33.55:092][ 11]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.33.55:100][ 11]LogInit: FAudioDevice initialized.
+[2017.09.24-08.33.55:143][ 11]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.33.55:234][ 11]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.33.55
+[2017.09.24-08.33.55:268][ 11]LogWorld: Bringing up level for play took: 0.123119
+[2017.09.24-08.33.55:279][ 11]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.087
+[2017.09.24-08.33.55:281][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.02:077][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.02:270][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.02:877][213]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.34.02:922][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.02:922][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.34.02:922][213]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:34:02 AM)
+[2017.09.24-08.34.02:922][213]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.34.03:190][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.267601s)
+[2017.09.24-08.34.03:191][213]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.34.03:191][213]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2017.09.24-08.34.03:193][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.271336s)
+[2017.09.24-08.34.03:248][213]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.34.03:256][213]LogInit: FAudioDevice initialized.
+[2017.09.24-08.34.03:311][213]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.34.03:402][213]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.34.03
+[2017.09.24-08.34.03:437][213]LogWorld: Bringing up level for play took: 0.124669
+[2017.09.24-08.34.03:449][213]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.257
+[2017.09.24-08.34.03:451][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.24:461][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.24:636][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.36:594][501]BlueprintLog: New page: Compile EnemyWeakspot_BP
+[2017.09.24-08.34.37:448][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/Weakspot/EnemyWeakspot_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Weakspot/EnemyWeakspot_BP.uasset" SILENT=true
+[2017.09.24-08.34.37:583][535]LogSavePackage: Save=115.78ms
+[2017.09.24-08.34.37:583][535]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyWeakspot_BP19BC9CE84B44743931FBC6970DF2DF5E.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Weakspot/EnemyWeakspot_BP.uasset'
+[2017.09.24-08.34.37:591][535]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Tech/Weakspot/EnemyWeakspot_BP.uasset
+[2017.09.24-08.34.47:473][ 84]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.34.47:520][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.34.47:520][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.34.47:520][ 84]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:34:47 AM)
+[2017.09.24-08.34.47:520][ 84]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.34.47:792][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.271967s)
+[2017.09.24-08.34.47:793][ 84]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.34.47:793][ 84]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2017.09.24-08.34.47:795][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.274960s)
+[2017.09.24-08.34.47:846][ 84]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.34.47:853][ 84]LogInit: FAudioDevice initialized.
+[2017.09.24-08.34.47:900][ 84]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.34.47:992][ 84]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.34.47
+[2017.09.24-08.34.48:025][ 84]LogWorld: Bringing up level for play took: 0.124392
+[2017.09.24-08.34.48:037][ 84]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.155
+[2017.09.24-08.34.48:039][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.35.12:513][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.35.12:681][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.35.59:528][499]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.36.00:153][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.36.00:307][507]LogSavePackage: Save=149.30ms
+[2017.09.24-08.36.00:307][507]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPAA5F304D46FC2988AAB93186489AA287.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.36.00:311][507]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.36.02:243][569]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.36.02:287][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.02:287][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.36.02:287][569]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:36:02 AM)
+[2017.09.24-08.36.02:287][569]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.36.02:562][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274777s)
+[2017.09.24-08.36.02:563][569]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.36.02:564][569]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2017.09.24-08.36.02:566][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.278757s)
+[2017.09.24-08.36.02:619][569]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.36.02:628][569]LogInit: FAudioDevice initialized.
+[2017.09.24-08.36.02:671][569]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.36.02:763][569]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.36.02
+[2017.09.24-08.36.02:797][569]LogWorld: Bringing up level for play took: 0.125477
+[2017.09.24-08.36.02:811][569]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.618
+[2017.09.24-08.36.02:812][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.06:949][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.07:157][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.31:297][274]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.36.32:148][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.36.32:288][318]LogSavePackage: Save=129.60ms
+[2017.09.24-08.36.32:288][318]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPB0A4A514410C7671A57C48B9BAB5A7B6.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.36.32:291][318]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.36.33:079][343]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.36.33:125][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.33:126][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.36.33:126][343]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:36:33 AM)
+[2017.09.24-08.36.33:126][343]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.36.33:396][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.269935s)
+[2017.09.24-08.36.33:397][343]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.36.33:397][343]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2017.09.24-08.36.33:400][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.273844s)
+[2017.09.24-08.36.33:452][343]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.36.33:462][343]LogInit: FAudioDevice initialized.
+[2017.09.24-08.36.33:517][343]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.36.33:611][343]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.36.33
+[2017.09.24-08.36.33:646][343]LogWorld: Bringing up level for play took: 0.128260
+[2017.09.24-08.36.33:658][343]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.466
+[2017.09.24-08.36.33:660][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.38:988][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.36.39:189][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.19:158][815]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.37.19:860][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.37.19:986][827]LogSavePackage: Save=121.37ms
+[2017.09.24-08.37.19:986][827]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP1CDB9DEE4E0D3849FB0C06B81C4FE750.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.37.19:989][827]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.37.20:883][849]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.37.20:929][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.20:929][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.37.20:929][849]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:37:20 AM)
+[2017.09.24-08.37.20:929][849]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.37.21:198][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.269091s)
+[2017.09.24-08.37.21:199][849]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.37.21:199][849]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2017.09.24-08.37.21:202][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.272346s)
+[2017.09.24-08.37.21:252][849]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.37.21:260][849]LogInit: FAudioDevice initialized.
+[2017.09.24-08.37.21:303][849]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.37.21:393][849]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.37.21
+[2017.09.24-08.37.21:429][849]LogWorld: Bringing up level for play took: 0.124400
+[2017.09.24-08.37.21:442][849]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.25
+[2017.09.24-08.37.21:444][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.24:536][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.24:739][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.35:140][725]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.37.37:011][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.37.37:134][887]LogSavePackage: Save=117.39ms
+[2017.09.24-08.37.37:134][887]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP7FE3C95B45871EC169E248A10F91D5C0.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.37.37:136][887]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.37.38:365][956]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.37.38:411][956]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.38:411][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.37.38:411][956]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:37:38 AM)
+[2017.09.24-08.37.38:412][956]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.37.38:679][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.267547s)
+[2017.09.24-08.37.38:680][956]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.37.38:680][956]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2017.09.24-08.37.38:682][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.270906s)
+[2017.09.24-08.37.38:734][956]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.37.38:741][956]LogInit: FAudioDevice initialized.
+[2017.09.24-08.37.38:772][956]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.37.38:864][956]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.37.38
+[2017.09.24-08.37.38:898][956]LogWorld: Bringing up level for play took: 0.124170
+[2017.09.24-08.37.38:909][956]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.717
+[2017.09.24-08.37.38:910][956]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.41:066][ 12]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.41:308][ 12]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.47:425][571]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.37.47:863][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.37.47:984][571]LogSavePackage: Save=115.52ms
+[2017.09.24-08.37.47:984][571]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP2CDC151E4F234B10BA700E9F57621C6C.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.37.47:986][571]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.37.49:574][680]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.37.49:620][680]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.49:620][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.37.49:621][680]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:37:49 AM)
+[2017.09.24-08.37.49:621][680]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.37.49:889][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.268162s)
+[2017.09.24-08.37.49:890][680]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.37.49:890][680]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2017.09.24-08.37.49:892][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.271646s)
+[2017.09.24-08.37.49:945][680]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.37.49:952][680]LogInit: FAudioDevice initialized.
+[2017.09.24-08.37.50:005][680]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.37.50:106][680]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.37.50
+[2017.09.24-08.37.50:139][680]LogWorld: Bringing up level for play took: 0.132461
+[2017.09.24-08.37.50:152][680]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.04
+[2017.09.24-08.37.50:153][680]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.51:373][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.51:580][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.37.57:704][303]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.37.58:578][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.37.58:740][343]LogSavePackage: Save=157.10ms
+[2017.09.24-08.37.58:745][343]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP45EC45A549044228506FD889197ED1DB.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.37.58:752][343]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.38.00:554][447]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.38.00:599][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.38.00:599][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.38.00:599][447]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:38:00 AM)
+[2017.09.24-08.38.00:599][447]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.38.00:877][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.277126s)
+[2017.09.24-08.38.00:878][447]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.38.00:878][447]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2017.09.24-08.38.00:880][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.280713s)
+[2017.09.24-08.38.00:933][447]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.38.00:941][447]LogInit: FAudioDevice initialized.
+[2017.09.24-08.38.00:986][447]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.38.01:079][447]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.38.01
+[2017.09.24-08.38.01:113][447]LogWorld: Bringing up level for play took: 0.125862
+[2017.09.24-08.38.01:124][447]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.932
+[2017.09.24-08.38.01:126][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.38.04:500][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.38.04:706][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.39.37:691][801]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.39.38:254][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.39.38:387][809]LogSavePackage: Save=128.37ms
+[2017.09.24-08.39.38:387][809]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPCAF4ECDB4A7E43AEF98C35A97D8059F8.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.39.38:390][809]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.39.42:406][ 74]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.39.42:959][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.39.43:080][ 76]LogSavePackage: Save=116.62ms
+[2017.09.24-08.39.43:080][ 76]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP8ADE30C2458213BC47478AABD815C268.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.39.43:083][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.39.43:957][102]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.39.44:005][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.39.44:005][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.39.44:006][102]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:39:44 AM)
+[2017.09.24-08.39.44:006][102]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.39.44:284][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.278078s)
+[2017.09.24-08.39.44:285][102]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.39.44:285][102]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2017.09.24-08.39.44:288][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.281655s)
+[2017.09.24-08.39.44:344][102]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.39.44:351][102]LogInit: FAudioDevice initialized.
+[2017.09.24-08.39.44:406][102]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.39.44:497][102]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.39.44
+[2017.09.24-08.39.44:532][102]LogWorld: Bringing up level for play took: 0.123925
+[2017.09.24-08.39.44:544][102]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.351
+[2017.09.24-08.39.44:545][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.40.09:252][761]LogBlueprintUserMessages: [EnemyChracter_BP_218] Right hit
+[2017.09.24-08.40.22:494][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.40.22:706][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.40.37:758][187]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.40.37:904][187]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP_218.CollisionCylinder is already used by CapsuleComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.REINST_EnemyChracter_BP_C_30.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.24-08.40.37:904][187]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP_218.Arrow is already used by ArrowComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.REINST_EnemyChracter_BP_C_30.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.24-08.40.37:904][187]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP_218.CharMoveComp is already used by CharacterMovementComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.REINST_EnemyChracter_BP_C_30.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.24-08.40.37:904][187]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.EnemyChracter_BP_218.CharacterMesh0 is already used by SkeletalMeshComponent /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.REINST_EnemyChracter_BP_C_30.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.24-08.40.39:904][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.40.40:021][187]LogSavePackage: Save=112.45ms
+[2017.09.24-08.40.40:021][187]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BPD47F2FD14232EB977B124688D820674E.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.40.40:024][187]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.40.40:491][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.40.40:602][225]LogSavePackage: Save=105.49ms
+[2017.09.24-08.40.40:602][225]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP0D2D06EE467E023C57F2989CF1C363B9.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.40.40:603][225]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.40.44:486][424]LogSavePackage: Save=6.85ms
+[2017.09.24-08.40.44:486][424]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/UE4_Mannequin_SkeletonBCB4C79A46CE1057ACCB96A1943DF2A6.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.24-08.40.44:488][424]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.24-08.40.45:407][454]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.40.45:455][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.40.45:455][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.40.45:456][454]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:40:45 AM)
+[2017.09.24-08.40.45:456][454]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.40.45:736][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279928s)
+[2017.09.24-08.40.45:737][454]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.40.45:737][454]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2017.09.24-08.40.45:739][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.283542s)
+[2017.09.24-08.40.45:790][454]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.40.45:798][454]LogInit: FAudioDevice initialized.
+[2017.09.24-08.40.45:844][454]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.40.45:932][454]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.40.45
+[2017.09.24-08.40.45:965][454]LogWorld: Bringing up level for play took: 0.120449
+[2017.09.24-08.40.45:977][454]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.215
+[2017.09.24-08.40.45:979][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.40.53:607][669]LogBlueprintUserMessages: [EnemyChracter_BP_218] Right hit
+[2017.09.24-08.40.56:072][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.40.56:239][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.41.07:335][737]BlueprintLog: New page: Compile EnemyChracter_BP
+[2017.09.24-08.41.08:122][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/AI/EnemyChracter_BP" FILE="../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset" SILENT=true
+[2017.09.24-08.41.08:244][774]LogSavePackage: Save=116.83ms
+[2017.09.24-08.41.08:244][774]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/EnemyChracter_BP977A88AC430383C4DA1C5AB5C33B237F.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset'
+[2017.09.24-08.41.08:247][774]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/Blueprint/AI/EnemyChracter_BP.uasset
+[2017.09.24-08.41.08:994][800]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-08.41.09:042][800]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.41.09:042][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-08.41.09:042][800]PIE: New page: PIE session: MockUp_Map (Sep 25, 2017, 12:41:09 AM)
+[2017.09.24-08.41.09:042][800]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.09.24-08.41.09:314][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.272225s)
+[2017.09.24-08.41.09:315][800]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.09.24-08.41.09:315][800]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.09.24-08.41.09:317][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.275081s)
+[2017.09.24-08.41.09:376][800]LogInit: XAudio2 using 'VX2363 Series-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-08.41.09:384][800]LogInit: FAudioDevice initialized.
+[2017.09.24-08.41.09:420][800]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.09.24-08.41.09:516][800]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.09.24-16.41.09
+[2017.09.24-08.41.09:552][800]LogWorld: Bringing up level for play took: 0.131137
+[2017.09.24-08.41.09:565][800]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.372
+[2017.09.24-08.41.09:566][800]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.41.31:801][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.41.32:005][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.09.24-08.41.43:094][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.24-08.41.47:163][106]LogEditorViewport: Clicking on Actor (LMB): EnemyChracter_BP_C (EnemyChracter_BP)
+[2017.09.24-08.41.47:538][115]Cmd: DELETE
+[2017.09.24-08.41.47:538][115]Cmd: ACTOR DELETE
+[2017.09.24-08.41.47:553][115]LogEditorActor: Deleted Actor: EnemyChracter_BP_C
+[2017.09.24-08.41.47:593][115]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2017.09.24-08.42.16:091][911]LogSavePackage: Save=109.17ms
+[2017.09.24-08.42.16:091][911]LogSavePackage: Moving '../../../../../GitHub/FYP_DumbTesting/Meeting/Saved/SK_Mannequin_Enemy1D26E741429F9F6C649F1691F8765F0A.tmp' to '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_Enemy.uasset'
+[2017.09.24-08.42.16:094][911]LogSavePackage:Display: Finished SavePackage ../../../../../GitHub/FYP_DumbTesting/Meeting/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_Enemy.uasset
+[2017.09.24-08.42.16:669][912]Cmd: QUIT_EDITOR
+[2017.09.24-08.42.17:380][912]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.24-08.42.17:441][912]LogExit: Preparing to exit.
+[2017.09.24-08.42.18:026][912]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.09.24-08.42.18:511][912]LogExit: Editor shut down
+[2017.09.24-08.42.18:512][912]LogExit: Transaction tracking system shut down
+[2017.09.24-08.42.21:742][912]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.24-08.42.21:744][912]LogExit: Object subsystem successfully closed.
+[2017.09.24-08.42.21:938][912]LogD3D11RHI: Shutdown
+[2017.09.24-08.42.21:938][912]LogD3D11RHI: CleanupD3DDevice
+[2017.09.24-08.42.22:545][912]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.24-08.42.24:916][912]LogModuleManager: Shutting down and abandoning module SkeletonEditor (510)
+[2017.09.24-08.42.24:916][912]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (508)
+[2017.09.24-08.42.24:916][912]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.09.24-08.42.24:916][912]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.09.24-08.42.24:976][912]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.09.24-08.42.24:976][912]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.09.24-08.42.24:996][912]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.09.24-08.42.24:996][912]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.09.24-08.42.24:996][912]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.09.24-08.42.25:023][912]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.15/FeaturePacks/' was aborted.
+[2017.09.24-08.42.25:057][912]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.09.24-08.42.25:057][912]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.09.24-08.42.25:057][912]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.09.24-08.42.25:094][912]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Collections/' was aborted.
+[2017.09.24-08.42.25:094][912]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Content/Developers/HELLOBYE/Collections/' was aborted.
+[2017.09.24-08.42.25:094][912]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Saved/Collections/' was aborted.
+[2017.09.24-08.42.25:094][912]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.09.24-08.42.25:149][912]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.09.24-08.42.25:149][912]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.09.24-08.42.25:187][912]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.09.24-08.42.25:187][912]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.09.24-08.42.25:187][912]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.09.24-08.42.25:187][912]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.09.24-08.42.25:187][912]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.09.24-08.42.25:210][912]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.09.24-08.42.25:239][912]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.09.24-08.42.25:244][912]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.09.24-08.42.25:272][912]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.09.24-08.42.25:296][912]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.09.24-08.42.25:432][912]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.09.24-08.42.25:433][912]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.09.24-08.42.25:458][912]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.09.24-08.42.25:514][912]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.09.24-08.42.25:514][912]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.09.24-08.42.25:514][912]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.09.24-08.42.25:514][912]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.09.24-08.42.25:514][912]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.09.24-08.42.25:551][912]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.09.24-08.42.25:575][912]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.09.24-08.42.25:629][912]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.09.24-08.42.25:629][912]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.09.24-08.42.25:629][912]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.09.24-08.42.25:629][912]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.09.24-08.42.25:659][912]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.09.24-08.42.26:394][912]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.09.24-08.42.26:394][912]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.09.24-08.42.26:394][912]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.09.24-08.42.26:518][912]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.09.24-08.42.26:859][912]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.09.24-08.42.26:934][912]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.09.24-08.42.26:990][912]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.09.24-08.42.27:103][912]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.09.24-08.42.27:103][912]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.09.24-08.42.27:153][912]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.09.24-08.42.27:242][912]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.09.24-08.42.27:267][912]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.09.24-08.42.27:277][912]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.09.24-08.42.27:302][912]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.09.24-08.42.27:302][912]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.09.24-08.42.27:334][912]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.09.24-08.42.27:346][912]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.09.24-08.42.27:346][912]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.09.24-08.42.27:346][912]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.09.24-08.42.27:346][912]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.09.24-08.42.27:389][912]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.09.24-08.42.27:414][912]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.09.24-08.42.27:432][912]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.09.24-08.42.27:505][912]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.09.24-08.42.27:602][912]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.09.24-08.42.27:647][912]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.09.24-08.42.27:844][912]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.09.24-08.42.28:025][912]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.09.24-08.42.28:111][912]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.09.24-08.42.28:111][912]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.09.24-08.42.28:168][912]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.09.24-08.42.28:169][912]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.09.24-08.42.28:169][912]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.09.24-08.42.28:169][912]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.09.24-08.42.28:238][912]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.09.24-08.42.28:238][912]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.09.24-08.42.28:238][912]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.09.24-08.42.28:289][912]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.09.24-08.42.28:353][912]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.09.24-08.42.28:367][912]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.09.24-08.42.28:367][912]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.09.24-08.42.28:378][912]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.09.24-08.42.28:389][912]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.09.24-08.42.28:389][912]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.09.24-08.42.28:435][912]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.09.24-08.42.29:117][912]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.09.24-08.42.29:117][912]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.09.24-08.42.29:117][912]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.09.24-08.42.29:117][912]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.09.24-08.42.29:236][912]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.09.24-08.42.29:236][912]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.09.24-08.42.29:236][912]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.09.24-08.42.29:236][912]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.09.24-08.42.29:236][912]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.09.24-08.42.29:331][912]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.09.24-08.42.29:331][912]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.09.24-08.42.30:283][912]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.09.24-08.42.30:283][912]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.09.24-08.42.30:449][912]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.09.24-08.42.30:449][912]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.09.24-08.42.30:549][912]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.09.24-08.42.30:549][912]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.09.24-08.42.30:549][912]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.09.24-08.42.30:549][912]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.09.24-08.42.30:550][912]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.09.24-08.42.30:714][912]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.09.24-08.42.30:804][912]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.09.24-08.42.30:804][912]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.09.24-08.42.30:804][912]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.09.24-08.42.30:824][912]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.09.24-08.42.30:824][912]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.09.24-08.42.30:829][912]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.09.24-08.42.30:839][912]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.09.24-08.42.30:847][912]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.09.24-08.42.30:890][912]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.09.24-08.42.30:890][912]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.09.24-08.42.30:890][912]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.09.24-08.42.30:890][912]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.09.24-08.42.30:972][912]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.09.24-08.42.31:026][912]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.09.24-08.42.31:107][912]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.09.24-08.42.31:161][912]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.09.24-08.42.31:161][912]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.09.24-08.42.31:173][912]LogDirectoryWatcher: A directory notification for 'D:/GitHub/FYP_DumbTesting/Meeting/Binaries/Win64' was aborted.
+[2017.09.24-08.42.31:198][912]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.09.24-08.42.31:201][912]LogModuleManager: Shutting down and abandoning module Meeting (224)
+[2017.09.24-08.42.31:201][912]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.09.24-08.42.31:209][912]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.09.24-08.42.31:209][912]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.09.24-08.42.31:209][912]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.09.24-08.42.31:310][912]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.09.24-08.42.31:441][912]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.09.24-08.42.31:521][912]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.09.24-08.42.31:551][912]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.09.24-08.42.31:551][912]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.09.24-08.42.31:551][912]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.09.24-08.42.31:571][912]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.09.24-08.42.31:593][912]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.09.24-08.42.31:602][912]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.09.24-08.42.31:602][912]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.09.24-08.42.31:602][912]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.09.24-08.42.31:613][912]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.09.24-08.42.31:613][912]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.09.24-08.42.31:613][912]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.09.24-08.42.31:681][912]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.09.24-08.42.31:681][912]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.09.24-08.42.31:693][912]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.09.24-08.42.31:693][912]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.09.24-08.42.31:693][912]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.09.24-08.42.31:694][912]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.09.24-08.42.31:714][912]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.09.24-08.42.31:715][912]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.09.24-08.42.31:715][912]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.09.24-08.42.31:756][912]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.09.24-08.42.31:756][912]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.09.24-08.42.31:761][912]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.09.24-08.42.31:803][912]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.09.24-08.42.31:803][912]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.09.24-08.42.31:803][912]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.09.24-08.42.31:803][912]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.09.24-08.42.31:803][912]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.09.24-08.42.32:083][912]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.24-08.42.32:083][912]LogDirectoryWatcher: A directory notification for '../../../../../GitHub/FYP_DumbTesting/Meeting/Content/' was aborted.
+[2017.09.24-08.42.32:083][912]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.24-08.42.32:112][912]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.09.24-08.42.32:119][912]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.09.24-08.42.32:119][912]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.09.24-08.42.32:119][912]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.09.24-08.42.32:141][912]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.09.24-08.42.32:160][912]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.09.24-08.42.32:160][912]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.09.24-08.42.32:172][912]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.09.24-08.42.32:172][912]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.09.24-08.42.32:269][912]LogDerivedDataCache: Shutdown
+[2017.09.24-08.42.32:269][912]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.09.24-08.42.32:269][912]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.09.24-08.42.32:286][912]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.09.24-08.42.32:294][912]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.09.24-08.42.32:299][912]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.09.24-08.42.32:306][912]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.09.24-08.42.32:306][912]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.09.24-08.42.32:307][912]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.09.24-08.42.32:317][912]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.09.24-08.42.32:335][912]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.09.24-08.42.32:335][912]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.09.24-08.42.32:335][912]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.09.24-08.42.32:335][912]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.09.24-08.42.32:352][912]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.09.24-08.42.32:352][912]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.09.24-08.42.32:352][912]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.09.24-08.42.32:353][912]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.09.24-08.42.32:354][912]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.09.24-08.42.32:354][912]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.09.24-08.42.32:354][912]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.09.24-08.42.32:388][912]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.09.24-08.42.32:388][912]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.09.24-08.42.32:388][912]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.09.24-08.42.32:388][912]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.09.24-08.42.32:388][912]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.24-08.42.32:410][912]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.09.24-08.42.32:417][912]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.09.24-08.42.32:425][912]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.24-08.42.32:425][912]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B38455F68-4B07-95FF-076F-3798970F8008%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=dd7208074aeeffd34e3340b0d5d8b2c0%7C50c3a4537b7f4de4a3d0dadca77c683d%7C7560d674-451b-4b79-847e-ce1bd6db5235&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.24-08.42.32:444][912]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.09.24-08.42.32:465][912]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.24-08.42.32:481][912]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.24-08.42.32:511][912]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.24-08.42.32:511][912]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.24-08.42.32:511][912]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.24-08.42.32:545][912]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.24-08.42.32:563][912]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.24-08.42.32:563][912]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.24-08.42.32:572][912]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.24-08.42.32:572][912]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.24-08.42.32:572][912]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.24-08.42.32:572][912]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.24-08.42.32:604][912]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.24-08.42.32:616][912]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.24-08.42.32:616][912]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.24-08.42.32:651][912]LogExit: Exiting.
+[2017.09.24-08.42.32:663][912]Log file closed, 09/24/17 16:42:32
