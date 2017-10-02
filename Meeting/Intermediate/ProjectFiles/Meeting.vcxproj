@@ -432,6 +432,8 @@
 		<ClInclude Include="..\..\Source\Meeting\EnemyCharacter.h" />
 		<ClCompile Include="..\..\Source\Meeting\EnemyWeakspot.cpp" />
 		<ClInclude Include="..\..\Source\Meeting\EnemyWeakspot.h" />
+		<ClCompile Include="..\..\Source\Meeting\ExtraFunction.cpp" />
+		<ClInclude Include="..\..\Source\Meeting\ExtraFunction.h" />
 		<ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp" />
 		<ClInclude Include="..\..\Source\Meeting\MainPlayer.h" />
 		<None Include="..\..\Source\Meeting\Meeting.Build.cs" />

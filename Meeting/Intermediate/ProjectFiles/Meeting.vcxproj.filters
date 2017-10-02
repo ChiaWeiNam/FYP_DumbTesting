@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Meeting.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{300195BA-51F0-41E7-AEF6-DE3EE59E397D}</UniqueIdentifier>
+			<UniqueIdentifier>{5EECEBB2-1115-40D1-80F9-8E7FD9ACC56E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Meeting.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{5E391561-6639-4726-900A-6B28B0823E03}</UniqueIdentifier>
+			<UniqueIdentifier>{A412D356-1FB8-499A-BEEF-512EE23748C4}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Meeting">
-			<UniqueIdentifier>{BB22AECB-CC99-49C3-99BA-FE8B2DAF66EC}</UniqueIdentifier>
+			<UniqueIdentifier>{3EAEFF38-4F3E-413F-9CD9-25B443C8E5CD}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Meeting\AI_Movement.cpp">
 			<Filter>Source\Meeting</Filter>
@@ -82,6 +82,12 @@
 			<Filter>Source\Meeting</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Meeting\EnemyWeakspot.h">
+			<Filter>Source\Meeting</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Meeting\ExtraFunction.cpp">
+			<Filter>Source\Meeting</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Meeting\ExtraFunction.h">
 			<Filter>Source\Meeting</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\Meeting\MainPlayer.cpp">
