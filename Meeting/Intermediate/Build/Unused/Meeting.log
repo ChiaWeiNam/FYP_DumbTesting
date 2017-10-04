@@ -1,4 +1,35 @@
-﻿  Performing full C++ include scan (no include cache file)
-  Target is up to date
+﻿  Cleaning MeetingEditor Binaries...
+  Compiling game modules for hot reload
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for MeetingEditor
+    Running UnrealHeaderTool "C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Meeting.uproject" "C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\MeetingEditor\Development\MeetingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MeetingEditor in 8.1522989 seconds
+  Performing 21 actions (4 in parallel)
+  [2/21] Resource PCLaunch.rc
+  [3/21] Resource ModuleVersionResource.rc.inl
+  PCH.Meeting.cpp
+  MeetingGameModeBase.cpp
+  Meeting.cpp
+  OpenDoor.cpp
+  EnemyWeakspot.cpp
+  MainPlayer.cpp
+  ExtraFunction.cpp
+  EnemyAI.cpp
+  EnemyCharacter.cpp
+  BTTask_Patroling.cpp
+  BTTask_UpdatePatrolPoint.cpp
+  BTTask_MoveToPlayer.cpp
+  BTTask_AttackPlayer.cpp
+  BTService_CheckForPlayer.cpp
+  AI_Movement.cpp
+  PlayerShoot.cpp
+C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Source\Meeting\PlayerShoot.cpp(62): warning C4996: 'UStaticMeshComponent::StaticMesh': Direct access to StaticMesh member is deprecated and will be made private soon. Please use SetStaticMesh and GetStaticMesh. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Engine\Classes\Components/StaticMeshComponent.h(179): note: see declaration of 'UStaticMeshComponent::StaticMesh'
+  Meeting.generated.cpp
+  [20/21] Link UE4Editor-Meeting-7381.dll
+  [21/21] Link UE4Editor-Meeting-7381.lib
+     Creating library C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7381.lib and object C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7381.exp
+     Creating library C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7381.suppressed.lib and object C:\Users\chong\OneDrive\Documents\GitHub\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Meeting-7381.suppressed.exp
   Deploying MeetingEditor Win64 Development...
-  Total build time: 1.98 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 90.88 seconds (Local executor: 61.18 seconds)

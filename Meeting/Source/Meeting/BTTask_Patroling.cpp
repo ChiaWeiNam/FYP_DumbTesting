@@ -46,10 +46,6 @@ EBTNodeResult::Type UBTTask_Patroling::ExecuteTask(UBehaviorTreeComponent& Owner
 			//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "point2");
 
 		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "gg");
-		}
 
 
 
