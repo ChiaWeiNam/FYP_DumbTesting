@@ -20,12 +20,14 @@ EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& Ow
 
 	AEnemyCharacter *GetChar = Cast<AEnemyCharacter>(OwnerComp.GetAIOwner()->GetPawn());
 	//AActor *Player = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	float RunSpeed = OwnerComp.GetBlackboardComponent()->GetValueAsFloat("RunSpeed");
+
 
 	if (Enemy)
 	{
 		if (GetChar)
 		{
-			GetChar->GetCharacterMovement()->MaxWalkSpeed = 500.0f;
+			GetChar->GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
 			//UE_LOG(LogTemp, Warning, TEXT("MAx Walk Speed: %f"), Test->GetCharacterMovement()->MaxWalkSpeed);
 		}
 		CharPC->MoveToActor(Enemy, 100.0f, true, true, true, 0, true);

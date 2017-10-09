@@ -21,6 +21,7 @@ EBTNodeResult::Type UBTTask_Patroling::ExecuteTask(UBehaviorTreeComponent& Owner
 	AActor *PPoint2 = Cast<AActor>(OwnerComp.GetBlackboardComponent()->GetValue<UBlackboardKeyType_Object>(CharPC->Patrol2KeyID));
 
 	int32 Point = OwnerComp.GetBlackboardComponent()->GetValueAsInt("CurPoint");
+	float WalkSpeed = OwnerComp.GetBlackboardComponent()->GetValueAsFloat("WalkSpeed");
 	//AActor *Player = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	//UE_LOG(LogTemp, Warning, TEXT("current point: %d"), Point);
 
@@ -31,7 +32,7 @@ EBTNodeResult::Type UBTTask_Patroling::ExecuteTask(UBehaviorTreeComponent& Owner
 	{
 		if (GetChar)
 		{
-			GetChar->GetCharacterMovement()->MaxWalkSpeed = 250.0f;
+			GetChar->GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 			//UE_LOG(LogTemp, Warning, TEXT("MAx Walk Speed: %f"), Test->GetCharacterMovement()->MaxWalkSpeed);
 		}
 
