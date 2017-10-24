@@ -30,6 +30,7 @@ EBTNodeResult::Type UBTTask_Patroling::ExecuteTask(UBehaviorTreeComponent& Owner
 
 	if (PPoint1 && PPoint2)
 	{
+		OwnerComp.GetBlackboardComponent()->SetValueAsBool("ReachDestination", false);
 		if (GetChar)
 		{
 			GetChar->GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;

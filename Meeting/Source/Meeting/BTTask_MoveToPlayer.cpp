@@ -22,9 +22,10 @@ EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& Ow
 	//AActor *Player = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	float RunSpeed = OwnerComp.GetBlackboardComponent()->GetValueAsFloat("RunSpeed");
 
-
+	
 	if (Enemy)
 	{
+		OwnerComp.GetBlackboardComponent()->SetValueAsBool("ReachDestination", false);
 		if (GetChar)
 		{
 			GetChar->GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
