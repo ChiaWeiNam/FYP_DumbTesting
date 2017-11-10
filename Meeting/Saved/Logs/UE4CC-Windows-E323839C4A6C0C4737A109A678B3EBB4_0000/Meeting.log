@@ -1,0 +1,959 @@
+﻿Log file open, 11/10/17 15:52:21
+LogInit:Display: Running engine for game: Meeting
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1966972948) SRandInit(-1966972948).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.205822
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.10-07.52.22:980][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.10-07.52.22:980][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.10-07.52.23:026][  0]LogInit: Computer: DESKTOP-05U2RGI
+[2017.11.10-07.52.23:026][  0]LogInit: User: Sebastian
+[2017.11.10-07.52.23:026][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.11.10-07.52.23:026][  0]LogInit: High frequency timer resolution =3.215352 MHz
+[2017.11.10-07.52.23:026][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2017.11.10-07.52.23:026][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.10-07.52.23:026][  0]LogMemory: Process Physical Memory: 271.96 MB used, 271.96 MB peak
+[2017.11.10-07.52.23:026][  0]LogMemory: Process Virtual Memory: 267.59 MB used, 267.59 MB peak
+[2017.11.10-07.52.23:026][  0]LogMemory: Physical Memory: 1352.78 MB used,  2716.08 MB free, 4068.86 MB total
+[2017.11.10-07.52.23:026][  0]LogMemory: Virtual Memory: 635.41 MB used,  2716.08 MB free, 134217728.00 MB total
+[2017.11.10-07.52.23:767][  0]LogTextLocalizationManager: No specific translations for ('en-MY') exist, so ('en') translations will be used.
+[2017.11.10-07.52.27:370][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.10-07.52.27:428][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2017.11.10-07.52.27:428][  0]LogD3D11RHI:       8169/0/2034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.10-07.52.27:449][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.10-07.52.27:449][  0]LogD3D11RHI:       0/0/2034 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.10-07.52.27:449][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.10-07.52.27:452][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.10-07.52.27:452][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.10-07.52.27:452][  0]LogWindows: EnumDisplayDevices:
+[2017.11.10-07.52.27:452][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2017.11.10-07.52.27:453][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.11.10-07.52.27:453][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.11.10-07.52.27:453][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.11.10-07.52.27:453][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.11.10-07.52.27:453][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2017.11.10-07.52.27:454][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.10-07.52.27:454][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2017.11.10-07.52.27:454][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.1 (internal:22.19.171.1024, unified:22.19.171.1024)
+[2017.11.10-07.52.27:454][  0]LogD3D11RHI:      Driver Date: 7-4-2017
+[2017.11.10-07.52.27:454][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.10-07.52.27:723][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.10-07.52.27:733][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.10-07.52.27:763][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Intermediate/Shaders/WorkingDirectory/10028/).
+[2017.11.10-07.52.27:822][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Unpar/AppData/Local/Temp/UnrealShaderWorkingDir/C1F65268445BCFE3F4794F8F94049670/'.
+[2017.11.10-07.52.27:822][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.10-07.52.33:869][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.10-07.52.33:935][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.10-07.52.34:002][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.10-07.52.34:068][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.10-07.52.34:188][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.10-07.52.34:253][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.10-07.52.34:324][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.10-07.52.34:388][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.10-07.52.34:457][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.10-07.52.34:575][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.10-07.52.34:693][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.10-07.52.34:758][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.10-07.52.34:831][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.10-07.52.34:911][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.10-07.52.34:974][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.10-07.52.35:176][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.10-07.52.35:176][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.10-07.52.35:287][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.10-07.52.35:541][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.10-07.52.35:578][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.10-07.52.35:713][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.10-07.52.35:779][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.10-07.52.35:898][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.10-07.52.35:992][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.10-07.52.35:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.10-07.52.37:142][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.10-07.52.37:676][  0]LogDerivedDataCache: Loaded boot cache 0.53s 50MB C:/Users/Unpar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.11.10-07.52.37:676][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Unpar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.11.10-07.52.37:676][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.10-07.52.37:676][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.10-07.52.37:676][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.10-07.52.37:676][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.10-07.52.37:734][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.10-07.52.37:747][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Unpar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.10-07.52.37:755][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.10-07.52.37:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.10-07.52.37:847][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.10-07.52.43:486][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.10-07.52.43:488][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.10-07.52.43:848][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.10-07.52.43:945][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.10-07.52.44:081][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.10-07.52.44:081][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.10-07.52.44:081][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.10-07.52.45:457][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: meeting, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 116300604
+[2017.11.10-07.52.45:557][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.11.10-07.52.45:809][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.169941 seconds
+[2017.11.10-07.52.45:814][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.11.10-07.52.45:814][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.11.10-07.52.45:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.10-07.52.45:885][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.10-07.53.18:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.10-07.53.18:284][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.10-07.53.19:852][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.10-07.53.20:605][  0]SourceControl: Info Source control is disabled
+[2017.11.10-07.53.20:626][  0]SourceControl: Info Source control is disabled
+[2017.11.10-07.53.20:716][  0]SourceControl: Info Source control is disabled
+[2017.11.10-07.53.20:805][  0]SourceControl: Info Source control is disabled
+[2017.11.10-07.53.23:841][  0]LogEngine: Initializing Engine...
+[2017.11.10-07.53.23:842][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.10-07.53.24:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.10-07.53.24:026][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.10-07.53.24:223][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.10-07.53.24:286][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-07.53.24:454][  0]LogInit: FAudioDevice initialized.
+[2017.11.10-07.53.24:543][  0]LogDerivedDataCache: Saved boot cache 0.09s 50MB C:/Users/Unpar/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.11.10-07.53.24:556][  0]LogInit: Texture streaming: Enabled
+[2017.11.10-07.53.24:746][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.10-07.53.24:953][  0]LogInit: Transaction tracking system initialized
+[2017.11.10-07.53.25:546][  0]BlueprintLog: New page: Editor Load
+[2017.11.10-07.53.27:587][  0]LocalizationService: Info Localization service is disabled
+[2017.11.10-07.53.28:976][  0]LogConsoleResponse:Display: 
+[2017.11.10-07.53.30:221][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.10-07.53.30:221][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.10-07.53.30:821][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/' took 0.03s
+[2017.11.10-07.53.33:018][  0]SourceControl: Info Source control is disabled
+[2017.11.10-07.53.33:018][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/ThirdPersonBP/Maps/MockUp_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.10-07.53.33:019][  0]LightingResults: New page: Lighting Build
+[2017.11.10-07.53.33:068][  0]MapCheck: New page: Map Check
+[2017.11.10-07.53.33:068][  0]LightingResults: New page: Lighting Build
+[2017.11.10-07.53.39:533][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.11.10-07.53.39:533][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.11.10-07.53.39:533][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.11.10-07.53.39:533][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.11.10-07.53.39:533][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.11.10-07.53.39:534][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.11.10-07.53.39:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0084.49] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.10-07.53.39:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0084.49] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.10-07.53.39:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0084.49] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.10-07.53.39:543][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.11.10-07.53.39:543][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.11.10-07.53.39:543][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.11.10-07.53.39:544][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.11.10-07.53.39:544][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.11.10-07.53.39:544][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.11.10-07.53.39:547][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0084.50] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.10-07.53.39:547][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0084.50] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.10-07.53.39:547][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0084.50] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.10-07.55.07:619][  0]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-07.55.09:246][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.10-07.55.09:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.10-07.55.10:203][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 820.125ms to complete.
+[2017.11.10-07.55.10:203][  0]LogFileHelpers: Loading map 'MockUp_Map' took 97.185
+[2017.11.10-07.55.12:240][  0]LogCollectionManager: Loaded 0 collections in 0.001968 seconds
+[2017.11.10-07.55.13:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Unpar/Documents/FYP_DumbTesting/Meeting/Saved/Collections/' took 0.01s
+[2017.11.10-07.55.13:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Developers/Sebastian/Collections/' took 0.01s
+[2017.11.10-07.55.13:377][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Collections/' took 0.01s
+[2017.11.10-07.55.13:377][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.10-07.55.13:425][  0]LogContentBrowser: Native class hierarchy populated in 0.0465 seconds. Added 2259 classes and 455 folders.
+[2017.11.10-07.55.13:608][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2017.11.10-07.55.15:759][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2017.11.10-07.55.15:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2017.11.10-07.55.16:498][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.10-07.55.16:728][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.10-07.55.16:974][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2017.11.10-07.55.16:975][  0]LogLoad: (Engine Initialization) Total time: 181.93 seconds
+[2017.11.10-07.55.16:975][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.56 seconds
+[2017.11.10-07.55.16:975][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.10-07.55.16:975][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.10-07.55.17:410][  0]LogOcInput: OculusInput pre-init called
+[2017.11.10-07.55.18:079][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.11.10-07.55.18:355][  0]LogSlate: Took 0.013328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.10-07.55.18:376][  0]LogSlate: Took 0.011000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.10-07.55.18:510][  0]LogSlate: Took 0.046305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.10-07.55.19:827][  0]LogRenderer: Reallocating scene render targets to support 1008x472 NumSamples 1 (Frame:2).
+[2017.11.10-07.55.19:827][  0]LogSlate: Took 0.026159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.10-07.55.21:342][  2]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.10-07.55.21:629][  3]LogAssetRegistry: Asset discovery search completed in 156.0944 seconds
+[2017.11.10-07.55.21:651][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.021497 seconds (found 0 objects)
+[2017.11.10-07.55.21:651][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.021638 seconds (updated 0 objects)
+[2017.11.10-07.55.42:104][ 92]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:38).
+[2017.11.10-07.55.48:785][166]LogSlate: Took 0.148481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.10-07.55.50:283][166]LogSlate: Took 0.007417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.10-07.55.50:515][166]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0074 seconds. Added 1 classes and 2 folders.
+[2017.11.10-07.55.51:120][166]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-07.55.53:950][166]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0697 seconds. Added 112 classes and 0 folders.
+[2017.11.10-07.55.56:517][166]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.10-07.56.00:941][166]LogSlate: Took 0.158532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.10-07.56.55:219][502]LogEditorFactories: Performing atomic reimport of [C:/Users/Unpar/Desktop/New/Fixed anim/Kilroy_Idle_Fixed.fbx]
+[2017.11.10-07.56.55:826][502]LogFbx: Loading FBX Scene from C:/Users/Unpar/Desktop/New/Fixed anim/Kilroy_Idle_Fixed.fbx
+[2017.11.10-07.56.56:045][502]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.10-07.56.56:465][502]LogFbx: Parsing AnimStack Unreal Take
+[2017.11.10-07.56.57:596][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.Kilroy_Aim_Center_Fixed
+[2017.11.10-07.56.58:652][502]LogEditorFactories: -- imported successfully
+[2017.11.10-07.56.59:316][502]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Unpar\Desktop\New\Fixed anim\Kilroy_Aim_Center_Fixed1.fbx)
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: NodeAttribute, ItemCount : 58
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: Model, ItemCount : 58
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: AnimationCurveNode, ItemCount : 174
+[2017.11.10-07.56.59:340][502]LogFbx: ItemName: AnimationCurve, ItemCount : 522
+[2017.11.10-07.56.59:359][502]LogFbx: Loading FBX Scene from C:\Users\Unpar\Desktop\New\Fixed anim\Kilroy_Aim_Center_Fixed1.fbx
+[2017.11.10-07.56.59:382][502]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.10-07.57.13:661][502]LogFbx: Loading FBX Scene from C:\Users\Unpar\Desktop\New\Fixed anim\Kilroy_Aim_Center_Fixed1.fbx
+[2017.11.10-07.57.13:686][502]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(0) Bip001
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(2) Bip001 Spine
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(5) Bip001 Neck
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(6) Bip001 L Clavicle
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(7) Bip001 L UpperArm
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(8) Bip001 L Forearm
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(9) Bip001 L Hand
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(10) Bip001 L Finger0
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(11) Bip001 L Finger01
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(12) Bip001 L Finger02
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(13) Bip001 L Finger0Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(14) Bip001 L Finger1
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(15) Bip001 L Finger11
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(16) Bip001 L Finger12
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(17) Bip001 L Finger1Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(18) Bip001 L Finger2
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(19) Bip001 L Finger21
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(20) Bip001 L Finger22
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(21) Bip001 L Finger2Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(22) Bip001 L Finger3
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(23) Bip001 L Finger31
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(24) Bip001 L Finger32
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(25) Bip001 L Finger3Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(26) Bip001 L Finger4
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(27) Bip001 L Finger41
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(28) Bip001 L Finger42
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(29) Bip001 L Finger4Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(30) Bip001 R Clavicle
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(31) Bip001 R UpperArm
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(32) Bip001 R Forearm
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(33) Bip001 R Hand
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(34) Bip001 R Finger0
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(35) Bip001 R Finger01
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(36) Bip001 R Finger02
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(37) Bip001 R Finger0Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(38) Bip001 R Finger1
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(39) Bip001 R Finger11
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(40) Bip001 R Finger12
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(41) Bip001 R Finger1Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(42) Bip001 R Finger2
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(43) Bip001 R Finger21
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(44) Bip001 R Finger22
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(45) Bip001 R Finger2Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(46) Bip001 Head
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(47) Bip001 HeadNub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(48) Bip001 L Thigh
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(49) Bip001 L Calf
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(50) Bip001 L Foot
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(51) Bip001 L Toe0
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(52) Bip001 L Toe0Nub
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(53) Bip001 R Thigh
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(54) Bip001 R Calf
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(55) Bip001 R Foot
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(56) Bip001 R Toe0
+[2017.11.10-07.57.13:689][502]LogFbx: SortedLinks :(57) Bip001 R Toe0Nub
+[2017.11.10-07.57.13:690][502]LogFbx: Parsing AnimStack Unreal Take
+[2017.11.10-07.57.13:713][502]LogLinker: Can't find file '/Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1'
+[2017.11.10-07.57.13:713][502]LogLinker: Can't find file '/Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1'
+[2017.11.10-07.57.13:906][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.Kilroy_Aim_Center_Fixed1
+[2017.11.10-07.57.14:415][502]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\Unpar\Desktop\New\Fixed anim\Kilroy_Aim_Center_Fixed2.fbx)
+[2017.11.10-07.57.14:425][502]LogFbx: Loading FBX Scene from C:\Users\Unpar\Desktop\New\Fixed anim\Kilroy_Aim_Center_Fixed2.fbx
+[2017.11.10-07.57.14:449][502]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(0) Bip001
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(1) Bip001 Pelvis
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(2) Bip001 Spine
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(3) Bip001 Spine1
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(4) Bip001 Spine2
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(5) Bip001 Neck
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(6) Bip001 L Clavicle
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(7) Bip001 L UpperArm
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(8) Bip001 L Forearm
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(9) Bip001 L Hand
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(10) Bip001 L Finger0
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(11) Bip001 L Finger01
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(12) Bip001 L Finger02
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(13) Bip001 L Finger0Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(14) Bip001 L Finger1
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(15) Bip001 L Finger11
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(16) Bip001 L Finger12
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(17) Bip001 L Finger1Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(18) Bip001 L Finger2
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(19) Bip001 L Finger21
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(20) Bip001 L Finger22
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(21) Bip001 L Finger2Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(22) Bip001 L Finger3
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(23) Bip001 L Finger31
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(24) Bip001 L Finger32
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(25) Bip001 L Finger3Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(26) Bip001 L Finger4
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(27) Bip001 L Finger41
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(28) Bip001 L Finger42
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(29) Bip001 L Finger4Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(30) Bip001 R Clavicle
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(31) Bip001 R UpperArm
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(32) Bip001 R Forearm
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(33) Bip001 R Hand
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(34) Bip001 R Finger0
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(35) Bip001 R Finger01
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(36) Bip001 R Finger02
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(37) Bip001 R Finger0Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(38) Bip001 R Finger1
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(39) Bip001 R Finger11
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(40) Bip001 R Finger12
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(41) Bip001 R Finger1Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(42) Bip001 R Finger2
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(43) Bip001 R Finger21
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(44) Bip001 R Finger22
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(45) Bip001 R Finger2Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(46) Bip001 Head
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(47) Bip001 HeadNub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(48) Bip001 L Thigh
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(49) Bip001 L Calf
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(50) Bip001 L Foot
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(51) Bip001 L Toe0
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(52) Bip001 L Toe0Nub
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(53) Bip001 R Thigh
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(54) Bip001 R Calf
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(55) Bip001 R Foot
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(56) Bip001 R Toe0
+[2017.11.10-07.57.14:452][502]LogFbx: SortedLinks :(57) Bip001 R Toe0Nub
+[2017.11.10-07.57.14:453][502]LogFbx: Parsing AnimStack Unreal Take
+[2017.11.10-07.57.14:456][502]LogLinker: Can't find file '/Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2'
+[2017.11.10-07.57.14:456][502]LogLinker: Can't find file '/Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2'
+[2017.11.10-07.57.14:587][502]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.Kilroy_Aim_Center_Fixed2
+[2017.11.10-07.57.36:476][839]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.Kilroy_Aim_Center_Fixed1
+[2017.11.10-07.57.36:548][839]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.Kilroy_Aim_Center_Fixed2
+[2017.11.10-07.57.36:550][839]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.Kilroy_Aim_Center_Fixed
+[2017.11.10-07.57.40:305][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.Kilroy_Aim_Center_Fixed1
+[2017.11.10-07.57.40:439][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.Kilroy_Aim_Center_Fixed2
+[2017.11.10-07.57.40:507][ 30]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.Kilroy_Aim_Center_Fixed
+[2017.11.10-07.57.50:495][243]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.Kilroy_Aim_Center_Fixed1
+[2017.11.10-07.57.50:509][243]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.Kilroy_Aim_Center_Fixed2
+[2017.11.10-07.57.50:607][243]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.Kilroy_Aim_Center_Fixed
+[2017.11.10-07.58.08:735][472]LogSavePackage: Save=1062.34ms
+[2017.11.10-07.58.08:735][472]LogSavePackage: Moving '../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Saved/Kilroy_Aim_Center_FixedB19B29764A1F2F511A32B199DA0ABA58.tmp' to '../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.uasset'
+[2017.11.10-07.58.09:383][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.uasset
+[2017.11.10-07.58.09:482][472]LogSavePackage: Save=57.15ms
+[2017.11.10-07.58.09:483][472]LogSavePackage: Moving '../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Saved/Kilroy_Aim_Center_Fixed1444BEF374DDC8A5834444DACE6192EF1.tmp' to '../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.uasset'
+[2017.11.10-07.58.09:488][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.uasset
+[2017.11.10-07.58.09:600][472]LogSavePackage: Save=30.96ms
+[2017.11.10-07.58.09:600][472]LogSavePackage: Moving '../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Saved/Kilroy_Aim_Center_Fixed2B553DA6A480F70ABC32675AD76EA0176.tmp' to '../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.uasset'
+[2017.11.10-07.58.09:606][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Unpar/Documents/FYP_DumbTesting/Meeting/Content/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.uasset
+[2017.11.10-07.58.30:522][509]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-07.58.31:580][509]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.11.10-07.59.00:841][512]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.10-07.59.01:876][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.01:921][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-07.59.04:112][512]PIE: New page: PIE session: MockUp_Map (Nov 10, 2017, 11:59:03 PM)
+[2017.11.10-07.59.04:150][512]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.11.10-07.59.05:890][512]LogPlayLevel: PIE: StaticDuplicateObject took: (1.740172s)
+[2017.11.10-07.59.05:891][512]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-07.59.05:891][512]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2017.11.10-07.59.05:938][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (1.789321s)
+[2017.11.10-07.59.06:239][512]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-07.59.06:790][512]LogInit: FAudioDevice initialized.
+[2017.11.10-07.59.07:615][512]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.11.10-07.59.07:765][512]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.11.10-15.59.07
+[2017.11.10-07.59.08:163][512]LogWorld: Bringing up level for play took: 0.525380
+[2017.11.10-07.59.08:387][512]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0038 seconds. Added 11 classes and 0 folders.
+[2017.11.10-07.59.08:632][512]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 6.508
+[2017.11.10-07.59.08:633][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.09:873][513]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.17:820][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.20:469][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.29:062][250]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.10-07.59.29:132][250]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.29:132][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-07.59.29:132][250]PIE: New page: PIE session: MockUp_Map (Nov 10, 2017, 11:59:29 PM)
+[2017.11.10-07.59.29:132][250]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.11.10-07.59.29:373][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.240497s)
+[2017.11.10-07.59.29:374][250]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-07.59.29:374][250]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2017.11.10-07.59.29:375][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.242819s)
+[2017.11.10-07.59.29:404][250]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-07.59.29:415][250]LogInit: FAudioDevice initialized.
+[2017.11.10-07.59.29:457][250]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.11.10-07.59.29:549][250]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.11.10-15.59.29
+[2017.11.10-07.59.29:576][250]LogWorld: Bringing up level for play took: 0.117916
+[2017.11.10-07.59.29:586][250]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.518
+[2017.11.10-07.59.29:587][250]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.29:633][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-07.59.49:614][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-07.59.51:336][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.00.12:759][602]Cmd: TRANSACTION UNDO
+[2017.11.10-08.00.12:759][602]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.00.12:949][602]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.00.12:959][602]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.00.20:036][102]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.00.20:124][102]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2017.11.10-08.00.58:165][293]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.Kilroy_Aim_Center_Fixed
+[2017.11.10-08.01.08:770][155]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.10-08.01.08:824][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.08:824][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-08.01.08:824][155]PIE: New page: PIE session: MockUp_Map (Nov 11, 2017, 12:01:08 AM)
+[2017.11.10-08.01.08:824][155]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.11.10-08.01.09:041][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.216729s)
+[2017.11.10-08.01.09:042][155]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-08.01.09:042][155]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2017.11.10-08.01.09:044][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.219780s)
+[2017.11.10-08.01.09:113][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-08.01.09:125][155]LogInit: FAudioDevice initialized.
+[2017.11.10-08.01.09:158][155]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.11.10-08.01.09:250][155]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.11.10-16.01.09
+[2017.11.10-08.01.09:276][155]LogWorld: Bringing up level for play took: 0.117859
+[2017.11.10-08.01.09:287][155]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.182
+[2017.11.10-08.01.09:288][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.09:410][156]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.18:089][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.18:207][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.31:779][345]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.10-08.01.31:812][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.31:812][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-08.01.31:812][345]PIE: New page: PIE session: MockUp_Map (Nov 11, 2017, 12:01:31 AM)
+[2017.11.10-08.01.31:812][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.11.10-08.01.32:030][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.217426s)
+[2017.11.10-08.01.32:031][345]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-08.01.32:031][345]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2017.11.10-08.01.32:032][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.219694s)
+[2017.11.10-08.01.32:067][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-08.01.32:077][345]LogInit: FAudioDevice initialized.
+[2017.11.10-08.01.32:107][345]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.11.10-08.01.32:200][345]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.11.10-16.01.32
+[2017.11.10-08.01.32:227][345]LogWorld: Bringing up level for play took: 0.119325
+[2017.11.10-08.01.32:237][345]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 0.133
+[2017.11.10-08.01.32:238][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.32:353][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:353][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.32:354][346]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.34:857][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.34:959][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.43:052][999]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.10-08.01.43:094][999]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.43:094][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-08.01.43:094][999]PIE: New page: PIE session: MockUp_Map (Nov 11, 2017, 12:01:43 AM)
+[2017.11.10-08.01.43:094][999]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.11.10-08.01.43:310][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.216314s)
+[2017.11.10-08.01.43:311][999]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-08.01.43:312][999]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2017.11.10-08.01.43:314][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.220157s)
+[2017.11.10-08.01.43:345][999]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-08.01.43:355][999]LogInit: FAudioDevice initialized.
+[2017.11.10-08.01.43:389][999]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.11.10-08.01.43:481][999]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.11.10-16.01.43
+[2017.11.10-08.01.43:508][999]LogWorld: Bringing up level for play took: 0.118205
+[2017.11.10-08.01.43:518][999]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map 1.413
+[2017.11.10-08.01.43:519][999]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.01.43:634][  0]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.02.03:741][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.02.03:831][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.02.22:701][865]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.02.22:797][865]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) - call TermArticulated first.
+[2017.11.10-08.02.52:465][351]Cmd: TRANSACTION UNDO
+[2017.11.10-08.02.52:465][351]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.02.52:470][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.02.52:474][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.02.52:476][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.02.52:479][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.02.55:849][586]Cmd: TRANSACTION UNDO
+[2017.11.10-08.02.55:849][586]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.02.55:854][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.02.55:857][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.02.55:860][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.02.55:862][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.03.07:090][423]Cmd: TRANSACTION UNDO
+[2017.11.10-08.03.07:090][423]LogEditorTransaction: Undo Edit Rotation
+[2017.11.10-08.03.07:096][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.03.07:099][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.03.07:101][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.03.07:104][423]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.03.11:536][701]Cmd: TRANSACTION UNDO
+[2017.11.10-08.03.11:536][701]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.03.11:541][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.03.11:544][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.03.11:547][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.03.11:549][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.03.36:068][696]Cmd: TRANSACTION UNDO
+[2017.11.10-08.03.36:068][696]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.03.36:073][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.03.36:076][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.03.36:079][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.03.36:081][696]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.03.43:259][250]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.10-08.03.43:295][250]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.03.43:295][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-08.03.43:295][250]PIE: New page: PIE session: MockUp_Map (Nov 11, 2017, 12:03:43 AM)
+[2017.11.10-08.03.43:295][250]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map
+[2017.11.10-08.03.43:516][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.220392s)
+[2017.11.10-08.03.43:517][250]LogAIModule: Creating AISystem for world MockUp_Map
+[2017.11.10-08.03.43:517][250]LogPlayLevel: PIE: World Init took: (0.001261s)
+[2017.11.10-08.03.43:518][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map to /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map (0.222712s)
+[2017.11.10-08.03.43:556][250]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 44.1 kHz using 32 bits per sample (channel mask 0x60f)
+[2017.11.10-08.03.43:568][250]LogInit: FAudioDevice initialized.
+[2017.11.10-08.03.43:595][250]LogLoad: Game class is 'MeetingGameModeBase_BP_C'
+[2017.11.10-08.03.43:690][250]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map.MockUp_Map up for play (max tick rate 0) at 2017.11.10-16.03.43
+[2017.11.10-08.03.43:718][250]LogWorld: Bringing up level for play took: 0.121392
+[2017.11.10-08.03.43:753][250]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MockUp_Map -0.351
+[2017.11.10-08.03.43:754][250]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.43:877][251]LogTemp:Warning: Auto Correct Lose Sight
+[2017.11.10-08.03.58:764][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.03.58:843][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map' with GeneratedClass '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MockUp_Map.MockUp_Map:PersistentLevel.MockUp_Map'
+[2017.11.10-08.05.06:152][860]LogLinker:Warning: Can't find file '/Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed3'
+[2017.11.10-08.05.06:161][860]LogLinker:Warning: Can't find file '/Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed3'
+[2017.11.10-08.05.06:161][860]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed3.Kilroy_Aim_Center_Fixed3'
+[2017.11.10-08.05.07:954][ 12]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.07:954][ 12]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.05.07:959][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.07:963][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.07:966][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.07:968][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.08:172][ 22]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.08:172][ 22]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.05.08:177][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.08:180][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.08:183][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.08:186][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.08:330][ 27]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.08:330][ 27]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.05.08:336][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.08:339][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.08:341][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.08:343][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.08:459][ 31]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.08:459][ 31]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.05.08:464][ 31]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.08:467][ 31]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.08:470][ 31]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.08:473][ 31]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.08:584][ 40]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.08:584][ 40]LogEditorTransaction: Undo Removing Blend Grid Sample
+[2017.11.10-08.05.08:589][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.08:592][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.08:595][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.08:597][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.08:733][ 47]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.08:733][ 47]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.05.08:739][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.08:742][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.08:744][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.08:747][ 47]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.08:885][ 53]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.08:886][ 53]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.05.08:891][ 53]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.08:894][ 53]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.08:897][ 53]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.08:899][ 53]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:035][ 61]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:035][ 61]LogEditorTransaction: Undo Rotate Bone
+[2017.11.10-08.05.09:040][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:043][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:046][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:048][ 61]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:184][ 73]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:184][ 73]LogEditorTransaction: Undo Removing Blend Grid Sample
+[2017.11.10-08.05.09:189][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:192][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:195][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:197][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:341][ 80]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:341][ 80]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.05.09:346][ 80]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:349][ 80]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:352][ 80]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:354][ 80]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:498][ 87]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:498][ 87]LogEditorTransaction: Undo Removing Blend Grid Sample
+[2017.11.10-08.05.09:503][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:506][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:509][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:511][ 87]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:643][ 96]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:643][ 96]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.11.10-08.05.09:648][ 96]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:651][ 96]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:654][ 96]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:656][ 96]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:799][106]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:799][106]LogEditorTransaction: Undo Moving Blend Grid Sample
+[2017.11.10-08.05.09:804][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:807][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:810][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:812][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.09:939][117]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.09:939][117]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.05.09:944][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.09:947][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.09:951][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.09:953][117]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.10:294][145]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.10:319][145]LogEditorTransaction: Undo Crop Animation Sequence
+[2017.11.10-08.05.10:338][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.10:341][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.10:344][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.10:346][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.11:483][245]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.11:483][245]LogEditorTransaction: Undo Removing Blend Grid Sample
+[2017.11.10-08.05.11:488][245]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.11:491][245]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.11:494][245]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.11:496][245]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.12:531][336]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.12:532][336]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.05.12:537][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.12:540][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.12:543][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.12:545][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.14:264][488]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.14:264][488]LogEditorTransaction: Undo Removing Blend Grid Sample
+[2017.11.10-08.05.14:270][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.14:273][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.14:276][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.14:278][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.14:789][530]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.14:789][530]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2017.11.10-08.05.14:794][530]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.14:797][530]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.14:800][530]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.14:802][530]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.16:461][677]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.16:461][677]LogEditorTransaction: Undo Edit Base Pose Animation
+[2017.11.10-08.05.16:473][677]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.16:476][677]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.16:479][677]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.16:482][677]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.16:709][695]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.16:709][695]LogEditorTransaction: Undo Edit Base Pose Type
+[2017.11.10-08.05.16:722][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.16:725][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.16:728][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.16:730][695]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.16:902][708]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.16:902][708]LogEditorTransaction: Undo Edit Additive Anim Type
+[2017.11.10-08.05.16:915][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.16:918][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.16:921][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.16:924][708]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.17:115][723]Cmd: TRANSACTION UNDO
+[2017.11.10-08.05.17:115][723]LogEditorTransaction: Undo Edit Skeleton
+[2017.11.10-08.05.17:120][723]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.17:123][723]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.17:126][723]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.17:128][723]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.19:230][906]Cmd: TRANSACTION REDO
+[2017.11.10-08.05.19:230][906]LogEditorTransaction: Redo Edit Skeleton
+[2017.11.10-08.05.19:232][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.19:235][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.19:238][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.19:240][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.20:714][ 33]Cmd: TRANSACTION REDO
+[2017.11.10-08.05.20:714][ 33]LogEditorTransaction: Redo Edit Additive Anim Type
+[2017.11.10-08.05.20:719][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.20:722][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.20:725][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.20:727][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.22:371][179]Cmd: TRANSACTION REDO
+[2017.11.10-08.05.22:371][179]LogEditorTransaction: Redo Edit Base Pose Type
+[2017.11.10-08.05.22:377][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.22:380][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.22:382][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.22:385][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.23:784][303]Cmd: TRANSACTION REDO
+[2017.11.10-08.05.23:784][303]LogEditorTransaction: Redo Edit Base Pose Animation
+[2017.11.10-08.05.23:790][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.23:793][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.23:796][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.23:799][303]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.25:144][421]Cmd: TRANSACTION REDO
+[2017.11.10-08.05.25:144][421]LogEditorTransaction: Redo Adding Blend Grid Sample
+[2017.11.10-08.05.25:145][421]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.25:148][421]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.25:151][421]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.25:154][421]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.26:781][565]Cmd: TRANSACTION REDO
+[2017.11.10-08.05.26:781][565]LogEditorTransaction: Redo Removing Blend Grid Sample
+[2017.11.10-08.05.26:783][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.10-08.05.26:786][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.10-08.05.26:789][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_2.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2017.11.10-08.05.26:791][565]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.Actor_3.DebugSkelMeshComponent_18) Already registered. Aborting.
+[2017.11.10-08.05.44:682][473]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_4.DebugSkelMeshComponent_21) Already registered. Aborting.
+[2017.11.10-08.05.44:747][473]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_4.DebugSkelMeshComponent_21) - call TermArticulated first.
+[2017.11.10-08.05.58:186][ 91]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed.Kilroy_Aim_Center_Fixed
+[2017.11.10-08.05.58:217][ 91]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed1.Kilroy_Aim_Center_Fixed1
+[2017.11.10-08.05.58:262][ 91]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed2.Kilroy_Aim_Center_Fixed2
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:280][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:281][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid position track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid rotation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:282][ 91]LogAnimation:Warning: Found non valid Scaleation track for Kilroy_Aim_Center_Fixed3, 1560 frames, instead of 0. Chopping!
+[2017.11.10-08.05.58:313][ 91]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Art/KiorCharacter/Anim_Fixed/Kilroy_Aim_Center_Fixed3.Kilroy_Aim_Center_Fixed3
+[2017.11.10-08.05.58:314][ 91]LogAnimation:Warning: No animation data exists for sequence Kilroy_Aim_Center_Fixed3 (Package /Engine/Transient)
+[2017.11.10-08.05.58:314][ 91]LoadErrors:Warning: Warning The Animation  Kilroy_Aim_Center_Fixed3 has no animation data. Recommend to remove.
+[2017.11.10-08.05.58:369][ 91]LogWindows: Windows GetLastError: The operation completed successfully. (0)
