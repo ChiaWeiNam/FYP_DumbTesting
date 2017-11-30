@@ -102,7 +102,7 @@
 	#define UE_BUILD_DEVELOPMENT 1
 #endif
 #ifndef UE_ENGINE_DIRECTORY
-	#define UE_ENGINE_DIRECTORY ../../../../../../../../Program Files/Epic Games/UE_4.15/Engine/
+	#define UE_ENGINE_DIRECTORY ../../../../../../../Program Files/Epic Games/UE_4.15/Engine/
 #endif
 #ifndef UE_PROJECT_NAME
 	#define UE_PROJECT_NAME Meeting

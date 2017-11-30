@@ -47,6 +47,11 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	{
 	}
 	IMPLEMENT_CLASS(UEnemyWeakspot, 2646132858);
+	void UExtraFunction::StaticRegisterNativesUExtraFunction()
+	{
+		FNativeFunctionRegistrar::RegisterFunction(UExtraFunction::StaticClass(), "SetSightRange",(Native)&UExtraFunction::execSetSightRange);
+	}
+	IMPLEMENT_CLASS(UExtraFunction, 1948727365);
 	void AMainPlayer::StaticRegisterNativesAMainPlayer()
 	{
 	}
@@ -74,6 +79,8 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	AIMODULE_API class UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_ACharacter();
 	AIMODULE_API class UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
+	AIMODULE_API class UClass* Z_Construct_UClass_AAIController_NoRegister();
+	ENGINE_API class UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 	COREUOBJECT_API class UScriptStruct* Z_Construct_UScriptStruct_FVector();
@@ -96,6 +103,9 @@ void EmptyLinkFunctionForGeneratedCode1Meeting() {}
 	MEETING_API class UClass* Z_Construct_UClass_AEnemyCharacter();
 	MEETING_API class UClass* Z_Construct_UClass_UEnemyWeakspot_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_UEnemyWeakspot();
+	MEETING_API class UFunction* Z_Construct_UFunction_UExtraFunction_SetSightRange();
+	MEETING_API class UClass* Z_Construct_UClass_UExtraFunction_NoRegister();
+	MEETING_API class UClass* Z_Construct_UClass_UExtraFunction();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer_NoRegister();
 	MEETING_API class UClass* Z_Construct_UClass_AMainPlayer();
 	MEETING_API class UClass* Z_Construct_UClass_AMeetingGameModeBase_NoRegister();
@@ -442,6 +452,68 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UEnemyWeakspot(Z_Construct_UClass_UEnemyWeakspot, &UEnemyWeakspot::StaticClass, TEXT("UEnemyWeakspot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UEnemyWeakspot);
+	UFunction* Z_Construct_UFunction_UExtraFunction_SetSightRange()
+	{
+		struct ExtraFunction_eventSetSightRange_Parms
+		{
+			AAIController* Controller;
+			float NewSightRange;
+			float NewLoseSightRange;
+			bool ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_UExtraFunction();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("SetSightRange"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04022401, 65535, sizeof(ExtraFunction_eventSetSightRange_Parms));
+			CPP_BOOL_PROPERTY_BITMASK_STRUCT(ReturnValue, ExtraFunction_eventSetSightRange_Parms, bool);
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(ReturnValue, ExtraFunction_eventSetSightRange_Parms), 0x0010000000000580, CPP_BOOL_PROPERTY_BITMASK(ReturnValue, ExtraFunction_eventSetSightRange_Parms), sizeof(bool), true);
+			UProperty* NewProp_NewLoseSightRange = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NewLoseSightRange"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(NewLoseSightRange, ExtraFunction_eventSetSightRange_Parms), 0x0010000000000080);
+			UProperty* NewProp_NewSightRange = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NewSightRange"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(NewSightRange, ExtraFunction_eventSetSightRange_Parms), 0x0010000000000080);
+			UProperty* NewProp_Controller = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Controller"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Controller, ExtraFunction_eventSetSightRange_Parms), 0x0010000000000080, Z_Construct_UClass_AAIController_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("AI"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ExtraFunction.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_UExtraFunction_NoRegister()
+	{
+		return UExtraFunction::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UExtraFunction()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UBlueprintFunctionLibrary();
+			Z_Construct_UPackage__Script_Meeting();
+			OuterClass = UExtraFunction::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20100080;
+
+				OuterClass->LinkChild(Z_Construct_UFunction_UExtraFunction_SetSightRange());
+
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UExtraFunction_SetSightRange(), "SetSightRange"); // 2905091456
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ExtraFunction.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ExtraFunction.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UExtraFunction(Z_Construct_UClass_UExtraFunction, &UExtraFunction::StaticClass, TEXT("UExtraFunction"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UExtraFunction);
 	UClass* Z_Construct_UClass_AMainPlayer_NoRegister()
 	{
 		return AMainPlayer::StaticClass();
@@ -611,8 +683,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Meeting")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x7301380D;
-			Guid.B = 0x81F9F6A0;
+			Guid.A = 0xF3E305BB;
+			Guid.B = 0xC1C1F6FA;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
