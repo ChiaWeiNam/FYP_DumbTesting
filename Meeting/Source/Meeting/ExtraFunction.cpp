@@ -47,7 +47,7 @@ bool UExtraFunction::SetSightRange(AAIController* Controller, float NewSightRang
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Auto Correct Lose Sight"));
+		//UE_LOG(LogTemp, Warning, TEXT("Auto Correct Lose Sight"));
 		ConfigSight->LoseSightRadius = ConfigSight->SightRadius + LoseRange;
 	}
 	
