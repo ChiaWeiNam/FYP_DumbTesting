@@ -44,7 +44,7 @@ void AEnemyAI::OnMoveCompleted(FAIRequestID RequestID, const FPathFollowingResul
 {
 	if (Result.Code == EPathFollowingResult::Success) {
 		ReachDest = true;
-		BlackboardComp->SetValueAsBool("ReachDestination", ReachDest);
+		//BlackboardComp->SetValueAsBool("ReachDestination", ReachDest);
 	}
 	else if (Result.Code == EPathFollowingResult::Blocked) {
 		ReachDest = false;
