@@ -1,4 +1,4 @@
-// PCH for C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Source\Meeting\Meeting.h
+// PCH for C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Source\Meeting\Meeting.h
 #define UE_GAME 1
 #define IS_PROGRAM 0
 #define WITH_DEV_AUTOMATION_TESTS 0
@@ -33,7 +33,7 @@
 #define PROJECT_PRODUCT_IDENTIFIER Meeting
 #define NDEBUG 1
 #define UE_BUILD_SHIPPING 1
-#define UE_ENGINE_DIRECTORY D:/Program Files/UE_4.15/Engine/
+#define UE_ENGINE_DIRECTORY ../../../../../../../Program Files/Epic Games/UE_4.15/Engine/
 #define UE_PROJECT_NAME Meeting
 #define ORIGINAL_FILE_NAME "Meeting-Win64-Shipping.exe"
 #define UE_IS_ENGINE_MODULE 0
@@ -75,4 +75,4 @@
 #define RELIABILITYHANDLERCOMPONENT_API 
 #define HARDWARESURVEY_API 
 #define NETWORKREPLAYSTREAMING_API 
-#include "C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Source\Meeting\Meeting.h"
+#include "C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Source\Meeting\Meeting.h"

@@ -20,13 +20,13 @@
 /wd4463
 /wd4838
 /w44668
-/I "D:\Program Files\UE_4.15\Engine\Source"
+/I "C:\Program Files\Epic Games\UE_4.15\Engine\Source"
 /D_HAS_EXCEPTIONS=0
-/FI"C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4\Shipping\UELinkerFixupsName.h"
-/Yu"C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4\Shipping\UELinkerFixupsName.h"
-/Fp"C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\Meeting\Shipping\UELinkerFixups\PCH.UELinkerFixups.h.pch"
-"C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4\Shipping\UELinkerFixups.cpp"
-/Fo"C:\Users\megac\Desktop\FYP\Github\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\Meeting\Shipping\UELinkerFixups\UELinkerFixups.cpp.obj"
+/FI"C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4\Shipping\UELinkerFixupsName.h"
+/Yu"C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4\Shipping\UELinkerFixupsName.h"
+/Fp"C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\Meeting\Shipping\UELinkerFixups\PCH.UELinkerFixups.h.pch"
+"C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\UE4\Shipping\UELinkerFixups.cpp"
+/Fo"C:\Users\User\Desktop\FYP_DumbTesting\Meeting\Intermediate\Build\Win64\Meeting\Shipping\UELinkerFixups\UELinkerFixups.cpp.obj"
 /TP
 /GR-
 /W4
